@@ -7,6 +7,13 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'MPlantin';
+  src: url('../fonts/mplantin.eot?v=0.1');
+  src: url('../fonts/mplantin.eot?#iefix&v=0.1') format('embedded-opentype'), url('../fonts/mplantin.woff?v=0.1') format('woff'), url('../fonts/mplantin.ttf?v=0.1') format('truetype'), url('../fonts/mplantin.svg?v=0.1#mplantin') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
 .ms {
   display: inline-block;
   font: normal normal normal 14px/1 Mana;
@@ -404,6 +411,148 @@
   left: 1.0em;
 }
 /**
+ * Planesalker symbols */
+.ms-loyalty-up,
+.ms-loyalty-down,
+.ms-loyalty-zero,
+.ms-loyalty-start {
+  color: #111;
+  font-size: 1.5em;
+  position: relative;
+  text-align: center;
+}
+.ms-loyalty-start {
+  font-size: 2.0em;
+}
+.ms-loyalty-0:after,
+.ms-loyalty-1:after,
+.ms-loyalty-2:after,
+.ms-loyalty-3:after,
+.ms-loyalty-4:after,
+.ms-loyalty-5:after,
+.ms-loyalty-6:after,
+.ms-loyalty-7:after,
+.ms-loyalty-8:after,
+.ms-loyalty-9:after,
+.ms-loyalty-10:after,
+.ms-loyalty-x:after {
+  color: #fff;
+  display: inline-block;
+  font-size: 0.5em;
+  font-family: 'MPlantin, Garamond, Palatino, ' Times New Roman ', Times, serif';
+  position: absolute;
+  left: 0;
+  line-height: 1.75em;
+  width: 100%;
+  text-align: center;
+  -webkit-padding-before: 0.15em;
+}
+.ms-loyalty-0:after {
+  content: "0";
+}
+.ms-loyalty-up.ms-loyalty-1:after {
+  content: "+1";
+}
+.ms-loyalty-up.ms-loyalty-2:after {
+  content: "+2";
+}
+.ms-loyalty-up.ms-loyalty-3:after {
+  content: "+3";
+}
+.ms-loyalty-up.ms-loyalty-4:after {
+  content: "+4";
+}
+.ms-loyalty-up.ms-loyalty-5:after {
+  content: "+5";
+}
+.ms-loyalty-up.ms-loyalty-6:after {
+  content: "+6";
+}
+.ms-loyalty-up.ms-loyalty-7:after {
+  content: "+7";
+}
+.ms-loyalty-up.ms-loyalty-8:after {
+  content: "+8";
+}
+.ms-loyalty-up.ms-loyalty-9:after {
+  content: "+9";
+}
+.ms-loyalty-up.ms-loyalty-10:after {
+  content: "+10";
+}
+.ms-loyalty-up.ms-loyalty-x:after {
+  content: "+X";
+}
+.ms-loyalty-start.ms-loyalty-1:after {
+  content: "1";
+}
+.ms-loyalty-start.ms-loyalty-2:after {
+  content: "2";
+}
+.ms-loyalty-start.ms-loyalty-3:after {
+  content: "3";
+}
+.ms-loyalty-start.ms-loyalty-4:after {
+  content: "4";
+}
+.ms-loyalty-start.ms-loyalty-5:after {
+  content: "5";
+}
+.ms-loyalty-start.ms-loyalty-6:after {
+  content: "6";
+}
+.ms-loyalty-start.ms-loyalty-7:after {
+  content: "7";
+}
+.ms-loyalty-start.ms-loyalty-8:after {
+  content: "8";
+}
+.ms-loyalty-start.ms-loyalty-9:after {
+  content: "9";
+}
+.ms-loyalty-start.ms-loyalty-10:after {
+  content: "10";
+}
+.ms-loyalty-start.ms-loyalty-x:after {
+  content: "X";
+}
+.ms-loyalty-down:after {
+  line-height: 1.6em;
+}
+.ms-loyalty-down.ms-loyalty-1:after {
+  content: "-1";
+}
+.ms-loyalty-down.ms-loyalty-2:after {
+  content: "-2";
+}
+.ms-loyalty-down.ms-loyalty-3:after {
+  content: "-3";
+}
+.ms-loyalty-down.ms-loyalty-4:after {
+  content: "-4";
+}
+.ms-loyalty-down.ms-loyalty-5:after {
+  content: "-5";
+}
+.ms-loyalty-down.ms-loyalty-6:after {
+  content: "-6";
+}
+.ms-loyalty-down.ms-loyalty-7:after {
+  content: "-7";
+}
+.ms-loyalty-down.ms-loyalty-8:after {
+  content: "-8";
+}
+.ms-loyalty-down.ms-loyalty-9:after {
+  content: "-9";
+}
+.ms-loyalty-down.ms-loyalty-10:after {
+  content: "-10";
+}
+.ms-loyalty-down.ms-loyalty-x:after {
+  content: "-X";
+}
+/**
  * Larger sizes */
 .ms-2x {
   font-size: 1.75em;
@@ -585,4 +734,18 @@
 .ms-2r:before,
 .ms-2g:before {
   content: "\e607";
+}
+/**
+ * Planeswalker symbols */
+.ms-loyalty-up:before {
+  content: "\e627";
+}
+.ms-loyalty-down:before {
+  content: "\e625";
+}
+.ms-loyalty-zero:before {
+  content: "\e626";
+}
+.ms-loyalty-start:before {
+  content: "\e628";
 }
