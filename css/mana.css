@@ -57,23 +57,23 @@
      * Shadow */
 }
 .ms-cost.ms-w,
-.ms-cost.ms-pw {
+.ms-cost.ms-wp {
   background-color: #F0F2C0;
 }
 .ms-cost.ms-u,
-.ms-cost.ms-pu {
+.ms-cost.ms-up {
   background-color: #B5CDE3;
 }
 .ms-cost.ms-b,
-.ms-cost.ms-pb {
+.ms-cost.ms-bp {
   background-color: #ACA29A;
 }
 .ms-cost.ms-r,
-.ms-cost.ms-pr {
+.ms-cost.ms-rp {
   background-color: #DB8664;
 }
 .ms-cost.ms-g,
-.ms-cost.ms-pg {
+.ms-cost.ms-gp {
   background-color: #93B483;
 }
 .ms-cost.ms-wu {
@@ -347,11 +347,11 @@
   /* IE6-9 fallback on horizontal gradient */
 }
 .ms-cost.ms-p:before,
-.ms-cost.ms-pw:before,
-.ms-cost.ms-pu:before,
-.ms-cost.ms-pb:before,
-.ms-cost.ms-pr:before,
-.ms-cost.ms-pg:before {
+.ms-cost.ms-wp:before,
+.ms-cost.ms-up:before,
+.ms-cost.ms-bp:before,
+.ms-cost.ms-rp:before,
+.ms-cost.ms-gp:before {
   display: inline-block;
   -moz-transform: scale(1.2, 1.2);
   -webkit-transform: scale(1.2, 1.2);
@@ -644,11 +644,11 @@
   content: "\e617";
 }
 .ms-p:before,
-.ms-pw:before,
-.ms-pu:before,
-.ms-pb:before,
-.ms-pr:before,
-.ms-pg:before {
+.ms-wp:before,
+.ms-up:before,
+.ms-bp:before,
+.ms-rp:before,
+.ms-gp:before {
   content: "\e618";
 }
 .ms-s:before {
