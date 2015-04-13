@@ -1,4 +1,4 @@
-# Mana v0.1
+# Mana v0.3
 
 ## The Magic: the Gathering mana symbol font!
 
@@ -31,3 +31,5 @@ Attribution is **greatly appreciated** but not required!
 ## Changelog
 
 * v0.1 - initial font creation and CSS/LESS files added
+* v0.2 - Flashback symbol added
+* v0.3 - phyrexian mana classes use MTGJson standard; project-specific LESS prefix added (@JayGray)
