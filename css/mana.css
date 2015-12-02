@@ -395,6 +395,7 @@
   left: 1.0em;
 }
 /**
+<<<<<<< HEAD
  * Half costs */
 .ms-half {
   width: .675em;
@@ -406,7 +407,7 @@
   margin-left: -0.675em;
 }
 /**
- * Planesalker symbols */
+ * Planeswalker symbols */
 .ms-loyalty-up,
 .ms-loyalty-down,
 .ms-loyalty-zero,
