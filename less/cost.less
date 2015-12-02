@@ -3,8 +3,7 @@
 
 .@{ms-prefix}-cost {
 
-    /**
-     * Base styles */
+    // Base cost styles
     background-color: #BEB9B2;
     border-radius: 1em;
     color: #111;
@@ -14,8 +13,7 @@
     line-height: 1.35em;
     text-align: center;
 
-    /**
-     * Single symbols */
+    // Single symbols
     &.@{ms-prefix}-w,
     &.@{ms-prefix}-wp {
         background-color: #F0F2C0;
@@ -37,8 +35,7 @@
         background-color: #93B483;
     }
 
-    /**
-     * Split symbols */
+    // Split symbols
     &.@{ms-prefix}-wu {
         background: #edf2b0; /* Old browsers */
         background: -moz-linear-gradient(-45deg, #edf2b0 0%, #edf2b0 50%, #a6c1dd 50%, #a6c1dd 100%); /* FF3.6+ */
@@ -190,8 +187,7 @@
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#beb9b2', endColorstr='#93b483',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
     }
 
-    /**
-     * Phyrexian mana and size increases */
+    // Phyrexian mana and size increases
     &.@{ms-prefix}-p:before,
     &.@{ms-prefix}-wp:before,
     &.@{ms-prefix}-up:before,
@@ -204,8 +200,7 @@
         transform: scale( 1.2, 1.2 );
     }
 
-    /**
-     * Alternate tap */
+    // Alternate tap
     &.@{ms-prefix}-tap-alt:before {
         display: inline-block;
         -moz-transform: scale( 1.2, 1.2 );
@@ -215,8 +210,7 @@
         padding-bottom: 0.10em;
     }
 
-    /**
-     * Snow mana */
+    // Snow mana
     &.@{ms-prefix}-s:before {
         color: #fff;
         -webkit-text-stroke: 2px #fff;
@@ -234,15 +228,13 @@
         font-size: 1.1em;
     }
 
-    /**
-     * Tap symbols */
+    // Tap symbols
     &.@{ms-prefix}-untap {
         background-color: #111;
         color: #fff;
     }
 
-    /**
-     * Shadow */
+    // Shadow
     &.@{ms-prefix}-shadow {
         box-shadow: -0.06em 0.07em 0 #111, 0 0.06em 0 #111;
         &.@{ms-prefix}-untap {
@@ -250,6 +242,7 @@
         }
     }
 }
+
 
 /**
  * Split costs */
@@ -271,4 +264,19 @@
 .@{ms-prefix}-split:after {
     top: 0.5em;
     left: 1.0em;
+}
+
+
+/**
+ * Half costs */
+
+.@{ms-prefix}-half {
+    width: .675em;
+    overflow: hidden;
+    display: inline-block;
+    margin-left: .675em;
+
+    > .@{ms-prefix}-cost {
+        margin-left: -.675em;
+    }
 }

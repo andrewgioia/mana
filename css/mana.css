@@ -31,8 +31,6 @@
 /**
  * Mana cost styles */
 .ms-cost {
-  /**
-     * Base styles */
   background-color: #BEB9B2;
   border-radius: 1em;
   color: #111;
@@ -41,20 +39,6 @@
   height: 1.3em;
   line-height: 1.35em;
   text-align: center;
-  /**
-     * Single symbols */
-  /**
-     * Split symbols */
-  /**
-     * Phyrexian mana and size increases */
-  /**
-     * Alternate tap */
-  /**
-     * Snow mana */
-  /**
-     * Tap symbols */
-  /**
-     * Shadow */
 }
 .ms-cost.ms-w,
 .ms-cost.ms-wp {
@@ -411,6 +395,17 @@
   left: 1.0em;
 }
 /**
+ * Half costs */
+.ms-half {
+  width: .675em;
+  overflow: hidden;
+  display: inline-block;
+  margin-left: .675em;
+}
+.ms-half > .ms-cost {
+  margin-left: -0.675em;
+}
+/**
  * Planesalker symbols */
 .ms-loyalty-up,
 .ms-loyalty-down,
@@ -552,7 +547,7 @@
 .ms-loyalty-down.ms-loyalty-x:after {
   content: "-X";
 }
-/**
+/*
  * Larger sizes */
 .ms-2x {
   font-size: 1.75em;
