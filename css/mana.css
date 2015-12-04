@@ -566,6 +566,12 @@
 .ms-chaos:before {
   content: "\e61d";
 }
+.ms-1-2:before {
+  content: "\e902";
+}
+.ms-infinity:before {
+  content: "\e903";
+}
 /**
  * Card types */
 .ms-artifact:before {
