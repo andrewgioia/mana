@@ -1,0 +1,31 @@
+{
+  "name": "mana",
+  "homepage": "https://github.com/andrewgioia/Mana",
+  "authors": [
+    "Andrew Gioia <andrewgioia@gmail.com>"
+  ],
+  "description": "Magic: the Gathering mana symbol pictographic font",
+  "main": [
+      "css/mana.css"
+  ],
+  "moduleType": [],
+  "keywords": [
+    "mana",
+    "mtg",
+    "mana symbols",
+    "magic",
+    "gathering",
+    "font"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    ".git",
+    ".gitignore"
+  ]
+}
