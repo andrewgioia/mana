@@ -1,6 +1,7 @@
 {
   "name": "mana",
   "homepage": "https://github.com/andrewgioia/Mana",
+  "version": "0.6",
   "authors": [
     "Andrew Gioia <andrewgioia@gmail.com>"
   ],
