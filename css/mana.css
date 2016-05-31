@@ -2,15 +2,15 @@
  * Global */
 @font-face {
   font-family: 'Mana';
-  src: url('../fonts/mana.eot?v=0.5');
-  src: url('../fonts/mana.eot?#iefix&v=0.5') format('embedded-opentype'), url('../fonts/mana.woff?v=0.5') format('woff'), url('../fonts/mana.ttf?v=0.5') format('truetype'), url('../fonts/mana.svg?v=0.5#mana') format('svg');
+  src: url('../fonts/mana.eot?v=0.6');
+  src: url('../fonts/mana.eot?#iefix&v=0.6') format('embedded-opentype'), url('../fonts/mana.woff?v=0.6') format('woff'), url('../fonts/mana.ttf?v=0.6') format('truetype'), url('../fonts/mana.svg?v=0.6#mana') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'MPlantin';
-  src: url('../fonts/mplantin.eot?v=0.5');
-  src: url('../fonts/mplantin.eot?#iefix&v=0.5') format('embedded-opentype'), url('../fonts/mplantin.woff?v=0.5') format('woff'), url('../fonts/mplantin.ttf?v=0.5') format('truetype'), url('../fonts/mplantin.svg?v=0.5#mplantin') format('svg');
+  src: url('../fonts/mplantin.eot?v=0.6');
+  src: url('../fonts/mplantin.eot?#iefix&v=0.6') format('embedded-opentype'), url('../fonts/mplantin.woff?v=0.6') format('woff'), url('../fonts/mplantin.ttf?v=0.6') format('truetype'), url('../fonts/mplantin.svg?v=0.6#mplantin') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,7 +24,6 @@
   speak: none;
   text-transform: none;
   vertical-align: middle;
-  /* Better font rendering  */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -249,10 +248,10 @@
   color: #fff;
 }
 .ms-cost.ms-shadow {
-  box-shadow: -0.06em 0.07em 0 #111111, 0 0.06em 0 #111111;
+  box-shadow: -0.06em 0.07em 0 #111, 0 0.06em 0 #111;
 }
 .ms-cost.ms-shadow.ms-untap {
-  box-shadow: -0.06em 0.07em 0 #ffffff, 0 0.06em 0 #ffffff;
+  box-shadow: -0.06em 0.07em 0 #fff, 0 0.06em 0 #fff;
 }
 /**
  * Split costs */
@@ -434,6 +433,14 @@
 }
 .ms-loyalty-down.ms-loyalty-x:after {
   content: "-X";
+}
+/**
+ * Double faced cards */
+.ms-dfc {
+  color: #111;
+  border: .05em solid #111;
+  border-radius: 2em;
+  padding: 0.025em;
 }
 /*
  * Larger sizes */
@@ -668,4 +675,10 @@
  * Other */
 .ms-flashback:before {
   content: "\e629";
+}
+.ms-dfc-night:before {
+  content: "\e905";
+}
+.ms-dfc-day:before {
+  content: "\e906";
 }
