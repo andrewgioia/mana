@@ -274,6 +274,11 @@ blockquote {
     padding: 6px 0;
 }
 
+    .vectors.overflow .utf {
+        overflow-x: hidden;
+        white-space: nowrap;
+    }
+
     .utf.long {
         width: 33%;
     }
