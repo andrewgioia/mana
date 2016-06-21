@@ -1,0 +1,338 @@
+@font-face {
+    font-family: 'Beleren';
+    src: url( '../fonts/beleren.eot' );
+    src: url( '../fonts/beleren.woff' ) format( 'woff' ),
+         url( '../fonts/beleren.ttf' ) format( 'truetype' ),
+         url( '../fonts/beleren.svg' ) format( 'svg' );
+    font-weight: normal;
+    font-style: normal;
+ }
+
+body {
+    background: #fff;
+    color: #333;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans",
+        Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    max-width: 1080px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+a {
+     color: #007185;
+     text-decoration: none;
+ }
+
+     a:hover {
+         color: #263D41;
+     }
+
+section#banner {
+    background: #b6c1b0;
+    color: #555;
+    padding: 12px 0;
+    text-align: right;
+    text-shadow: 0 1px 0 #bacec2;
+}
+
+    section#banner .item {
+        display: inline-block;
+        margin-left: 15px;
+    }
+
+    section#banner .logo {
+        color: #333;
+        float: left;
+        font-family: Beleren;
+        font-size: 18px;
+        margin-top: -2px;
+    }
+
+header {
+    background: #d3d8c1;
+    border-bottom: 1px solid #adb7a7;
+    color: #333;
+    margin: 0;
+    overflow-y: hidden;
+    padding: 25px 0 15px;
+}
+
+    header.main {
+        height: 272px;
+    }
+
+    .bigicon {
+        float: right;
+        font-size: 364px;
+        line-height: 200px;
+        margin-top: -40px;
+        text-shadow: 0 2px 0 #fff;
+    }
+
+    header .vs {
+        margin-left: 5px;
+    }
+
+p {
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 20px 0;
+}
+
+    section.icons p {
+        margin-left: 25px;
+    }
+
+ul {
+    margin: 0;
+}
+
+li {
+    margin: 0 0 10px;
+}
+
+h1 {
+    color: #444;
+    margin: 0;
+    font-family: Beleren;
+    font-size: 64px;
+    font-weight: lighter;
+    padding: 0 0 20px;
+    text-shadow: 0 1px 0 #fff;
+}
+
+    h1.sub {
+        font-size: 48px;
+        padding: 0 0 15px;
+    }
+
+h2 {
+    color: #444;
+    font-family: Beleren;
+    font-size: 30px;
+    font-weight: lighter;
+    margin: 0;
+    padding: 0 0 30px;
+    text-shadow: 0 1px 0 #fff;
+}
+
+    h2.sub {
+        font-size: 26px;
+        padding: 0 0 20px;
+    }
+
+h3 {
+    color: #444;
+    font-size: 19px;
+    font-weight: normal;
+    line-height: 1.6em;
+    padding-bottom: 20px;
+    text-align: left;
+}
+
+h4 {
+    color: #61605B;
+    font-family: Beleren;
+    font-size: 24px;
+    font-weight: lighter;
+    margin: 15px 0 5px;
+    text-align: left;
+}
+
+h5 {
+    color: #555;
+    font-size: 17px;
+    font-weight: normal;
+    margin: 25px 0 -5px;
+    padding: 0;
+}
+
+main {
+    margin: 0;
+    padding: 20px 0 25px;
+}
+
+    main section.content {
+        padding: 0 0 10px;
+    }
+
+blockquote,
+code {
+    font-family: Inconsolate, 'Courier New', Courier, monospace;
+}
+
+code {
+    background: #F7EEF1;
+    color: #BB073B;
+    padding: 1px 3px;
+    border-radius: 2px;
+}
+
+blockquote {
+    background: #eee;
+    border-bottom: 1px solid #d3d8c1;
+    line-height: 1.4em;
+    padding: 20px 20px 18px;
+    margin: 20px 0 25px;
+    border-radius: 4px;
+}
+
+.button {
+    background: #008eae;
+    border-bottom: 2px solid #166075;
+    color: #fff;
+    display: inline-block;
+    font-size: 20px;
+    padding: 10px 18px 9px;
+    border-radius: 4px;
+    text-shadow: 0 1px 0 #333;
+}
+
+    .button:hover {
+        background: #00809F;
+        border-bottom-color: #155A6E;
+        color: #fff;
+    }
+
+    .button .ss {
+        margin-right: 5px;
+        position: relative;
+        top: -2px;
+    }
+
+    .button.vs {
+        background: #666;
+        border-bottom-color: #333;
+    }
+
+        .button.vs:hover {
+            background: #555;
+            border-bottom-color: #222;
+        }
+
+    .button.dl.float-right {
+        margin-top: -10px;
+    }
+
+.icons {
+    padding: 10px 0 5px;
+}
+
+.icon {
+    border-radius: 3px;
+    display: inline-block;
+    overflow: hidden;
+    width: 24.5%;
+}
+
+    .icon span {
+        display: inline-block;
+        padding: 9px 10px;
+        white-space: nowrap;
+    }
+
+    .icon:hover {
+        background: #eee;
+        position: relative;
+        margin-top: -4px;
+        margin-bottom: -5px;
+    }
+
+    .icon .ss {
+        font-size: 22px;
+        margin-right: 5px;
+        margin-top: -2px;
+        text-align: right;
+        width: 32px;
+    }
+
+        .icon:hover .ss {
+            font-size: 32px;
+            text-shadow: 0 1px 0 #fff;
+        }
+
+    .icon em {
+        color: #999;
+        font-size: 13px;
+        font-style: normal;
+    }
+
+.vectors {
+    padding: 10px 0 0;
+}
+
+.utf {
+    display: inline-block;
+    width: 25%;
+    float: left;
+    padding: 6px 0;
+}
+
+    .utf.long {
+        width: 33%;
+    }
+
+    .utf i {
+        display: inline-block;
+        font-family: mana;
+        font-style: normal;
+        font-size: 1.25em;
+        vertical-align: top;
+        padding: 0 5px 0 0;
+        text-align: center;
+        width: 1.25em;
+    }
+
+        .utf i.long {
+            text-align: left;
+            width: auto;
+        }
+
+    .utf code {
+        background-color: #f5f5f5;
+        color: #555;
+        margin-left: 3px;
+    }
+
+.example {
+    font-size: 16px;
+    padding: 15px 0 0;
+    width: 200px;
+}
+
+    .example .each {
+        display: block;
+        padding-bottom: 2px;
+    }
+
+.explanation {
+    margin-left: 200px;
+}
+
+footer {
+    border-top: 1px solid #eee;
+    margin-top: 20px;
+    padding: 10px 0 30px;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+.e { color: #63A35C; }
+.a { color: #795DA3; }
+.v { color: #183691; }

@@ -1,4 +1,4 @@
-# Mana v1.0.0
+# Mana v0.6
 
 ## The Magic: the Gathering mana symbol font!
 
@@ -36,4 +36,3 @@ Attribution is **greatly appreciated** but not required!
 * v0.4 - adding classes for 16, 17, 18, 19, and 20 symbols
 * v0.5 - adding the new colorless wastes symbol
 * v0.6 - adding double-faced card symbols (day, night)
-* v1.0.0 - finally documentation is live!
