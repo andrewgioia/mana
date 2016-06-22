@@ -148,8 +148,8 @@ h4 {
 h5 {
     color: #555;
     font-size: 17px;
-    font-weight: normal;
-    margin: 25px 0 -5px;
+    font-weight: bold;
+    margin: 15px 0 5px;
     padding: 0;
 }
 
@@ -244,7 +244,7 @@ blockquote {
         margin-bottom: -5px;
     }
 
-    .icon .ss {
+    .icon .ms {
         font-size: 22px;
         margin-right: 5px;
         margin-top: -2px;
@@ -252,7 +252,7 @@ blockquote {
         width: 32px;
     }
 
-        .icon:hover .ss {
+        .icon:hover .ms {
             font-size: 32px;
             text-shadow: 0 1px 0 #fff;
         }
@@ -313,7 +313,8 @@ blockquote {
 
     .example .each {
         display: block;
-        padding-bottom: 2px;
+        padding-top: 1px;
+        padding-bottom: 7px;
     }
 
 .explanation {
