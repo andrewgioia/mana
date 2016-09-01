@@ -317,6 +317,8 @@
 .ms-loyalty-8:after,
 .ms-loyalty-9:after,
 .ms-loyalty-10:after,
+.ms-loyalty-12:after,
+.ms-loyalty-14:after,
 .ms-loyalty-x:after {
   color: #fff;
   display: inline-block;
@@ -431,6 +433,12 @@
 .ms-loyalty-down.ms-loyalty-10:after {
   content: "-10";
 }
+.ms-loyalty-down.ms-loyalty-12:after {
+  content: "-12";
+}
+.ms-loyalty-down.ms-loyalty-14:after {
+  content: "-14";
+}
 .ms-loyalty-down.ms-loyalty-x:after {
   content: "-X";
 }
@@ -440,7 +448,7 @@
   color: #111;
   border: .05em solid #111;
   border-radius: 2em;
-  padding: 1px;
+  padding: 0.025em;
 }
 /*
  * Larger sizes */
