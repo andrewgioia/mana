@@ -37,3 +37,4 @@ Attribution is **greatly appreciated** but not required!
 * v0.5 - adding the new colorless wastes symbol
 * v0.6 - adding double-faced card symbols (day, night)
 * v1.0.0 - finally documentation is live!
+* v1.0.1 - fixed 100 in icon list
