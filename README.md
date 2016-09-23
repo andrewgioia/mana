@@ -1,4 +1,4 @@
-# Mana v1.0.1
+# Mana v1.1.0
 
 ## The Magic: the Gathering mana symbol font!
 
@@ -38,3 +38,4 @@ Attribution is **greatly appreciated** but not required!
 * v0.6 - adding double-faced card symbols (day, night)
 * v1.0.0 - finally documentation is live!
 * v1.0.1 - fixed 100 in icon list
+* v1.1.0 - added the Energy icon
