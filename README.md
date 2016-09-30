@@ -1,4 +1,4 @@
-# Mana v1.1.0
+# Mana v1.2.0
 
 ## The Magic: the Gathering mana symbol font!
 
@@ -39,3 +39,4 @@ Attribution is **greatly appreciated** but not required!
 * v1.0.0 - finally documentation is live!
 * v1.0.1 - fixed 100 in icon list
 * v1.1.0 - added the Energy icon
+* v1.2.0 - added DFC symbols for Origins planeswalkers and Eldritch Moon meld cards
