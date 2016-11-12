@@ -2,6 +2,8 @@
 
 ## The Magic: the Gathering mana symbol font!
 
+**New:** view the [documentation site](https://andrewgioia.github.io/Mana) to see Mana in action!
+
 Mana is a complete set of Magic: the Gathering mana, tap, and card type symbols as a pictographic font. You can use this font anywhere you want to display mana and tap symbols&mdash;in your MtG app or website, documents, card images, anything!
 
 ## Installing
