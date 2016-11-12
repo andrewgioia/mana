@@ -4,6 +4,22 @@
 
 Mana is a complete set of Magic: the Gathering mana, tap, and card type symbols as a pictographic font. You can use this font anywhere you want to display mana and tap symbols&mdash;in your MtG app or website, documents, card images, anything!
 
+## Installing
+
+The easiest way to get Mana into your project is to use either the Bower or NPM packages, depending on your package manager:
+
+```shell
+$> bower install mana
+```
+
+```shell
+$> npm install mana-font
+```
+
+We've registered `mana` with [Bower](https://bower.io/#getting-started) and 'mana-font' with [NPM](https://docs.npmjs.com/getting-started/what-is-npm). Just install using the above commands in your project and you can edit anything as needed.
+
+You can also download the [zip file](https://github.com/andrewgioia/Mana/archive/master.zip) here at Github and use the font files and CSS files in your project as needed.
+
 ## Usage
 
 Each mana symbol has its own font character. Display them in a manner similar to [Keyrune](http://andrewgioia.github.io/Keyrune) using the `<i class="ms ms-g"></i>` element and class syntax. Class name codes are based on textual mana symbol codes (like g for Green or 3 for, well, {3}).
@@ -17,6 +33,12 @@ To use Mana, move the web font files to your `/fonts` directory and include the 
 ## Editing the Source
 
 Feel free to edit the source files and compile Mana to fit your needs. Currently LESS is supported, with Sass coming soon.
+
+## Using Mana on the Desktop
+
+If you'd like to use Mana as a desktop font (e.g., in a Word document) there are a few steps and things to know. First, to get it loaded on your system just download the [latest zip file](https://github.com/andrewgioia/Mana/archive/master.zip), extract it, and navigate to `Mana-master\fonts`. In there, install the `mana.ttf` font (typically by double clicking it).
+
+Mana uses [private use characters](https://en.wikipedia.org/wiki/Private_Use_Areas) for the font glyphs so you unfortunately can't normally "type" anything in Word to see the symbols. To do so, open up the [Mana Cheatsheet](http://andrewgioia.github.io/Mana/cheatsheet.html) and copy the symbol you want, then paste it into Word (or whatever software you're using).
 
 ## License
 
