@@ -1,4 +1,4 @@
-# Mana v1.2.0
+# Mana v1.3.0
 
 ## The Magic: the Gathering mana symbol font!
 
@@ -40,3 +40,4 @@ Attribution is **greatly appreciated** but not required!
 * v1.0.1 - added classes for -12 and -14 loyalty (sorry Jace and Karn!)
 * v1.1.0 - added the new Energy symbol
 * v1.2.0 - added DFC symbols for the Origins planeswalkers (ignite and spark) and the Eldritch Moon meld cards (emrakul and moon)
+* v1.3.0 - added Guild and Clan symbols
