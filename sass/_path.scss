@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'Mana';
+    src:url( '#{$ms-font-path}/mana.eot?v=#{$ms-version}' );
+    src:url( '#{$ms-font-path}/mana.eot?#iefix&v=#{$ms-version}') format( 'embedded-opentype' ),
+        url( '#{$ms-font-path}/mana.woff?v=#{$ms-version}') format( 'woff' ),
+        url( '#{$ms-font-path}/mana.ttf?v=#{$ms-version}') format( 'truetype' ),
+        url( '#{$ms-font-path}/mana.svg?v=#{$ms-version}#mana') format( 'svg' );
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MPlantin';
+    src:url( '#{$ms-font-path}/mplantin.eot?v=#{$ms-version}' );
+    src:url( '#{$ms-font-path}/mplantin.eot?#iefix&v=#{$ms-version}') format( 'embedded-opentype' ),
+        url( '#{$ms-font-path}/mplantin.woff?v=#{$ms-version}') format( 'woff' ),
+        url( '#{$ms-font-path}/mplantin.ttf?v=#{$ms-version}') format( 'truetype' ),
+        url( '#{$ms-font-path}/mplantin.svg?v=#{$ms-version}#mplantin') format( 'svg' );
+    font-weight: normal;
+    font-style: normal;
+}
