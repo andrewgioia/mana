@@ -28,11 +28,11 @@
     ".git",
     ".gitignore"
   ],
-  "_release": "0735159a32",
+  "_release": "e36bd4b9e7",
   "_resolution": {
     "type": "branch",
     "branch": "master",
-    "commit": "0735159a3249cbd47b39ead6c8974e82a293d3be"
+    "commit": "e36bd4b9e72917ad9e98d1752af537b51337b5c4"
   },
   "_source": "https://github.com/andrewgioia/Mana.git",
   "_target": "*",
