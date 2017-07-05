@@ -1,4 +1,4 @@
-# Mana v1.3.1
+# Mana v1.3.2
 
 ## The Magic: the Gathering mana symbol font!
 
@@ -54,6 +54,7 @@ Attribution is **greatly appreciated** but not required!
 
 ## Changelog
 
+* v1.3.2 - incrementing for new npm publish and jsDelivr note; fixed docs
 * v1.3.1 - fixed class name issue for 1,000,000 symbol
 * v1.3.0 - added Guild and Clan symbols
 * v1.2.0 - added DFC symbols for the Origins planeswalkers (ignite and spark) and the Eldritch Moon meld cards (emrakul and moon)
