@@ -317,7 +317,9 @@
 .ms-loyalty-8:after,
 .ms-loyalty-9:after,
 .ms-loyalty-10:after,
+.ms-loyalty-11:after,
 .ms-loyalty-12:after,
+.ms-loyalty-13:after,
 .ms-loyalty-14:after,
 .ms-loyalty-x:after {
   color: #fff;
@@ -433,8 +435,14 @@
 .ms-loyalty-down.ms-loyalty-10:after {
   content: "-10";
 }
+.ms-loyalty-down.ms-loyalty-11:after {
+  content: "-11";
+}
 .ms-loyalty-down.ms-loyalty-12:after {
   content: "-12";
+}
+.ms-loyalty-down.ms-loyalty-13:after {
+  content: "-13";
 }
 .ms-loyalty-down.ms-loyalty-14:after {
   content: "-14";
