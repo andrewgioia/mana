@@ -32,6 +32,14 @@ To use Mana, move the web font files to your `/fonts` directory and include the 
 <link href="css/mana.css" rel="stylesheet" type="text/css" />
 ```
 
+**NEW:** you can now include Mana via CDN thanks to the amazing [jsDelivr](http://jsdelivr.com) project! To include the latest version, reference:
+
+```html
+<link href="//cdn.jsdelivr.net/npm/mana-font@latest/css/mana.css" rel="stylesheet" type="text/css" />
+```
+
+You can also reference mana.min.css for the minified version.
+
 ## Editing the Source
 
 Feel free to edit the source files and compile Mana to fit your needs. Currently LESS is supported, with Sass coming soon.
