@@ -323,7 +323,7 @@
   color: #fff;
   display: inline-block;
   font-size: 0.5em;
-  font-family: 'MPlantin, Garamond, Palatino, ' Times New Roman ', Times, serif';
+  font-family: MPlantin, Garamond, Palatino, 'Times New Roman', Times, serif;
   position: absolute;
   left: 0;
   line-height: 1.75em;
