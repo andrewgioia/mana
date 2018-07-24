@@ -1,0 +1,14 @@
+.#{$ms-prefix} {
+    display: inline-block;
+    font: normal normal normal $ms-font-size-base/1 Mana;
+    font-size: inherit;
+    line-height: 1em;
+    text-rendering: auto;
+    transform: translate(0, 0);
+    speak: none;
+    text-transform: none;
+    vertical-align: middle;
+    // Better font rendering
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
