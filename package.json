@@ -1,0 +1,28 @@
+{
+  "name": "mana-docs",
+  "version": "1.0.0",
+  "description": "Mana documentation website",
+  "main": "index.html",
+  "dependencies": {
+    "mana-font": "*",
+    "zepto": "*"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewgioia/Mana.git#gh-pages"
+  },
+  "keywords": [
+    "mana",
+    "magic",
+    "gathering",
+    "icon",
+    "font"
+  ],
+  "author": "Andrew Gioia <andrewgioia@gmail.com>",
+  "license": "OFL 1.1",
+  "bugs": {
+    "url": "https://github.com/andrewgioia/Mana/issues"
+  },
+  "homepage": "https://andrewgioia.github.io/Mana"
+}

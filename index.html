@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="chrome=1" />
     <title>Mana | Andrew Gioia</title>
-    <link rel="stylesheet" href="bower_components/mana/css/mana.css" />
+    <link rel="stylesheet" href="node_modules/mana-font/css/mana.min.css" />
     <link rel="stylesheet" href="css/main.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 </head>
@@ -44,7 +44,7 @@
                 </a>
             </div>
             <p>
-                Current version 1.3.1 includes all known mana and card icons.
+                Current version 1.4.0 includes all known mana and card icons.
             </p>
         </div>
     </header>
@@ -61,6 +61,10 @@
                 <blockquote>
                     &lt;<span class="e">link</span> <span class="a">href</span>=<span class="v">"css/mana.css"</span> <span class="a">rel</span>=<span class="v">"stylesheet"</span> <span class="a">type</span>=<span class="v">"text/css"</span> /&gt;
                 </blockquote>
+                <p><strong>New!</strong> You can also now use Mana via CDN thanks to the amazing <a href="http://jsdelivr.com">jsDelivr</a> project! You can include the latest version in your project (and note the name is "mana-font"):</p>
+                <blockquote>
+                    &lt;<span class="e">link</span> <span class="a">href</span>=<span class="v">"//cdn.jsdelivr.net/npm/mana-font@latest/css/mana.css"</span> <span class="a">rel</span>=<span class="v">"stylesheet"</span> <span class="a">type</span>=<span class="v">"text/css"</span> /&gt;
+                </blockquote>
                 <p>Insert set symbol icons by using the <code>.ms</code> class and then the mana/symbol code class(es), such as <code>.ms-u</code> for blue mana: <i class="ms ms-u"></i></p>
                 <blockquote>
                     &lt;<span class="e">i</span> <span class="a">class</span>=<span class="v">"ms ms-u"</span>&gt;&lt;/<span class="e">i</span>&gt;
@@ -68,7 +72,7 @@
             </section>
             <section class="content">
                 <h4>Editing the Source</h4>
-                <p>Feel free to edit the source files and compile Mana to fit your needs. All SVG glyphs are compiled into font files using the wonderful <a href="http://icomoon.io">IcoMoon</a> app. For styling, currently LESS is supported with Sass coming soon.</p>
+                <p>Feel free to edit the source files and compile Mana to fit your needs. All SVG glyphs are compiled into font files using the wonderful <a href="http://icomoon.io">IcoMoon</a> app. For styling, both LESS and Sass are included.</p>
             </section>
             <section class="content">
                 <h4>License</h4>

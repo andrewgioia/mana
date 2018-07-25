@@ -2,7 +2,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="chrome=1" />
     <title>Attributes and Examples | Mana</title>
-    <link rel="stylesheet" href="bower_components/mana/css/mana.css" />
+    <link rel="stylesheet" href="node_modules/mana-font/css/mana.min.css" />
     <link rel="stylesheet" href="css/main.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 </head>
@@ -79,18 +79,19 @@
                 <h4>Split Casting Costs</h4>
                 <div class="example float-left">
                     <span class="each">
-                        <i class="ms ms-wu ms-split ms-cost"></i> .ms-split
+                        <i class="ms ms-wu ms-split ms-cost"></i> .ms-wu
                     </span>
                     <span class="each">
                         <i class="ms ms-2b ms-split ms-cost ms-shadow"></i> + .ms-shadow
                     </span>
                 </div>
                 <div class="explanation">
-                    <p>Automatically create split casting costs using the <code>.ms-split</code> class along with the 2 symbols' codes. This works for color pairs and the "2" with a color.</p>
+                    <p><strong>New:</strong> You no longer need the <code>.ms-split</code> class name, simply identifying a split or hybrid cost will now automatically handle the split styles.</p>
                     <blockquote>
                         &lt;<span class="e">i</span> <span class="a">class</span>=<span class="v">"ms ms-wu ms-split ms-cost"</span>&gt;&lt;/<span class="e">i</span>&gt;<br />
                         &lt;<span class="e">i</span> <span class="a">class</span>=<span class="v">"ms ms-2b ms-split ms-cost ms-shadow"</span>&gt;&lt;/<span class="e">i</span>&gt;
                     </blockquote>
+                    <p>For backwards compatibility and full control you can still use create split and hybrid casting costs separately with the <code>.ms-split</code> class along with the 2-symbols' codes. This works for color pairs and the "2" with a color.</p>
                 </div>
                 <div class="clear"></div>
             </section>
@@ -122,7 +123,7 @@
                     </span>
                 </div>
                 <div class="explanation">
-                    <p>You can create planewalker loyalty symbols for the starting value, zero, and ticking up or down. The number that appears is based on a class you add, like <code>.ms-loyalty-4</code>.</p>
+                    <p>You can create planewalker loyalty symbols for the starting value, zero, and ticking up or down. The number that appears is based on a class you add, like <code>.ms-loyalty-4</code>. Currently numbers 0-20 are supported for start, up, and down.</p>
                     <blockquote>
                         &lt;<span class="e">i</span> <span class="a">class</span>=<span class="v">"ms ms-loyalty-up ms-loyalty-3"</span>&gt;&lt;/<span class="e">i</span>&gt;<br />
                         &lt;<span class="e">i</span> <span class="a">class</span>=<span class="v">"ms ms-loyalty-down ms-loyalty-2"</span>&gt;&lt;/<span class="e">i</span>&gt;

@@ -1,1 +1,15 @@
+*.log
 .DS_Store
+!node_modules/
+node_modules/*
+!node_modules/mana-font
+node_modules/mana-font/*
+!node_modules/mana-font/css
+!node_modules/mana-font/css/*
+!node_modules/mana-font/fonts
+!node_modules/mana-font/fonts/*
+!node_modules/zepto
+node_modules/zepto/*
+!node_modules/zepto/dist
+node_modules/zepto/dist/*
+!node_modules/zepto/dist/zepto.min.js
