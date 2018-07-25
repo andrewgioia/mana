@@ -61,6 +61,7 @@
 .#{$ms-prefix}-land:before { content: "\e622"; }
 .#{$ms-prefix}-planeswalker:before { content: "\e623"; }
 .#{$ms-prefix}-sorcery:before { content: "\e624"; }
+.#{$ms-prefix}-multiple:before { content: "\e925"; }
 
 /**
  * Split symbols */
@@ -120,6 +121,11 @@
 .#{$ms-prefix}-dfc-spark:before { content: "\e909"; }
 .#{$ms-prefix}-dfc-emrakul:before { content: "\e90a"; }
 .#{$ms-prefix}-dfc-moon:before { content: "\e90b"; }
+.#{$ms-prefix}-dfc-enchantment:before { content: "\e920"; }
+.#{$ms-prefix}-power:before { content: "\e921"; }
+.#{$ms-prefix}-toughness:before { content: "\e922"; }
+.#{$ms-prefix}-artist-brush:before { content: "\e923"; }
+.#{$ms-prefix}-artist-nib:before { content: "\e924"; }
 
 /**
  * Guilds and Clans */
@@ -144,3 +150,10 @@
 .#{$ms-prefix}-clan-kolaghan:before { content: "\e91d"; }
 .#{$ms-prefix}-clan-ojutai:before { content: "\e91e"; }
 .#{$ms-prefix}-clan-silumgar:before { content: "\e91f"; }
+
+/**
+ * Poleis */
+
+.#{$ms-prefix}-polis-setessa:before { content: "\e926"; }
+.#{$ms-prefix}-polis-akros:before { content: "\e927"; }
+.#{$ms-prefix}-polis-meletis:before { content: "\e928"; }

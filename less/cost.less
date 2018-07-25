@@ -36,6 +36,38 @@
     }
 
     // Split symbols
+    &.@{ms-prefix}-wu,
+    &.@{ms-prefix}-wb,
+    &.@{ms-prefix}-ub,
+    &.@{ms-prefix}-ur,
+    &.@{ms-prefix}-br,
+    &.@{ms-prefix}-bg,
+    &.@{ms-prefix}-rw,
+    &.@{ms-prefix}-rg,
+    &.@{ms-prefix}-gw,
+    &.@{ms-prefix}-gu,
+    &.@{ms-prefix}-2w,
+    &.@{ms-prefix}-2u,
+    &.@{ms-prefix}-2b,
+    &.@{ms-prefix}-2r,
+    &.@{ms-prefix}-2g {
+        position: relative;
+        width: 1.3em;
+        height: 1.3em;
+        &:before,
+        &:after {
+            font-size: 0.55em !important;
+            position: absolute;
+        }
+        &:before {
+            top: -0.38em;
+            left: 0.28em;
+        }
+        &:after {
+            top: 0.5em;
+            left: 1.0em;
+        }
+    }
     &.@{ms-prefix}-wu {
         background: #edf2b0; // Old browsers
         background: -moz-linear-gradient(-45deg, #edf2b0 0%, #edf2b0 50%, #a6c1dd 50%, #a6c1dd 100%); // FF3.6+
@@ -245,7 +277,7 @@
 
 
 /**
- * Split costs */
+ * Split costs (separate handling) */
 
 .@{ms-prefix}-split {
     position: relative;

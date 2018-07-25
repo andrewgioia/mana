@@ -2,15 +2,15 @@
  * Global */
 @font-face {
   font-family: 'Mana';
-  src: url('../fonts/mana.eot?v=1.3.1');
-  src: url('../fonts/mana.eot?#iefix&v=1.3.1') format('embedded-opentype'), url('../fonts/mana.woff?v=1.3.1') format('woff'), url('../fonts/mana.ttf?v=1.3.1') format('truetype'), url('../fonts/mana.svg?v=1.3.1#mana') format('svg');
+  src: url('../fonts/mana.eot?v=1.4.0');
+  src: url('../fonts/mana.eot?#iefix&v=1.4.0') format('embedded-opentype'), url('../fonts/mana.woff?v=1.4.0') format('woff'), url('../fonts/mana.ttf?v=1.4.0') format('truetype'), url('../fonts/mana.svg?v=1.4.0#mana') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'MPlantin';
-  src: url('../fonts/mplantin.eot?v=1.3.1');
-  src: url('../fonts/mplantin.eot?#iefix&v=1.3.1') format('embedded-opentype'), url('../fonts/mplantin.woff?v=1.3.1') format('woff'), url('../fonts/mplantin.ttf?v=1.3.1') format('truetype'), url('../fonts/mplantin.svg?v=1.3.1#mplantin') format('svg');
+  src: url('../fonts/mplantin.eot?v=1.4.0');
+  src: url('../fonts/mplantin.eot?#iefix&v=1.4.0') format('embedded-opentype'), url('../fonts/mplantin.woff?v=1.4.0') format('woff'), url('../fonts/mplantin.ttf?v=1.4.0') format('truetype'), url('../fonts/mplantin.svg?v=1.4.0#mplantin') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -58,6 +58,94 @@
 .ms-cost.ms-g,
 .ms-cost.ms-gp {
   background-color: #93B483;
+}
+.ms-cost.ms-wu,
+.ms-cost.ms-wb,
+.ms-cost.ms-ub,
+.ms-cost.ms-ur,
+.ms-cost.ms-br,
+.ms-cost.ms-bg,
+.ms-cost.ms-rw,
+.ms-cost.ms-rg,
+.ms-cost.ms-gw,
+.ms-cost.ms-gu,
+.ms-cost.ms-2w,
+.ms-cost.ms-2u,
+.ms-cost.ms-2b,
+.ms-cost.ms-2r,
+.ms-cost.ms-2g {
+  position: relative;
+  width: 1.3em;
+  height: 1.3em;
+}
+.ms-cost.ms-wu:before,
+.ms-cost.ms-wb:before,
+.ms-cost.ms-ub:before,
+.ms-cost.ms-ur:before,
+.ms-cost.ms-br:before,
+.ms-cost.ms-bg:before,
+.ms-cost.ms-rw:before,
+.ms-cost.ms-rg:before,
+.ms-cost.ms-gw:before,
+.ms-cost.ms-gu:before,
+.ms-cost.ms-2w:before,
+.ms-cost.ms-2u:before,
+.ms-cost.ms-2b:before,
+.ms-cost.ms-2r:before,
+.ms-cost.ms-2g:before,
+.ms-cost.ms-wu:after,
+.ms-cost.ms-wb:after,
+.ms-cost.ms-ub:after,
+.ms-cost.ms-ur:after,
+.ms-cost.ms-br:after,
+.ms-cost.ms-bg:after,
+.ms-cost.ms-rw:after,
+.ms-cost.ms-rg:after,
+.ms-cost.ms-gw:after,
+.ms-cost.ms-gu:after,
+.ms-cost.ms-2w:after,
+.ms-cost.ms-2u:after,
+.ms-cost.ms-2b:after,
+.ms-cost.ms-2r:after,
+.ms-cost.ms-2g:after {
+  font-size: 0.55em !important;
+  position: absolute;
+}
+.ms-cost.ms-wu:before,
+.ms-cost.ms-wb:before,
+.ms-cost.ms-ub:before,
+.ms-cost.ms-ur:before,
+.ms-cost.ms-br:before,
+.ms-cost.ms-bg:before,
+.ms-cost.ms-rw:before,
+.ms-cost.ms-rg:before,
+.ms-cost.ms-gw:before,
+.ms-cost.ms-gu:before,
+.ms-cost.ms-2w:before,
+.ms-cost.ms-2u:before,
+.ms-cost.ms-2b:before,
+.ms-cost.ms-2r:before,
+.ms-cost.ms-2g:before {
+  top: -0.38em;
+  left: 0.28em;
+}
+.ms-cost.ms-wu:after,
+.ms-cost.ms-wb:after,
+.ms-cost.ms-ub:after,
+.ms-cost.ms-ur:after,
+.ms-cost.ms-br:after,
+.ms-cost.ms-bg:after,
+.ms-cost.ms-rw:after,
+.ms-cost.ms-rg:after,
+.ms-cost.ms-gw:after,
+.ms-cost.ms-gu:after,
+.ms-cost.ms-2w:after,
+.ms-cost.ms-2u:after,
+.ms-cost.ms-2b:after,
+.ms-cost.ms-2r:after,
+.ms-cost.ms-2g:after {
+  top: 0.5em;
+  left: 1.0em;
 }
 .ms-cost.ms-wu {
   background: #edf2b0;
@@ -254,7 +342,7 @@
   box-shadow: -0.06em 0.07em 0 #fff, 0 0.06em 0 #fff;
 }
 /**
- * Split costs */
+ * Split costs (separate handling) */
 .ms-split {
   position: relative;
   width: 1.3em;
@@ -709,6 +797,9 @@
 .ms-sorcery:before {
   content: "\e624";
 }
+.ms-multiple:before {
+  content: "\e925";
+}
 /**
  * Split symbols */
 .ms-wu:before,
@@ -798,6 +889,21 @@
 .ms-dfc-moon:before {
   content: "\e90b";
 }
+.ms-dfc-enchantment:before {
+  content: "\e920";
+}
+.ms-power:before {
+  content: "\e921";
+}
+.ms-toughness:before {
+  content: "\e922";
+}
+.ms-artist-brush:before {
+  content: "\e923";
+}
+.ms-artist-nib:before {
+  content: "\e924";
+}
 /**
  * Guilds and Clans */
 .ms-guild-azorius:before {
@@ -859,4 +965,15 @@
 }
 .ms-clan-silumgar:before {
   content: "\e91f";
+}
+/**
+ * Poleis */
+.ms-polis-setessa:before {
+  content: "\e926";
+}
+.ms-polis-akros:before {
+  content: "\e927";
+}
+.ms-polis-meletis:before {
+  content: "\e928";
 }

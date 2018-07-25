@@ -31,8 +31,16 @@
     &-8:after,
     &-9:after,
     &-10:after,
+    &-11:after,
     &-12:after,
+    &-13:after,
     &-14:after,
+    &-15:after,
+    &-16:after,
+    &-17:after,
+    &-18:after,
+    &-19:after,
+    &-20:after,
     &-x:after {
         color: #fff;
         display: inline-block;
@@ -57,6 +65,16 @@
         &.#{$ms-prefix}-loyalty-8:after { content: "+8"; }
         &.#{$ms-prefix}-loyalty-9:after { content: "+9"; }
         &.#{$ms-prefix}-loyalty-10:after { content: "+10"; }
+        &.#{$ms-prefix}-loyalty-11:after { content: "+10"; }
+        &.#{$ms-prefix}-loyalty-12:after { content: "+12"; }
+        &.#{$ms-prefix}-loyalty-13:after { content: "+13"; }
+        &.#{$ms-prefix}-loyalty-14:after { content: "+14"; }
+        &.#{$ms-prefix}-loyalty-15:after { content: "+15"; }
+        &.#{$ms-prefix}-loyalty-16:after { content: "+16"; }
+        &.#{$ms-prefix}-loyalty-17:after { content: "+17"; }
+        &.#{$ms-prefix}-loyalty-18:after { content: "+18"; }
+        &.#{$ms-prefix}-loyalty-19:after { content: "+19"; }
+        &.#{$ms-prefix}-loyalty-20:after { content: "+20"; }
         &.#{$ms-prefix}-loyalty-x:after { content: "+X"; }
     }
     &-start {
@@ -70,6 +88,16 @@
         &.#{$ms-prefix}-loyalty-8:after { content: "8"; }
         &.#{$ms-prefix}-loyalty-9:after { content: "9"; }
         &.#{$ms-prefix}-loyalty-10:after { content: "10"; }
+        &.#{$ms-prefix}-loyalty-11:after { content: "11"; }
+        &.#{$ms-prefix}-loyalty-12:after { content: "12"; }
+        &.#{$ms-prefix}-loyalty-13:after { content: "13"; }
+        &.#{$ms-prefix}-loyalty-14:after { content: "14"; }
+        &.#{$ms-prefix}-loyalty-15:after { content: "15"; }
+        &.#{$ms-prefix}-loyalty-16:after { content: "16"; }
+        &.#{$ms-prefix}-loyalty-17:after { content: "17"; }
+        &.#{$ms-prefix}-loyalty-18:after { content: "18"; }
+        &.#{$ms-prefix}-loyalty-19:after { content: "19"; }
+        &.#{$ms-prefix}-loyalty-20:after { content: "20"; }
         &.#{$ms-prefix}-loyalty-x:after { content: "X"; }
     }
     &-down {
@@ -84,8 +112,16 @@
         &.#{$ms-prefix}-loyalty-8:after { content: "-8"; }
         &.#{$ms-prefix}-loyalty-9:after { content: "-9"; }
         &.#{$ms-prefix}-loyalty-10:after { content: "-10"; }
+        &.#{$ms-prefix}-loyalty-11:after { content: "-11"; }
         &.#{$ms-prefix}-loyalty-12:after { content: "-12"; }
+        &.#{$ms-prefix}-loyalty-13:after { content: "-13"; }
         &.#{$ms-prefix}-loyalty-14:after { content: "-14"; }
+        &.#{$ms-prefix}-loyalty-15:after { content: "-15"; }
+        &.#{$ms-prefix}-loyalty-16:after { content: "-16"; }
+        &.#{$ms-prefix}-loyalty-17:after { content: "-17"; }
+        &.#{$ms-prefix}-loyalty-18:after { content: "-18"; }
+        &.#{$ms-prefix}-loyalty-19:after { content: "-19"; }
+        &.#{$ms-prefix}-loyalty-20:after { content: "-20"; }
         &.#{$ms-prefix}-loyalty-x:after { content: "-X"; }
     }
 }

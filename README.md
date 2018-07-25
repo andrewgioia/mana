@@ -1,4 +1,4 @@
-# Mana v1.3.2
+# Mana v1.4.0
 
 ## The Magic: the Gathering mana symbol font!
 
@@ -62,6 +62,7 @@ Attribution is **greatly appreciated** but not required!
 
 ## Changelog
 
+* v1.4.0 - big update: artist, Poleis, power/toughness, DFC enchantment, and multiple type symbols added; simplified split cost handling; more planeswalker loyalties; SASS support
 * v1.3.2 - incrementing for new npm publish and jsDelivr note; fixed docs
 * v1.3.1 - fixed class name issue for 1,000,000 symbol
 * v1.3.0 - added Guild and Clan symbols
@@ -75,3 +76,8 @@ Attribution is **greatly appreciated** but not required!
 * v0.3 - phyrexian mana classes use MTGJson standard; project-specific LESS prefix added (@JayGray)
 * v0.2 - Flashback symbol added
 * v0.1 - initial font creation and CSS/LESS files added
+
+## Todo
+
+* Crop original full-width symbols to actual width
+* Add ligatures for easier desktop use
