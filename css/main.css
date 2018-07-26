@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i');
 @font-face {
     font-family: 'Beleren';
     src: url( '../fonts/beleren.eot' );
@@ -11,7 +12,7 @@
 body {
     background: #fff;
     color: #333;
-    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans",
+    font-family: "Open Sans", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans",
         Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 15px;
     margin: 0;

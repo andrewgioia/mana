@@ -99,15 +99,13 @@
                 <h4>Half Mana Casting Costs</h4>
                 <div class="example float-left">
                     <span class="each">
-                        <span class="ms-half"><i class="ms ms-w ms-cost"></i></span> .ms-half
+                        <i class="ms ms-w ms-half ms-cost"></i></span> .ms-half
                     </span>
                 </div>
                 <div class="explanation">
-                    <p>Even though there's only been <a href="http://magiccards.info/uh/en/16.html">one of these ever printed</a> you can still create them :P Half costs require a bit more markup:</p>
+                    <p>Even though there's only been <a href="http://magiccards.info/uh/en/16.html">one of these ever printed</a> you can still create them :P Half costs <a href="https://github.com/andrewgioia/Mana/issues/6">used to require a wrapping element</a> but as of v1.4.1 they are a regular single element:</p>
                     <blockquote>
-                        &lt;<span class="e">span</span> <span class="a">class</span>=<span class="v">"ms-half"</span>&gt;<br />
-                        &nbsp;&nbsp;&nbsp;&nbsp;&lt;<span class="e">i</span> <span class="a">class</span>=<span class="v">"ms ms-w ms-cost"</span>&gt;&lt;/<span class="e">i</span>&gt;<br />
-                        &lt;/<span class="e">span</span>&gt;
+                        &lt;<span class="e">i</span> <span class="a">class</span>=<span class="v">"ms ms-w ms-half ms-cost"</span>&gt;&lt;/<span class="e">i</span>&gt;<br />
                     </blockquote>
                 </div>
                 <div class="clear"></div>
