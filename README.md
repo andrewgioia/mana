@@ -1,4 +1,4 @@
-# Mana v1.4.0
+# Mana v1.4.1
 
 ## The Magic: the Gathering mana symbol font!
 
@@ -62,6 +62,7 @@ Attribution is **greatly appreciated** but not required!
 
 ## Changelog
 
+* v1.4.1 - half mana symbol fix using just the icon element (issue #6)
 * v1.4.0 - big update: artist, Poleis, power/toughness, DFC enchantment, and multiple type symbols added; simplified split cost handling; more planeswalker loyalties; SASS support
 * v1.3.2 - incrementing for new npm publish and jsDelivr note; fixed docs
 * v1.3.1 - fixed class name issue for 1,000,000 symbol

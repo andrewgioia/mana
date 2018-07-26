@@ -5,18 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1" />
     <title>Mana</title>
     <link rel="stylesheet" href="css/mana.css?v=1.4.0" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <style type="text/css">
+        html {
+            border-top: 5px solid #CBC8BB;
+        }
         body {
             background: #fff;
-            border-top: 3px solid #CBC8BB;
             color: #333;
-            font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans",
-                Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-family: 'Open Sans', 'Lucida Grande', 'Lucida Sans Unicode',
+                'Lucida Sans', Geneva, 'Helvetica Neue', Helvetica, Arial, sans-serif;
             font-size: 16px;
             line-height: 1.6em;
-            margin: 0;
+            margin: 0 auto;
             padding: 0 100px;
+            max-width: 1280px;
+        }
+        h1, h2, .mplantin {
+            font-family: MPlantin, Times, serif;
         }
         h3 {
             font-size: 16px;
@@ -31,6 +38,29 @@
             margin: 40px 0 0;
             padding: 20px 0 30px;
         }
+        .pt {
+            font-size: 19px;
+            display: inline-block;
+            position: relative;
+        }
+        .left {
+            width: 46%;
+            float: left;
+        }
+        .right {
+            width: 46%;
+            float: right;
+        }
+        @media screen and (max-width: 1280px) {
+            .left, .right {
+                float: none;
+                width: 100%;
+            }
+            .sm-screen {
+                display: inline-block;
+                padding-right: 10px;
+            }
+        }
     </style>
 </head>
 <body>
@@ -38,160 +68,182 @@
     <h2>MTG Mana Symbol Demos</h2>
     <p>
         This HTML file is for demo purposes and is not necessary for Mana installation or use.
-        You can view all of the mana symbol font icons and the available examples below (casting cost background and increased sizes).
+        You can view all of the mana symbol font icons and the available examples below
+        (casting cost background and increased sizes). Please take a look at the
+        <a href="https://andrewgioia.github.io/Mana">Mana documentation page</a> for
+        the full set of icons, attributes, and usages.
     </p>
-    <h3>Regular mana symbols</h3>
-    <p>
-        <i class="ms ms-w ms-cost ms-shadow"></i>
-        <i class="ms ms-u ms-cost ms-shadow"></i>
-        <i class="ms ms-b ms-cost ms-shadow"></i>
-        <i class="ms ms-r ms-cost ms-shadow"></i>
-        <i class="ms ms-g ms-cost ms-shadow"></i>
-        <i class="ms ms-0 ms-cost ms-shadow"></i>
-        <i class="ms ms-1 ms-cost ms-shadow"></i>
-        <i class="ms ms-2 ms-cost ms-shadow"></i>
-        <i class="ms ms-3 ms-cost ms-shadow"></i>
-        <i class="ms ms-4 ms-cost ms-shadow"></i>
-        <i class="ms ms-5 ms-cost ms-shadow"></i>
-        <i class="ms ms-6 ms-cost ms-shadow"></i>
-        <i class="ms ms-7 ms-cost ms-shadow"></i>
-        <i class="ms ms-8 ms-cost ms-shadow"></i>
-        <i class="ms ms-9 ms-cost ms-shadow"></i>
-        <i class="ms ms-10 ms-cost ms-shadow"></i>
-        <i class="ms ms-11 ms-cost ms-shadow"></i>
-        <i class="ms ms-12 ms-cost ms-shadow"></i>
-        <i class="ms ms-13 ms-cost ms-shadow"></i>
-        <i class="ms ms-14 ms-cost ms-shadow"></i>
-        <i class="ms ms-15 ms-cost ms-shadow"></i>
-        <i class="ms ms-16 ms-cost ms-shadow"></i>
-        <i class="ms ms-17 ms-cost ms-shadow"></i>
-        <i class="ms ms-18 ms-cost ms-shadow"></i>
-        <i class="ms ms-19 ms-cost ms-shadow"></i>
-        <i class="ms ms-20 ms-cost ms-shadow"></i>
-        <i class="ms ms-x ms-cost ms-shadow"></i>
-        <i class="ms ms-y ms-cost ms-shadow"></i>
-        <i class="ms ms-z ms-cost ms-shadow"></i>
-    </p>
-    <h3>Phyrexian, snow, colorless, energy, and split symbols</h3>
-    <p>
-        <i class="ms ms-wp ms-cost ms-shadow"></i>
-        <i class="ms ms-up ms-cost ms-shadow"></i>
-        <i class="ms ms-bp ms-cost ms-shadow"></i>
-        <i class="ms ms-rp ms-cost ms-shadow"></i>
-        <i class="ms ms-gp ms-cost ms-shadow"></i>
-        <i class="ms ms-s ms-cost ms-shadow"></i>
-        <i class="ms ms-c ms-cost ms-shadow"></i>
-        <i class="ms ms-e"></i>
-        <br />
-        <i class="ms ms-wu ms-cost ms-shadow"></i>
-        <i class="ms ms-wb ms-cost ms-shadow"></i>
-        <i class="ms ms-ub ms-cost ms-shadow"></i>
-        <i class="ms ms-ur ms-cost ms-shadow"></i>
-        <i class="ms ms-br ms-cost ms-shadow"></i>
-        <i class="ms ms-bg ms-cost ms-shadow"></i>
-        <i class="ms ms-rw ms-cost ms-shadow"></i>
-        <i class="ms ms-rg ms-cost ms-shadow"></i>
-        <i class="ms ms-gw ms-cost ms-shadow"></i>
-        <i class="ms ms-gu ms-cost ms-shadow"></i>
-        <i class="ms ms-2w ms-cost ms-shadow"></i>
-        <i class="ms ms-2u ms-cost ms-shadow"></i>
-        <i class="ms ms-2b ms-cost ms-shadow"></i>
-        <i class="ms ms-2r ms-cost ms-shadow"></i>
-        <i class="ms ms-2g ms-cost ms-shadow"></i>
-    </p>
-    <h3>Tap and roll symbols</h3>
-    <p>
-        <i class="ms ms-tap ms-cost ms-shadow"></i>
-        <i class="ms ms-untap ms-cost"></i>
-        <i class="ms ms-tap-alt ms-cost ms-shadow"></i>
-        <i class="ms ms-chaos"></i>
-    </p>
-    <h3>2x size (3-6x also included)</h3>
-    <p>
-        <i class="ms ms-w ms-cost ms-shadow ms-2x"></i>
-        <i class="ms ms-u ms-cost ms-shadow ms-2x"></i>
-        <i class="ms ms-b ms-cost ms-shadow ms-2x"></i>
-        <i class="ms ms-r ms-cost ms-shadow ms-2x"></i>
-        <i class="ms ms-g ms-cost ms-shadow ms-2x"></i>
-    </p>
-    <h3><a href="http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=74257">Half mana symbols</a></h3>
-    <p>
-        <span class="ms-half"><i class="ms ms-w ms-cost"></i></span>
-        <span class="ms-half"><i class="ms ms-u ms-cost"></i></span>
-        <span class="ms-half"><i class="ms ms-b ms-cost"></i></span>
-        <span class="ms-half"><i class="ms ms-r ms-cost"></i></span>
-        <span class="ms-half"><i class="ms ms-g ms-cost"></i></span>
-    </p>
-    <h3>Un-set mana symbols</h3>
-    <p>
-        <i class="ms ms-1-2 ms-cost ms-shadow"></i>
-        <i class="ms ms-infinity ms-cost ms-shadow"></i>
-        <i class="ms ms-100 ms-cost ms-shadow"></i>
-        <i class="ms ms-1000000 ms-cost ms-shadow"></i>
-    </p>
-    <h3>Future Sight type symbols</h3>
-    <p>
-        <i class="ms ms-artifact ms-2x"></i>
-        <i class="ms ms-creature ms-2x"></i>
-        <i class="ms ms-enchantment ms-2x"></i>
-        <i class="ms ms-instant ms-2x"></i>
-        <i class="ms ms-land ms-2x"></i>
-        <i class="ms ms-planeswalker ms-2x"></i>
-        <i class="ms ms-sorcery ms-2x"></i>
-        &nbsp;&nbsp;
-        <i class="ms ms-flashback ms-2x"></i>
-        <i class="ms ms-multiple ms-2x"></i>
-    </p>
-    <h3>Planeswalker symbols</h3>
-    <p>
-        <i class="ms ms-loyalty-up ms-loyalty-3 ms-3x"></i>
-        <i class="ms ms-loyalty-down ms-loyalty-x ms-3x"></i>
-        <i class="ms ms-loyalty-zero ms-loyalty-0 ms-3x"></i>
-        <i class="ms ms-loyalty-start ms-loyalty-4 ms-4x"></i>
-    </p>
-    <h3>Double-faced card symbols</h3>
-    <p>
-        <i class="ms ms-dfc ms-dfc-day ms-2x"></i>
-        <i class="ms ms-dfc ms-dfc-night ms-2x"></i>
-        <i class="ms ms-dfc ms-dfc-spark ms-2x"></i>
-        <i class="ms ms-dfc ms-dfc-ignite ms-2x"></i>
-        <i class="ms ms-dfc ms-dfc-moon ms-2x"></i>
-        <i class="ms ms-dfc ms-dfc-emrakul ms-2x"></i>
-        <i class="ms ms-dfc ms-dfc-enchantment ms-2x"></i>
-    </p>
-    <h3>Guild Symbols</h3>
-    <p>
-        <i class="ms ms-guild-azorius ms-2x"></i>
-        <i class="ms ms-guild-boros ms-2x"></i>
-        <i class="ms ms-guild-dimir ms-2x"></i>
-        <i class="ms ms-guild-golgari ms-2x"></i>
-        <i class="ms ms-guild-gruul ms-2x"></i>
-        <i class="ms ms-guild-izzet ms-2x"></i>
-        <i class="ms ms-guild-orzhov ms-2x"></i>
-        <i class="ms ms-guild-rakdos ms-2x"></i>
-        <i class="ms ms-guild-selesnya ms-2x"></i>
-        <i class="ms ms-guild-simic ms-2x"></i>
-    </p>
-    <h3>Clan Symbols</h3>
-    <p>
-        <i class="ms ms-clan-abzan ms-2x"></i>
-        <i class="ms ms-clan-jeskai ms-2x"></i>
-        <i class="ms ms-clan-mardu ms-2x"></i>
-        <i class="ms ms-clan-sultai ms-2x"></i>
-        <i class="ms ms-clan-temur ms-2x"></i>
-        &nbsp;&nbsp;
-        <i class="ms ms-clan-atarka ms-2x"></i>
-        <i class="ms ms-clan-dromoka ms-2x"></i>
-        <i class="ms ms-clan-kolaghan ms-2x"></i>
-        <i class="ms ms-clan-ojutai ms-2x"></i>
-        <i class="ms ms-clan-silumgar ms-2x"></i>
-    </p>
-    <h3>Poleis Symbols</h3>
-    <p>
-        <i class="ms ms-polis-setessa ms-2x"></i>
-        <i class="ms ms-polis-akros ms-2x"></i>
-        <i class="ms ms-polis-meletis ms-2x"></i>
-    </p>
+    <div class="left">
+        <h3>Regular mana symbols</h3>
+        <p>
+            <div class="sm-screen">
+                <i class="ms ms-w ms-cost ms-shadow"></i>
+                <i class="ms ms-u ms-cost ms-shadow"></i>
+                <i class="ms ms-b ms-cost ms-shadow"></i>
+                <i class="ms ms-r ms-cost ms-shadow"></i>
+                <i class="ms ms-g ms-cost ms-shadow"></i>
+            </div>
+            <div class="sm-screen">
+                <i class="ms ms-0 ms-cost ms-shadow"></i>
+                <i class="ms ms-1 ms-cost ms-shadow"></i>
+                <i class="ms ms-2 ms-cost ms-shadow"></i>
+                <i class="ms ms-3 ms-cost ms-shadow"></i>
+                <i class="ms ms-4 ms-cost ms-shadow"></i>
+                <i class="ms ms-5 ms-cost ms-shadow"></i>
+                <i class="ms ms-6 ms-cost ms-shadow"></i>
+                <i class="ms ms-7 ms-cost ms-shadow"></i>
+                <i class="ms ms-8 ms-cost ms-shadow"></i>
+                <i class="ms ms-9 ms-cost ms-shadow"></i>
+                <i class="ms ms-10 ms-cost ms-shadow"></i>
+                <i class="ms ms-11 ms-cost ms-shadow"></i>
+                <i class="ms ms-12 ms-cost ms-shadow"></i>
+                <i class="ms ms-13 ms-cost ms-shadow"></i>
+                <i class="ms ms-14 ms-cost ms-shadow"></i>
+                <i class="ms ms-15 ms-cost ms-shadow"></i>
+                <i class="ms ms-16 ms-cost ms-shadow"></i>
+                <i class="ms ms-17 ms-cost ms-shadow"></i>
+                <i class="ms ms-18 ms-cost ms-shadow"></i>
+                <i class="ms ms-19 ms-cost ms-shadow"></i>
+                <i class="ms ms-20 ms-cost ms-shadow"></i>
+            </div>
+            <div class="sm-screen">
+                <i class="ms ms-x ms-cost ms-shadow"></i>
+                <i class="ms ms-y ms-cost ms-shadow"></i>
+                <i class="ms ms-z ms-cost ms-shadow"></i>
+            </div>
+        </p>
+        <h3>Phyrexian, snow, colorless, energy, and split symbols</h3>
+        <p>
+            <i class="ms ms-wp ms-cost ms-shadow"></i>
+            <i class="ms ms-up ms-cost ms-shadow"></i>
+            <i class="ms ms-bp ms-cost ms-shadow"></i>
+            <i class="ms ms-rp ms-cost ms-shadow"></i>
+            <i class="ms ms-gp ms-cost ms-shadow"></i>
+            <i class="ms ms-s ms-cost ms-shadow"></i>
+            <i class="ms ms-c ms-cost ms-shadow"></i>
+            <i class="ms ms-e"></i>
+            <br />
+            <i class="ms ms-wu ms-cost ms-shadow"></i>
+            <i class="ms ms-wb ms-cost ms-shadow"></i>
+            <i class="ms ms-ub ms-cost ms-shadow"></i>
+            <i class="ms ms-ur ms-cost ms-shadow"></i>
+            <i class="ms ms-br ms-cost ms-shadow"></i>
+            <i class="ms ms-bg ms-cost ms-shadow"></i>
+            <i class="ms ms-rw ms-cost ms-shadow"></i>
+            <i class="ms ms-rg ms-cost ms-shadow"></i>
+            <i class="ms ms-gw ms-cost ms-shadow"></i>
+            <i class="ms ms-gu ms-cost ms-shadow"></i>
+            <i class="ms ms-2w ms-cost ms-shadow"></i>
+            <i class="ms ms-2u ms-cost ms-shadow"></i>
+            <i class="ms ms-2b ms-cost ms-shadow"></i>
+            <i class="ms ms-2r ms-cost ms-shadow"></i>
+            <i class="ms ms-2g ms-cost ms-shadow"></i>
+        </p>
+        <h3>Tap and roll symbols</h3>
+        <p>
+            <i class="ms ms-tap ms-cost ms-shadow"></i>
+            <i class="ms ms-untap ms-cost"></i>
+            <i class="ms ms-tap-alt ms-cost ms-shadow"></i>
+            <i class="ms ms-chaos"></i>
+        </p>
+        <h3>2x size (3-6x also included)</h3>
+        <p>
+            <i class="ms ms-w ms-cost ms-shadow ms-2x"></i>
+            <i class="ms ms-u ms-cost ms-shadow ms-2x"></i>
+            <i class="ms ms-b ms-cost ms-shadow ms-2x"></i>
+            <i class="ms ms-r ms-cost ms-shadow ms-2x"></i>
+            <i class="ms ms-g ms-cost ms-shadow ms-2x"></i>
+        </p>
+        <h3>Half mana symbols <small>[<a href="http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=74257">Source</a>]</small></h3>
+        <p>
+            <i class="ms ms-w ms-half ms-cost"></i>
+            <i class="ms ms-u ms-half ms-cost"></i>
+            <i class="ms ms-b ms-half ms-cost"></i>
+            <i class="ms ms-r ms-half ms-cost"></i>
+            <i class="ms ms-g ms-half ms-cost"></i>
+        </p>
+        <h3>Portal power and toughness symbols</h3>
+        <p>
+            <span class="mplantin pt">4</span>
+            <i class="ms ms-power" style="font-size: 1.05em; margin: -8px 0 0 -3px;"></i>
+            <span class="mplantin pt" style="margin-left: -3px;">/</span>
+            <span class="mplantin pt" style="margin-left: -2px;">5</span>
+            <i class="ms ms-toughness" style="font-size: 1.05em; margin: -9px 0 0 -3px;"></i>
+        </p>
+        <h3>Un-set mana symbols</h3>
+        <p>
+            <i class="ms ms-1-2 ms-cost ms-shadow"></i>
+            <i class="ms ms-infinity ms-cost ms-shadow"></i>
+            <i class="ms ms-100 ms-cost ms-shadow"></i>
+            <i class="ms ms-1000000 ms-cost ms-shadow"></i>
+        </p>
+    </div>
+    <div class="right">
+        <h3>Future Sight and other type symbols</h3>
+        <p>
+            <i class="ms ms-artifact ms-2x"></i>
+            <i class="ms ms-creature ms-2x"></i>
+            <i class="ms ms-enchantment ms-2x"></i>
+            <i class="ms ms-instant ms-2x"></i>
+            <i class="ms ms-land ms-2x"></i>
+            <i class="ms ms-planeswalker ms-2x"></i>
+            <i class="ms ms-sorcery ms-2x"></i>
+            &nbsp;&nbsp;
+            <i class="ms ms-flashback ms-2x"></i>
+            <i class="ms ms-multiple ms-2x"></i>
+        </p>
+        <h3>Planeswalker symbols</h3>
+        <p>
+            <i class="ms ms-loyalty-up ms-loyalty-3 ms-3x"></i>
+            <i class="ms ms-loyalty-down ms-loyalty-x ms-3x"></i>
+            <i class="ms ms-loyalty-zero ms-loyalty-0 ms-3x"></i>
+            <i class="ms ms-loyalty-start ms-loyalty-4 ms-4x"></i>
+        </p>
+        <h3>Double-faced card symbols</h3>
+        <p>
+            <i class="ms ms-dfc ms-dfc-day ms-2x"></i>
+            <i class="ms ms-dfc ms-dfc-night ms-2x"></i>
+            <i class="ms ms-dfc ms-dfc-spark ms-2x"></i>
+            <i class="ms ms-dfc ms-dfc-ignite ms-2x"></i>
+            <i class="ms ms-dfc ms-dfc-moon ms-2x"></i>
+            <i class="ms ms-dfc ms-dfc-emrakul ms-2x"></i>
+            <i class="ms ms-dfc ms-dfc-enchantment ms-2x"></i>
+        </p>
+        <h3>Guild Symbols</h3>
+        <p>
+            <i class="ms ms-guild-azorius ms-2x"></i>
+            <i class="ms ms-guild-boros ms-2x"></i>
+            <i class="ms ms-guild-dimir ms-2x"></i>
+            <i class="ms ms-guild-golgari ms-2x"></i>
+            <i class="ms ms-guild-gruul ms-2x"></i>
+            <i class="ms ms-guild-izzet ms-2x"></i>
+            <i class="ms ms-guild-orzhov ms-2x"></i>
+            <i class="ms ms-guild-rakdos ms-2x"></i>
+            <i class="ms ms-guild-selesnya ms-2x"></i>
+            <i class="ms ms-guild-simic ms-2x"></i>
+        </p>
+        <h3>Clan Symbols</h3>
+        <p>
+            <i class="ms ms-clan-abzan ms-2x"></i>
+            <i class="ms ms-clan-jeskai ms-2x"></i>
+            <i class="ms ms-clan-mardu ms-2x"></i>
+            <i class="ms ms-clan-sultai ms-2x"></i>
+            <i class="ms ms-clan-temur ms-2x"></i>
+            &nbsp;&nbsp;
+            <i class="ms ms-clan-atarka ms-2x"></i>
+            <i class="ms ms-clan-dromoka ms-2x"></i>
+            <i class="ms ms-clan-kolaghan ms-2x"></i>
+            <i class="ms ms-clan-ojutai ms-2x"></i>
+            <i class="ms ms-clan-silumgar ms-2x"></i>
+        </p>
+        <h3>Poleis Symbols</h3>
+        <p>
+            <i class="ms ms-polis-setessa ms-2x"></i>
+            <i class="ms ms-polis-akros ms-2x"></i>
+            <i class="ms ms-polis-meletis ms-2x"></i>
+        </p>
+    </div>
+    <div style="clear: both;"></div>
     <footer>
         Made with &hearts; by <a href="http://andrewgioia.com">Andrew Gioia</a>
     </footer>

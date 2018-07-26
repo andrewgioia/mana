@@ -302,7 +302,8 @@
 /**
  * Half costs */
 
-.@{ms-prefix}-half {
+// Legacy handling with <span> tag
+span.@{ms-prefix}-half {
     width: .675em;
     overflow: hidden;
     display: inline-block;
@@ -310,6 +311,17 @@
 
     > .@{ms-prefix}-cost {
         margin-left: -.675em;
+    }
+}
+
+// New single-element handling!
+.@{ms-prefix}-half {
+    width: .675em;
+    margin-left: .675em;
+    overflow: hidden;
+    border-radius: 0 1em 1em 0;
+    &:before {
+        margin-left: -.65em;
     }
 }
 
