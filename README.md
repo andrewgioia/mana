@@ -6,45 +6,45 @@
 
 Mana is a complete set of Magic: the Gathering mana, tap, and card type symbols as a pictographic font. You can use this font anywhere you want to display mana and tap symbols&mdash;in your MtG app or website, documents, card images, anything!
 
-## Installing
+## Installation
 
-The easiest way to get Mana into your project is to use either the Bower or NPM packages, depending on your package manager:
-
-```shell
-$> bower install mana
-```
+The easiest way to get Mana into your project is to use the NPM package:
 
 ```shell
 $> npm install mana-font
 ```
 
-We've registered `mana` with [Bower](https://bower.io/#getting-started) and 'mana-font' with [NPM](https://docs.npmjs.com/getting-started/what-is-npm). Just install using the above commands in your project and you can edit anything as needed.
+Bower is still supported but given their notice to migrate away from it I recommend NPM if you're using a package manager. This project is registered as 'mana-font' with [NPM](https://docs.npmjs.com/getting-started/what-is-npm) and `mana` with [Bower](https://bower.io/#getting-started). Just install using the above commands in your project and you can edit anything as needed.
 
 You can also download the [zip file](https://github.com/andrewgioia/Mana/archive/master.zip) here at Github and use the font files and CSS files in your project as needed.
 
-## Usage
+## Using Mana in your project
 
-Each mana symbol has its own font character. Display them in a manner similar to [Keyrune](http://andrewgioia.github.io/Keyrune) using the `<i class="ms ms-g"></i>` element and class syntax. Class name codes are based on textual mana symbol codes (like g for Green or 3 for, well, {3}).
+Each mana symbol has its own font character. Display them in a manner similar to any icon font, like [Keyrune](http://andrewgioia.github.io/Keyrune), using the `<i class="ms ms-g"></i>` element and class syntax. Class name codes are based on textual mana symbol codes (like g for Green or 3 for, well, {3}).
 
-To use Mana, move the web font files to your `/fonts` directory and include the mana.css stylesheet in your `<head>`:
-
-```html
-<link href="css/mana.css" rel="stylesheet" type="text/css" />
-```
-
-**NEW:** you can now include Mana via CDN thanks to the amazing [jsDelivr](http://jsdelivr.com) project! To include the latest version, reference:
+To use Mana, move the web font files to your `/fonts` directory and include the `mana.min.css` stylesheet in your `<head>`:
 
 ```html
-<link href="//cdn.jsdelivr.net/npm/mana-font@latest/css/mana.css" rel="stylesheet" type="text/css" />
+<link href="css/mana.min.css" rel="stylesheet" type="text/css" />
 ```
 
-You can also reference mana.min.css for the minified version.
+You can also include Mana via CDN thanks to the amazing [jsDelivr](http://jsdelivr.com) project! To include the latest version, reference:
 
-## Editing the Source
+```html
+<link href="//cdn.jsdelivr.net/npm/mana-font@latest/css/mana.min.css" rel="stylesheet" type="text/css" />
+```
 
-Feel free to edit the source files and compile Mana to fit your needs. Currently LESS is supported, with Sass coming soon.
+Replace `mana.min.css` with `mana.css` for the unminified version, if you need that.
 
-## Using Mana on the Desktop
+## Editing the source
+
+You can edit the Sass or Less source files and compile Mana to fit your needs, add custom classes, or extend it in your project.
+
+The `mana.svg` font file contains every glyph used in Mana. If you'd like to completely decompile it, you can view the SVG coordinates in any text editor or upload it to an SVG font editor like [IcoMoon](https://icomoon.io) (which I use for Mana and Keyrune) or [Birdfont](https://birdfont.org).
+
+To add new icons, I recommend first creating a project in IcoMoon and uploading Mana into it. Draw any new glyphs in a vector/SVG editor of your choice export them as SVGs. Then upload each individual glyphs to your IcoMoon project and generate the font files when you're ready. You can add them to your project the same way you would with Mana (putting the font files in a `/fonts` directory and referencing them in your CSS file with an `@font-face` declaration).
+
+## Using Mana in desktop software
 
 If you'd like to use Mana as a desktop font (e.g., in a Word document) there are a few steps and things to know. First, to get it loaded on your system just download the [latest zip file](https://github.com/andrewgioia/Mana/archive/master.zip), extract it, and navigate to `Mana-master\fonts`. In there, install the `mana.ttf` font (typically by double clicking it).
 
@@ -59,26 +59,3 @@ The Mana font is licensed under the the SIL OFL 1.1 ([http://scripts.sil.org/OFL
 Mana CSS, LESS, and Sass files are licensed under the MIT License ([http://opensource.org/licenses/mit-license.html](http://opensource.org/licenses/mit-license.html))
 
 Attribution is **greatly appreciated** but not required!
-
-## Changelog
-
-* v1.4.1 - half mana symbol fix using just the icon element (issue #6)
-* v1.4.0 - big update: artist, Poleis, power/toughness, DFC enchantment, and multiple type symbols added; simplified split cost handling; more planeswalker loyalties; SASS support
-* v1.3.2 - incrementing for new npm publish and jsDelivr note; fixed docs
-* v1.3.1 - fixed class name issue for 1,000,000 symbol
-* v1.3.0 - added Guild and Clan symbols
-* v1.2.0 - added DFC symbols for the Origins planeswalkers (ignite and spark) and the Eldritch Moon meld cards (emrakul and moon)
-* v1.1.0 - added the new Energy symbol
-* v1.0.1 - added classes for -12 and -14 loyalty (sorry Jace and Karn!)
-* v1.0 - new documentation page at http://andrewgioia.github.io/Mana/
-* v0.6 - adding double-faced card symbols (day, night)
-* v0.5 - adding the new colorless wastes symbol
-* v0.4 - adding classes for 16, 17, 18, 19, and 20 symbols
-* v0.3 - phyrexian mana classes use MTGJson standard; project-specific LESS prefix added (@JayGray)
-* v0.2 - Flashback symbol added
-* v0.1 - initial font creation and CSS/LESS files added
-
-## Todo
-
-* Crop original full-width symbols to actual width
-* Add ligatures for easier desktop use
