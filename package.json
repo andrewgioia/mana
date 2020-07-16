@@ -10,11 +10,10 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/andrewgioia/Mana.git#gh-pages"
+    "url": "git+https://github.com/andrewgioia/mana.git#gh-pages"
   },
   "scripts": {
-    "build": "npm install && cp node_modules/mana-font/css/mana.min.css css/ && cp node_modules/mana-font/fonts/* fonts/",
-    "watch": "sass --no-source-map --watch assets/scss/main.scss public/css/style.css"
+    "build": "npm install && cp node_modules/mana-font/css/mana.min.css css/ && cp node_modules/mana-font/fonts/* fonts/ && cp node_modules/zepto/dist/zepto.min.js js/"
   },
   "keywords": [
     "mana",
@@ -26,7 +25,7 @@
   "author": "Andrew Gioia <andrewgioia@gmail.com>",
   "license": "(OFL-1.1 AND GPL-3.0-only)",
   "bugs": {
-    "url": "https://github.com/andrewgioia/Mana/issues"
+    "url": "https://github.com/andrewgioia/mana/issues"
   },
-  "homepage": "https://andrewgioia.github.io/Mana"
+  "homepage": "https://andrewgioia.github.io/mana"
 }
