@@ -2,6 +2,7 @@
 .DS_Store
 !node_modules/
 node_modules/*
+!node_modules/.nojekyll
 !node_modules/mana-font
 node_modules/mana-font/*
 !node_modules/mana-font/css
