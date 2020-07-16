@@ -13,7 +13,8 @@
     "url": "git+https://github.com/andrewgioia/Mana.git#gh-pages"
   },
   "scripts": {
-    "build": "npm install && cp node_modules/mana-font/css/mana.min.css css/ && cp node_modules/mana-font/fonts/* fonts/"
+    "build": "npm install && cp node_modules/mana-font/css/mana.min.css css/ && cp node_modules/mana-font/fonts/* fonts/",
+    "watch": "sass --no-source-map --watch assets/scss/main.scss public/css/style.css"
   },
   "keywords": [
     "mana",
