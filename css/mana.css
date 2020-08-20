@@ -1034,3 +1034,89 @@ span.ms-half > .ms-cost {
 .ms-polis-meletis:before {
   content: "\e928";
 }
+/**
+ * Counters */
+.ms-counter-arrow:before {
+  content: "\e92b";
+}
+.ms-counter-brick:before {
+  content: "\e92c";
+}
+.ms-counter-charge:before {
+  content: "\e92d";
+}
+.ms-counter-devotion:before {
+  content: "\e92e";
+}
+.ms-counter-doom:before {
+  content: "\e92f";
+}
+.ms-counter-echo:before {
+  content: "\e930";
+}
+.ms-counter-flame:before {
+  content: "\e931";
+}
+.ms-counter-flood:before {
+  content: "\e932";
+}
+.ms-counter-fungus:before {
+  content: "\e933";
+}
+.ms-counter-gold:before {
+  content: "\e934";
+}
+.ms-counter-ki:before {
+  content: "\e935";
+}
+.ms-counter-lore:before {
+  content: "\e936";
+}
+.ms-counter-loyalty:before {
+  content: "\e937";
+}
+.ms-counter-mining:before {
+  content: "\e938";
+}
+.ms-counter-minus:before {
+  content: "\e939";
+}
+.ms-counter-muster:before {
+  content: "\e93a";
+}
+.ms-counter-paw:before {
+  content: "\e93b";
+}
+.ms-counter-pin:before {
+  content: "\e93c";
+}
+.ms-counter-plus:before {
+  content: "\e93d";
+}
+.ms-counter-scream:before {
+  content: "\e93e";
+}
+.ms-counter-skeleton:before {
+  content: "\e93f";
+}
+.ms-counter-skull:before {
+  content: "\e940";
+}
+.ms-counter-slime:before {
+  content: "\e941";
+}
+.ms-counter-time:before {
+  content: "\e942";
+}
+.ms-counter-minus-uneven:before {
+  content: "\e943";
+}
+.ms-counter-plus-uneven:before {
+  content: "\e944";
+}
+.ms-counter-verse:before {
+  content: "\e945";
+}
+.ms-counter-vortex:before {
+  content: "\e946";
+}

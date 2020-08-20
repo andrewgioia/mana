@@ -1,11 +1,11 @@
 {
   "name": "mana-font",
-  "version": "1.6.0",
+  "version": "1.7.0",
   "description": "Magic: the Gathering mana symbol pictographic font",
   "main": "css/mana.css",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/andrewgioia/Mana.git"
+    "url": "git+https://github.com/andrewgioia/mana.git"
   },
   "keywords": [
     "mana",
@@ -16,10 +16,14 @@
     "gathering",
     "font"
   ],
-  "author": "Andrew Gioia <andrewgioia@gmail.com>",
+  "scripts": {
+    "less": "lessc less/mana.less css/mana.css",
+    "lessmin": "lessc --clean-css less/mana.less css/mana.min.css"
+  },
+  "author": "Andrew Gioia <andrew@gioia.email>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/andrewgioia/Mana/issues"
+    "url": "https://github.com/andrewgioia/mana/issues"
   },
-  "homepage": "https://github.com/andrewgioia/Mana#readme"
+  "homepage": "https://mana.andrewgioia.com"
 }

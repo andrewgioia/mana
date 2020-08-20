@@ -11,6 +11,11 @@ All notable changes to this project will be documented in this file.
 
 ## Versions 
 
+### [1.7.0] 2020-08-20 Birthday release with MODO counters!
+
+* **Added:** All counters from Magic Online [#39](https://github.com/andrewgioia/mana/issues/39)
+* **Fixed:** Cleaned up some NPM package info and project meta data
+
 ### [1.6.0] 2020-01-30 Saga and Acorn symbols 
 
 * **Added:** Acorn counter symbol from Unsanctioned ([#48](https://github.com/andrewgioia/Mana/issues/48))
