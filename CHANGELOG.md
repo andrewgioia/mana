@@ -11,6 +11,17 @@ All notable changes to this project will be documented in this file.
 
 ## Versions 
 
+### [1.9.0] 2020-09-03 All Arena ability symbols!
+
+* **Added:** Excited to add _all_ 53 ability symbols from Arena! This was a big task as many had to be drawn from scratch! [#41](https://github.com/andrewgioia/mana/issues/41), [#53](https://github.com/andrewgioia/mana/issues/53), [#52](https://github.com/andrewgioia/mana/issues/52), and [#44](https://github.com/andrewgioia/mana/issues/44)
+* **Fixed:** Some outdated SVG issues with the existing type symbols have been corrected
+* **Added:** SVGs are now shipped [#51](https://github.com/andrewgioia/mana/issues/51)
+
+### [1.8.0] 2020-08-21 Arena ability initial release
+
+* **Added:** All ability symbols from Arena [#41](https://github.com/andrewgioia/mana/issues/41)
+* **Fixed:** All .scss files are cleaner and a bit more optimized; probably going to move to Sass soon
+
 ### [1.7.0] 2020-08-20 Birthday release with MODO counters!
 
 * **Added:** All counters from Magic Online [#39](https://github.com/andrewgioia/mana/issues/39)

@@ -4,8 +4,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="chrome=1" />
     <title>Mana</title>
-    <link rel="stylesheet" href="css/mana.css?v=1.6.0" />
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i">
+    <link rel="stylesheet" href="css/mana.css?v=1.8.0" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <style type="text/css">
         html {
@@ -14,9 +13,8 @@
         body {
             background: #fff;
             color: #333;
-            font-family: 'Open Sans', 'Lucida Grande', 'Lucida Sans Unicode',
-                'Lucida Sans', Geneva, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-            font-size: 16px;
+            font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+            font-size: 17px;
             line-height: 1.6em;
             margin: 0 auto;
             padding: 0 100px;
@@ -25,8 +23,14 @@
         h1, h2, .mplantin {
             font-family: MPlantin, Times, serif;
         }
+        h1 {
+            font-size: 36px;
+        }
+        h2 {
+            font-size: 26px;
+        }
         h3 {
-            font-size: 16px;
+            font-size: 19px;
             font-weight: bold;
             margin: 0;
         }
@@ -70,7 +74,7 @@
         This HTML file is for demo purposes and is not necessary for Mana installation or use.
         You can view all of the mana symbol font icons and the available examples below
         (casting cost background and increased sizes). Please take a look at the
-        <a href="https://andrewgioia.github.io/Mana">Mana documentation page</a> for
+        <a href="https://mana.andrewgioia.com">Mana documentation page</a> for
         the full set of icons, attributes, and usages.
     </p>
     <div class="left">
@@ -176,32 +180,41 @@
             <i class="ms ms-infinity ms-cost ms-shadow"></i>
             <i class="ms ms-100 ms-cost ms-shadow"></i>
             <i class="ms ms-1000000 ms-cost ms-shadow"></i>
+            <i class="ms ms-acorn"></i>
         </p>
     </div>
     <div class="right">
         <h3>Future Sight and other type symbols</h3>
         <p>
-            <i class="ms ms-artifact ms-2x"></i>
-            <i class="ms ms-creature ms-2x"></i>
-            <i class="ms ms-enchantment ms-2x"></i>
-            <i class="ms ms-instant ms-2x"></i>
-            <i class="ms ms-land ms-2x"></i>
-            <i class="ms ms-planeswalker ms-2x"></i>
-            <i class="ms ms-sorcery ms-2x"></i>
+            <i class="ms ms-artifact ms-2x" title="Artifact"></i>
+            <i class="ms ms-creature ms-2x" title="Creature"></i>
+            <i class="ms ms-enchantment ms-2x" title="Enchantment"></i>
+            <i class="ms ms-instant ms-2x" title="Instant"></i>
+            <i class="ms ms-land ms-2x" title="Land"></i>
+            <i class="ms ms-planeswalker ms-2x" title="Planeswalker"></i>
+            <i class="ms ms-sorcery ms-2x" title="Sorcery"></i>
+            <i class="ms ms-tribal ms-2x" title="Tribal"></i>
+            <i class="ms ms-plane ms-2x" title="Plane"></i>
+            <i class="ms ms-phenomenon ms-2x" title="Phenomenon"></i>
+            <i class="ms ms-scheme ms-2x" title="Scheme"></i>
+            <i class="ms ms-conspiracy ms-2x" title="Conspiracy"></i>
             &nbsp;&nbsp;
-            <i class="ms ms-flashback ms-2x"></i>
-            <i class="ms ms-multiple ms-2x"></i>
-            &nbsp;&nbsp;
-            <i class="ms ms-acorn ms-2x"></i>
-            <i class="ms ms-saga ms-saga-1 ms-2x"></i>
-            <i class="ms ms-saga ms-saga-2 ms-2x"></i>
+            <i class="ms ms-token ms-2x" title="Token"></i>
+            <i class="ms ms-flashback ms-2x" title="Flashback"></i>
+            <i class="ms ms-rarity ms-2x" title="Rarity"></i>
+            <i class="ms ms-vanguard ms-2x" title="Vangaurd"></i>
         </p>
-        <h3>Planeswalker symbols</h3>
+        <h3>Loyalty symbols</h3>
         <p>
             <i class="ms ms-loyalty-up ms-loyalty-3 ms-3x"></i>
             <i class="ms ms-loyalty-down ms-loyalty-x ms-3x"></i>
             <i class="ms ms-loyalty-zero ms-loyalty-0 ms-3x"></i>
             <i class="ms ms-loyalty-start ms-loyalty-4 ms-4x"></i>
+            &nbsp;&nbsp;
+            <i class="ms ms-saga ms-saga-1 ms-2x"></i>
+            <i class="ms ms-saga ms-saga-2 ms-2x"></i>
+            <i class="ms ms-saga ms-saga-3 ms-2x"></i>
+            <i class="ms ms-saga ms-saga-4 ms-2x"></i>
         </p>
         <h3>Double-faced card symbols</h3>
         <p>
@@ -277,10 +290,66 @@
             <i class="ms ms-counter-verse ms-2x"></i>
             <i class="ms ms-counter-vortex ms-2x"></i>
         </p>
+        <h3>Arena Ability Symbols</h3>
+        <p>
+            <i class="ms ms-ability-activated ms-2x" title="Activated"></i>
+            <i class="ms ms-ability-adamant ms-2x" title="Adamant"></i>
+            <i class="ms ms-ability-adapt ms-2x" title="Adapt"></i>
+            <i class="ms ms-ability-addendum ms-2x" title="Addendum"></i>
+            <i class="ms ms-ability-adventure ms-2x" title="Adventure"></i>
+            <i class="ms ms-ability-afflict ms-2x" title="Afflict"></i>
+            <i class="ms ms-ability-afterlife ms-2x" title="Afterlife"></i>
+            <i class="ms ms-ability-aftermath ms-2x" title="Aftermath"></i>
+            <i class="ms ms-ability-amass ms-2x" title="Amass"></i>
+            <i class="ms ms-ability-ascend ms-2x" title="Ascend"></i>
+            <i class="ms ms-ability-companion ms-2x" title="Companion"></i>
+            <i class="ms ms-ability-constellation ms-2x" title="Constellation"></i>
+            <i class="ms ms-ability-convoke ms-2x" title="Convoke"></i>
+            <i class="ms ms-ability-deathtouch ms-2x" title="Deathtouch"></i>
+            <i class="ms ms-ability-defender ms-2x" title="Defender"></i>
+            <i class="ms ms-ability-devotion ms-2x" title="Devotion"></i>
+            <i class="ms ms-ability-double-strike ms-2x" title="Double Strike"></i>
+            <i class="ms ms-ability-embalm ms-2x" title="Embalm"></i>
+            <i class="ms ms-ability-enrage ms-2x" title="Enrage"></i>
+            <i class="ms ms-ability-escape ms-2x" title="Escape"></i>
+            <i class="ms ms-ability-eternalize ms-2x" title="Eternalize"></i>
+            <i class="ms ms-ability-explore ms-2x" title="Explore"></i>
+            <i class="ms ms-ability-first-strike ms-2x" title="First Strike"></i>
+            <i class="ms ms-ability-flash ms-2x" title="Flash"></i>
+            <i class="ms ms-ability-flying ms-2x" title="Flying"></i>
+            <i class="ms ms-ability-haste ms-2x" title="Haste"></i>
+            <i class="ms ms-ability-hexproof ms-2x" title="Hexproof: Generic"></i>
+            <i class="ms ms-ability-hexproof-white ms-2x" title="Hexproof: White"></i>
+            <i class="ms ms-ability-hexproof-blue ms-2x" title="Hexproof: Blue"></i>
+            <i class="ms ms-ability-hexproof-black ms-2x" title="Hexproof: Black"></i>
+            <i class="ms ms-ability-hexproof-red ms-2x" title="Hexproof: Red"></i>
+            <i class="ms ms-ability-hexproof-green ms-2x" title="Hexproof: Green"></i>
+            <i class="ms ms-ability-indestructible ms-2x" title="Indestructible"></i>
+            <i class="ms ms-ability-jumpstart ms-2x" title="Jumpstart"></i>
+            <i class="ms ms-ability-lifelink ms-2x" title="Lifelink"></i>
+            <i class="ms ms-ability-menace ms-2x" title="Menace"></i>
+            <i class="ms ms-ability-mentor ms-2x" title="Mentor"></i>
+            <i class="ms ms-ability-mutate ms-2x" title="Mutate"></i>
+            <i class="ms ms-ability-proliferate ms-2x" title="Proliferate"></i>
+            <i class="ms ms-ability-prowess ms-2x" title="Prowess"></i>
+            <i class="ms ms-ability-raid ms-2x" title="Raid"></i>
+            <i class="ms ms-ability-reach ms-2x" title="Reach"></i>
+            <i class="ms ms-ability-revolt ms-2x" title="Revolt"></i>
+            <i class="ms ms-ability-riot ms-2x" title="Riot"></i>
+            <i class="ms ms-ability-spectacle ms-2x" title="Spectacle"></i>
+            <i class="ms ms-ability-static ms-2x" title="Static"></i>
+            <i class="ms ms-ability-summoning-sickness ms-2x" title="Summoning Sickness"></i>
+            <i class="ms ms-ability-surveil ms-2x" title="Surveil"></i>
+            <i class="ms ms-ability-trample ms-2x" title="Trample"></i>
+            <i class="ms ms-ability-transform ms-2x" title="Transform"></i>
+            <i class="ms ms-ability-triggered ms-2x" title="Triggered"></i>
+            <i class="ms ms-ability-undergrowth ms-2x" title="Undergrowth"></i>
+            <i class="ms ms-ability-vigilance ms-2x" title="Vigilance"></i>
+        </p>
     </div>
     <div style="clear: both;"></div>
     <footer>
-        Made with &hearts; by <a href="http://andrewgioia.com">Andrew Gioia</a>
+        Made with &hearts; by <a href="https://andrewgioia.com">Andrew Gioia</a>
     </footer>
 </body>
 </html>

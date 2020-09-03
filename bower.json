@@ -1,9 +1,9 @@
 {
   "name": "mana",
-  "homepage": "https://github.com/andrewgioia/Mana",
-  "version": "1.7.0",
+  "homepage": "https://github.com/andrewgioia/mana",
+  "version": "1.9.0",
   "authors": [
-    "Andrew Gioia <andrewgioia@gmail.com>"
+    "Andrew Gioia <andrew@gioia.email>"
   ],
   "description": "Magic: the Gathering mana symbol pictographic font",
   "main": [

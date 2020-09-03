@@ -1,9 +1,7 @@
-/**
- * Mana cost styles */
+// costs
 
 .#{$ms-prefix}-cost {
 
-    // Base cost styles
     background-color: #BEB9B2;
     border-radius: 1em;
     color: #111;
@@ -13,7 +11,7 @@
     line-height: 1.35em;
     text-align: center;
 
-    // Single symbols
+    // single costs
     &.#{$ms-prefix}-w,
     &.#{$ms-prefix}-wp {
         background-color: #F0F2C0;
@@ -35,7 +33,7 @@
         background-color: #93B483;
     }
 
-    // Split symbols
+    // split costs
     &.#{$ms-prefix}-wu,
     &.#{$ms-prefix}-wb,
     &.#{$ms-prefix}-ub,
@@ -54,16 +52,16 @@
         position: relative;
         width: 1.3em;
         height: 1.3em;
-        &:before,
-        &:after {
+        &::before,
+        &::after {
             font-size: 0.55em !important;
             position: absolute;
         }
-        &:before {
+        &::before {
             top: -0.38em;
             left: 0.28em;
         }
-        &:after {
+        &::after {
             top: 0.5em;
             left: 1.0em;
         }
@@ -219,21 +217,21 @@
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#beb9b2', endColorstr='#93b483',GradientType=1 ); // IE6-9 fallback on horizontal gradient
     }
 
-    // Phyrexian mana and size increases
-    &.#{$ms-prefix}-p:before,
-    &.#{$ms-prefix}-wp:before,
-    &.#{$ms-prefix}-up:before,
-    &.#{$ms-prefix}-bp:before,
-    &.#{$ms-prefix}-rp:before,
-    &.#{$ms-prefix}-gp:before {
+    // phyrexian mana
+    &.#{$ms-prefix}-p::before,
+    &.#{$ms-prefix}-wp::before,
+    &.#{$ms-prefix}-up::before,
+    &.#{$ms-prefix}-bp::before,
+    &.#{$ms-prefix}-rp::before,
+    &.#{$ms-prefix}-gp::before {
         display: inline-block;
         -moz-transform: scale( 1.2, 1.2 );
         -webkit-transform: scale( 1.2, 1.2 );
         transform: scale( 1.2, 1.2 );
     }
 
-    // Alternate tap
-    &.#{$ms-prefix}-tap-alt:before {
+    // alternate tap
+    &.#{$ms-prefix}-tap-alt::before {
         display: inline-block;
         -moz-transform: scale( 1.2, 1.2 );
         -webkit-transform: scale( 1.2, 1.2 );
@@ -242,8 +240,8 @@
         padding-bottom: 0.10em;
     }
 
-    // Snow mana
-    &.#{$ms-prefix}-s:before {
+    // snow mana
+    &.#{$ms-prefix}-s::before {
         color: #fff;
         -webkit-text-stroke: 2px #fff;
         font-size: 0.85em;
@@ -251,7 +249,7 @@
         position: relative;
         display: inline-block;
     }
-    &.#{$ms-prefix}-s:after {
+    &.#{$ms-prefix}-s::after {
         //text-shadow: -1px 1px 0 #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, 1px 1px 0 #fff;
         content: "\e619";
         position: absolute;
@@ -260,13 +258,13 @@
         font-size: 1.1em;
     }
 
-    // Tap symbols
+    // tap symbols
     &.#{$ms-prefix}-untap {
         background-color: #111;
         color: #fff;
     }
 
-    // Shadow
+    // shadow alternative
     &.#{$ms-prefix}-shadow {
         box-shadow: -0.06em 0.07em 0 #111, 0 0.06em 0 #111;
         &.#{$ms-prefix}-untap {
@@ -276,34 +274,31 @@
 }
 
 
-/**
- * Split costs */
+// split cost specifics
 
 .#{$ms-prefix}-split {
     position: relative;
     width: 1.3em;
     height: 1.3em;
 }
-.#{$ms-prefix}-split:before,
-.#{$ms-prefix}-split:after {
+.#{$ms-prefix}-split::before,
+.#{$ms-prefix}-split::after {
     font-size: 0.55em !important;
     position: absolute;
 }
-.#{$ms-prefix}-split:before {
+.#{$ms-prefix}-split::before {
     top: -0.38em;
     left: 0.28em;
 }
-.#{$ms-prefix}-split:after {
+.#{$ms-prefix}-split::after {
     top: 0.5em;
     left: 1.0em;
 }
 
 
-/**
- * Half costs */
+// half costs specifics
 
-// Legacy handling with <span> tag
-span.#{$ms-prefix}-half {
+span.#{$ms-prefix}-half { // legacy handling with <span> tag
     width: .675em;
     overflow: hidden;
     display: inline-block;
@@ -314,20 +309,18 @@ span.#{$ms-prefix}-half {
     }
 }
 
-// New single-element handling!
-.#{$ms-prefix}-half {
+.#{$ms-prefix}-half { // new single-element handling!
     width: .675em;
     margin-left: .675em;
     overflow: hidden;
     border-radius: 0 1em 1em 0;
-    &:before {
+    &::before {
         margin-left: -.65em;
     }
 }
 
 
-/**
- * Un-set costs */
+// un-set costs
 
 .#{$ms-prefix}-100 {
     width: 2.4em;

@@ -1,5 +1,4 @@
-/**
- * Mana cost styles */
+// cost style
 
 .@{ms-prefix}-cost {
 
@@ -54,16 +53,16 @@
         position: relative;
         width: 1.3em;
         height: 1.3em;
-        &:before,
-        &:after {
+        &::before,
+        &::after {
             font-size: 0.55em !important;
             position: absolute;
         }
-        &:before {
+        &::before {
             top: -0.38em;
             left: 0.28em;
         }
-        &:after {
+        &::after {
             top: 0.5em;
             left: 1.0em;
         }
@@ -220,12 +219,12 @@
     }
 
     // Phyrexian mana and size increases
-    &.@{ms-prefix}-p:before,
-    &.@{ms-prefix}-wp:before,
-    &.@{ms-prefix}-up:before,
-    &.@{ms-prefix}-bp:before,
-    &.@{ms-prefix}-rp:before,
-    &.@{ms-prefix}-gp:before {
+    &.@{ms-prefix}-p::before,
+    &.@{ms-prefix}-wp::before,
+    &.@{ms-prefix}-up::before,
+    &.@{ms-prefix}-bp::before,
+    &.@{ms-prefix}-rp::before,
+    &.@{ms-prefix}-gp::before {
         display: inline-block;
         -moz-transform: scale( 1.2, 1.2 );
         -webkit-transform: scale( 1.2, 1.2 );
@@ -233,7 +232,7 @@
     }
 
     // Alternate tap
-    &.@{ms-prefix}-tap-alt:before {
+    &.@{ms-prefix}-tap-alt::before {
         display: inline-block;
         -moz-transform: scale( 1.2, 1.2 );
         -webkit-transform: scale( 1.2, 1.2 );
@@ -243,7 +242,7 @@
     }
 
     // Snow mana
-    &.@{ms-prefix}-s:before {
+    &.@{ms-prefix}-s::before {
         color: #fff;
         -webkit-text-stroke: 2px #fff;
         font-size: 0.85em;
@@ -251,7 +250,7 @@
         position: relative;
         display: inline-block;
     }
-    &.@{ms-prefix}-s:after {
+    &.@{ms-prefix}-s::after {
         //text-shadow: -1px 1px 0 #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, 1px 1px 0 #fff;
         content: "\e619";
         position: absolute;
@@ -284,16 +283,16 @@
     width: 1.3em;
     height: 1.3em;
 }
-.@{ms-prefix}-split:before,
-.@{ms-prefix}-split:after {
+.@{ms-prefix}-split::before,
+.@{ms-prefix}-split::after {
     font-size: 0.55em !important;
     position: absolute;
 }
-.@{ms-prefix}-split:before {
+.@{ms-prefix}-split::before {
     top: -0.38em;
     left: 0.28em;
 }
-.@{ms-prefix}-split:after {
+.@{ms-prefix}-split::after {
     top: 0.5em;
     left: 1.0em;
 }
@@ -320,7 +319,7 @@ span.@{ms-prefix}-half {
     margin-left: .675em;
     overflow: hidden;
     border-radius: 0 1em 1em 0;
-    &:before {
+    &::before {
         margin-left: -.65em;
     }
 }
