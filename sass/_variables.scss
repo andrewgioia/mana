@@ -1,5 +1,10 @@
+// base variables
 $ms-font-path: '../fonts' !default;
-$ms-version: '1.9.0' !default;
+$ms-version: '1.9.1' !default;
 $ms-font-size-base: 14px !default;
 $ms-prefix: ms !default;
 $ms-serif-font: 'MPlantin, Garamond, Palatino, 'Times New Roman', Times, serif' !default;
+
+// colors
+$ms-multicolor-flat: #cca753;
+$ms-multicolor-grad: linear-gradient(45deg, #cca54f 0%, #e0d3bb 50%, #cca54f 100%);

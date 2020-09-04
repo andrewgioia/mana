@@ -11,6 +11,11 @@ All notable changes to this project will be documented in this file.
 
 ## Versions 
 
+### [1.9.1] 2020-09-04 Modal DFC symbols and Multicolor/duo support
+
+* **Added:** Two new double-faced symbols for `modal-face` and `modal-back` added, from [Zendikar Rising](https://scryfall.com/card/znr/264/riverglide-pathway-lavaglide-pathway) [#54](https://github.com/andrewgioia/mana/issues/54)
+* **Added:** Multicolor symbol with dual-layer support; add `.ms-duo` and the multicolor symbol uses both glyph layers, and adding `.ms-grad` makes it look like the Arena one with a gold gradient background [#43](https://github.com/andrewgioia/mana/issues/43)
+
 ### [1.9.0] 2020-09-03 All Arena ability symbols!
 
 * **Added:** Excited to add _all_ 53 ability symbols from Arena! This was a big task as many had to be drawn from scratch! [#41](https://github.com/andrewgioia/mana/issues/41), [#53](https://github.com/andrewgioia/mana/issues/53), [#52](https://github.com/andrewgioia/mana/issues/52), and [#44](https://github.com/andrewgioia/mana/issues/44)

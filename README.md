@@ -1,4 +1,4 @@
-# Mana v1.9.0
+# Mana v1.9.1
 
 ## The Magic: the Gathering mana symbol font!
 
@@ -16,11 +16,11 @@ $> npm install mana-font
 
 Bower is still supported but given their notice to migrate away from it I recommend NPM if you're using a package manager. This project is registered as 'mana-font' with [NPM](https://docs.npmjs.com/getting-started/what-is-npm) and `mana` with [Bower](https://bower.io/#getting-started). Just install using the above commands in your project and you can edit anything as needed.
 
-You can also download the [zip file](https://github.com/andrewgioia/Mana/archive/master.zip) here at Github and use the font files and CSS files in your project as needed.
+You can also download the [zip file](https://github.com/andrewgioia/mana/archive/master.zip) here at Github and use the font files and CSS files in your project as needed.
 
 ## Using Mana in your project
 
-Each mana symbol has its own font character. Display them in a manner similar to any icon font, like [Keyrune](http://andrewgioia.github.io/Keyrune), using the `<i class="ms ms-g"></i>` element and class syntax. Class name codes are based on textual mana symbol codes (like g for Green or 3 for, well, {3}).
+Each mana symbol has its own font character. Display them in a manner similar to any icon font, like [Keyrune](https://keyrune.andrewgioia.com), using the `<i class="ms ms-g"></i>` element and class syntax. Class name codes are based on textual mana symbol codes (like g for Green or 3 for, well, {3}).
 
 To use Mana, move the web font files to your `/fonts` directory and include the `mana.min.css` stylesheet in your `<head>`:
 
@@ -46,9 +46,9 @@ To add new icons, I recommend first creating a project in IcoMoon and uploading 
 
 ## Using Mana in desktop software
 
-If you'd like to use Mana as a desktop font (e.g., in a Word document) there are a few steps and things to know. First, to get it loaded on your system just download the [latest zip file](https://github.com/andrewgioia/Mana/archive/master.zip), extract it, and navigate to `Mana-master\fonts`. In there, install the `mana.ttf` font (typically by double clicking it).
+If you'd like to use Mana as a desktop font (e.g., in a Word document) there are a few steps and things to know. First, to get it loaded on your system just download the [latest zip file](https://github.com/andrewgioia/mana/archive/master.zip), extract it, and navigate to `mana-master\fonts`. In there, install the `mana.ttf` font (typically by double clicking it).
 
-Mana uses [private use characters](https://en.wikipedia.org/wiki/Private_Use_Areas) for the font glyphs so you unfortunately can't normally "type" anything in Word to see the symbols. To do so, open up the [Mana Cheatsheet](http://andrewgioia.github.io/Mana/cheatsheet.html) and copy the symbol you want, then paste it into Word (or whatever software you're using).
+Mana uses [private use characters](https://en.wikipedia.org/wiki/Private_Use_Areas) for the font glyphs so you unfortunately can't normally "type" anything in Word to see the symbols. To do so, open up the [Mana Cheatsheet](https://mana.andrewgioia.com/cheatsheet.html) and copy the symbol you want, then paste it into Word (or whatever software you're using).
 
 ## License
 

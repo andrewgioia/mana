@@ -1,0 +1,41 @@
+.@{ms-prefix}-duo {
+
+    // base border styles
+    &::after {
+        color: #000;
+        content: '';
+        display: block;
+        font-size: 1em;
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+    }
+
+    // set default inner to black unless we're adding color to the background
+    color: #fff;
+
+    // multicolor symbol
+    &.@{ms-prefix}-multicolor::after {
+        content: "\e986";
+    }
+
+    // colorized versions
+    &-color {
+        &::before {
+            color: #000;
+        }
+        &.@{ms-prefix}-multicolor {
+            &::after {
+                color: @ms-multicolor-flat;
+            }
+            &.@{ms-prefix}-grad::after {
+                background: @ms-multicolor-grad;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+        }
+    }
+
+}

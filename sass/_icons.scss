@@ -70,6 +70,7 @@
     &-tribal::before,
         &-multiple::before { content: "\e925"; }
     &-vanguard::before { content: "\e971"; }
+    &-multicolor::before { content: "\e985"; }
 
     // splits
     &-wu::before,
@@ -124,6 +125,8 @@
         &-emrakul::before { content: "\e90a"; }
         &-moon::before { content: "\e90b"; }
         &-enchantment::before { content: "\e920"; }
+        &-modal-face::before { content: "\e983"; }
+        &-modal-back::before { content: "\e984"; }
     }
 
     // other card elements
