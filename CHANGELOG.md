@@ -11,6 +11,10 @@ All notable changes to this project will be documented in this file.
 
 ## Versions 
 
+### [1.9.3] 2020-09-23 Corrects evergreen class name
+
+* **Fixed:** It's not evergreen abilities that get colorized in Arena, it's set-specific mechanics/abilities. The class name is corrected to be `.ms-mechanic`.
+
 ### [1.9.2] 2020-09-23 Adds evergreen color support
 
 * **Added:** Class `.ms-evergreen` on ability symbols will apply the gold gradient effect in Arena.
