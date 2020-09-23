@@ -11,6 +11,10 @@ All notable changes to this project will be documented in this file.
 
 ## Versions 
 
+### [1.9.2] 2020-09-23 Adds evergreen color support
+
+* **Added:** Class `.ms-evergreen` on ability symbols will apply the gold gradient effect in Arena.
+
 ### [1.9.1] 2020-09-04 Modal DFC symbols and Multicolor/duo support
 
 * **Added:** Two new double-faced symbols for `modal-face` and `modal-back` added, from [Zendikar Rising](https://scryfall.com/card/znr/264/riverglide-pathway-lavaglide-pathway) [#54](https://github.com/andrewgioia/mana/issues/54)

@@ -1318,3 +1318,8 @@ span.ms-half > .ms-cost {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.ms-evergreen {
+  background: linear-gradient(0deg, #c8913b 0%, #ecc65a 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
