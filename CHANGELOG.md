@@ -11,6 +11,10 @@ All notable changes to this project will be documented in this file.
 
 ## Versions 
 
+### [1.9.4] 2020-10-10 Kicker, Party, and Landfall abilities
+
+* **Added:** New ability symbols in Arena for Kicker, Party, and Landfall.
+
 ### [1.9.3] 2020-09-23 Corrects evergreen class name
 
 * **Fixed:** It's not evergreen abilities that get colorized in Arena, it's set-specific mechanics/abilities. The class name is corrected to be `.ms-mechanic`.
