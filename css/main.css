@@ -264,6 +264,17 @@ blockquote {
         font-style: normal;
     }
 
+.icons.indicators .icon .ms {
+    width: 22px;
+    margin: -2px 10px 0 5px;
+}
+
+    .icons.indicators .icon:hover .ms {
+        margin: 0 5px -1px 0;
+        width: 32px;
+        text-shadow: none;
+    }
+
 .vectors {
     padding: 10px 0 0;
 }

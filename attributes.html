@@ -228,6 +228,24 @@
                 </div>
                 <div class="clear"></div>
             </section>
+            <section class="content">
+                <h4>Card Color Indicators</h4>
+                <div class="example float-left">
+                    <span class="each"><i class="ms ms-2x ms-ci ms-ci-1 ms-ci-g"></i> Green</span>
+                    <span class="each"><i class="ms ms-2x ms-ci ms-ci-2 ms-ci-rg"></i> Red/Green</span>
+                    <span class="each"><i class="ms ms-2x ms-ci ms-ci-3 ms-ci-gur"></i> Red/Green/Blue</span>
+                </div>
+                <div class="explanation">
+                    <p>Some cards use color indicator circles on their alternate faces to indicate that the card is still a certain color identity. Mana supports all 31 variations, though only about 10 different color combinations exist on cards currently.</p>
+                    <blockquote>
+                        &lt;<span class="e">i</span> <span class="a">class</span>=<span class="v">"ms ms-ci ms-ci-1 ms-ci-g"</span>&gt;&lt;/<span class="e">i</span>&gt; Green<br />
+                        &lt;<span class="e">i</span> <span class="a">class</span>=<span class="v">"ms ms-ci ms-ci-2 ms-ci-rg"</span>&gt;&lt;/<span class="e">i</span>&gt; Red/Green<br />
+                        &lt;<span class="e">i</span> <span class="a">class</span>=<span class="v">"ms ms-ci ms-ci-3 ms-ci-gur"</span>&gt;&lt;/<span class="e">i</span>&gt; Red/Green/Blue<br />
+                    </blockquote>
+                    <p>To display these, use class <code>.ms-ci</code> and then <code>.ms-ci-X</code> where "X" is the number of colors in the identity. Then add the corresponding color class, like <code>.ms-ci-wug</code>.</p>
+                    <p>Importantly, the only SVGs used to display these are the borders, and there are 5 different border glyphs. The colors themselves are displayed using the <code>background: conic-gradient();</code> CSS attribute, which you can view the support for on <a href="https://caniuse.com/css-conic-gradients" target="blank">Can I Use</a>. TL;DR: it has almost universal practical browser support.</p>
+                </div>
+            </section>
         </div>
     </main>
 
