@@ -11,6 +11,12 @@ All notable changes to this project will be documented in this file.
 
 ## Versions 
 
+### [1.10.0] 2020-12-21 Color indicators
+
+* **Added:** Color indicator symbols added for all color combinations ([#40](https://github.com/andrewgioia/mana/issues/40))
+* **Added:** New variables added for colors used in project as the beginning of getting all of these things into variables
+* **Fixed:** Sass variables were not called correctly in `_duo.scss`, this is now fixed
+
 ### [1.9.4] 2020-10-10 Kicker, Party, and Landfall abilities
 
 * **Added:** New ability symbols in Arena for Kicker, Party, and Landfall.

@@ -2,7 +2,7 @@
 
 .#{$ms-prefix}-cost {
 
-    background-color: #BEB9B2;
+    background-color: $ms-base-colorless;
     border-radius: 1em;
     color: #111;
     font-size: 0.95em;
@@ -14,23 +14,23 @@
     // single costs
     &.#{$ms-prefix}-w,
     &.#{$ms-prefix}-wp {
-        background-color: #F0F2C0;
+        background-color: $ms-base-white;
     }
     &.#{$ms-prefix}-u,
     &.#{$ms-prefix}-up {
-        background-color: #B5CDE3;
+        background-color: $ms-base-blue;
     }
     &.#{$ms-prefix}-b,
     &.#{$ms-prefix}-bp {
-        background-color: #ACA29A;
+        background-color: $ms-base-black;
     }
     &.#{$ms-prefix}-r,
     &.#{$ms-prefix}-rp {
-        background-color: #DB8664;
+        background-color: $ms-base-red;
     }
     &.#{$ms-prefix}-g,
     &.#{$ms-prefix}-gp {
-        background-color: #93B483;
+        background-color: $ms-base-green;
     }
 
     // split costs
