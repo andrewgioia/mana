@@ -123,6 +123,7 @@
         &-ignite::before { content: "\e908"; }
         &-spark::before { content: "\e909"; }
         &-emrakul::before { content: "\e90a"; }
+        &-lesson::before { content: "\e98f"; }
         &-moon::before { content: "\e90b"; }
         &-enchantment::before { content: "\e920"; }
         &-modal-face::before { content: "\e983"; }
@@ -215,6 +216,7 @@
         &-aftermath::before { content: "\e979"; }
         &-amass::before { content: "\e97a"; }
         &-ascend::before { content: "\e94a"; }
+        &-boast::before { content: "\e991"; }
         &-companion::before { content: "\e97b"; }
         &-constellation::before { content: "\e97c"; }
         &-convoke::before { content: "\e949"; }
@@ -230,6 +232,7 @@
         &-first-strike::before { content: "\e950"; }
         &-flash::before { content: "\e951"; }
         &-flying::before { content: "\e952"; }
+        &-foretell::before { content: "\e990"; }
         &-haste::before { content: "\e953"; }
         &-hexproof {
             &::before { content: "\e954"; }
@@ -243,7 +246,9 @@
         &-jumpstart::before { content: "\e95b"; }
         &-kicker::before { content: "\e989"; }
         &-landfall::before { content: "\e988"; }
+        &-learn::before { content: "\e994"; }
         &-lifelink::before { content: "\e95c"; }
+        &-magecraft::before { content: "\e993"; }
         &-menace::before { content: "\e95d"; }
         &-mentor::before { content: "\e95e"; }
         &-mutate::before { content: "\e980"; }
@@ -267,5 +272,6 @@
             &-fabricate::before { content: "\e966"; }
         &-undergrowth::before { content: "\e967"; }
         &-vigilance::before { content: "\e968"; }
+        &-ward::before { content: "\e992"; }
     }
 }
