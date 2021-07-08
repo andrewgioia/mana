@@ -11,6 +11,15 @@ All notable changes to this project will be documented in this file.
 
 ## Versions 
 
+### [1.12.0] 2021-07-08 AFR abilities
+
+* **Added:** Only seems to be 1 ability symbol in Arena for AFR: venturing into the dungeon. Wizards calls this "Dungeon" so we're naming it that as well.
+
+### [1.11.0] 2021-07-06 More Arena ability symbols
+
+* **Added:** Ability symbols for Boast, Foretell, Magecraft, Learn, and Ward
+* **Added:** Lesson DFC symbol
+
 ### [1.10.0] 2020-12-21 Color indicators
 
 * **Added:** Color indicator symbols added for all color combinations ([#40](https://github.com/andrewgioia/mana/issues/40))
