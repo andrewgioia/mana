@@ -11,6 +11,10 @@ All notable changes to this project will be documented in this file.
 
 ## Versions 
 
+### [1.12.1] 2021-07-08 SVG files
+
+* **Added:** missing SVG files for the most recent abilities and type symbols.
+
 ### [1.12.0] 2021-07-08 AFR abilities
 
 * **Added:** Only seems to be 1 ability symbol in Arena for AFR: venturing into the dungeon. Wizards calls this "Dungeon" so we're naming it that as well.
