@@ -1,14 +1,14 @@
 @font-face {
   font-family: 'Mana';
-  src: url('../fonts/mana.eot?v=1.11.0');
-  src: url('../fonts/mana.eot?#iefix&v=1.11.0') format('embedded-opentype'), url('../fonts/mana.woff?v=1.11.0') format('woff'), url('../fonts/mana.ttf?v=1.11.0') format('truetype'), url('../fonts/mana.svg?v=1.11.0#mana') format('svg');
+  src: url('../fonts/mana.eot?v=1.12.0');
+  src: url('../fonts/mana.eot?#iefix&v=1.12.0') format('embedded-opentype'), url('../fonts/mana.woff?v=1.12.0') format('woff'), url('../fonts/mana.ttf?v=1.12.0') format('truetype'), url('../fonts/mana.svg?v=1.12.0#mana') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'MPlantin';
-  src: url('../fonts/mplantin.eot?v=1.11.0');
-  src: url('../fonts/mplantin.eot?#iefix&v=1.11.0') format('embedded-opentype'), url('../fonts/mplantin.woff?v=1.11.0') format('woff'), url('../fonts/mplantin.ttf?v=1.11.0') format('truetype'), url('../fonts/mplantin.svg?v=1.11.0#mplantin') format('svg');
+  src: url('../fonts/mplantin.eot?v=1.12.0');
+  src: url('../fonts/mplantin.eot?#iefix&v=1.12.0') format('embedded-opentype'), url('../fonts/mplantin.woff?v=1.12.0') format('woff'), url('../fonts/mplantin.ttf?v=1.12.0') format('truetype'), url('../fonts/mplantin.svg?v=1.12.0#mplantin') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -516,6 +516,9 @@
 }
 .ms-ability-double-strike::before {
   content: "\e94d";
+}
+.ms-ability-dungeon::before {
+  content: "\e995";
 }
 .ms-ability-embalm::before {
   content: "\e97e";

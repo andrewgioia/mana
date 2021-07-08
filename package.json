@@ -4,7 +4,7 @@
   "description": "Mana documentation website",
   "main": "index.html",
   "dependencies": {
-    "mana-font": "^1.11.0",
+    "mana-font": "^1.12.1",
     "zepto": "*"
   },
   "devDependencies": {},
