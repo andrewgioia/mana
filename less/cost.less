@@ -242,21 +242,26 @@
     }
 
     // Snow mana
-    &.@{ms-prefix}-s::before {
-        color: #fff;
-        -webkit-text-stroke: 2px #fff;
-        font-size: 0.85em;
-        top: -0.05em;
-        position: relative;
-        display: inline-block;
-    }
-    &.@{ms-prefix}-s::after {
-        //text-shadow: -1px 1px 0 #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, 1px 1px 0 #fff;
-        content: "\e619";
-        position: absolute;
-        color: #333;
-        margin-left: -0.9em;
-        font-size: 1.1em;
+    &.@{ms-prefix}-s {
+        &::before {
+            color: #fff;
+            -webkit-text-stroke: 2px #fff;
+            font-size: 0.85em;
+            top: -0.05em;
+            position: relative;
+            display: inline-block;
+        }
+        &::after {
+            //text-shadow: -1px 1px 0 #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, 1px 1px 0 #fff;
+            content: "\e619";
+            position: absolute;
+            color: #333;
+            margin-left: -0.9em;
+            font-size: 1.1em;
+        }
+        &-mtga::before {
+            color: #fff;
+        }
     }
 
     // Tap symbols

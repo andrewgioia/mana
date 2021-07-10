@@ -1,14 +1,14 @@
 @font-face {
   font-family: 'Mana';
-  src: url('../fonts/mana.eot?v=1.12.0');
-  src: url('../fonts/mana.eot?#iefix&v=1.12.0') format('embedded-opentype'), url('../fonts/mana.woff?v=1.12.0') format('woff'), url('../fonts/mana.ttf?v=1.12.0') format('truetype'), url('../fonts/mana.svg?v=1.12.0#mana') format('svg');
+  src: url('../fonts/mana.eot?v=1.13.0');
+  src: url('../fonts/mana.eot?#iefix&v=1.13.0') format('embedded-opentype'), url('../fonts/mana.woff?v=1.13.0') format('woff'), url('../fonts/mana.ttf?v=1.13.0') format('truetype'), url('../fonts/mana.svg?v=1.13.0#mana') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'MPlantin';
-  src: url('../fonts/mplantin.eot?v=1.12.0');
-  src: url('../fonts/mplantin.eot?#iefix&v=1.12.0') format('embedded-opentype'), url('../fonts/mplantin.woff?v=1.12.0') format('woff'), url('../fonts/mplantin.ttf?v=1.12.0') format('truetype'), url('../fonts/mplantin.svg?v=1.12.0#mplantin') format('svg');
+  src: url('../fonts/mplantin.eot?v=1.13.0');
+  src: url('../fonts/mplantin.eot?#iefix&v=1.13.0') format('embedded-opentype'), url('../fonts/mplantin.woff?v=1.13.0') format('woff'), url('../fonts/mplantin.ttf?v=1.13.0') format('truetype'), url('../fonts/mplantin.svg?v=1.13.0#mplantin') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -27,6 +27,12 @@
 }
 .ms-w::before {
   content: "\e600";
+}
+.ms-w-original::before {
+  content: "\e997";
+}
+.ms-w-list::before {
+  content: "\e998";
 }
 .ms-u::before {
   content: "\e601";
@@ -122,6 +128,9 @@
 }
 .ms-s::before {
   content: "\e619";
+}
+.ms-s-mtga::before {
+  content: "\e996";
 }
 .ms-c::before {
   content: "\e904";
@@ -504,6 +513,9 @@
 }
 .ms-ability-convoke::before {
   content: "\e949";
+}
+.ms-ability-d20::before {
+  content: "\e999";
 }
 .ms-ability-deathtouch::before {
   content: "\e94b";
@@ -953,6 +965,9 @@
   color: #333;
   margin-left: -0.9em;
   font-size: 1.1em;
+}
+.ms-cost.ms-s-mtga::before {
+  color: #fff;
 }
 .ms-cost.ms-untap {
   background-color: #111;

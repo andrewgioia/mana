@@ -4,6 +4,8 @@
 
     // resources
     &-w::before { content: "\e600"; }
+    &-w-original::before { content: "\e997"; }
+    &-w-list::before { content: "\e998"; }
     &-u::before { content: "\e601"; }
     &-b::before { content: "\e602"; }
     &-r::before { content: "\e603"; }
@@ -39,6 +41,7 @@
     &-rp::before,
     &-gp::before { content: "\e618"; }
     &-s::before { content: "\e619"; }
+    &-s-mtga::before { content: "\e996"; }
     &-c::before { content: "\e904"; }
     &-e::before,
     &-energy::before{ content: "\e907"; }
@@ -220,6 +223,7 @@
         &-companion::before { content: "\e97b"; }
         &-constellation::before { content: "\e97c"; }
         &-convoke::before { content: "\e949"; }
+        &-d20::before { content: "\e999"; }
         &-deathtouch::before { content: "\e94b"; }
         &-defender::before { content: "\e94c"; }
         &-devotion::before { content: "\e97d"; }
@@ -263,8 +267,7 @@
         &-spectacle::before { content: "\e96b"; }
         &-static::before,
             &-enchant::before,
-            &-improvise::before,
-            &-kicker::before { content: "\e962"; }
+            &-improvise::before { content: "\e962"; }
         &-summoning-sickness::before { content: "\e96a"; }
         &-surveil::before { content: "\e963"; }
         &-trample::before { content: "\e964"; }

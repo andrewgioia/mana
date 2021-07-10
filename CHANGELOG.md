@@ -11,6 +11,14 @@ All notable changes to this project will be documented in this file.
 
 ## Versions 
 
+### [1.13.0] 2021-07-10 D20, alternate white symbols, basic ligature support
+
+* **Added:** D20 ability symbol from Arena
+* **Added:** Alternate white mana symbols (the original pre-Ice Age symbol and the recent List variant) ([#70](https://github.com/andrewgioia/mana/issues/70))
+* **Added:** Arena's snow mana symbol variant ([#69](https://github.com/andrewgioia/mana/issues/69))
+* **Fixed:** Missing variable in `_variables.scss` for `.ms-ability-grad` added ([#64](https://github.com/andrewgioia/mana/issues/64) and [#76](https://github.com/andrewgioia/mana/issues/76))
+* **Fixed:** Kicker icon is no longer overwritten by the static ability icon in the Sass version ([#65](https://github.com/andrewgioia/mana/issues/65))
+
 ### [1.12.1] 2021-07-08 SVG files
 
 * **Added:** missing SVG files for the most recent abilities and type symbols.
