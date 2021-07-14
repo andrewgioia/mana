@@ -7,9 +7,12 @@ All notable changes to this project will be documented in this file.
 * v2.0 updates to add all digital product tokens and counter symbols, fix the core numbered casting cost icons, and modernize this project.
 * Update this changelog for better formatting 
 * Crop original full-width symbols to actual width
-* Add ligatures for easier desktop use
 
 ## Versions 
+
+### [1.14.0] 2021-07-14 Strixhaven schools
+
+* **Added:** Lorehold, Prismari, Silverquill, Quandrix, and Witherbloom school symbols added, including dual layered support
 
 ### [1.13.0] 2021-07-10 D20, alternate white symbols, basic ligature support
 

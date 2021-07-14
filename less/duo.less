@@ -23,11 +23,37 @@
         content: "\e986";
     }
 
+    // strixhaven schools
+    &.@{ms-prefix}-school {
+        &-lorehold::after {
+            content: "\e99b";
+        }
+        &-prismari::after {
+            content: "\e99d";
+        }
+        &-quandrix::after {
+            content: "\e99f";
+        }
+        &-silverquill::after {
+            content: "\e9a1";
+        }
+        &-witherbloom {
+            &::before {
+                content: "\e9a3";
+            }
+            &::after {
+                content: "\e9a4";
+            }
+        }
+    }
+
     // colorized versions
     &-color {
+        // default outer color
         &::before {
             color: @ms-border-black;
         }
+        // multicolor
         &.@{ms-prefix}-multicolor {
             &::after {
                 color: @ms-multicolor-flat;
@@ -36,6 +62,29 @@
                 background: @ms-multicolor-grad;
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
+            }
+        }
+        // strixhaven schools
+        &.@{ms-prefix}-school {
+            &-lorehold {
+                &::before { color: #a03731; }
+                &::after { color: #e4e8c7; }
+            }
+            &-prismari {
+                &::before { color: #a23431; }
+                &::after { color: #322f5c; }
+            }
+            &-quandrix {
+                &::before { color: #352e5f; }
+                &::after { color: #519e52; }
+            }
+            &-silverquill {
+                &::before { color: #181616; }
+                &::after { color: #e5e9ca; }
+            }
+            &-witherbloom {
+                &::before { color: #2f312d; }
+                &::after { color: #4f9b4f; }
             }
         }
     }

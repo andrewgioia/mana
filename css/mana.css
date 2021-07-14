@@ -1,14 +1,14 @@
 @font-face {
   font-family: 'Mana';
-  src: url('../fonts/mana.eot?v=1.13.0');
-  src: url('../fonts/mana.eot?#iefix&v=1.13.0') format('embedded-opentype'), url('../fonts/mana.woff?v=1.13.0') format('woff'), url('../fonts/mana.ttf?v=1.13.0') format('truetype'), url('../fonts/mana.svg?v=1.13.0#mana') format('svg');
+  src: url('../fonts/mana.eot?v=1.14.0');
+  src: url('../fonts/mana.eot?#iefix&v=1.14.0') format('embedded-opentype'), url('../fonts/mana.woff?v=1.14.0') format('woff'), url('../fonts/mana.ttf?v=1.14.0') format('truetype'), url('../fonts/mana.svg?v=1.14.0#mana') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'MPlantin';
-  src: url('../fonts/mplantin.eot?v=1.13.0');
-  src: url('../fonts/mplantin.eot?#iefix&v=1.13.0') format('embedded-opentype'), url('../fonts/mplantin.woff?v=1.13.0') format('woff'), url('../fonts/mplantin.ttf?v=1.13.0') format('truetype'), url('../fonts/mplantin.svg?v=1.13.0#mplantin') format('svg');
+  src: url('../fonts/mplantin.eot?v=1.14.0');
+  src: url('../fonts/mplantin.eot?#iefix&v=1.14.0') format('embedded-opentype'), url('../fonts/mplantin.woff?v=1.14.0') format('woff'), url('../fonts/mplantin.ttf?v=1.14.0') format('truetype'), url('../fonts/mplantin.svg?v=1.14.0#mplantin') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -385,6 +385,21 @@
 }
 .ms-polis-meletis::before {
   content: "\e928";
+}
+.ms-school-lorehold::before {
+  content: "\e99a";
+}
+.ms-school-prismari::before {
+  content: "\e99c";
+}
+.ms-school-quandrix::before {
+  content: "\e99e";
+}
+.ms-school-silverquill::before {
+  content: "\e9a0";
+}
+.ms-school-witherbloom::before {
+  content: "\e9a2";
 }
 .ms-counter-arrow::before {
   content: "\e92b";
@@ -1351,6 +1366,24 @@ span.ms-half > .ms-cost {
 .ms-duo.ms-multicolor::after {
   content: "\e986";
 }
+.ms-duo.ms-school-lorehold::after {
+  content: "\e99b";
+}
+.ms-duo.ms-school-prismari::after {
+  content: "\e99d";
+}
+.ms-duo.ms-school-quandrix::after {
+  content: "\e99f";
+}
+.ms-duo.ms-school-silverquill::after {
+  content: "\e9a1";
+}
+.ms-duo.ms-school-witherbloom::before {
+  content: "\e9a3";
+}
+.ms-duo.ms-school-witherbloom::after {
+  content: "\e9a4";
+}
 .ms-duo-color::before {
   color: #010101;
 }
@@ -1361,6 +1394,36 @@ span.ms-half > .ms-cost {
   background: linear-gradient(45deg, #cca54f 0%, #e0d3bb 50%, #cca54f 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+.ms-duo-color.ms-school-lorehold::before {
+  color: #a03731;
+}
+.ms-duo-color.ms-school-lorehold::after {
+  color: #e4e8c7;
+}
+.ms-duo-color.ms-school-prismari::before {
+  color: #a23431;
+}
+.ms-duo-color.ms-school-prismari::after {
+  color: #322f5c;
+}
+.ms-duo-color.ms-school-quandrix::before {
+  color: #352e5f;
+}
+.ms-duo-color.ms-school-quandrix::after {
+  color: #519e52;
+}
+.ms-duo-color.ms-school-silverquill::before {
+  color: #181616;
+}
+.ms-duo-color.ms-school-silverquill::after {
+  color: #e5e9ca;
+}
+.ms-duo-color.ms-school-witherbloom::before {
+  color: #2f312d;
+}
+.ms-duo-color.ms-school-witherbloom::after {
+  color: #4f9b4f;
 }
 .ms-ci {
   border-radius: 100%;
