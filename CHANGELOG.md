@@ -10,6 +10,12 @@ All notable changes to this project will be documented in this file.
 
 ## Versions 
 
+### [1.15.1] 2023-03-03 Fabricate
+
+* **Fixed:** Fabricate has its own correct symbol now. It had previously been aliased and this got messed up in the last build.
+* **Changed:** Dungeon now has an alias as a card type (`.ms-dungeon`) ([#84](https://github.com/andrewgioia/mana/issues/84))
+* **Added:** Ticket symbol from Unfinity ([#92](https://github.com/andrewgioia/mana/issues/92))
+
 ### [1.15.0] 2023-03-03 Backlog of Arena ability and counter symbols
 
 * **Added:** Finally added the huge backlog of Arena ability symbols: fabricate, changeling, domain, day/night, daybound/nightbound, coven, investigate, decayed, cleave, disturb, exploit, training, channel, ninjutsu, reconfigure, blitz, alliance, obscura (not sure what this corresponds to), casualty, hideaway, read ahead, enlist, specialist, unearth, meld, prototype, toxic, phyrexian, corrupted, and for mirrodin!
