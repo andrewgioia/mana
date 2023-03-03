@@ -1,14 +1,14 @@
 @font-face {
   font-family: 'Mana';
-  src: url('../fonts/mana.eot?v=1.14.0');
-  src: url('../fonts/mana.eot?#iefix&v=1.14.0') format('embedded-opentype'), url('../fonts/mana.woff?v=1.14.0') format('woff'), url('../fonts/mana.ttf?v=1.14.0') format('truetype'), url('../fonts/mana.svg?v=1.14.0#mana') format('svg');
+  src: url('../fonts/mana.eot?v=1.15.0');
+  src: url('../fonts/mana.eot?#iefix&v=1.15.0') format('embedded-opentype'), url('../fonts/mana.woff?v=1.15.0') format('woff'), url('../fonts/mana.ttf?v=1.15.0') format('truetype'), url('../fonts/mana.svg?v=1.15.0#mana') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'MPlantin';
-  src: url('../fonts/mplantin.eot?v=1.14.0');
-  src: url('../fonts/mplantin.eot?#iefix&v=1.14.0') format('embedded-opentype'), url('../fonts/mplantin.woff?v=1.14.0') format('woff'), url('../fonts/mplantin.ttf?v=1.14.0') format('truetype'), url('../fonts/mplantin.svg?v=1.14.0#mplantin') format('svg');
+  src: url('../fonts/mplantin.eot?v=1.15.0');
+  src: url('../fonts/mplantin.eot?#iefix&v=1.15.0') format('embedded-opentype'), url('../fonts/mplantin.woff?v=1.15.0') format('woff'), url('../fonts/mplantin.ttf?v=1.15.0') format('truetype'), url('../fonts/mplantin.svg?v=1.15.0#mplantin') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -485,6 +485,12 @@
 .ms-counter-vortex::before {
   content: "\e946";
 }
+.ms-counter-shield::before {
+  content: "\e9c3";
+}
+.ms-counter-stun::before {
+  content: "\e9c2";
+}
 .ms-ability-activated::before,
 .ms-ability-crew::before,
 .ms-ability-cycling::before {
@@ -511,14 +517,32 @@
 .ms-ability-aftermath::before {
   content: "\e979";
 }
+.ms-ability-alliance::before {
+  content: "\e9b5";
+}
 .ms-ability-amass::before {
   content: "\e97a";
 }
 .ms-ability-ascend::before {
   content: "\e94a";
 }
+.ms-ability-blitz::before {
+  content: "\e9b4";
+}
 .ms-ability-boast::before {
   content: "\e991";
+}
+.ms-ability-casualty::before {
+  content: "\e9b7";
+}
+.ms-ability-changeling::before {
+  content: "\e9a6";
+}
+.ms-ability-channel::before {
+  content: "\e9b1";
+}
+.ms-ability-cleave::before {
+  content: "\e9ad";
 }
 .ms-ability-companion::before {
   content: "\e97b";
@@ -529,17 +553,38 @@
 .ms-ability-convoke::before {
   content: "\e949";
 }
+.ms-ability-corrupted::before {
+  content: "\e9c0";
+}
+.ms-ability-coven::before {
+  content: "\e9aa";
+}
 .ms-ability-d20::before {
   content: "\e999";
 }
+.ms-ability-day-night::before {
+  content: "\e9a8";
+}
+.ms-ability-daybound-nightbound::before {
+  content: "\e9a9";
+}
 .ms-ability-deathtouch::before {
   content: "\e94b";
+}
+.ms-ability-decayed::before {
+  content: "\e9ac";
 }
 .ms-ability-defender::before {
   content: "\e94c";
 }
 .ms-ability-devotion::before {
   content: "\e97d";
+}
+.ms-ability-disturb::before {
+  content: "\e9ae";
+}
+.ms-ability-domain::before {
+  content: "\e9a7";
 }
 .ms-ability-double-strike::before {
   content: "\e94d";
@@ -550,6 +595,9 @@
 .ms-ability-embalm::before {
   content: "\e97e";
 }
+.ms-ability-enlist::before {
+  content: "\e9ba";
+}
 .ms-ability-enrage::before {
   content: "\e94e";
 }
@@ -558,6 +606,9 @@
 }
 .ms-ability-eternalize::before {
   content: "\e97f";
+}
+.ms-ability-exploit::before {
+  content: "\e9af";
 }
 .ms-ability-explore::before {
   content: "\e94f";
@@ -570,6 +621,9 @@
 }
 .ms-ability-flying::before {
   content: "\e952";
+}
+.ms-ability-for-mirrodin::before {
+  content: "\e9c1";
 }
 .ms-ability-foretell::before {
   content: "\e990";
@@ -595,8 +649,14 @@
 .ms-ability-hexproof-white::before {
   content: "\e959";
 }
+.ms-ability-hideaway::before {
+  content: "\e9b8";
+}
 .ms-ability-indestructible::before {
   content: "\e95a";
+}
+.ms-ability-investigate::before {
+  content: "\e9ab";
 }
 .ms-ability-jumpstart::before {
   content: "\e95b";
@@ -616,6 +676,9 @@
 .ms-ability-magecraft::before {
   content: "\e993";
 }
+.ms-ability-meld::before {
+  content: "\e9bd";
+}
 .ms-ability-menace::before {
   content: "\e95d";
 }
@@ -625,11 +688,23 @@
 .ms-ability-mutate::before {
   content: "\e980";
 }
+.ms-ability-ninjutsu::before {
+  content: "\e9b2";
+}
+.ms-ability-obscura::before {
+  content: "\e9b6";
+}
 .ms-ability-party::before {
   content: "\e987";
 }
+.ms-ability-phyrexian::before {
+  content: "\e618";
+}
 .ms-ability-proliferate::before {
   content: "\e981";
+}
+.ms-ability-prototype::before {
+  content: "\e9be";
 }
 .ms-ability-prowess::before {
   content: "\e982";
@@ -640,11 +715,20 @@
 .ms-ability-reach::before {
   content: "\e960";
 }
+.ms-ability-read-ahead::before {
+  content: "\e9b9";
+}
+.ms-ability-reconfigure::before {
+  content: "\e9b3";
+}
 .ms-ability-revolt::before {
   content: "\e961";
 }
 .ms-ability-riot::before {
   content: "\e973";
+}
+.ms-ability-specialize::before {
+  content: "\e9bb";
 }
 .ms-ability-spectacle::before {
   content: "\e96b";
@@ -660,6 +744,12 @@
 .ms-ability-surveil::before {
   content: "\e963";
 }
+.ms-ability-toxic::before {
+  content: "\e9bf";
+}
+.ms-ability-training::before {
+  content: "\e9b0";
+}
 .ms-ability-trample::before {
   content: "\e964";
 }
@@ -672,6 +762,9 @@
 }
 .ms-ability-undergrowth::before {
   content: "\e967";
+}
+.ms-ability-unearth::before {
+  content: "\e9bc";
 }
 .ms-ability-vigilance::before {
   content: "\e968";
@@ -1348,6 +1441,12 @@ span.ms-half > .ms-cost {
 }
 .ms-6x {
   font-size: 4.5em;
+}
+/*
+ * Fixed width */
+.ms-fw {
+  width: 1em;
+  text-align: center;
 }
 .ms-duo {
   color: #fff;
