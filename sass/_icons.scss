@@ -210,6 +210,9 @@
         &-time::before { content: "\e942"; }
         &-verse::before { content: "\e945"; }
         &-vortex::before { content: "\e946"; }
+        // arena
+        &-shield::before { content: "\e9c3"; }
+        &-stun::before { content: "\e9c2"; }
     }
 
     // abilities
@@ -224,26 +227,42 @@
         &-afflict::before { content: "\e977"; }
         &-afterlife::before { content: "\e978"; }
         &-aftermath::before { content: "\e979"; }
+        &-alliance::before { content: "\e9b5"; }
         &-amass::before { content: "\e97a"; }
         &-ascend::before { content: "\e94a"; }
+        &-blitz::before { content: "\e9b4"; }
         &-boast::before { content: "\e991"; }
+        &-casualty::before { content: "\e9b7"; }
+        &-changeling::before { content: "\e9a6"; }
+        &-channel::before { content: "\e9b1"; }
+        &-cleave::before { content: "\e9ad"; }
         &-companion::before { content: "\e97b"; }
         &-constellation::before { content: "\e97c"; }
         &-convoke::before { content: "\e949"; }
+        &-corrupted::before { content: "\e9c0"; }
+        &-coven::before { content: "\e9aa"; }
         &-d20::before { content: "\e999"; }
+        &-day-night::before { content: "\e9a8"; }
+        &-daybound-nightbound::before { content: "\e9a9"; }
         &-deathtouch::before { content: "\e94b"; }
+        &-decayed::before { content: "\e9ac"; }
         &-defender::before { content: "\e94c"; }
         &-devotion::before { content: "\e97d"; }
+        &-disturb::before { content: "\e9ae"; }
+        &-domain::before { content: "\e9a7"; }
         &-double-strike::before { content: "\e94d"; }
         &-dungeon::before { content: "\e995"; }
         &-embalm::before { content: "\e97e"; }
+        &-enlist::before { content: "\e9ba"; }
         &-enrage::before { content: "\e94e"; }
         &-escape::before { content: "\e969"; }
         &-eternalize::before { content: "\e97f"; }
+        &-exploit::before { content: "\e9af"; }
         &-explore::before { content: "\e94f"; }
         &-first-strike::before { content: "\e950"; }
         &-flash::before { content: "\e951"; }
         &-flying::before { content: "\e952"; }
+        &-for-mirrodin::before { content: "\e9c1"; }
         &-foretell::before { content: "\e990"; }
         &-haste::before { content: "\e953"; }
         &-hexproof {
@@ -254,34 +273,47 @@
             &-red::before { content: "\e958"; }
             &-white::before { content: "\e959"; }
         }
+        &-hideaway::before { content: "\e9b8"; }
         &-indestructible::before { content: "\e95a"; }
+        &-investigate::before { content: "\e9ab"; }
         &-jumpstart::before { content: "\e95b"; }
         &-kicker::before { content: "\e989"; }
         &-landfall::before { content: "\e988"; }
         &-learn::before { content: "\e994"; }
         &-lifelink::before { content: "\e95c"; }
         &-magecraft::before { content: "\e993"; }
+        &-meld::before { content: "\e9bd"; }
         &-menace::before { content: "\e95d"; }
         &-mentor::before { content: "\e95e"; }
         &-mutate::before { content: "\e980"; }
+        &-ninjutsu::before { content: "\e9b2"; }
+        &-obscura::before { content: "\e9b6"; }
         &-party::before { content: "\e987"; }
+        &-phyrexian::before { content: "\e618"; }
         &-proliferate::before { content: "\e981"; }
+        &-prototype::before { content: "\e9be"; }
         &-prowess::before { content: "\e982"; }
         &-raid::before { content: "\e95f"; }
         &-reach::before { content: "\e960"; }
+        &-read-ahead::before { content: "\e9b9"; }
+        &-reconfigure::before { content: "\e9b3"; }
         &-revolt::before { content: "\e961"; }
         &-riot::before { content: "\e973"; }
+        &-specialize::before { content: "\e9bb"; }
         &-spectacle::before { content: "\e96b"; }
         &-static::before,
             &-enchant::before,
             &-improvise::before { content: "\e962"; }
         &-summoning-sickness::before { content: "\e96a"; }
         &-surveil::before { content: "\e963"; }
+        &-toxic::before { content: "\e9bf"; }
+        &-training::before { content: "\e9b0"; }
         &-trample::before { content: "\e964"; }
         &-transform::before { content: "\e965"; }
         &-triggered::before,
             &-fabricate::before { content: "\e966"; }
         &-undergrowth::before { content: "\e967"; }
+        &-unearth::before { content: "\e9bc"; }
         &-vigilance::before { content: "\e968"; }
         &-ward::before { content: "\e992"; }
     }

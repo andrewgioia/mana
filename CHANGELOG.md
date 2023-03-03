@@ -10,6 +10,12 @@ All notable changes to this project will be documented in this file.
 
 ## Versions 
 
+### [1.15.0] 2023-03-03 Backlog of Arena ability and counter symbols
+
+* **Added:** Finally added the huge backlog of Arena ability symbols: fabricate, changeling, domain, day/night, daybound/nightbound, coven, investigate, decayed, cleave, disturb, exploit, training, channel, ninjutsu, reconfigure, blitz, alliance, obscura (not sure what this corresponds to), casualty, hideaway, read ahead, enlist, specialist, unearth, meld, prototype, toxic, phyrexian, corrupted, and for mirrodin!
+    * Big thanks to @ThePieBandit for the motivation and asset help!
+* **Added:** 2 missing Arena counters: stun and shield
+
 ### [1.14.0] 2021-07-14 Strixhaven schools
 
 * **Added:** Lorehold, Prismari, Silverquill, Quandrix, and Witherbloom school symbols added, including dual layered support
