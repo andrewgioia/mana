@@ -10,6 +10,10 @@ All notable changes to this project will be documented in this file.
 
 ## Versions 
 
+### [1.15.2] 2023-03-04 GUP and GWP classes (@Araneline)
+
+* **Merged:** ([PR #93](https://github.com/andrewgioia/mana/pull/93)) by @Araneline to add support for the GUP and GWP split phyrexian classes
+
 ### [1.15.1] 2023-03-03 Fabricate
 
 * **Fixed:** Fabricate has its own correct symbol now. It had previously been aliased and this got messed up in the last build.

@@ -1,4 +1,4 @@
-# Mana v1.15.1
+# Mana v1.15.2
 
 ## The Magic: the Gathering mana symbol font!
 
