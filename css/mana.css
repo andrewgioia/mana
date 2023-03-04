@@ -123,7 +123,11 @@
 .ms-up::before,
 .ms-bp::before,
 .ms-rp::before,
-.ms-gp::before {
+.ms-gp::before,
+.ms-gup::before,
+.ms-gup::after,
+.ms-gwp::before,
+.ms-gwp::after {
   content: "\e618";
 }
 .ms-s::before {
@@ -822,7 +826,9 @@
 .ms-cost.ms-2u,
 .ms-cost.ms-2b,
 .ms-cost.ms-2r,
-.ms-cost.ms-2g {
+.ms-cost.ms-2g,
+.ms-cost.ms-gup,
+.ms-cost.ms-gwp {
   position: relative;
   width: 1.3em;
   height: 1.3em;
@@ -842,6 +848,8 @@
 .ms-cost.ms-2b::before,
 .ms-cost.ms-2r::before,
 .ms-cost.ms-2g::before,
+.ms-cost.ms-gup::before,
+.ms-cost.ms-gwp::before,
 .ms-cost.ms-wu::after,
 .ms-cost.ms-wb::after,
 .ms-cost.ms-ub::after,
@@ -856,7 +864,9 @@
 .ms-cost.ms-2u::after,
 .ms-cost.ms-2b::after,
 .ms-cost.ms-2r::after,
-.ms-cost.ms-2g::after {
+.ms-cost.ms-2g::after,
+.ms-cost.ms-gup::after,
+.ms-cost.ms-gwp::after {
   font-size: 0.55em !important;
   position: absolute;
 }
@@ -874,7 +884,9 @@
 .ms-cost.ms-2u::before,
 .ms-cost.ms-2b::before,
 .ms-cost.ms-2r::before,
-.ms-cost.ms-2g::before {
+.ms-cost.ms-2g::before,
+.ms-cost.ms-gup::before,
+.ms-cost.ms-gwp::before {
   top: -0.38em;
   left: 0.28em;
 }
@@ -892,7 +904,9 @@
 .ms-cost.ms-2u::after,
 .ms-cost.ms-2b::after,
 .ms-cost.ms-2r::after,
-.ms-cost.ms-2g::after {
+.ms-cost.ms-2g::after,
+.ms-cost.ms-gup::after,
+.ms-cost.ms-gwp::after {
   top: 0.5em;
   left: 1em;
 }
@@ -976,7 +990,8 @@
   background: linear-gradient(135deg, #db8664 0%, #db8664 50%, #93b483 50%, #93b483 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#db8664', endColorstr='#93b483', GradientType=1);
 }
-.ms-cost.ms-gw {
+.ms-cost.ms-gw,
+.ms-cost.ms-gwp {
   background: #93b483;
   background: -moz-linear-gradient(-45deg, #93b483 0%, #93b483 50%, #edf2b0 50%, #edf2b0 100%);
   background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #93b483), color-stop(50%, #93b483), color-stop(50%, #edf2b0), color-stop(100%, #edf2b0));
@@ -986,7 +1001,8 @@
   background: linear-gradient(135deg, #93b483 0%, #93b483 50%, #edf2b0 50%, #edf2b0 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#93b483', endColorstr='#edf2b0', GradientType=1);
 }
-.ms-cost.ms-gu {
+.ms-cost.ms-gu,
+.ms-cost.ms-gup {
   background: #93b483;
   background: -moz-linear-gradient(-45deg, #93b483 0%, #93b483 50%, #b5cde3 50%, #b5cde3 100%);
   background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #93b483), color-stop(50%, #93b483), color-stop(50%, #b5cde3), color-stop(100%, #b5cde3));
