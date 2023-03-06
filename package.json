@@ -1,6 +1,6 @@
 {
   "name": "mana-font",
-  "version": "1.15.2",
+  "version": "1.15.3",
   "description": "Magic: the Gathering mana symbol pictographic font",
   "main": "css/mana.css",
   "repository": {

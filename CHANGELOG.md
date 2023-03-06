@@ -10,6 +10,10 @@ All notable changes to this project will be documented in this file.
 
 ## Versions 
 
+### [1.15.3] 2023-03-04 Remaining split Phyrexian classes
+
+* **Added:** All other split Phyrexian mana classes introduced recently ([#86](https://github.com/andrewgioia/mana/issues/86))
+
 ### [1.15.2] 2023-03-04 GUP and GWP classes (@Araneline)
 
 * **Merged:** ([PR #93](https://github.com/andrewgioia/mana/pull/93)) by @Araneline to add support for the GUP and GWP split phyrexian classes
