@@ -132,3 +132,33 @@
         }
     }
 }
+
+/**
+ * Saga loyalty */
+
+.#{$ms-prefix}-saga {
+    
+    // Numbers
+    &-1::after,
+    &-2::after,
+    &-3::after,
+    &-4::after,
+    &-5::after { // future proofing :P
+        color: #fff;
+        display: inline-block;
+        font-size: 0.6em;
+        font-family: $ms-serif-font;
+        position: absolute;
+        left: 0;
+        line-height: 1.75em;
+        width: 100%;
+        text-align: center;
+    }
+    
+    &-1::after { content: "I"; }
+    &-2::after { content: "II"; }
+    &-3::after { content: "III"; }
+    &-4::after { content: "IV"; }
+    &-5::after { content: "V"; }
+
+}
