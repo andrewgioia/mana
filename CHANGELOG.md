@@ -10,6 +10,17 @@ All notable changes to this project will be documented in this file.
 
 ## Versions 
 
+### [1.15.4] 2023-03-08 PRs 81 and 82
+
+* **Added:** Goad ability symbol ([#101](https://github.com/andrewgioia/mana/issues/101))
+* **Added:** Land MDFC symbol ([#58](https://github.com/andrewgioia/mana/issues/58))
+* **Added:** Commander type symbol ([#59](https://github.com/andrewgioia/mana/issues/59))
+* **Added:** Loyalty level up card text symbol ([#60](https://github.com/andrewgioia/mana/issues/60))
+* **Added:** Zone icons from MTGA ([#62](https://github.com/andrewgioia/mana/issues/62))
+* **Fixed:** CSS font name now matches compiled font name ([#87](https://github.com/andrewgioia/mana/issues/87))
+* **Merged:** ([PR #81])(https://github.com/andrewgioia/mana/pull/81) by @Lisstem fixes apostrophe bug in `_variables.scss`
+* **Merged:** ([PR #82])(https://github.com/andrewgioia/mana/pull/82) by @Lisstem adds missing saga loyalty to `_loyalty.scss`
+
 ### [1.15.3] 2023-03-04 Remaining split Phyrexian classes
 
 * **Added:** All other split Phyrexian mana classes introduced recently ([#86](https://github.com/andrewgioia/mana/issues/86))
@@ -20,9 +31,9 @@ All notable changes to this project will be documented in this file.
 
 ### [1.15.1] 2023-03-03 Fabricate
 
-* **Fixed:** Fabricate has its own correct symbol now. It had previously been aliased and this got messed up in the last build.
-* **Changed:** Dungeon now has an alias as a card type (`.ms-dungeon`) ([#84](https://github.com/andrewgioia/mana/issues/84))
 * **Added:** Ticket symbol from Unfinity ([#92](https://github.com/andrewgioia/mana/issues/92))
+* **Changed:** Dungeon now has an alias as a card type (`.ms-dungeon`) ([#84](https://github.com/andrewgioia/mana/issues/84))
+* **Fixed:** Fabricate has its own correct symbol now. It had previously been aliased and this got messed up in the last build.
 
 ### [1.15.0] 2023-03-03 Backlog of Arena ability and counter symbols
 
