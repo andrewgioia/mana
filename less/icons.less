@@ -54,6 +54,7 @@
 
     // card types
     &-artifact::before { content: "\e61e"; }
+    &-commander::before { content: "\e9c6"; }
     &-conspiracy::before { content: "\e972"; }
     &-creature::before { content: "\e61f"; }
     &-enchantment::before { content: "\e620"; }
@@ -143,18 +144,25 @@
         &-start::before { content: "\e628"; } // Start
     }
 
+    // levelers
+    &-level {
+        &::before { content: "\e9c7"; }
+        &::after { content: "\e9c8"; }
+    }
+
     // double-faced cards
     &-dfc {
-        &-night::before { content: "\e905"; }
         &-day::before { content: "\e906"; }
-        &-ignite::before { content: "\e908"; }
-        &-spark::before { content: "\e909"; }
         &-emrakul::before { content: "\e90a"; }
-        &-lesson::before { content: "\e98f"; }
-        &-moon::before { content: "\e90b"; }
         &-enchantment::before { content: "\e920"; }
-        &-modal-face::before { content: "\e983"; }
+        &-ignite::before { content: "\e908"; }
+        &-land::before { content: "\e9c5"; }
+        &-lesson::before { content: "\e98f"; }
         &-modal-back::before { content: "\e984"; }
+        &-modal-face::before { content: "\e983"; }
+        &-moon::before { content: "\e90b"; }
+        &-night::before { content: "\e905"; }
+        &-spark::before { content: "\e909"; }
     }
 
     // other card elements
@@ -289,6 +297,7 @@
         &-flying::before { content: "\e952"; }
         &-for-mirrodin::before { content: "\e9c1"; }
         &-foretell::before { content: "\e990"; }
+        &-goad::before { content: "\e9c9"; }
         &-haste::before { content: "\e953"; }
         &-hexproof {
             &::before { content: "\e954"; }

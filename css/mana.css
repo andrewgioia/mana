@@ -1,14 +1,14 @@
 @font-face {
   font-family: 'Mana';
-  src: url('../fonts/mana.eot?v=1.15.3');
-  src: url('../fonts/mana.eot?#iefix&v=1.15.3') format('embedded-opentype'), url('../fonts/mana.woff?v=1.15.3') format('woff'), url('../fonts/mana.ttf?v=1.15.3') format('truetype'), url('../fonts/mana.svg?v=1.15.3#mana') format('svg');
+  src: url('../fonts/mana.eot?v=1.15.4');
+  src: url('../fonts/mana.eot?#iefix&v=1.15.4') format('embedded-opentype'), url('../fonts/mana.woff?v=1.15.4') format('woff'), url('../fonts/mana.ttf?v=1.15.4') format('truetype'), url('../fonts/mana.svg?v=1.15.4#mana') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'MPlantin';
-  src: url('../fonts/mplantin.eot?v=1.15.3');
-  src: url('../fonts/mplantin.eot?#iefix&v=1.15.3') format('embedded-opentype'), url('../fonts/mplantin.woff?v=1.15.3') format('woff'), url('../fonts/mplantin.ttf?v=1.15.3') format('truetype'), url('../fonts/mplantin.svg?v=1.15.3#mplantin') format('svg');
+  src: url('../fonts/mplantin.eot?v=1.15.4');
+  src: url('../fonts/mplantin.eot?#iefix&v=1.15.4') format('embedded-opentype'), url('../fonts/mplantin.woff?v=1.15.4') format('woff'), url('../fonts/mplantin.ttf?v=1.15.4') format('truetype'), url('../fonts/mplantin.svg?v=1.15.4#mplantin') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -162,6 +162,9 @@
 .ms-artifact::before {
   content: "\e61e";
 }
+.ms-commander::before {
+  content: "\e9c6";
+}
 .ms-conspiracy::before {
   content: "\e972";
 }
@@ -298,35 +301,44 @@
 .ms-loyalty-start::before {
   content: "\e628";
 }
-.ms-dfc-night::before {
-  content: "\e905";
+.ms-level::before {
+  content: "\e9c7";
+}
+.ms-level::after {
+  content: "\e9c8";
 }
 .ms-dfc-day::before {
   content: "\e906";
 }
-.ms-dfc-ignite::before {
-  content: "\e908";
-}
-.ms-dfc-spark::before {
-  content: "\e909";
-}
 .ms-dfc-emrakul::before {
   content: "\e90a";
-}
-.ms-dfc-lesson::before {
-  content: "\e98f";
-}
-.ms-dfc-moon::before {
-  content: "\e90b";
 }
 .ms-dfc-enchantment::before {
   content: "\e920";
 }
-.ms-dfc-modal-face::before {
-  content: "\e983";
+.ms-dfc-ignite::before {
+  content: "\e908";
+}
+.ms-dfc-land::before {
+  content: "\e9c5";
+}
+.ms-dfc-lesson::before {
+  content: "\e98f";
 }
 .ms-dfc-modal-back::before {
   content: "\e984";
+}
+.ms-dfc-modal-face::before {
+  content: "\e983";
+}
+.ms-dfc-moon::before {
+  content: "\e90b";
+}
+.ms-dfc-night::before {
+  content: "\e905";
+}
+.ms-dfc-spark::before {
+  content: "\e909";
 }
 .ms-flashback::before {
   content: "\e629";
@@ -656,6 +668,9 @@
 }
 .ms-ability-foretell::before {
   content: "\e990";
+}
+.ms-ability-goad::before {
+  content: "\e9c9";
 }
 .ms-ability-haste::before {
   content: "\e953";
@@ -1516,6 +1531,29 @@ span.ms-half > .ms-cost {
 }
 .ms-saga-5::after {
   content: "V";
+}
+/**
+ * Level card levels */
+.ms-level > span {
+  font-size: 0.33em;
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #000;
+  font-family: MPlantin, Garamond, Palatino, 'Times New Roman', Times, serif;
+  width: 76%;
+  text-align: center;
+  line-height: 3.8;
+}
+.ms-level::after {
+  color: rgba(0, 0, 0, 0.25);
+  display: block;
+  font-size: 1em;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
 }
 .ms-dfc {
   color: #111;

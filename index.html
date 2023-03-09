@@ -37,6 +37,11 @@
         p {
             margin: 10px 0 20px;
         }
+        p.grid {
+             display:flex;
+             flex-wrap:wrap;
+             gap: 0.5rem;
+        }
         footer {
             border-top: 1px solid #eee;
             margin: 40px 0 0;
@@ -247,11 +252,13 @@
             <i class="ms ms-saga ms-saga-2 ms-2x"></i>
             <i class="ms ms-saga ms-saga-3 ms-2x"></i>
             <i class="ms ms-saga ms-saga-4 ms-2x"></i>
+            &nbsp;&nbsp;
+            <i class="ms ms-level ms-3x"><span>1-2</span></i>
         </p>
     </div>
     <div class="right">
         <h3>Arena Ability Symbols</h3>
-        <p style="display:flex; flex-wrap:wrap; gap: 0.5rem;">
+        <p class="grid">
             <i class="ms ms-ability-activated ms-2x ms-fw" title="Activated"></i>
             <i class="ms ms-ability-adamant ms-2x ms-fw" title="Adamant"></i>
             <i class="ms ms-ability-adapt ms-2x ms-fw" title="Adapt"></i>
@@ -298,6 +305,7 @@
             <i class="ms ms-ability-flying ms-2x ms-fw" title="Flying"></i>
             <i class="ms ms-ability-for-mirrodin ms-2x ms-fw" title="For Mirrodin!"></i>
             <i class="ms ms-ability-foretell ms-2x ms-fw" title="Foretell"></i>
+            <i class="ms ms-ability-goad ms-2x ms-fw" title="Goad"></i>
             <i class="ms ms-ability-haste ms-2x ms-fw" title="Haste"></i>
             <i class="ms ms-ability-hexproof ms-2x ms-fw" title="Hexproof: Generic"></i>
             <i class="ms ms-ability-hexproof-white ms-2x ms-fw" title="Hexproof: White"></i>
@@ -347,12 +355,12 @@
             <i class="ms ms-ability-ward ms-2x ms-fw" title="Ward"></i>
         </p>
         <h3>Arena Exclusive Counters</h3>
-        <p>
+        <p class="grid">
             <i class="ms ms-counter-shield ms-2x ms-fw" title="Shield"></i>
             <i class="ms ms-counter-stun ms-2x ms-fw" title="Stun"></i>
         </p>
         <h3>Magic Online Counters</h3>
-        <p>
+        <p class="grid">
             <i class="ms ms-counter-arrow ms-2x ms-fw"></i>
             <i class="ms ms-counter-brick ms-2x ms-fw"></i>
             <i class="ms ms-counter-charge ms-2x ms-fw"></i>
@@ -383,8 +391,9 @@
             <i class="ms ms-counter-vortex ms-2x ms-fw"></i>
         </p>
         <h3>Future Sight and other type symbols</h3>
-        <p>
+        <p class="grid">
             <i class="ms ms-artifact ms-2x ms-fw" title="Artifact"></i>
+            <i class="ms ms-commander ms-2x ms-fw" title="Commander"></i>
             <i class="ms ms-creature ms-2x ms-fw" title="Creature"></i>
             <i class="ms ms-enchantment ms-2x ms-fw" title="Enchantment"></i>
             <i class="ms ms-instant ms-2x ms-fw" title="Instant"></i>
@@ -404,7 +413,7 @@
             <i class="ms ms-vanguard ms-2x ms-fw" title="Vangaurd"></i>
         </p>
         <h3>Double-faced card symbols</h3>
-        <p>
+        <p class="grid">
             <i class="ms ms-dfc ms-dfc-day ms-2x ms-fw"></i>
             <i class="ms ms-dfc ms-dfc-night ms-2x ms-fw"></i>
             <i class="ms ms-dfc ms-dfc-spark ms-2x ms-fw"></i>
@@ -413,12 +422,13 @@
             <i class="ms ms-dfc ms-dfc-emrakul ms-2x ms-fw"></i>
             <i class="ms ms-dfc ms-dfc-enchantment ms-2x ms-fw"></i>
             <i class="ms ms-dfc ms-dfc-lesson ms-2x ms-fw"></i>
+            <i class="ms ms-dfc ms-dfc-land ms-2x ms-fw"></i>
             &nbsp;&nbsp;
             <i class="ms ms-dfc-modal-face ms-2x ms-fw"></i>
             <i class="ms ms-dfc-modal-back ms-2x ms-fw"></i>
         </p>
         <h3>Guild Symbols</h3>
-        <p>
+        <p class="grid">
             <i class="ms ms-guild-azorius ms-2x ms-fw"></i>
             <i class="ms ms-guild-boros ms-2x ms-fw"></i>
             <i class="ms ms-guild-dimir ms-2x ms-fw"></i>
@@ -431,7 +441,7 @@
             <i class="ms ms-guild-simic ms-2x ms-fw"></i>
         </p>
         <h3>Clan Symbols</h3>
-        <p>
+        <p class="grid">
             <i class="ms ms-clan-abzan ms-2x ms-fw"></i>
             <i class="ms ms-clan-jeskai ms-2x ms-fw"></i>
             <i class="ms ms-clan-mardu ms-2x ms-fw"></i>
@@ -445,7 +455,7 @@
             <i class="ms ms-clan-silumgar ms-2x ms-fw"></i>
         </p>
         <h3>Strixhaven School Symbols</h3>
-        <p>
+        <p class="grid">
             <i class="ms ms-school-lorehold ms-2x ms-fw"></i>
             <i class="ms ms-school-lorehold ms-duo ms-duo-color ms-2x ms-fw"></i>
             &nbsp;
