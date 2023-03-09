@@ -10,6 +10,10 @@ All notable changes to this project will be documented in this file.
 
 ## Versions 
 
+### [1.16.0] 2023-XX-YY
+
+* TBD
+
 ### [1.15.4] 2023-03-08 PRs 81 and 82
 
 * **Added:** Goad ability symbol ([#101](https://github.com/andrewgioia/mana/issues/101))
