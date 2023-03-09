@@ -214,6 +214,18 @@
 .ms-multicolor::before {
   content: "\e985";
 }
+.ms-hand::before {
+  content: "\e9ca";
+}
+.ms-library::before {
+  content: "\e9cb";
+}
+.ms-graveyard::before {
+  content: "\e9cc";
+}
+.ms-exile::before {
+  content: "\e9cd";
+}
 .ms-wu::before,
 .ms-wb::before,
 .ms-rw::after,

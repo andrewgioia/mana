@@ -74,6 +74,12 @@
     &-vanguard::before { content: "\e971"; }
     &-multicolor::before { content: "\e985"; }
 
+    // zones
+    &-hand::before { content: "\e9ca"; }
+    &-library::before { content: "\e9cb"; }
+    &-graveyard::before { content: "\e9cc"; }
+    &-exile::before { content: "\e9cd"; }
+
     // splits
     &-wu::before,
     &-wb::before,
