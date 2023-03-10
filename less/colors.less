@@ -27,70 +27,91 @@
     &-g { background: @ms-green; }
 
     // 2 color backgrounds
-    &-wu {
+    &-wu,
+    &-uw,
+    &-azorius {
         background: conic-gradient(
             @ms-white 45deg,
             @ms-blue 45deg 225deg,
             @ms-white 225deg
         );
     }
-    &-wb {
+    &-wb,
+    &-bw,
+    &-orzhov {
         background: conic-gradient(
             @ms-white 45deg,
             @ms-black 45deg 225deg,
             @ms-white 225deg
         );
     }
-    &-ub {
+    &-ub,
+    &-bu,
+    &-dimir {
         background: conic-gradient(
             @ms-blue 45deg,
             @ms-black 45deg 225deg,
             @ms-blue 225deg
         );
     }
-    &-ur {
+    &-ur,
+    &-ru,
+    &-izzet {
         background: conic-gradient(
             @ms-blue 45deg,
             @ms-red 45deg 225deg,
             @ms-blue 225deg
         );
     }
-    &-bg {
+    &-bg,
+    &-gb,
+    &-golgari,
+    &-rock {
         background: conic-gradient(
             @ms-black 45deg,
             @ms-green 45deg 225deg,
             @ms-black 225deg
         );
     }
-    &-br {
+    &-br,
+    &-rb,
+    &-rakdos {
         background: conic-gradient(
             @ms-black 45deg,
             @ms-red 45deg 225deg,
             @ms-black 225deg
         );
     }
-    &-rw {
+    &-rw,
+    &-wr,
+    &-boros {
         background: conic-gradient(
             @ms-red 45deg,
             @ms-white 45deg 225deg,
             @ms-red 225deg
         );
     }
-    &-rg {
+    &-rg,
+    &-gr,
+    &-gruul {
         background: conic-gradient(
             @ms-red 45deg,
             @ms-green 45deg 225deg,
             @ms-red 225deg
         );
     }
-    &-gu {
+    &-gu,
+    &-ug,
+    &-simic {
         background: conic-gradient(
             @ms-green 45deg,
             @ms-blue 45deg 225deg,
             @ms-green 225deg
         );
     }
-    &-gw {
+    &-gw,
+    &-wg,
+    &-selesnya {
         background: conic-gradient(
             @ms-green 45deg,
             @ms-white 45deg 225deg,
@@ -100,6 +121,11 @@
 
     // 3-color backgrounds
     &-wug,
+    &-wgu,
+    &-ugw,
+    &-uwg,
+    &-gwu,
+    &-guw,
     &-bant {
         background: conic-gradient(
             @ms-blue 60deg,
@@ -109,6 +135,11 @@
         );
     }
     &-ubw,
+    &-uwb,
+    &-buw,
+    &-bwu,
+    &-wub,
+    &-wbu,
     &-esper {
         background: conic-gradient(
             @ms-black 60deg,
@@ -118,6 +149,11 @@
         );
     }
     &-bru,
+    &-bur,
+    &-rbu,
+    &-rub,
+    &-ubr,
+    &-urb,
     &-grixis {
         background: conic-gradient(
             @ms-red 60deg,
@@ -127,6 +163,11 @@
         );
     }
     &-rgb,
+    &-rbg,
+    &-grb,
+    &-gbr,
+    &-brg,
+    &-bgr,
     &-jund {
         background: conic-gradient(
             @ms-green 60deg,
@@ -136,6 +177,11 @@
         );
     }
     &-gwr,
+    &-grw,
+    &-wgr,
+    &-wrg,
+    &-rgw,
+    &-rwg,
     &-naya {
         background: conic-gradient(
             @ms-white 60deg,
@@ -145,8 +191,14 @@
         );
     }
     &-wbg,
+    &-wgb,
+    &-bwg,
+    &-bgw,
+    &-gwb,
+    &-gbw,
     &-abzan,
-    &-junk {
+    &-junk,
+    &-necra {
         background: conic-gradient(
             @ms-black 60deg,
             @ms-green 60deg 180deg,
@@ -155,7 +207,13 @@
         );
     }
     &-urw,
-    &-jeskai {
+    &-uwr,
+    &-ruw,
+    &-rwu,
+    &-wur,
+    &-wru,
+    &-jeskai,
+    &-raka {
         background: conic-gradient(
             @ms-red 60deg,
             @ms-white 60deg 180deg,
@@ -164,8 +222,14 @@
         );
     }
     &-bgu,
+    &-bug,
+    &-gbu,
+    &-gub,
+    &-ubg,
+    &-ugb,
     &-sultai,
-    &-bug {
+    &-bug,
+    &-ana {
         background: conic-gradient(
             @ms-green 60deg,
             @ms-blue 60deg 180deg,
@@ -174,7 +238,13 @@
         );
     }
     &-rwb,
-    &-mardu {
+    &-rbw,
+    &-wrb,
+    &-wbr,
+    &-brw,
+    &-bwr,
+    &-mardu,
+    &-dega {
         background: conic-gradient(
             @ms-white 60deg,
             @ms-black 60deg 180deg,
@@ -183,8 +253,13 @@
         );
     }
     &-gur,
+    &-gru,
+    &-ugr,
+    &-urg,
+    &-rgu,
+    &-rug,
     &-temur,
-    &-rug {
+    &-ceta {
         background: conic-gradient(
             @ms-blue 60deg,
             @ms-red 60deg 180deg,
@@ -194,8 +269,32 @@
     }
 
     // 4 color backgrounds
+    // note: not using aliaes like sass because less is so feature limited
     &-ubrg,
-    &-glint {
+    &-glint,
+    &-ubgr,
+    &-ugbr,
+    &-ugrb,
+    &-urbg,
+    &-urgb,
+    &-bgru,
+    &-bgur,
+    &-brgu,
+    &-brug,
+    &-bugr,
+    &-burg,
+    &-gbru,
+    &-gbur,
+    &-grbu,
+    &-grub,
+    &-gubr,
+    &-gurb,
+    &-rbgu,
+    &-rbug,
+    &-rgbu,
+    &-rgub,
+    &-rubg,
+    &-rugb {
         background: conic-gradient(
             @ms-blue 45deg,
             @ms-black 45deg 135deg,
@@ -205,7 +304,30 @@
         );
     }
     &-brgw,
-    &-dune {
+    &-dune,
+    &-bgrw,
+    &-bgwr,
+    &-brwg,
+    &-bwgr,
+    &-bwrg,
+    &-gbrw,
+    &-gbwr,
+    &-grbw,
+    &-grwb,
+    &-gwbr,
+    &-gwrb,
+    &-rbgw,
+    &-rbwg,
+    &-rgbw,
+    &-rgwb,
+    &-rwbg,
+    &-rwgb,
+    &-wbgr,
+    &-wbrg,
+    &-wgbr,
+    &-wgrb,
+    &-wrbg,
+    &-wrgb {
         background: conic-gradient(
             @ms-black 45deg,
             @ms-red 45deg 135deg,
@@ -215,7 +337,30 @@
         );
     }
     &-rgwu,
-    &-ink {
+    &-ink,
+    &-gruw,
+    &-grwu,
+    &-gurw,
+    &-guwr,
+    &-gwru,
+    &-gwur,
+    &-rguw,
+    &-rugw,
+    &-ruwg,
+    &-rwgu,
+    &-rwug,
+    &-ugrw,
+    &-ugwr,
+    &-urgw,
+    &-urwg,
+    &-uwgr,
+    &-uwrg,
+    &-wgru,
+    &-wgur,
+    &-wrgu,
+    &-wrug,
+    &-wugr,
+    &-wurg {
         background: conic-gradient(
             @ms-red 45deg,
             @ms-green 45deg 135deg,
@@ -225,7 +370,30 @@
         );
     }
     &-gwub,
-    &-witch {
+    &-witch,
+    &-bguw,
+    &-bgwu,
+    &-bugw,
+    &-buwg,
+    &-bwgu,
+    &-bwug,
+    &-gbuw,
+    &-gbwu,
+    &-gubw,
+    &-guwb,
+    &-gwbu,
+    &-ubgw,
+    &-ubwg,
+    &-ugbw,
+    &-ugwb,
+    &-uwbg,
+    &-uwgb,
+    &-wbgu,
+    &-wbug,
+    &-wgbu,
+    &-wgub,
+    &-wubg,
+    &-wugb {
         background: conic-gradient(
             @ms-green 45deg,
             @ms-white 45deg 135deg,
@@ -235,7 +403,30 @@
         );
     }
     &-wubr,
-    &-yore {
+    &-yore,
+    &-bruw,
+    &-brwu,
+    &-burw,
+    &-buwr,
+    &-bwru,
+    &-bwur,
+    &-rbuw,
+    &-rbwu,
+    &-rubw,
+    &-ruwb,
+    &-rwbu,
+    &-rwub,
+    &-ubrw,
+    &-ubwr,
+    &-urbw,
+    &-urwb,
+    &-uwbr,
+    &-uwrb,
+    &-wbru,
+    &-wbur,
+    &-wrbu,
+    &-wrub,
+    &-wurb {
         background: conic-gradient(
             @ms-white 45deg,
             @ms-blue 45deg 135deg,
@@ -246,7 +437,127 @@
     }
 
     // 5 color background
-    &-5 {
+    &-wubrg,
+    &-5,
+    &-bgruw,
+    &-bgrwu,
+    &-bgurw,
+    &-bguwr,
+    &-bgwru,
+    &-bgwur,
+    &-brguw,
+    &-brgwu,
+    &-brugw,
+    &-bruwg,
+    &-brwgu,
+    &-brwug,
+    &-bugrw,
+    &-bugwr,
+    &-burgw,
+    &-burwg,
+    &-buwgr,
+    &-buwrg,
+    &-bwgru,
+    &-bwgur,
+    &-bwrgu,
+    &-bwrug,
+    &-bwugr,
+    &-bwurg,
+    &-gbruw,
+    &-gbrwu,
+    &-gburw,
+    &-gbuwr,
+    &-gbwru,
+    &-gbwur,
+    &-grbuw,
+    &-grbwu,
+    &-grubw,
+    &-gruwb,
+    &-grwbu,
+    &-grwub,
+    &-gubrw,
+    &-gubwr,
+    &-gurbw,
+    &-gurwb,
+    &-guwbr,
+    &-guwrb,
+    &-gwbru,
+    &-gwbur,
+    &-gwrbu,
+    &-gwrub,
+    &-gwubr,
+    &-gwurb,
+    &-rbguw,
+    &-rbgwu,
+    &-rbugw,
+    &-rbuwg,
+    &-rbwgu,
+    &-rbwug,
+    &-rgbuw,
+    &-rgbwu,
+    &-rgubw,
+    &-rguwb,
+    &-rgwbu,
+    &-rgwub,
+    &-rubgw,
+    &-rubwg,
+    &-rugbw,
+    &-rugwb,
+    &-ruwbg,
+    &-ruwgb,
+    &-rwbgu,
+    &-rwbug,
+    &-rwgbu,
+    &-rwgub,
+    &-rwubg,
+    &-rwugb,
+    &-ubgrw,
+    &-ubgwr,
+    &-ubrgw,
+    &-ubrwg,
+    &-ubwgr,
+    &-ubwrg,
+    &-ugbrw,
+    &-ugbwr,
+    &-ugrbw,
+    &-ugrwb,
+    &-ugwbr,
+    &-ugwrb,
+    &-urbgw,
+    &-urbwg,
+    &-urgbw,
+    &-urgwb,
+    &-urwbg,
+    &-urwgb,
+    &-uwbgr,
+    &-uwbrg,
+    &-uwgbr,
+    &-uwgrb,
+    &-uwrbg,
+    &-uwrgb,
+    &-wbgru,
+    &-wbgur,
+    &-wbrgu,
+    &-wbrug,
+    &-wbugr,
+    &-wburg,
+    &-wgbru,
+    &-wgbur,
+    &-wgrbu,
+    &-wgrub,
+    &-wgubr,
+    &-wgurb,
+    &-wrbgu,
+    &-wrbug,
+    &-wrgbu,
+    &-wrgub,
+    &-wrubg,
+    &-wrugb,
+    &-wubgr,
+    &-wugbr,
+    &-wugrb,
+    &-wurbg,
+    &-wurgb {
         background: conic-gradient(
             @ms-white 36deg,
             @ms-blue 36deg 108deg,
