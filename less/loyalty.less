@@ -1,26 +1,25 @@
 /**
- * Planeswalker symbols */
+ * planeswalker and other loyalty symbols */
 
 .@{ms-prefix}-loyalty {
 
-    // All
+    // all
     &-up,
     &-down,
     &-zero,
     &-start {
         color: #111;
-        font-size: 21px;
+        font-size: 1.5em;
         position: relative;
         text-align: center;
-        line-height: 0.9em;
     }
 
-    // Start
+    // start
     &-start {
-        font-size: 25px; // increase the size a bit by default
+        font-size: 2.0em; // increase the size a bit by default
     }
 
-    // Counters
+    // base styles for counters
     &-0::after,
     &-1::after,
     &-2::after,
@@ -50,11 +49,13 @@
         font-family: @ms-serif-font;
         position: absolute;
         left: 0;
-        line-height: 2em;
+        line-height: 2.25em;
         width: 100%;
         text-align: center;
     }
-    &-0::after { content: "0"; }
+    &-0::after {
+        content: "0";
+    }
     &-up {
         &.@{ms-prefix}-loyalty-1::after { content: "+1"; }
         &.@{ms-prefix}-loyalty-2::after { content: "+2"; }
@@ -104,7 +105,9 @@
         &.@{ms-prefix}-loyalty-x::after { content: "X"; }
     }
     &-down {
-        &::after{ line-height: 1.8em; }
+        &::after{
+            line-height: 2.0em;
+        }
         &.@{ms-prefix}-loyalty-1::after { content: "-1"; }
         &.@{ms-prefix}-loyalty-2::after { content: "-2"; }
         &.@{ms-prefix}-loyalty-3::after { content: "-3"; }
@@ -131,12 +134,14 @@
 
 }
 
-/**
- * Saga loyalty */
+// saga loyalty
 
 .@{ms-prefix}-saga {
 
-    // Numbers
+    // all
+    color: #111;
+
+    // numbers
     &-1::after,
     &-2::after,
     &-3::after,
@@ -148,7 +153,7 @@
         font-family: @ms-serif-font;
         position: absolute;
         left: 0;
-        line-height: 1.75em;
+        line-height: 2.0em;
         width: 100%;
         text-align: center;
     }
@@ -161,8 +166,7 @@
 
 }
 
-/**
- * Level card levels */
+// level card levels
 
 .@{ms-prefix}-level {
 

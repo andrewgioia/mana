@@ -1,4 +1,5 @@
-// planeswalker specifics
+/**
+ * planeswalker and other loyalty symbols */
 
 .#{$ms-prefix}-loyalty {
 
@@ -40,6 +41,7 @@
     &-18::after,
     &-19::after,
     &-20::after,
+    &-25::after,
     &-x::after {
         color: #fff;
         display: inline-block;
@@ -47,10 +49,9 @@
         font-family: $ms-serif-font;
         position: absolute;
         left: 0;
-        line-height: 1.75em;
+        line-height: 2.25em;
         width: 100%;
         text-align: center;
-        -webkit-padding-before: 0.15em; // fix for odd webkit line-height
     }
     &-0::after {
         content: "0";
@@ -77,6 +78,7 @@
             &-18::after { content: "+18"; }
             &-19::after { content: "+19"; }
             &-20::after { content: "+20"; }
+            &-25::after { content: "+25"; }
             &-x::after { content: "+X"; }
         }
     }
@@ -102,11 +104,14 @@
             &-18::after { content: "18"; }
             &-19::after { content: "19"; }
             &-20::after { content: "20"; }
+            &-25::after { content: "25"; }
             &-x::after { content: "X"; }
         }
     }
     &-down {
-        &::after { line-height: 1.6em; }
+        &::after {
+            line-height: 2em;
+        }
         &.#{$ms-prefix}-loyalty {
             &-1::after { content: "-1"; }
             &-2::after { content: "-2"; }
@@ -128,17 +133,20 @@
             &-18::after { content: "-18"; }
             &-19::after { content: "-19"; }
             &-20::after { content: "-20"; }
+            &-25::after { content: "-25"; }
             &-x::after { content: "-X"; }
         }
     }
 }
 
-/**
- * Saga loyalty */
+// saga loyalty
 
 .#{$ms-prefix}-saga {
+
+    // all
+    color: #111;
     
-    // Numbers
+    // numbers
     &-1::after,
     &-2::after,
     &-3::after,
@@ -150,7 +158,7 @@
         font-family: $ms-serif-font;
         position: absolute;
         left: 0;
-        line-height: 1.75em;
+        line-height: 2.0em;
         width: 100%;
         text-align: center;
     }
@@ -163,8 +171,7 @@
 
 }
 
-/**
- * Level card levels */
+// level card levels
 
 .#{$ms-prefix}-level {
 

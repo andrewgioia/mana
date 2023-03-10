@@ -20,7 +20,8 @@
     "less": "lessc less/mana.less css/mana.css",
     "lessmin": "lessc --clean-css less/mana.less css/mana.min.css",
     "sass": "sass sass/mana.scss css/mana.css --style=expanded",
-    "sassmin": "sass sass/mana.scss css/mana.css --style compressed"
+    "sassmin": "sass sass/mana.scss css/mana.min.css --style compressed",
+    "build": "npm run -s sass && npm run -s sassmin"
   },
   "author": "Andrew Gioia <andrew@gioia.email>",
   "license": "MIT",

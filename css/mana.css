@@ -1062,6 +1062,8 @@ span.ms-half > .ms-cost {
   width: 5.4em;
 }
 
+/**
+ * planeswalker and other loyalty symbols */
 .ms-loyalty-up, .ms-loyalty-down, .ms-loyalty-zero, .ms-loyalty-start {
   color: #111;
   font-size: 1.5em;
@@ -1071,17 +1073,16 @@ span.ms-half > .ms-cost {
 .ms-loyalty-start {
   font-size: 2em;
 }
-.ms-loyalty-0::after, .ms-loyalty-1::after, .ms-loyalty-2::after, .ms-loyalty-3::after, .ms-loyalty-4::after, .ms-loyalty-5::after, .ms-loyalty-6::after, .ms-loyalty-7::after, .ms-loyalty-8::after, .ms-loyalty-9::after, .ms-loyalty-10::after, .ms-loyalty-11::after, .ms-loyalty-12::after, .ms-loyalty-13::after, .ms-loyalty-14::after, .ms-loyalty-15::after, .ms-loyalty-16::after, .ms-loyalty-17::after, .ms-loyalty-18::after, .ms-loyalty-19::after, .ms-loyalty-20::after, .ms-loyalty-x::after {
+.ms-loyalty-0::after, .ms-loyalty-1::after, .ms-loyalty-2::after, .ms-loyalty-3::after, .ms-loyalty-4::after, .ms-loyalty-5::after, .ms-loyalty-6::after, .ms-loyalty-7::after, .ms-loyalty-8::after, .ms-loyalty-9::after, .ms-loyalty-10::after, .ms-loyalty-11::after, .ms-loyalty-12::after, .ms-loyalty-13::after, .ms-loyalty-14::after, .ms-loyalty-15::after, .ms-loyalty-16::after, .ms-loyalty-17::after, .ms-loyalty-18::after, .ms-loyalty-19::after, .ms-loyalty-20::after, .ms-loyalty-25::after, .ms-loyalty-x::after {
   color: #fff;
   display: inline-block;
   font-size: 0.5em;
   font-family: "MPlantin, Garamond, Palatino, 'Times New Roman', Times, serif";
   position: absolute;
   left: 0;
-  line-height: 1.75em;
+  line-height: 2.25em;
   width: 100%;
   text-align: center;
-  -webkit-padding-before: 0.15em;
 }
 .ms-loyalty-0::after {
   content: "0";
@@ -1146,6 +1147,9 @@ span.ms-half > .ms-cost {
 .ms-loyalty-up.ms-loyalty-20::after {
   content: "+20";
 }
+.ms-loyalty-up.ms-loyalty-25::after {
+  content: "+25";
+}
 .ms-loyalty-up.ms-loyalty-x::after {
   content: "+X";
 }
@@ -1209,11 +1213,14 @@ span.ms-half > .ms-cost {
 .ms-loyalty-start.ms-loyalty-20::after {
   content: "20";
 }
+.ms-loyalty-start.ms-loyalty-25::after {
+  content: "25";
+}
 .ms-loyalty-start.ms-loyalty-x::after {
   content: "X";
 }
 .ms-loyalty-down::after {
-  line-height: 1.6em;
+  line-height: 2em;
 }
 .ms-loyalty-down.ms-loyalty-1::after {
   content: "-1";
@@ -1275,12 +1282,13 @@ span.ms-half > .ms-cost {
 .ms-loyalty-down.ms-loyalty-20::after {
   content: "-20";
 }
+.ms-loyalty-down.ms-loyalty-25::after {
+  content: "-25";
+}
 .ms-loyalty-down.ms-loyalty-x::after {
   content: "-X";
 }
 
-/**
- * Saga loyalty */
 .ms-saga-1::after, .ms-saga-2::after, .ms-saga-3::after, .ms-saga-4::after, .ms-saga-5::after {
   color: #fff;
   display: inline-block;
@@ -1288,7 +1296,7 @@ span.ms-half > .ms-cost {
   font-family: "MPlantin, Garamond, Palatino, 'Times New Roman', Times, serif";
   position: absolute;
   left: 0;
-  line-height: 1.75em;
+  line-height: 2em;
   width: 100%;
   text-align: center;
 }
@@ -1308,8 +1316,6 @@ span.ms-half > .ms-cost {
   content: "V";
 }
 
-/**
- * Level card levels */
 .ms-level > span {
   font-size: 0.33em;
   position: absolute;
