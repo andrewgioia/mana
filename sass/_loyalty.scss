@@ -14,9 +14,12 @@
         text-align: center;
     }
 
-    // start
+    // variant alterations
     &-start {
         font-size: 2.0em; // increase the size a bit by default
+    }
+    &-zero::after {
+        line-height: 2.1em !important; // slight correction
     }
 
     // base styles for counters
@@ -135,6 +138,21 @@
             &-20::after { content: "-20"; }
             &-25::after { content: "-25"; }
             &-x::after { content: "-X"; }
+        }
+    }
+
+    // outline style for card text
+    &-outline {
+        &::before {
+            color: transparent;
+            -webkit-text-stroke: 0.03em #111;
+        }
+        &::after {
+            color: #111;
+        }
+        // correction for starting loyalty size
+        &.#{$ms-prefix}-loyalty-start {
+            font-size: 1.6em;
         }
     }
 }
