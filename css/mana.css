@@ -302,6 +302,12 @@
 .ms-dfc-night::before {
   content: "\e905";
 }
+.ms-dfc-saga::before {
+  content: "\e9cf";
+}
+.ms-dfc-saga-creature::before {
+  content: "\e9d0";
+}
 .ms-dfc-spark::before {
   content: "\e909";
 }
@@ -544,6 +550,9 @@
 }
 .ms-ability-cleave::before {
   content: "\e9ad";
+}
+.ms-ability-combat-condition::before {
+  content: "\e9ce";
 }
 .ms-ability-companion::before {
   content: "\e97b";

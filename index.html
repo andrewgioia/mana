@@ -37,10 +37,11 @@
         p {
             margin: 10px 0 20px;
         }
-        p.grid {
+        .grid {
              display:flex;
              flex-wrap:wrap;
              gap: 0.5rem;
+             align-items: center;
         }
         footer {
             border-top: 1px solid #eee;
@@ -242,7 +243,7 @@
             <i class="ms ms-ci ms-ci-5"></i>
         </p>
         <h3>Loyalty symbols</h3>
-        <p>
+        <div class="grid">
             <i class="ms ms-loyalty-up ms-loyalty-3 ms-3x"></i>
             <i class="ms ms-loyalty-down ms-loyalty-x ms-3x"></i>
             <i class="ms ms-loyalty-zero ms-loyalty-0 ms-3x"></i>
@@ -251,15 +252,15 @@
             <i class="ms ms-loyalty-down ms-loyalty-1 ms-loyalty-outline"></i>
             <i class="ms ms-loyalty-zero ms-loyalty-0 ms-loyalty-outline"></i>
             <i class="ms ms-loyalty-start ms-loyalty-5 ms-loyalty-outline"></i>
-        </p>
-        <p class="grid">
+        </div>
+        <div class="grid">
             <i class="ms ms-saga ms-saga-1 ms-2x"></i>
             <i class="ms ms-saga ms-saga-2 ms-2x"></i>
             <i class="ms ms-saga ms-saga-3 ms-2x"></i>
             <i class="ms ms-saga ms-saga-4 ms-2x"></i>
             &nbsp;&nbsp;
             <i class="ms ms-level ms-3x"><span>1-2</span></i>
-        </p>
+        </div>
     </div>
     <div class="right">
         <h3>Arena Ability Symbols</h3>
@@ -281,6 +282,7 @@
             <i class="ms ms-ability-changeling ms-2x ms-fw" title="Changeling"></i>
             <i class="ms ms-ability-channel ms-2x ms-fw" title="Channel"></i>
             <i class="ms ms-ability-cleave ms-2x ms-fw" title="Cleave"></i>
+            <i class="ms ms-ability-combat-condition ms-2x ms-fw" title="Combat Condition"></i>
             <i class="ms ms-ability-companion ms-2x ms-fw" title="Companion"></i>
             <i class="ms ms-ability-constellation ms-2x ms-fw" title="Constellation"></i>
             <i class="ms ms-ability-convoke ms-2x ms-fw" title="Convoke"></i>
@@ -366,34 +368,34 @@
         </p>
         <h3>Magic Online Counters</h3>
         <p class="grid">
-            <i class="ms ms-counter-arrow ms-2x ms-fw"></i>
-            <i class="ms ms-counter-brick ms-2x ms-fw"></i>
-            <i class="ms ms-counter-charge ms-2x ms-fw"></i>
-            <i class="ms ms-counter-devotion ms-2x ms-fw"></i>
-            <i class="ms ms-counter-doom ms-2x ms-fw"></i>
-            <i class="ms ms-counter-echo ms-2x ms-fw"></i>
-            <i class="ms ms-counter-flame ms-2x ms-fw"></i>
-            <i class="ms ms-counter-flood ms-2x ms-fw"></i>
-            <i class="ms ms-counter-fungus ms-2x ms-fw"></i>
-            <i class="ms ms-counter-gold ms-2x ms-fw"></i>
-            <i class="ms ms-counter-ki ms-2x ms-fw"></i>
-            <i class="ms ms-counter-lore ms-2x ms-fw"></i>
-            <i class="ms ms-counter-loyalty ms-2x ms-fw"></i>
-            <i class="ms ms-counter-mining ms-2x ms-fw"></i>
-            <i class="ms ms-counter-minus ms-2x ms-fw"></i>
-            <i class="ms ms-counter-minus-uneven ms-2x ms-fw"></i>
-            <i class="ms ms-counter-muster ms-2x ms-fw"></i>
-            <i class="ms ms-counter-paw ms-2x ms-fw"></i>
-            <i class="ms ms-counter-pin ms-2x ms-fw"></i>
-            <i class="ms ms-counter-plus ms-2x ms-fw"></i>
-            <i class="ms ms-counter-plus-uneven ms-2x ms-fw"></i>
-            <i class="ms ms-counter-scream ms-2x ms-fw"></i>
-            <i class="ms ms-counter-skeleton ms-2x ms-fw"></i>
-            <i class="ms ms-counter-skull ms-2x ms-fw"></i>
-            <i class="ms ms-counter-slime ms-2x ms-fw"></i>
-            <i class="ms ms-counter-time ms-2x ms-fw"></i>
-            <i class="ms ms-counter-verse ms-2x ms-fw"></i>
-            <i class="ms ms-counter-vortex ms-2x ms-fw"></i>
+            <i class="ms ms-counter-arrow ms-2x ms-fw" title="Arrow"></i>
+            <i class="ms ms-counter-brick ms-2x ms-fw" title="Brick"></i>
+            <i class="ms ms-counter-charge ms-2x ms-fw" title="Charge"></i>
+            <i class="ms ms-counter-devotion ms-2x ms-fw" title="Devotion"></i>
+            <i class="ms ms-counter-doom ms-2x ms-fw" title="Doom"></i>
+            <i class="ms ms-counter-echo ms-2x ms-fw" title="Echo"></i>
+            <i class="ms ms-counter-flame ms-2x ms-fw" title="Flame"></i>
+            <i class="ms ms-counter-flood ms-2x ms-fw" title="Flood"></i>
+            <i class="ms ms-counter-fungus ms-2x ms-fw" title="Fungus"></i>
+            <i class="ms ms-counter-gold ms-2x ms-fw" title="Gold"></i>
+            <i class="ms ms-counter-ki ms-2x ms-fw" title="Ki"></i>
+            <i class="ms ms-counter-lore ms-2x ms-fw" title="Lore"></i>
+            <i class="ms ms-counter-loyalty ms-2x ms-fw" title="Loyalty"></i>
+            <i class="ms ms-counter-mining ms-2x ms-fw" title="Mining"></i>
+            <i class="ms ms-counter-minus ms-2x ms-fw" title="Minus"></i>
+            <i class="ms ms-counter-minus-uneven ms-2x ms-fw" title="Minus Uneven"></i>
+            <i class="ms ms-counter-muster ms-2x ms-fw" title="Muster"></i>
+            <i class="ms ms-counter-paw ms-2x ms-fw" title="Paw"></i>
+            <i class="ms ms-counter-pin ms-2x ms-fw" title="Pin"></i>
+            <i class="ms ms-counter-plus ms-2x ms-fw" title="Plus"></i>
+            <i class="ms ms-counter-plus-uneven ms-2x ms-fw" title="Plus Uneven"></i>
+            <i class="ms ms-counter-scream ms-2x ms-fw" title="Scream"></i>
+            <i class="ms ms-counter-skeleton ms-2x ms-fw" title="Skeleton"></i>
+            <i class="ms ms-counter-skull ms-2x ms-fw" title="Skull"></i>
+            <i class="ms ms-counter-slime ms-2x ms-fw" title="Slime"></i>
+            <i class="ms ms-counter-time ms-2x ms-fw" title="Time"></i>
+            <i class="ms ms-counter-verse ms-2x ms-fw" title="Verse"></i>
+            <i class="ms ms-counter-vortex ms-2x ms-fw" title="Vortex"></i>
         </p>
         <h3>Card type and game zone symbols</h3>
         <p class="grid">
@@ -432,8 +434,10 @@
             <i class="ms ms-dfc ms-dfc-moon ms-2x ms-fw"></i>
             <i class="ms ms-dfc ms-dfc-emrakul ms-2x ms-fw"></i>
             <i class="ms ms-dfc ms-dfc-enchantment ms-2x ms-fw"></i>
-            <i class="ms ms-dfc ms-dfc-lesson ms-2x ms-fw"></i>
             <i class="ms ms-dfc ms-dfc-land ms-2x ms-fw"></i>
+            <i class="ms ms-dfc ms-dfc-lesson ms-2x ms-fw"></i>
+            <i class="ms ms-dfc ms-dfc-saga ms-2x ms-fw"></i>
+            <i class="ms ms-dfc ms-dfc-saga-creature ms-2x ms-fw"></i>
             &nbsp;&nbsp;
             <i class="ms ms-dfc-modal-face ms-2x ms-fw"></i>
             <i class="ms ms-dfc-modal-back ms-2x ms-fw"></i>
@@ -453,40 +457,40 @@
         </p>
         <h3>Clan Symbols</h3>
         <p class="grid">
-            <i class="ms ms-clan-abzan ms-2x ms-fw"></i>
-            <i class="ms ms-clan-jeskai ms-2x ms-fw"></i>
-            <i class="ms ms-clan-mardu ms-2x ms-fw"></i>
-            <i class="ms ms-clan-sultai ms-2x ms-fw"></i>
-            <i class="ms ms-clan-temur ms-2x ms-fw"></i>
+            <i class="ms ms-clan-abzan ms-2x ms-fw" title="Abzan"></i>
+            <i class="ms ms-clan-jeskai ms-2x ms-fw" title="Jeskai"></i>
+            <i class="ms ms-clan-mardu ms-2x ms-fw" title="Mardu"></i>
+            <i class="ms ms-clan-sultai ms-2x ms-fw" title="Sultai"></i>
+            <i class="ms ms-clan-temur ms-2x ms-fw" title="Temur"></i>
             &nbsp;&nbsp;
-            <i class="ms ms-clan-atarka ms-2x ms-fw"></i>
-            <i class="ms ms-clan-dromoka ms-2x ms-fw"></i>
-            <i class="ms ms-clan-kolaghan ms-2x ms-fw"></i>
-            <i class="ms ms-clan-ojutai ms-2x ms-fw"></i>
-            <i class="ms ms-clan-silumgar ms-2x ms-fw"></i>
+            <i class="ms ms-clan-atarka ms-2x ms-fw" title="Atarka"></i>
+            <i class="ms ms-clan-dromoka ms-2x ms-fw" title="Dromoka"></i>
+            <i class="ms ms-clan-kolaghan ms-2x ms-fw" title="Kologhan"></i>
+            <i class="ms ms-clan-ojutai ms-2x ms-fw" title="Ojutai"></i>
+            <i class="ms ms-clan-silumgar ms-2x ms-fw" title="Silumgar"></i>
         </p>
         <h3>Strixhaven School Symbols</h3>
         <p class="grid">
-            <i class="ms ms-school-lorehold ms-2x ms-fw"></i>
-            <i class="ms ms-school-lorehold ms-duo ms-duo-color ms-2x ms-fw"></i>
+            <i class="ms ms-school-lorehold ms-2x ms-fw" title="Lorehold"></i>
+            <i class="ms ms-school-lorehold ms-duo ms-duo-color ms-2x ms-fw" title="Lorehold (Duo)"></i>
             &nbsp;
-            <i class="ms ms-school-prismari ms-2x ms-fw"></i>
-            <i class="ms ms-school-prismari ms-duo ms-duo-color ms-2x ms-fw"></i>
+            <i class="ms ms-school-prismari ms-2x ms-fw" title="Prismari"></i>
+            <i class="ms ms-school-prismari ms-duo ms-duo-color ms-2x ms-fw" title="Prismari (Duo)"></i>
             &nbsp;
-            <i class="ms ms-school-quandrix ms-2x ms-fw"></i>
-            <i class="ms ms-school-quandrix ms-duo ms-duo-color ms-2x ms-fw"></i>
+            <i class="ms ms-school-quandrix ms-2x ms-fw" title="Quandrix"></i>
+            <i class="ms ms-school-quandrix ms-duo ms-duo-color ms-2x ms-fw" title="Quandrix (Duo)"></i>
             &nbsp;
-            <i class="ms ms-school-silverquill ms-2x ms-fw"></i>
-            <i class="ms ms-school-silverquill ms-duo ms-duo-color ms-2x ms-fw"></i>
+            <i class="ms ms-school-silverquill ms-2x ms-fw" title="Silverquill"></i>
+            <i class="ms ms-school-silverquill ms-duo ms-duo-color ms-2x ms-fw" title="Silverquill (Duo)"></i>
             &nbsp;
-            <i class="ms ms-school-witherbloom ms-2x ms-fw"></i>
-            <i class="ms ms-school-witherbloom ms-duo ms-duo-color ms-2x ms-fw"></i>
+            <i class="ms ms-school-witherbloom ms-2x ms-fw" title="Witherbloom"></i>
+            <i class="ms ms-school-witherbloom ms-duo ms-duo-color ms-2x ms-fw" title="Witherbloom (Duo)"></i>
         </p>
         <h3>Poleis Symbols</h3>
-        <p>
-            <i class="ms ms-polis-setessa ms-2x ms-fw"></i>
-            <i class="ms ms-polis-akros ms-2x ms-fw"></i>
-            <i class="ms ms-polis-meletis ms-2x ms-fw"></i>
+        <p class="grid">
+            <i class="ms ms-polis-setessa ms-2x ms-fw" title="Setessa"></i>
+            <i class="ms ms-polis-akros ms-2x ms-fw" title="Akros"></i>
+            <i class="ms ms-polis-meletis ms-2x ms-fw" title="Meletis"></i>
         </p>
     </div>
     <div style="clear: both;"></div>

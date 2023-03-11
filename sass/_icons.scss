@@ -169,6 +169,8 @@
         &-modal-face::before { content: "\e983"; }
         &-moon::before { content: "\e90b"; }
         &-night::before { content: "\e905"; }
+        &-saga::before { content: "\e9cf"; }
+        &-saga-creature::before { content: "\e9d0"; }
         &-spark::before { content: "\e909"; }
     }
 
@@ -275,6 +277,7 @@
         &-changeling::before { content: "\e9a6"; }
         &-channel::before { content: "\e9b1"; }
         &-cleave::before { content: "\e9ad"; }
+        &-combat-condition::before { content: "\e9ce"; }
         &-companion::before { content: "\e97b"; }
         &-constellation::before { content: "\e97c"; }
         &-convoke::before { content: "\e949"; }

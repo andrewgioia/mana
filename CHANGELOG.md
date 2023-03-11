@@ -10,9 +10,12 @@ All notable changes to this project will be documented in this file.
 
 ## Versions 
 
-### [1.16.0] 2023-XX-YY
+### [1.16.0] 2023-03-11
 
-* TBD
+* **Added:** DFC symbols for Saga and the flip side, Saga creatures, from NEO ([#98](https://github.com/andrewgioia/mana/issues/98))
+* **Added:** New outlined version of the loyalty symbol that shows up on certain Unfinity cards ([#97](https://github.com/andrewgioia/mana/issues/97))
+* **Added:** The "can't block or must attack" symbol in Arena, labeled "combat condition" here as an ability symbol ([#100](https://github.com/andrewgioia/mana/issues/100))
+* **Fixed:** Loyalty line heights have been corrected cross browser ([#96](https://github.com/andrewgioia/mana/issues/96))
 
 ### [1.15.4] 2023-03-08 PRs 81 and 82
 
