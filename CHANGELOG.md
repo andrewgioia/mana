@@ -10,7 +10,7 @@ All notable changes to this project will be documented in this file.
 
 ## Versions 
 
-### [1.16.0] 2023-03-11
+### [1.15.5] 2023-03-11 DFC and loyalty updates
 
 * **Added:** DFC symbols for Saga and the flip side, Saga creatures, from NEO ([#98](https://github.com/andrewgioia/mana/issues/98))
 * **Added:** New outlined version of the loyalty symbol that shows up on certain Unfinity cards ([#97](https://github.com/andrewgioia/mana/issues/97))
