@@ -10,6 +10,15 @@ All notable changes to this project will be documented in this file.
 
 ## Versions 
 
+### [1.15.6] 2023-05-29 Spring 2023 abilities, DFCs, Defense loyalty
+
+* **Added:** DFC symbols for front and back, as well as "face down" and the various meld cards on Arena ([#102](https://github.com/andrewgioia/mana/issues/102))
+* **Added:** Defense loyalty symbol and utility classes for battle cards ([#103](https://github.com/andrewgioia/mana/issues/103))
+* **Added:** Battle type symbol and Siege subtype symbol ([#105](https://github.com/andrewgioia/mana/issues/105))
+* **Added:** Arena ability symbols for Backup and Incubate ([#105](https://github.com/andrewgioia/mana/issues/105))
+* **Changed:** Enrage has a new ability symbol in Arena with the old one aliased; the old symbol is also now the new "marked with damage" symbol in arena ([#104](https://github.com/andrewgioia/mana/issues/104))
+* **Changed:** Convoke's ability symbol was also changed, with the old one alised as well ([#105](https://github.com/andrewgioia/mana/issues/105))
+
 ### [1.15.5] 2023-03-11 DFC and loyalty updates
 
 * **Added:** DFC symbols for Saga and the flip side, Saga creatures, from NEO ([#98](https://github.com/andrewgioia/mana/issues/98))

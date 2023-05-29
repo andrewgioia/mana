@@ -54,6 +54,8 @@
 
     // card types
     &-artifact::before { content: "\e61e"; }
+    &-battle::before { content: "\e9d1"; }
+    &-battle-siege::before { content: "\e9d2"; }
     &-commander::before { content: "\e9c6"; }
     &-conspiracy::before { content: "\e972"; }
     &-creature::before { content: "\e61f"; }
@@ -61,6 +63,7 @@
     &-dungeon::before { content: "\e995"; }
     &-instant::before { content: "\e621"; }
     &-land::before { content: "\e622"; }
+    &-multicolor::before { content: "\e985"; }
     &-phenomenon::before { content: "\e96e"; }
     &-plane::before { content: "\e96f"; }
     &-planeswalker::before { content: "\e623"; }
@@ -72,7 +75,6 @@
     &-tribal::before,
         &-multiple::before { content: "\e925"; }
     &-vanguard::before { content: "\e971"; }
-    &-multicolor::before { content: "\e985"; }
 
     // zones
     &-hand::before { content: "\e9ca"; }
@@ -143,12 +145,16 @@
     &-100::before { content: "\e900"; }
     &-1000000::before { content: "\e901"; }
 
-    // planewalkers
+    // loyalty
     &-loyalty {
         &-up::before { content: "\e627"; } // up
         &-down::before { content: "\e625"; } // down
         &-zero::before { content: "\e626"; } // zero
         &-start::before { content: "\e628"; } // start
+    }
+    &-defense {
+        &::before { content: "\e9d7"; }
+        &-border::before { content: "\e9d8"; }
     }
 
     // levelers
@@ -159,12 +165,16 @@
 
     // double-faced cards
     &-dfc {
+        &-back::before { content: "\e9d4"; }
         &-day::before { content: "\e906"; }
         &-emrakul::before { content: "\e90a"; }
         &-enchantment::before { content: "\e920"; }
+        &-facedown::before { content: "\e9d6"; }
+        &-front::before { content: "\e9d3"; }
         &-ignite::before { content: "\e908"; }
         &-land::before { content: "\e9c5"; }
         &-lesson::before { content: "\e98f"; }
+        &-meld::before { content: "\e9d5"; }
         &-modal-back::before { content: "\e984"; }
         &-modal-face::before { content: "\e983"; }
         &-moon::before { content: "\e90b"; }
@@ -226,6 +236,7 @@
         &-arrow::before { content: "\e92b"; }
         &-brick::before { content: "\e92c"; }
         &-charge::before { content: "\e92d"; }
+        &-damage::before { content: "\e9dd"; } // same as original enrage
         &-devotion::before { content: "\e92e"; }
         &-doom::before { content: "\e92f"; }
         &-echo::before { content: "\e930"; }
@@ -271,6 +282,7 @@
         &-alliance::before { content: "\e9b5"; }
         &-amass::before { content: "\e97a"; }
         &-ascend::before { content: "\e94a"; }
+        &-backup::before { content: "\e9d9"; }
         &-blitz::before { content: "\e9b4"; }
         &-boast::before { content: "\e991"; }
         &-casualty::before { content: "\e9b7"; }
@@ -280,7 +292,10 @@
         &-combat-condition::before { content: "\e9ce"; }
         &-companion::before { content: "\e97b"; }
         &-constellation::before { content: "\e97c"; }
-        &-convoke::before { content: "\e949"; }
+        &-convoke {
+            &-original::before { content: "\e949"; }
+            &::before { content: "\e9da"; }
+        }
         &-corrupted::before { content: "\e9c0"; }
         &-coven::before { content: "\e9aa"; }
         &-d20::before { content: "\e999"; }
@@ -296,7 +311,10 @@
         &-dungeon::before { content: "\e995"; }
         &-embalm::before { content: "\e97e"; }
         &-enlist::before { content: "\e9ba"; }
-        &-enrage::before { content: "\e94e"; }
+        &-enrage {
+            &::before { content: "\e9dc"; }
+            &-original::before { content: "\e94e"; }
+        }
         &-escape::before { content: "\e969"; }
         &-eternalize::before { content: "\e97f"; }
         &-exploit::before { content: "\e9af"; }
@@ -318,6 +336,7 @@
             &-white::before { content: "\e959"; }
         }
         &-hideaway::before { content: "\e9b8"; }
+        &-incubate::before { content: "\e9db"; }
         &-indestructible::before { content: "\e95a"; }
         &-investigate::before { content: "\e9ab"; }
         &-jumpstart::before { content: "\e95b"; }

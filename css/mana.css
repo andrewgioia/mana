@@ -1,14 +1,14 @@
 @font-face {
   font-family: "Mana";
-  src: url("../fonts/mana.eot?v=1.15.5");
-  src: url("../fonts/mana.eot?#iefix&v=1.15.5") format("embedded-opentype"), url("../fonts/mana.woff?v=1.15.5") format("woff"), url("../fonts/mana.ttf?v=1.15.5") format("truetype"), url("../fonts/mana.svg?v=1.15.5#mana") format("svg");
+  src: url("../fonts/mana.eot?v=1.15.6");
+  src: url("../fonts/mana.eot?#iefix&v=1.15.6") format("embedded-opentype"), url("../fonts/mana.woff?v=1.15.6") format("woff"), url("../fonts/mana.ttf?v=1.15.6") format("truetype"), url("../fonts/mana.svg?v=1.15.6#mana") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "MPlantin";
-  src: url("../fonts/mplantin.eot?v=1.15.5");
-  src: url("../fonts/mplantin.eot?#iefix&v=1.15.5") format("embedded-opentype"), url("../fonts/mplantin.woff?v=1.15.5") format("woff"), url("../fonts/mplantin.ttf?v=1.15.5") format("truetype"), url("../fonts/mplantin.svg?v=1.15.5#mplantin") format("svg");
+  src: url("../fonts/mplantin.eot?v=1.15.6");
+  src: url("../fonts/mplantin.eot?#iefix&v=1.15.6") format("embedded-opentype"), url("../fonts/mplantin.woff?v=1.15.6") format("woff"), url("../fonts/mplantin.ttf?v=1.15.6") format("truetype"), url("../fonts/mplantin.svg?v=1.15.6#mplantin") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -161,6 +161,12 @@
 .ms-artifact::before {
   content: "\e61e";
 }
+.ms-battle::before {
+  content: "\e9d1";
+}
+.ms-battle-siege::before {
+  content: "\e9d2";
+}
 .ms-commander::before {
   content: "\e9c6";
 }
@@ -181,6 +187,9 @@
 }
 .ms-land::before {
   content: "\e622";
+}
+.ms-multicolor::before {
+  content: "\e985";
 }
 .ms-phenomenon::before {
   content: "\e96e";
@@ -211,9 +220,6 @@
 }
 .ms-vanguard::before {
   content: "\e971";
-}
-.ms-multicolor::before {
-  content: "\e985";
 }
 .ms-hand::before {
   content: "\e9ca";
@@ -266,11 +272,20 @@
 .ms-loyalty-start::before {
   content: "\e628";
 }
+.ms-defense::before {
+  content: "\e9d7";
+}
+.ms-defense-border::before {
+  content: "\e9d8";
+}
 .ms-level::before {
   content: "\e9c7";
 }
 .ms-level::after {
   content: "\e9c8";
+}
+.ms-dfc-back::before {
+  content: "\e9d4";
 }
 .ms-dfc-day::before {
   content: "\e906";
@@ -281,6 +296,12 @@
 .ms-dfc-enchantment::before {
   content: "\e920";
 }
+.ms-dfc-facedown::before {
+  content: "\e9d6";
+}
+.ms-dfc-front::before {
+  content: "\e9d3";
+}
 .ms-dfc-ignite::before {
   content: "\e908";
 }
@@ -289,6 +310,9 @@
 }
 .ms-dfc-lesson::before {
   content: "\e98f";
+}
+.ms-dfc-meld::before {
+  content: "\e9d5";
 }
 .ms-dfc-modal-back::before {
   content: "\e984";
@@ -419,6 +443,9 @@
 .ms-counter-charge::before {
   content: "\e92d";
 }
+.ms-counter-damage::before {
+  content: "\e9dd";
+}
 .ms-counter-devotion::before {
   content: "\e92e";
 }
@@ -533,6 +560,9 @@
 .ms-ability-ascend::before {
   content: "\e94a";
 }
+.ms-ability-backup::before {
+  content: "\e9d9";
+}
 .ms-ability-blitz::before {
   content: "\e9b4";
 }
@@ -560,8 +590,11 @@
 .ms-ability-constellation::before {
   content: "\e97c";
 }
-.ms-ability-convoke::before {
+.ms-ability-convoke-original::before {
   content: "\e949";
+}
+.ms-ability-convoke::before {
+  content: "\e9da";
 }
 .ms-ability-corrupted::before {
   content: "\e9c0";
@@ -609,6 +642,9 @@
   content: "\e9ba";
 }
 .ms-ability-enrage::before {
+  content: "\e9dc";
+}
+.ms-ability-enrage-original::before {
   content: "\e94e";
 }
 .ms-ability-escape::before {
@@ -667,6 +703,9 @@
 }
 .ms-ability-hideaway::before {
   content: "\e9b8";
+}
+.ms-ability-incubate::before {
+  content: "\e9db";
 }
 .ms-ability-indestructible::before {
   content: "\e95a";
@@ -1361,6 +1400,112 @@ span.ms-half > .ms-cost {
   position: absolute;
   top: 0;
   width: 100%;
+}
+
+.ms-defense {
+  color: #111;
+  font-size: 1.5em;
+  position: relative;
+  text-align: center;
+}
+.ms-defense-0::after, .ms-defense-1::after, .ms-defense-2::after, .ms-defense-3::after, .ms-defense-4::after, .ms-defense-5::after, .ms-defense-6::after, .ms-defense-7::after, .ms-defense-8::after, .ms-defense-9::after, .ms-defense-10::after, .ms-defense-11::after, .ms-defense-12::after, .ms-defense-13::after, .ms-defense-14::after, .ms-defense-15::after, .ms-defense-16::after, .ms-defense-17::after, .ms-defense-18::after, .ms-defense-19::after, .ms-defense-20::after, .ms-defense-25::after, .ms-defense-x::after {
+  color: #fff;
+  display: inline-block;
+  font-size: 0.5em;
+  font-family: "MPlantin, Garamond, Palatino, 'Times New Roman', Times, serif";
+  position: absolute;
+  left: 0;
+  line-height: 2.25em;
+  width: 100%;
+  text-align: center;
+}
+.ms-defense-0::after {
+  content: "0";
+}
+.ms-defense-1::after {
+  content: "1";
+}
+.ms-defense-2::after {
+  content: "2";
+}
+.ms-defense-3::after {
+  content: "3";
+}
+.ms-defense-4::after {
+  content: "4";
+}
+.ms-defense-5::after {
+  content: "5";
+}
+.ms-defense-6::after {
+  content: "6";
+}
+.ms-defense-7::after {
+  content: "7";
+}
+.ms-defense-8::after {
+  content: "8";
+}
+.ms-defense-9::after {
+  content: "9";
+}
+.ms-defense-10::after {
+  content: "10";
+}
+.ms-defense-11::after {
+  content: "11";
+}
+.ms-defense-12::after {
+  content: "12";
+}
+.ms-defense-13::after {
+  content: "13";
+}
+.ms-defense-14::after {
+  content: "14";
+}
+.ms-defense-15::after {
+  content: "15";
+}
+.ms-defense-16::after {
+  content: "16";
+}
+.ms-defense-17::after {
+  content: "17";
+}
+.ms-defense-18::after {
+  content: "18";
+}
+.ms-defense-19::after {
+  content: "19";
+}
+.ms-defense-20::after {
+  content: "20";
+}
+.ms-defense-25::after {
+  content: "25";
+}
+.ms-defense-outline::before {
+  content: "\e9d8";
+}
+.ms-defense-outline::after {
+  color: #111;
+}
+.ms-defense-print {
+  display: list-item;
+  list-style-position: inside;
+}
+.ms-defense-print::before {
+  color: #fff;
+  content: "\e9d8";
+  position: absolute;
+  left: 0;
+  top: 0;
+  text-shadow: 0 0 5px #333;
+}
+.ms-defense-print::marker {
+  content: "\e9d7";
+  color: #111;
 }
 
 .ms-dfc {

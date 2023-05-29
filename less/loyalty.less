@@ -145,7 +145,7 @@
             color: #111;
         }
         // correction for starting loyalty size
-        &.#{$ms-prefix}-loyalty-start {
+        &.@{ms-prefix}-loyalty-start {
             font-size: 1.6em;
         }
     }
@@ -213,4 +213,101 @@
         width: 100%;
     }
 
+}
+
+// defense loyalty
+.@{ms-prefix}-defense {
+
+    color: #111;
+    font-size: 1.5em;
+    position: relative;
+    text-align: center;
+
+    // base styles for counters
+    &-0::after,
+    &-1::after,
+    &-2::after,
+    &-3::after,
+    &-4::after,
+    &-5::after,
+    &-6::after,
+    &-7::after,
+    &-8::after,
+    &-9::after,
+    &-10::after,
+    &-11::after,
+    &-12::after,
+    &-13::after,
+    &-14::after,
+    &-15::after,
+    &-16::after,
+    &-17::after,
+    &-18::after,
+    &-19::after,
+    &-20::after,
+    &-25::after,
+    &-x::after {
+        color: #fff;
+        display: inline-block;
+        font-size: 0.5em;
+        font-family: @ms-serif-font;
+        position: absolute;
+        left: 0;
+        line-height: 2.25em;
+        width: 100%;
+        text-align: center;
+    }
+
+    // values
+    &-0::after { content: "0"; }
+    &-1::after { content: "1"; }
+    &-2::after { content: "2"; }
+    &-3::after { content: "3"; }
+    &-4::after { content: "4"; }
+    &-5::after { content: "5"; }
+    &-6::after { content: "6"; }
+    &-7::after { content: "7"; }
+    &-8::after { content: "8"; }
+    &-9::after { content: "9"; }
+    &-10::after { content: "10"; }
+    &-11::after { content: "11"; }
+    &-12::after { content: "12"; }
+    &-13::after { content: "13"; }
+    &-14::after { content: "14"; }
+    &-15::after { content: "15"; }
+    &-16::after { content: "16"; }
+    &-17::after { content: "17"; }
+    &-18::after { content: "18"; }
+    &-19::after { content: "19"; }
+    &-20::after { content: "20"; }
+    &-25::after { content: "25"; }
+
+    // outline version
+    &-outline {
+        &::before {
+            content: "\e9d8";
+        }
+        &::after {
+            color: #111;
+        }
+    }
+
+    // experimental third layer for the border
+    &-print {
+        display: list-item;
+        list-style-position: inside;
+
+        &::before {
+            color: #fff;
+            content: "\e9d8";
+            position: absolute;
+            left: 0;
+            top: 0;
+            text-shadow: 0 0 5px #333;
+        }
+        &::marker {
+            content: "\e9d7";
+            color: #111;
+        }
+    }
 }

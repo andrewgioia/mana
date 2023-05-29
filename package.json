@@ -1,6 +1,6 @@
 {
   "name": "mana-font",
-  "version": "1.15.5",
+  "version": "1.15.6",
   "description": "Magic: the Gathering mana symbol pictographic font",
   "main": "css/mana.css",
   "repository": {
@@ -21,6 +21,7 @@
     "lessmin": "lessc --clean-css less/mana.less css/mana.min.css",
     "sass": "sass sass/mana.scss css/mana.css --style=expanded",
     "sassmin": "sass sass/mana.scss css/mana.min.css --style compressed",
+    "rename": "for f in `find fonts/*`; do mv -v \"$f\" \"`echo $f | tr '[A-Z]' '[a-z]'`\"; done",
     "build": "npm run -s sass && npm run -s sassmin"
   },
   "author": "Andrew Gioia <andrew@gioia.email>",
