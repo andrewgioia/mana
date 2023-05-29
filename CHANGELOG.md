@@ -10,6 +10,10 @@ All notable changes to this project will be documented in this file.
 
 ## Versions 
 
+### [1.15.7] 2023-05-29 Fix to .ms-defense-print
+
+* **Fixed:** resolved a spacing issue for the .ms-defense-print utility class
+
 ### [1.15.6] 2023-05-29 Spring 2023 abilities, DFCs, Defense loyalty
 
 * **Added:** DFC symbols for front and back, as well as "face down" and the various meld cards on Arena ([#102](https://github.com/andrewgioia/mana/issues/102))

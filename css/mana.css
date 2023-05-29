@@ -1494,6 +1494,7 @@ span.ms-half > .ms-cost {
 .ms-defense-print {
   display: list-item;
   list-style-position: inside;
+  width: 0.9em;
 }
 .ms-defense-print::before {
   color: #fff;
