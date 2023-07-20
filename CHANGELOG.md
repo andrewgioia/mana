@@ -10,6 +10,12 @@ All notable changes to this project will be documented in this file.
 
 ## Versions 
 
+### [1.15.8] 2023-07-20 LTR ability symbols
+
+* **Added:** LTR ability symbols for The Ring Tempts You, Ring Bearer, and Amass Orcs ([#107](https://github.com/andrewgioia/mana/issues/107))
+* **Added:** Improvise ability symbol ([#108](https://github.com/andrewgioia/mana/issues/108))
+* **Changed:** `.ability-amass` is now aliased as `.ability-amass-zombies` to provide a differentiator from LTR's Amass Orcs.
+
 ### [1.15.7] 2023-05-29 Fix to .ms-defense-print
 
 * **Fixed:** resolved a spacing issue for the .ms-defense-print utility class

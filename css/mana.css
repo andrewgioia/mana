@@ -1,14 +1,14 @@
 @font-face {
   font-family: "Mana";
-  src: url("../fonts/mana.eot?v=1.15.6");
-  src: url("../fonts/mana.eot?#iefix&v=1.15.6") format("embedded-opentype"), url("../fonts/mana.woff?v=1.15.6") format("woff"), url("../fonts/mana.ttf?v=1.15.6") format("truetype"), url("../fonts/mana.svg?v=1.15.6#mana") format("svg");
+  src: url("../fonts/mana.eot?v=1.15.8");
+  src: url("../fonts/mana.eot?#iefix&v=1.15.8") format("embedded-opentype"), url("../fonts/mana.woff?v=1.15.8") format("woff"), url("../fonts/mana.ttf?v=1.15.8") format("truetype"), url("../fonts/mana.svg?v=1.15.8#mana") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "MPlantin";
-  src: url("../fonts/mplantin.eot?v=1.15.6");
-  src: url("../fonts/mplantin.eot?#iefix&v=1.15.6") format("embedded-opentype"), url("../fonts/mplantin.woff?v=1.15.6") format("woff"), url("../fonts/mplantin.ttf?v=1.15.6") format("truetype"), url("../fonts/mplantin.svg?v=1.15.6#mplantin") format("svg");
+  src: url("../fonts/mplantin.eot?v=1.15.8");
+  src: url("../fonts/mplantin.eot?#iefix&v=1.15.8") format("embedded-opentype"), url("../fonts/mplantin.woff?v=1.15.8") format("woff"), url("../fonts/mplantin.ttf?v=1.15.8") format("truetype"), url("../fonts/mplantin.svg?v=1.15.8#mplantin") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -554,7 +554,10 @@
 .ms-ability-alliance::before {
   content: "\e9b5";
 }
-.ms-ability-amass::before {
+.ms-ability-amass-orcs::before {
+  content: "\e9e0";
+}
+.ms-ability-amass-zombies::before, .ms-ability-amass::before {
   content: "\e97a";
 }
 .ms-ability-ascend::before {
@@ -704,6 +707,9 @@
 .ms-ability-hideaway::before {
   content: "\e9b8";
 }
+.ms-ability-improvise::before {
+  content: "\e9de";
+}
 .ms-ability-incubate::before {
   content: "\e9db";
 }
@@ -779,6 +785,9 @@
 .ms-ability-revolt::before {
   content: "\e961";
 }
+.ms-ability-ring-bearer::before {
+  content: "\e9df";
+}
 .ms-ability-riot::before {
   content: "\e973";
 }
@@ -788,7 +797,7 @@
 .ms-ability-spectacle::before {
   content: "\e96b";
 }
-.ms-ability-static::before, .ms-ability-enchant::before, .ms-ability-improvise::before {
+.ms-ability-static::before, .ms-ability-enchant::before {
   content: "\e962";
 }
 .ms-ability-summoning-sickness::before {
@@ -796,6 +805,9 @@
 }
 .ms-ability-surveil::before {
   content: "\e963";
+}
+.ms-ability-the-ring-tempts-you::before {
+  content: "\e9e1";
 }
 .ms-ability-toxic::before {
   content: "\e9bf";

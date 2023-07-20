@@ -280,7 +280,11 @@
         &-afterlife::before { content: "\e978"; }
         &-aftermath::before { content: "\e979"; }
         &-alliance::before { content: "\e9b5"; }
-        &-amass::before { content: "\e97a"; }
+        &-amass {
+            &-orcs::before { content: "\e9e0"; }
+            &-zombies::before,
+            &::before { content: "\e97a"; }
+        }
         &-ascend::before { content: "\e94a"; }
         &-backup::before { content: "\e9d9"; }
         &-blitz::before { content: "\e9b4"; }
@@ -336,6 +340,7 @@
             &-white::before { content: "\e959"; }
         }
         &-hideaway::before { content: "\e9b8"; }
+        &-improvise::before { content: "\e9de"; }
         &-incubate::before { content: "\e9db"; }
         &-indestructible::before { content: "\e95a"; }
         &-investigate::before { content: "\e9ab"; }
@@ -361,14 +366,15 @@
         &-read-ahead::before { content: "\e9b9"; }
         &-reconfigure::before { content: "\e9b3"; }
         &-revolt::before { content: "\e961"; }
+        &-ring-bearer::before { content: "\e9df"; }
         &-riot::before { content: "\e973"; }
         &-specialize::before { content: "\e9bb"; }
         &-spectacle::before { content: "\e96b"; }
         &-static::before,
-            &-enchant::before,
-            &-improvise::before { content: "\e962"; }
+            &-enchant::before { content: "\e962"; }
         &-summoning-sickness::before { content: "\e96a"; }
         &-surveil::before { content: "\e963"; }
+        &-the-ring-tempts-you::before { content: "\e9e1"; }
         &-toxic::before { content: "\e9bf"; }
         &-training::before { content: "\e9b0"; }
         &-trample::before { content: "\e964"; }
