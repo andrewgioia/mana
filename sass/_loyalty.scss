@@ -169,7 +169,8 @@
     &-2::after,
     &-3::after,
     &-4::after,
-    &-5::after { // future proofing :P
+    &-5::after,
+    &-6::after {
         color: #fff;
         display: inline-block;
         font-size: 0.6em;
@@ -186,6 +187,7 @@
     &-3::after { content: "III"; }
     &-4::after { content: "IV"; }
     &-5::after { content: "V"; }
+    &-6::after { content: "VI"; }
 
 }
 

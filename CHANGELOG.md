@@ -10,6 +10,13 @@ All notable changes to this project will be documented in this file.
 
 ## Versions 
 
+### [1.15.9] 2023-09-10 WOE ability symbols, Haktos and Robber symbols, loyalty VI
+
+* **Added:** WOE ability symbols for Bargain, Celebration, and the 6 role tokens (Cursed, Monster, Royal, Sorceror, Wicked, and Young Hero) ([#111](https://github.com/andrewgioia/mana/issues/111))
+* **Added:** Arena-only "ability" symbols used for Haktos the Unscarred and Robber of the Rich ([#112](https://github.com/andrewgioia/mana/issues/112))
+* **Added:** Magic Online void counter ([#109](https://github.com/andrewgioia/mana/issues/109))
+* **Changed:** Saga loyalty now goes up to VI for the new WOE card, Long List of the Ents ([#110](https://github.com/andrewgioia/mana/issues/110))
+
 ### [1.15.8] 2023-07-20 LTR ability symbols
 
 * **Added:** LTR ability symbols for The Ring Tempts You, Ring Bearer, and Amass Orcs ([#107](https://github.com/andrewgioia/mana/issues/107))

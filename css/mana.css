@@ -1,14 +1,14 @@
 @font-face {
   font-family: "Mana";
-  src: url("../fonts/mana.eot?v=1.15.8");
-  src: url("../fonts/mana.eot?#iefix&v=1.15.8") format("embedded-opentype"), url("../fonts/mana.woff?v=1.15.8") format("woff"), url("../fonts/mana.ttf?v=1.15.8") format("truetype"), url("../fonts/mana.svg?v=1.15.8#mana") format("svg");
+  src: url("../fonts/mana.eot?v=1.15.9");
+  src: url("../fonts/mana.eot?#iefix&v=1.15.9") format("embedded-opentype"), url("../fonts/mana.woff?v=1.15.9") format("woff"), url("../fonts/mana.ttf?v=1.15.9") format("truetype"), url("../fonts/mana.svg?v=1.15.9#mana") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "MPlantin";
-  src: url("../fonts/mplantin.eot?v=1.15.8");
-  src: url("../fonts/mplantin.eot?#iefix&v=1.15.8") format("embedded-opentype"), url("../fonts/mplantin.woff?v=1.15.8") format("woff"), url("../fonts/mplantin.ttf?v=1.15.8") format("truetype"), url("../fonts/mplantin.svg?v=1.15.8#mplantin") format("svg");
+  src: url("../fonts/mplantin.eot?v=1.15.9");
+  src: url("../fonts/mplantin.eot?#iefix&v=1.15.9") format("embedded-opentype"), url("../fonts/mplantin.woff?v=1.15.9") format("woff"), url("../fonts/mplantin.ttf?v=1.15.9") format("truetype"), url("../fonts/mplantin.svg?v=1.15.9#mplantin") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -518,6 +518,9 @@
 .ms-counter-verse::before {
   content: "\e945";
 }
+.ms-counter-void::before {
+  content: "\e9ec";
+}
 .ms-counter-vortex::before {
   content: "\e946";
 }
@@ -566,6 +569,9 @@
 .ms-ability-backup::before {
   content: "\e9d9";
 }
+.ms-ability-bargain::before {
+  content: "\e9e2";
+}
 .ms-ability-blitz::before {
   content: "\e9b4";
 }
@@ -574,6 +580,9 @@
 }
 .ms-ability-casualty::before {
   content: "\e9b7";
+}
+.ms-ability-celebration::before {
+  content: "\e9e3";
 }
 .ms-ability-changeling::before {
   content: "\e9a6";
@@ -791,6 +800,24 @@
 .ms-ability-riot::before {
   content: "\e973";
 }
+.ms-ability-role-cursed::before {
+  content: "\e9e6";
+}
+.ms-ability-role-monster::before {
+  content: "\e9e7";
+}
+.ms-ability-role-royal::before {
+  content: "\e9e8";
+}
+.ms-ability-role-sorceror::before {
+  content: "\e9e9";
+}
+.ms-ability-role-wicked::before {
+  content: "\e9ea";
+}
+.ms-ability-role-young-hero::before {
+  content: "\e9eb";
+}
 .ms-ability-specialize::before {
   content: "\e9bb";
 }
@@ -835,6 +862,12 @@
 }
 .ms-ability-ward::before {
   content: "\e992";
+}
+.ms-ability-haktos-the-unscarred::before {
+  content: "\e9e4";
+}
+.ms-ability-robber-of-the-rich::before {
+  content: "\e9e5";
 }
 
 .ms-cost {
@@ -1365,7 +1398,7 @@ span.ms-half > .ms-cost {
 .ms-saga {
   color: #111;
 }
-.ms-saga-1::after, .ms-saga-2::after, .ms-saga-3::after, .ms-saga-4::after, .ms-saga-5::after {
+.ms-saga-1::after, .ms-saga-2::after, .ms-saga-3::after, .ms-saga-4::after, .ms-saga-5::after, .ms-saga-6::after {
   color: #fff;
   display: inline-block;
   font-size: 0.6em;
@@ -1390,6 +1423,9 @@ span.ms-half > .ms-cost {
 }
 .ms-saga-5::after {
   content: "V";
+}
+.ms-saga-6::after {
+  content: "VI";
 }
 
 .ms-level > span {
