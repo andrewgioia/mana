@@ -1,10 +1,10 @@
 {
   "name": "mana-docs",
-  "version": "1.0.0",
+  "version": "1.15.9",
   "description": "Mana documentation website",
   "main": "index.html",
   "dependencies": {
-    "mana-font": "^1.15.0",
+    "mana-font": "^1.15.9",
     "zepto": "*"
   },
   "devDependencies": {},
