@@ -1,14 +1,14 @@
 @font-face {
   font-family: "Mana";
-  src: url("../fonts/mana.eot?v=1.15.9");
-  src: url("../fonts/mana.eot?#iefix&v=1.15.9") format("embedded-opentype"), url("../fonts/mana.woff?v=1.15.9") format("woff"), url("../fonts/mana.ttf?v=1.15.9") format("truetype"), url("../fonts/mana.svg?v=1.15.9#mana") format("svg");
+  src: url("../fonts/mana.eot?v=1.16.0");
+  src: url("../fonts/mana.eot?#iefix&v=1.16.0") format("embedded-opentype"), url("../fonts/mana.woff?v=1.16.0") format("woff"), url("../fonts/mana.ttf?v=1.16.0") format("truetype"), url("../fonts/mana.svg?v=1.16.0#mana") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "MPlantin";
-  src: url("../fonts/mplantin.eot?v=1.15.9");
-  src: url("../fonts/mplantin.eot?#iefix&v=1.15.9") format("embedded-opentype"), url("../fonts/mplantin.woff?v=1.15.9") format("woff"), url("../fonts/mplantin.ttf?v=1.15.9") format("truetype"), url("../fonts/mplantin.svg?v=1.15.9#mplantin") format("svg");
+  src: url("../fonts/mplantin.eot?v=1.16.0");
+  src: url("../fonts/mplantin.eot?#iefix&v=1.16.0") format("embedded-opentype"), url("../fonts/mplantin.woff?v=1.16.0") format("woff"), url("../fonts/mplantin.ttf?v=1.16.0") format("truetype"), url("../fonts/mplantin.svg?v=1.16.0#mplantin") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -119,7 +119,7 @@
 .ms-z::before {
   content: "\e617";
 }
-.ms-p::before {
+.ms-p::before, .ms-watermark-phyrexian::before {
   content: "\e618";
 }
 .ms-s::before {
@@ -197,7 +197,7 @@
 .ms-plane::before {
   content: "\e96f";
 }
-.ms-planeswalker::before {
+.ms-planeswalker::before, .ms-watermark-planeswalker::before {
   content: "\e623";
 }
 .ms-rarity::before {
@@ -350,64 +350,64 @@
 .ms-artist-nib::before {
   content: "\e924";
 }
-.ms-guild-azorius::before {
+.ms-guild-azorius::before, .ms-watermark-azorius::before {
   content: "\e90c";
 }
-.ms-guild-boros::before {
+.ms-guild-boros::before, .ms-watermark-boros::before {
   content: "\e90d";
 }
-.ms-guild-dimir::before {
+.ms-guild-dimir::before, .ms-watermark-dimir::before {
   content: "\e90e";
 }
-.ms-guild-golgari::before {
+.ms-guild-golgari::before, .ms-watermark-golgari::before {
   content: "\e90f";
 }
-.ms-guild-gruul::before {
+.ms-guild-gruul::before, .ms-watermark-gruul::before {
   content: "\e910";
 }
-.ms-guild-izzet::before {
+.ms-guild-izzet::before, .ms-watermark-izzet::before {
   content: "\e911";
 }
-.ms-guild-orzhov::before {
+.ms-guild-orzhov::before, .ms-watermark-orzhov::before {
   content: "\e912";
 }
-.ms-guild-rakdos::before {
+.ms-guild-rakdos::before, .ms-watermark-rakdos::before {
   content: "\e913";
 }
-.ms-guild-selesnya::before {
+.ms-guild-selesnya::before, .ms-watermark-selesnya::before {
   content: "\e914";
 }
-.ms-guild-simic::before {
+.ms-guild-simic::before, .ms-watermark-simic::before {
   content: "\e915";
 }
-.ms-clan-abzan::before {
+.ms-clan-abzan::before, .ms-watermark-abzan::before {
   content: "\e916";
 }
-.ms-clan-jeskai::before {
+.ms-clan-jeskai::before, .ms-watermark-jeskai::before {
   content: "\e917";
 }
-.ms-clan-mardu::before {
+.ms-clan-mardu::before, .ms-watermark-mardu::before {
   content: "\e918";
 }
-.ms-clan-sultai::before {
+.ms-clan-sultai::before, .ms-watermark-sultai::before {
   content: "\e919";
 }
-.ms-clan-temur::before {
+.ms-clan-temur::before, .ms-watermark-temur::before {
   content: "\e91a";
 }
-.ms-clan-atarka::before {
+.ms-clan-atarka::before, .ms-watermark-atarka::before {
   content: "\e91b";
 }
-.ms-clan-dromoka::before {
+.ms-clan-dromoka::before, .ms-watermark-dromoka::before {
   content: "\e91c";
 }
-.ms-clan-kolaghan::before {
+.ms-clan-kolaghan::before, .ms-watermark-kolaghan::before {
   content: "\e91d";
 }
-.ms-clan-ojutai::before {
+.ms-clan-ojutai::before, .ms-watermark-ojutai::before {
   content: "\e91e";
 }
-.ms-clan-silumgar::before {
+.ms-clan-silumgar::before, .ms-watermark-silumgar::before {
   content: "\e91f";
 }
 .ms-polis-setessa::before {
@@ -419,19 +419,19 @@
 .ms-polis-meletis::before {
   content: "\e928";
 }
-.ms-school-lorehold::before {
+.ms-school-lorehold::before, .ms-watermark-lorehold::before {
   content: "\e99a";
 }
-.ms-school-prismari::before {
+.ms-school-prismari::before, .ms-watermark-prismari::before {
   content: "\e99c";
 }
-.ms-school-quandrix::before {
+.ms-school-quandrix::before, .ms-watermark-quandrix::before {
   content: "\e99e";
 }
-.ms-school-silverquill::before {
+.ms-school-silverquill::before, .ms-watermark-silverquill::before {
   content: "\e9a0";
 }
-.ms-school-witherbloom::before {
+.ms-school-witherbloom::before, .ms-watermark-witherbloom::before {
   content: "\e9a2";
 }
 .ms-counter-arrow::before {
@@ -686,7 +686,7 @@
 .ms-ability-for-mirrodin::before {
   content: "\e9c1";
 }
-.ms-ability-foretell::before {
+.ms-ability-foretell::before, .ms-watermark-foretell::before {
   content: "\e990";
 }
 .ms-ability-goad::before {
@@ -868,6 +868,192 @@
 }
 .ms-ability-robber-of-the-rich::before {
   content: "\e9e5";
+}
+.ms-watermark-agentsofsneak::before {
+  content: "\ea08";
+}
+.ms-watermark-arena::before {
+  content: "\ea1e";
+}
+.ms-watermark-brokers::before {
+  content: "\ea0d";
+}
+.ms-watermark-cabaretti::before {
+  content: "\ea0e";
+}
+.ms-watermark-colorpie::before {
+  content: "\e9f0";
+}
+.ms-watermark-conspiracy::before {
+  content: "\ea12";
+}
+.ms-watermark-corocoro::before {
+  content: "\ea15";
+}
+.ms-watermark-crossbreedlabs::before {
+  content: "\ea09";
+}
+.ms-watermark-dci::before {
+  content: "\ea1d";
+}
+.ms-watermark-dengekimaoh::before {
+  content: "\ea14";
+}
+.ms-watermark-desparked::before {
+  content: "\e9f1";
+}
+.ms-watermark-dnd::before {
+  content: "\ea17";
+}
+.ms-watermark-flavor-aestheticconsultation::before {
+  content: "\e9f2";
+}
+.ms-watermark-flavor-farewelltoarms::before {
+  content: "\e9f3";
+}
+.ms-watermark-flavor-monkeymonkeymonkey::before {
+  content: "\e9f4";
+}
+.ms-watermark-flavor-moxlotus::before {
+  content: "\e9f5";
+}
+.ms-watermark-flavor-myfirsttome::before {
+  content: "\e9f6";
+}
+.ms-watermark-flavor-shoetree::before {
+  content: "\e9f7";
+}
+.ms-watermark-flavor-whenfluffybunniesattack::before {
+  content: "\e9f8";
+}
+.ms-watermark-fnm::before {
+  content: "\ea16";
+}
+.ms-watermark-goblinexplosioneers::before {
+  content: "\ea0a";
+}
+.ms-watermark-grandprix::before {
+  content: "\ea1f";
+}
+.ms-watermark-grandprix2::before {
+  content: "\ea20";
+}
+.ms-watermark-herospath::before {
+  content: "\ea02";
+}
+.ms-watermark-herospath-1::before {
+  content: "\e9f9";
+}
+.ms-watermark-herospath-2::before {
+  content: "\e9fa";
+}
+.ms-watermark-herospath-3::before {
+  content: "\e9fb";
+}
+.ms-watermark-herospath-4::before {
+  content: "\e9fc";
+}
+.ms-watermark-herospath-5::before {
+  content: "\e9fd";
+}
+.ms-watermark-herospath-6::before {
+  content: "\e9fe";
+}
+.ms-watermark-herospath-7::before {
+  content: "\e9ff";
+}
+.ms-watermark-herospath-8::before {
+  content: "\ea00";
+}
+.ms-watermark-herospath-9::before {
+  content: "\ea01";
+}
+.ms-watermark-japanjunior::before {
+  content: "\ea24";
+}
+.ms-watermark-judgeacademy::before {
+  content: "\ea13";
+}
+.ms-watermark-junior::before {
+  content: "\ea23";
+}
+.ms-watermark-juniorapac::before {
+  content: "\ea21";
+}
+.ms-watermark-junioreurope::before {
+  content: "\ea22";
+}
+.ms-watermark-leagueofdastardlydoom::before {
+  content: "\ea0b";
+}
+.ms-watermark-maestros::before {
+  content: "\ea0f";
+}
+.ms-watermark-mirran::before {
+  content: "\ea03";
+}
+.ms-watermark-cutiemark-apples::before {
+  content: "\ea27";
+}
+.ms-watermark-cutiemark-balloons::before {
+  content: "\ea28";
+}
+.ms-watermark-cutiemark-butterflies::before {
+  content: "\ea29";
+}
+.ms-watermark-cutiemark-gems::before {
+  content: "\ea04";
+}
+.ms-watermark-cutiemark-rainbow::before {
+  content: "\ea2a";
+}
+.ms-watermark-cutiemark-sparkle::before {
+  content: "\ea05";
+}
+.ms-watermark-cutiemark-waningmoon::before {
+  content: "\ea06";
+}
+.ms-watermark-cutiemark-waxingmoon::before {
+  content: "\ea07";
+}
+.ms-watermark-mps::before {
+  content: "\ea1a";
+}
+.ms-watermark-mtg::before {
+  content: "\e9ed";
+}
+.ms-watermark-mtg10::before {
+  content: "\e9ee";
+}
+.ms-watermark-mtg15::before {
+  content: "\e9ef";
+}
+.ms-watermark-nerf::before {
+  content: "\ea19";
+}
+.ms-watermark-obscura::before {
+  content: "\ea10";
+}
+.ms-watermark-orderofthewidget::before {
+  content: "\ea0c";
+}
+.ms-watermark-protour::before {
+  content: "\ea26";
+}
+.ms-watermark-riveteers::before {
+  content: "\ea11";
+}
+.ms-watermark-scholarship::before {
+  content: "\ea25";
+}
+.ms-watermark-transformers::before {
+  content: "\ea18";
+}
+.ms-watermark-wotc::before {
+  content: "\ea1b";
+}
+.ms-watermark-wpn::before {
+  content: "\ea1c";
 }
 
 .ms-cost {
@@ -1062,7 +1248,7 @@
   background: linear-gradient(135deg, #beb9b2 0%, #beb9b2 50%, #93b483 50%, #93b483 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#beb9b2", endColorstr="#93b483",GradientType=1 );
 }
-.ms-cost.ms-p::before, .ms-cost.ms-wp::before, .ms-cost.ms-up::before, .ms-cost.ms-bp::before, .ms-cost.ms-rp::before, .ms-cost.ms-gp::before, .ms-cost.ms-wup::before, .ms-cost.ms-wbp::before, .ms-cost.ms-ubp::before, .ms-cost.ms-urp::before, .ms-cost.ms-brp::before, .ms-cost.ms-bgp::before, .ms-cost.ms-rwp::before, .ms-cost.ms-rgp::before, .ms-cost.ms-gwp::before, .ms-cost.ms-gup::before {
+.ms-cost.ms-p::before, .ms-cost.ms-watermark-phyrexian::before, .ms-cost.ms-wp::before, .ms-cost.ms-up::before, .ms-cost.ms-bp::before, .ms-cost.ms-rp::before, .ms-cost.ms-gp::before, .ms-cost.ms-wup::before, .ms-cost.ms-wbp::before, .ms-cost.ms-ubp::before, .ms-cost.ms-urp::before, .ms-cost.ms-brp::before, .ms-cost.ms-bgp::before, .ms-cost.ms-rwp::before, .ms-cost.ms-rgp::before, .ms-cost.ms-gwp::before, .ms-cost.ms-gup::before {
   display: inline-block;
   -moz-transform: scale(1.2, 1.2);
   -webkit-transform: scale(1.2, 1.2);
@@ -1608,22 +1794,22 @@ span.ms-half > .ms-cost {
 .ms-duo.ms-multicolor::after {
   content: "\e986";
 }
-.ms-duo.ms-school-lorehold::after {
+.ms-duo.ms-school-lorehold::after, .ms-duo.ms-watermark-lorehold::after {
   content: "\e99b";
 }
-.ms-duo.ms-school-prismari::after {
+.ms-duo.ms-school-prismari::after, .ms-duo.ms-watermark-prismari::after {
   content: "\e99d";
 }
-.ms-duo.ms-school-quandrix::after {
+.ms-duo.ms-school-quandrix::after, .ms-duo.ms-watermark-quandrix::after {
   content: "\e99f";
 }
-.ms-duo.ms-school-silverquill::after {
+.ms-duo.ms-school-silverquill::after, .ms-duo.ms-watermark-silverquill::after {
   content: "\e9a1";
 }
-.ms-duo.ms-school-witherbloom::before {
+.ms-duo.ms-school-witherbloom::before, .ms-duo.ms-watermark-witherbloom::before {
   content: "\e9a3";
 }
-.ms-duo.ms-school-witherbloom::after {
+.ms-duo.ms-school-witherbloom::after, .ms-duo.ms-watermark-witherbloom::after {
   content: "\e9a4";
 }
 .ms-duo-color::before {
@@ -1637,34 +1823,34 @@ span.ms-half > .ms-cost {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.ms-duo-color.ms-school-lorehold::before {
+.ms-duo-color.ms-school-lorehold::before, .ms-duo-color.ms-watermark-lorehold::before {
   color: #a03731;
 }
-.ms-duo-color.ms-school-lorehold::after {
+.ms-duo-color.ms-school-lorehold::after, .ms-duo-color.ms-watermark-lorehold::after {
   color: #e4e8c7;
 }
-.ms-duo-color.ms-school-prismari::before {
+.ms-duo-color.ms-school-prismari::before, .ms-duo-color.ms-watermark-prismari::before {
   color: #a23431;
 }
-.ms-duo-color.ms-school-prismari::after {
+.ms-duo-color.ms-school-prismari::after, .ms-duo-color.ms-watermark-prismari::after {
   color: #322f5c;
 }
-.ms-duo-color.ms-school-quandrix::before {
+.ms-duo-color.ms-school-quandrix::before, .ms-duo-color.ms-watermark-quandrix::before {
   color: #352e5f;
 }
-.ms-duo-color.ms-school-quandrix::after {
+.ms-duo-color.ms-school-quandrix::after, .ms-duo-color.ms-watermark-quandrix::after {
   color: #519e52;
 }
-.ms-duo-color.ms-school-silverquill::before {
+.ms-duo-color.ms-school-silverquill::before, .ms-duo-color.ms-watermark-silverquill::before {
   color: #181616;
 }
-.ms-duo-color.ms-school-silverquill::after {
+.ms-duo-color.ms-school-silverquill::after, .ms-duo-color.ms-watermark-silverquill::after {
   color: #e5e9ca;
 }
-.ms-duo-color.ms-school-witherbloom::before {
+.ms-duo-color.ms-school-witherbloom::before, .ms-duo-color.ms-watermark-witherbloom::before {
   color: #2f312d;
 }
-.ms-duo-color.ms-school-witherbloom::after {
+.ms-duo-color.ms-school-witherbloom::after, .ms-duo-color.ms-watermark-witherbloom::after {
   color: #4f9b4f;
 }
 

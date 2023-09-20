@@ -10,6 +10,10 @@ All notable changes to this project will be documented in this file.
 
 ## Versions 
 
+### [1.16.0] 2023-09-20 Complete set of card watermarks
+
+* **Added:** 90 watermarks added/aliased, nearing the complete set of all watermarks save for 2. ([#34](https://github.com/andrewgioia/mana/issues/34)
+
 ### [1.15.9] 2023-09-10 WOE ability symbols, Haktos and Robber symbols, loyalty VI
 
 * **Added:** WOE ability symbols for Bargain, Celebration, and the 6 role tokens (Cursed, Monster, Royal, Sorceror, Wicked, and Young Hero) ([#111](https://github.com/andrewgioia/mana/issues/111))

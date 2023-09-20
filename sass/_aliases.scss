@@ -258,3 +258,35 @@
         @extend .#{$ms-prefix}-ci-wubrg;
     }
 }
+
+// watermark aliases
+.#{$ms-prefix}-watermark {
+    &-abzan { @extend .#{$ms-prefix}-clan-abzan; }
+    &-atarka { @extend .#{$ms-prefix}-clan-atarka; }
+    &-azorius { @extend .#{$ms-prefix}-guild-azorius; }
+    &-boros { @extend .#{$ms-prefix}-guild-boros; }
+    &-dimir { @extend .#{$ms-prefix}-guild-dimir; }
+    &-dromoka { @extend .#{$ms-prefix}-clan-dromoka; }
+    &-foretell { @extend .#{$ms-prefix}-ability-foretell; }
+    &-golgari { @extend .#{$ms-prefix}-guild-golgari; }
+    &-gruul { @extend .#{$ms-prefix}-guild-gruul; }
+    &-izzet { @extend .#{$ms-prefix}-guild-izzet; }
+    &-jeskai { @extend .#{$ms-prefix}-clan-jeskai; }
+    &-kolaghan { @extend .#{$ms-prefix}-clan-kolaghan; }
+    &-lorehold { @extend .#{$ms-prefix}-school-lorehold; }
+    &-mardu { @extend .#{$ms-prefix}-clan-mardu; }
+    &-ojutai { @extend .#{$ms-prefix}-clan-ojutai; }
+    &-orzhov { @extend .#{$ms-prefix}-guild-orzhov; }
+    &-phyrexian { @extend .#{$ms-prefix}-p; }
+    &-planeswalker { @extend .#{$ms-prefix}-planeswalker; }
+    &-prismari { @extend .#{$ms-prefix}-school-prismari; }
+    &-quandrix { @extend .#{$ms-prefix}-school-quandrix; }
+    &-rakdos { @extend .#{$ms-prefix}-guild-rakdos; }
+    &-selesnya { @extend .#{$ms-prefix}-guild-selesnya; }
+    &-silumgar { @extend .#{$ms-prefix}-clan-silumgar; }
+    &-silverquill { @extend .#{$ms-prefix}-school-silverquill; }
+    &-simic { @extend .#{$ms-prefix}-guild-simic; }
+    &-sultai { @extend .#{$ms-prefix}-clan-sultai; }
+    &-temur { @extend .#{$ms-prefix}-clan-temur; }
+    &-witherbloom { @extend .#{$ms-prefix}-school-witherbloom; }
+}
