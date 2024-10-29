@@ -1248,7 +1248,7 @@
   background: linear-gradient(135deg, #beb9b2 0%, #beb9b2 50%, #93b483 50%, #93b483 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#beb9b2", endColorstr="#93b483",GradientType=1 );
 }
-.ms-cost.ms-p::before, .ms-cost.ms-watermark-phyrexian::before, .ms-cost.ms-wp::before, .ms-cost.ms-up::before, .ms-cost.ms-bp::before, .ms-cost.ms-rp::before, .ms-cost.ms-gp::before, .ms-cost.ms-wup::before, .ms-cost.ms-wbp::before, .ms-cost.ms-ubp::before, .ms-cost.ms-urp::before, .ms-cost.ms-brp::before, .ms-cost.ms-bgp::before, .ms-cost.ms-rwp::before, .ms-cost.ms-rgp::before, .ms-cost.ms-gwp::before, .ms-cost.ms-gup::before {
+.ms-cost.ms-p::before, .ms-cost.ms-wp::before, .ms-cost.ms-up::before, .ms-cost.ms-bp::before, .ms-cost.ms-rp::before, .ms-cost.ms-gp::before, .ms-cost.ms-wup::before, .ms-cost.ms-wbp::before, .ms-cost.ms-ubp::before, .ms-cost.ms-urp::before, .ms-cost.ms-brp::before, .ms-cost.ms-bgp::before, .ms-cost.ms-rwp::before, .ms-cost.ms-rgp::before, .ms-cost.ms-gwp::before, .ms-cost.ms-gup::before {
   display: inline-block;
   -moz-transform: scale(1.2, 1.2);
   -webkit-transform: scale(1.2, 1.2);
@@ -1794,22 +1794,22 @@ span.ms-half > .ms-cost {
 .ms-duo.ms-multicolor::after {
   content: "\e986";
 }
-.ms-duo.ms-school-lorehold::after, .ms-duo.ms-watermark-lorehold::after {
+.ms-duo.ms-school-lorehold::after {
   content: "\e99b";
 }
-.ms-duo.ms-school-prismari::after, .ms-duo.ms-watermark-prismari::after {
+.ms-duo.ms-school-prismari::after {
   content: "\e99d";
 }
-.ms-duo.ms-school-quandrix::after, .ms-duo.ms-watermark-quandrix::after {
+.ms-duo.ms-school-quandrix::after {
   content: "\e99f";
 }
-.ms-duo.ms-school-silverquill::after, .ms-duo.ms-watermark-silverquill::after {
+.ms-duo.ms-school-silverquill::after {
   content: "\e9a1";
 }
-.ms-duo.ms-school-witherbloom::before, .ms-duo.ms-watermark-witherbloom::before {
+.ms-duo.ms-school-witherbloom::before {
   content: "\e9a3";
 }
-.ms-duo.ms-school-witherbloom::after, .ms-duo.ms-watermark-witherbloom::after {
+.ms-duo.ms-school-witherbloom::after {
   content: "\e9a4";
 }
 .ms-duo-color::before {
@@ -1823,34 +1823,34 @@ span.ms-half > .ms-cost {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.ms-duo-color.ms-school-lorehold::before, .ms-duo-color.ms-watermark-lorehold::before {
+.ms-duo-color.ms-school-lorehold::before {
   color: #a03731;
 }
-.ms-duo-color.ms-school-lorehold::after, .ms-duo-color.ms-watermark-lorehold::after {
+.ms-duo-color.ms-school-lorehold::after {
   color: #e4e8c7;
 }
-.ms-duo-color.ms-school-prismari::before, .ms-duo-color.ms-watermark-prismari::before {
+.ms-duo-color.ms-school-prismari::before {
   color: #a23431;
 }
-.ms-duo-color.ms-school-prismari::after, .ms-duo-color.ms-watermark-prismari::after {
+.ms-duo-color.ms-school-prismari::after {
   color: #322f5c;
 }
-.ms-duo-color.ms-school-quandrix::before, .ms-duo-color.ms-watermark-quandrix::before {
+.ms-duo-color.ms-school-quandrix::before {
   color: #352e5f;
 }
-.ms-duo-color.ms-school-quandrix::after, .ms-duo-color.ms-watermark-quandrix::after {
+.ms-duo-color.ms-school-quandrix::after {
   color: #519e52;
 }
-.ms-duo-color.ms-school-silverquill::before, .ms-duo-color.ms-watermark-silverquill::before {
+.ms-duo-color.ms-school-silverquill::before {
   color: #181616;
 }
-.ms-duo-color.ms-school-silverquill::after, .ms-duo-color.ms-watermark-silverquill::after {
+.ms-duo-color.ms-school-silverquill::after {
   color: #e5e9ca;
 }
-.ms-duo-color.ms-school-witherbloom::before, .ms-duo-color.ms-watermark-witherbloom::before {
+.ms-duo-color.ms-school-witherbloom::before {
   color: #2f312d;
 }
-.ms-duo-color.ms-school-witherbloom::after, .ms-duo-color.ms-watermark-witherbloom::after {
+.ms-duo-color.ms-school-witherbloom::after {
   color: #4f9b4f;
 }
 
@@ -1969,7 +1969,7 @@ span.ms-half > .ms-cost {
 .ms-ci-wubr, .ms-ci-bruw, .ms-ci-brwu, .ms-ci-burw, .ms-ci-buwr, .ms-ci-bwru, .ms-ci-bwur, .ms-ci-rbuw, .ms-ci-rbwu, .ms-ci-rubw, .ms-ci-ruwb, .ms-ci-rwbu, .ms-ci-rwub, .ms-ci-ubrw, .ms-ci-ubwr, .ms-ci-urbw, .ms-ci-urwb, .ms-ci-uwbr, .ms-ci-uwrb, .ms-ci-wbru, .ms-ci-wbur, .ms-ci-wrbu, .ms-ci-wrub, .ms-ci-wurb, .ms-ci-yore {
   background: conic-gradient(#fff 45deg, #3b6ba0 45deg 135deg, #383431 135deg 225deg, #c6553e 225deg 315deg, #fff 315deg);
 }
-.ms-ci-wubrg, .ms-ci-rugbw, .ms-ci-rugwb, .ms-ci-ruwbg, .ms-ci-ruwgb, .ms-ci-rwbgu, .ms-ci-rwbug, .ms-ci-rwgbu, .ms-ci-rwgub, .ms-ci-rwubg, .ms-ci-rwugb, .ms-ci-ubgrw, .ms-ci-ubgwr, .ms-ci-ubrgw, .ms-ci-ubrwg, .ms-ci-ubwgr, .ms-ci-ubwrg, .ms-ci-ugbrw, .ms-ci-ugbwr, .ms-ci-ugrbw, .ms-ci-ugrwb, .ms-ci-ugwbr, .ms-ci-ugwrb, .ms-ci-urbgw, .ms-ci-urbwg, .ms-ci-urgbw, .ms-ci-urgwb, .ms-ci-urwbg, .ms-ci-urwgb, .ms-ci-uwbgr, .ms-ci-uwbrg, .ms-ci-uwgbr, .ms-ci-uwgrb, .ms-ci-uwrbg, .ms-ci-uwrgb, .ms-ci-wbgru, .ms-ci-wbgur, .ms-ci-wbrgu, .ms-ci-wbrug, .ms-ci-wbugr, .ms-ci-wburg, .ms-ci-wgbru, .ms-ci-wgbur, .ms-ci-wgrbu, .ms-ci-wgrub, .ms-ci-wgubr, .ms-ci-wgurb, .ms-ci-wrbgu, .ms-ci-wrbug, .ms-ci-wrgbu, .ms-ci-wrgub, .ms-ci-wrubg, .ms-ci-wrugb, .ms-ci-wubgr, .ms-ci-wugbr, .ms-ci-wugrb, .ms-ci-wurbg, .ms-ci-wurgb, .ms-ci-bgruw, .ms-ci-bgrwu, .ms-ci-bgurw, .ms-ci-bguwr, .ms-ci-bgwru, .ms-ci-bgwur, .ms-ci-brguw, .ms-ci-brgwu, .ms-ci-brugw, .ms-ci-bruwg, .ms-ci-brwgu, .ms-ci-brwug, .ms-ci-bugrw, .ms-ci-bugwr, .ms-ci-burgw, .ms-ci-burwg, .ms-ci-buwgr, .ms-ci-buwrg, .ms-ci-bwgru, .ms-ci-bwgur, .ms-ci-bwrgu, .ms-ci-bwrug, .ms-ci-bwugr, .ms-ci-bwurg, .ms-ci-gbruw, .ms-ci-gbrwu, .ms-ci-gburw, .ms-ci-gbuwr, .ms-ci-gbwru, .ms-ci-gbwur, .ms-ci-grbuw, .ms-ci-grbwu, .ms-ci-grubw, .ms-ci-gruwb, .ms-ci-grwbu, .ms-ci-grwub, .ms-ci-gubrw, .ms-ci-gubwr, .ms-ci-gurbw, .ms-ci-gurwb, .ms-ci-guwbr, .ms-ci-guwrb, .ms-ci-gwbru, .ms-ci-gwbur, .ms-ci-gwrbu, .ms-ci-gwrub, .ms-ci-gwubr, .ms-ci-gwurb, .ms-ci-rbguw, .ms-ci-rbgwu, .ms-ci-rbugw, .ms-ci-rbuwg, .ms-ci-rbwgu, .ms-ci-rbwug, .ms-ci-rgbuw, .ms-ci-rgbwu, .ms-ci-rgubw, .ms-ci-rguwb, .ms-ci-rgwbu, .ms-ci-rgwub, .ms-ci-rubgw, .ms-ci-rubwg, .ms-ci-5 {
+.ms-ci-wubrg, .ms-ci-bgruw, .ms-ci-bgrwu, .ms-ci-bgurw, .ms-ci-bguwr, .ms-ci-bgwru, .ms-ci-bgwur, .ms-ci-brguw, .ms-ci-brgwu, .ms-ci-brugw, .ms-ci-bruwg, .ms-ci-brwgu, .ms-ci-brwug, .ms-ci-bugrw, .ms-ci-bugwr, .ms-ci-burgw, .ms-ci-burwg, .ms-ci-buwgr, .ms-ci-buwrg, .ms-ci-bwgru, .ms-ci-bwgur, .ms-ci-bwrgu, .ms-ci-bwrug, .ms-ci-bwugr, .ms-ci-bwurg, .ms-ci-gbruw, .ms-ci-gbrwu, .ms-ci-gburw, .ms-ci-gbuwr, .ms-ci-gbwru, .ms-ci-gbwur, .ms-ci-grbuw, .ms-ci-grbwu, .ms-ci-grubw, .ms-ci-gruwb, .ms-ci-grwbu, .ms-ci-grwub, .ms-ci-gubrw, .ms-ci-gubwr, .ms-ci-gurbw, .ms-ci-gurwb, .ms-ci-guwbr, .ms-ci-guwrb, .ms-ci-gwbru, .ms-ci-gwbur, .ms-ci-gwrbu, .ms-ci-gwrub, .ms-ci-gwubr, .ms-ci-gwurb, .ms-ci-rbguw, .ms-ci-rbgwu, .ms-ci-rbugw, .ms-ci-rbuwg, .ms-ci-rbwgu, .ms-ci-rbwug, .ms-ci-rgbuw, .ms-ci-rgbwu, .ms-ci-rgubw, .ms-ci-rguwb, .ms-ci-rgwbu, .ms-ci-rgwub, .ms-ci-rubgw, .ms-ci-rubwg, .ms-ci-rugbw, .ms-ci-rugwb, .ms-ci-ruwbg, .ms-ci-ruwgb, .ms-ci-rwbgu, .ms-ci-rwbug, .ms-ci-rwgbu, .ms-ci-rwgub, .ms-ci-rwubg, .ms-ci-rwugb, .ms-ci-ubgrw, .ms-ci-ubgwr, .ms-ci-ubrgw, .ms-ci-ubrwg, .ms-ci-ubwgr, .ms-ci-ubwrg, .ms-ci-ugbrw, .ms-ci-ugbwr, .ms-ci-ugrbw, .ms-ci-ugrwb, .ms-ci-ugwbr, .ms-ci-ugwrb, .ms-ci-urbgw, .ms-ci-urbwg, .ms-ci-urgbw, .ms-ci-urgwb, .ms-ci-urwbg, .ms-ci-urwgb, .ms-ci-uwbgr, .ms-ci-uwbrg, .ms-ci-uwgbr, .ms-ci-uwgrb, .ms-ci-uwrbg, .ms-ci-uwrgb, .ms-ci-wbgru, .ms-ci-wbgur, .ms-ci-wbrgu, .ms-ci-wbrug, .ms-ci-wbugr, .ms-ci-wburg, .ms-ci-wgbru, .ms-ci-wgbur, .ms-ci-wgrbu, .ms-ci-wgrub, .ms-ci-wgubr, .ms-ci-wgurb, .ms-ci-wrbgu, .ms-ci-wrbug, .ms-ci-wrgbu, .ms-ci-wrgub, .ms-ci-wrubg, .ms-ci-wrugb, .ms-ci-wubgr, .ms-ci-wugbr, .ms-ci-wugrb, .ms-ci-wurbg, .ms-ci-wurgb, .ms-ci-5 {
   background: conic-gradient(#fff 36deg, #3b6ba0 36deg 108deg, #383431 108deg 180deg, #c6553e 180deg 252deg, #3d684b 252deg 324deg, #fff 324deg);
 }
 

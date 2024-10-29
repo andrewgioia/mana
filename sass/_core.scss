@@ -1,8 +1,10 @@
+@use "variables";
+
 // base
 
-.#{$ms-prefix} {
+.#{variables.$ms-prefix} {
     display: inline-block;
-    font: normal normal normal $ms-font-size-base Mana;
+    font: normal normal normal variables.$ms-font-size-base Mana;
     font-size: inherit;
     line-height: 1em;
     text-rendering: auto;

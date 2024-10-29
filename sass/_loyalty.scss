@@ -1,7 +1,9 @@
+@use "variables";
+
 /**
  * planeswalker and other loyalty symbols */
 
-.#{$ms-prefix}-loyalty {
+.#{variables.$ms-prefix}-loyalty {
 
     // all
     &-up,
@@ -49,7 +51,7 @@
         color: #fff;
         display: inline-block;
         font-size: 0.5em;
-        font-family: $ms-serif-font;
+        font-family: variables.$ms-serif-font;
         position: absolute;
         left: 0;
         line-height: 2.25em;
@@ -60,7 +62,7 @@
         content: "0";
     }
     &-up {
-        &.#{$ms-prefix}-loyalty {
+        &.#{variables.$ms-prefix}-loyalty {
             &-1::after { content: "+1"; }
             &-2::after { content: "+2"; }
             &-3::after { content: "+3"; }
@@ -86,7 +88,7 @@
         }
     }
     &-start {
-        &.#{$ms-prefix}-loyalty {
+        &.#{variables.$ms-prefix}-loyalty {
             &-1::after { content: "1"; }
             &-2::after { content: "2"; }
             &-3::after { content: "3"; }
@@ -115,7 +117,7 @@
         &::after {
             line-height: 2em;
         }
-        &.#{$ms-prefix}-loyalty {
+        &.#{variables.$ms-prefix}-loyalty {
             &-1::after { content: "-1"; }
             &-2::after { content: "-2"; }
             &-3::after { content: "-3"; }
@@ -151,7 +153,7 @@
             color: #111;
         }
         // correction for starting loyalty size
-        &.#{$ms-prefix}-loyalty-start {
+        &.#{variables.$ms-prefix}-loyalty-start {
             font-size: 1.6em;
         }
     }
@@ -159,7 +161,7 @@
 
 // saga loyalty
 
-.#{$ms-prefix}-saga {
+.#{variables.$ms-prefix}-saga {
 
     // all
     color: #111;
@@ -174,7 +176,7 @@
         color: #fff;
         display: inline-block;
         font-size: 0.6em;
-        font-family: $ms-serif-font;
+        font-family: variables.$ms-serif-font;
         position: absolute;
         left: 0;
         line-height: 2.0em;
@@ -193,7 +195,7 @@
 
 // level card levels
 
-.#{$ms-prefix}-level {
+.#{variables.$ms-prefix}-level {
 
     // level numbers must be in a span for now unfortunately
     > span {
@@ -202,7 +204,7 @@
         left: 0;
         top: 0;
         color: #000;
-        font-family: $ms-serif-font;
+        font-family: variables.$ms-serif-font;
         width: 76%;
         text-align: center;
         line-height: 3.8;
@@ -224,7 +226,7 @@
 
 // defense loyalty
 
-.#{$ms-prefix}-defense {
+.#{variables.$ms-prefix}-defense {
 
     color: #111;
     font-size: 1.5em;
@@ -258,7 +260,7 @@
         color: #fff;
         display: inline-block;
         font-size: 0.5em;
-        font-family: $ms-serif-font;
+        font-family: variables.$ms-serif-font;
         position: absolute;
         left: 0;
         line-height: 2.25em;

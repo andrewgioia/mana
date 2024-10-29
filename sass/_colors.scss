@@ -1,6 +1,8 @@
+@use "variables";
+
 // color indicator circles
 
-.#{$ms-prefix}-ci {
+.#{variables.$ms-prefix}-ci {
 
     // base styles
     border-radius: 100%;
@@ -10,7 +12,7 @@
     height: 1em;
 
     // set the border color
-    &::before { color: $ms-border-black; }
+    &::before { color: variables.$ms-border-black; }
 
     // borders based on number of colors in identity
     &-1::before { content: "\e98a"; }
@@ -20,47 +22,47 @@
     &-5::before { content: "\e98e"; }
 
     // 1 color backgrounds
-    &-w { background: $ms-white; }
-    &-u { background: $ms-blue; }
-    &-b { background: $ms-black; }
-    &-r { background: $ms-red; }
-    &-g { background: $ms-green; }
+    &-w { background: variables.$ms-white; }
+    &-u { background: variables.$ms-blue; }
+    &-b { background: variables.$ms-black; }
+    &-r { background: variables.$ms-red; }
+    &-g { background: variables.$ms-green; }
 
     // 2 color backgrounds
     &-wu,
     &-uw,
     &-azorius {
         background: conic-gradient(
-            $ms-white 45deg,
-            $ms-blue 45deg 225deg,
-            $ms-white 225deg
+            variables.$ms-white 45deg,
+            variables.$ms-blue 45deg 225deg,
+            variables.$ms-white 225deg
         );
     }
     &-wb,
     &-bw,
     &-orzhov {
         background: conic-gradient(
-            $ms-white 45deg,
-            $ms-black 45deg 225deg,
-            $ms-white 225deg
+            variables.$ms-white 45deg,
+            variables.$ms-black 45deg 225deg,
+            variables.$ms-white 225deg
         );
     }
     &-ub,
     &-bu,
     &-dimir {
         background: conic-gradient(
-            $ms-blue 45deg,
-            $ms-black 45deg 225deg,
-            $ms-blue 225deg
+            variables.$ms-blue 45deg,
+            variables.$ms-black 45deg 225deg,
+            variables.$ms-blue 225deg
         );
     }
     &-ur,
     &-ru,
     &-izzet {
         background: conic-gradient(
-            $ms-blue 45deg,
-            $ms-red 45deg 225deg,
-            $ms-blue 225deg
+            variables.$ms-blue 45deg,
+            variables.$ms-red 45deg 225deg,
+            variables.$ms-blue 225deg
         );
     }
     &-bg,
@@ -68,54 +70,54 @@
     &-golgari,
     &-rock {
         background: conic-gradient(
-            $ms-black 45deg,
-            $ms-green 45deg 225deg,
-            $ms-black 225deg
+            variables.$ms-black 45deg,
+            variables.$ms-green 45deg 225deg,
+            variables.$ms-black 225deg
         );
     }
     &-br,
     &-rb,
     &-rakdos {
         background: conic-gradient(
-            $ms-black 45deg,
-            $ms-red 45deg 225deg,
-            $ms-black 225deg
+            variables.$ms-black 45deg,
+            variables.$ms-red 45deg 225deg,
+            variables.$ms-black 225deg
         );
     }
     &-rw,
     &-wr,
     &-boros {
         background: conic-gradient(
-            $ms-red 45deg,
-            $ms-white 45deg 225deg,
-            $ms-red 225deg
+            variables.$ms-red 45deg,
+            variables.$ms-white 45deg 225deg,
+            variables.$ms-red 225deg
         );
     }
     &-rg,
     &-gr,
     &-gruul {
         background: conic-gradient(
-            $ms-red 45deg,
-            $ms-green 45deg 225deg,
-            $ms-red 225deg
+            variables.$ms-red 45deg,
+            variables.$ms-green 45deg 225deg,
+            variables.$ms-red 225deg
         );
     }
     &-gu,
     &-ug,
     &-simic {
         background: conic-gradient(
-            $ms-green 45deg,
-            $ms-blue 45deg 225deg,
-            $ms-green 225deg
+            variables.$ms-green 45deg,
+            variables.$ms-blue 45deg 225deg,
+            variables.$ms-green 225deg
         );
     }
     &-gw,
     &-wg,
     &-selesnya {
         background: conic-gradient(
-            $ms-green 45deg,
-            $ms-white 45deg 225deg,
-            $ms-green 225deg
+            variables.$ms-green 45deg,
+            variables.$ms-white 45deg 225deg,
+            variables.$ms-green 225deg
         );
     }
 
@@ -128,10 +130,10 @@
     &-guw,
     &-bant {
         background: conic-gradient(
-            $ms-blue 60deg,
-            $ms-green 60deg 180deg,
-            $ms-white 180deg 300deg,
-            $ms-blue 300deg
+            variables.$ms-blue 60deg,
+            variables.$ms-green 60deg 180deg,
+            variables.$ms-white 180deg 300deg,
+            variables.$ms-blue 300deg
         );
     }
     &-ubw,
@@ -142,10 +144,10 @@
     &-wbu,
     &-esper {
         background: conic-gradient(
-            $ms-black 60deg,
-            $ms-white 60deg 180deg,
-            $ms-blue 180deg 300deg,
-            $ms-black 300deg
+            variables.$ms-black 60deg,
+            variables.$ms-white 60deg 180deg,
+            variables.$ms-blue 180deg 300deg,
+            variables.$ms-black 300deg
         );
     }
     &-bru,
@@ -156,10 +158,10 @@
     &-urb,
     &-grixis {
         background: conic-gradient(
-            $ms-red 60deg,
-            $ms-blue 60deg 180deg,
-            $ms-black 180deg 300deg,
-            $ms-red 300deg
+            variables.$ms-red 60deg,
+            variables.$ms-blue 60deg 180deg,
+            variables.$ms-black 180deg 300deg,
+            variables.$ms-red 300deg
         );
     }
     &-rgb,
@@ -170,10 +172,10 @@
     &-bgr,
     &-jund {
         background: conic-gradient(
-            $ms-green 60deg,
-            $ms-black 60deg 180deg,
-            $ms-red 180deg 300deg,
-            $ms-green 300deg
+            variables.$ms-green 60deg,
+            variables.$ms-black 60deg 180deg,
+            variables.$ms-red 180deg 300deg,
+            variables.$ms-green 300deg
         );
     }
     &-gwr,
@@ -184,10 +186,10 @@
     &-rwg,
     &-naya {
         background: conic-gradient(
-            $ms-white 60deg,
-            $ms-red 60deg 180deg,
-            $ms-green 180deg 300deg,
-            $ms-white 300deg
+            variables.$ms-white 60deg,
+            variables.$ms-red 60deg 180deg,
+            variables.$ms-green 180deg 300deg,
+            variables.$ms-white 300deg
         );
     }
     &-wbg,
@@ -200,10 +202,10 @@
     &-junk,
     &-necra {
         background: conic-gradient(
-            $ms-black 60deg,
-            $ms-green 60deg 180deg,
-            $ms-white 180deg 300deg,
-            $ms-black 300deg
+            variables.$ms-black 60deg,
+            variables.$ms-green 60deg 180deg,
+            variables.$ms-white 180deg 300deg,
+            variables.$ms-black 300deg
         );
     }
     &-urw,
@@ -215,10 +217,10 @@
     &-jeskai,
     &-raka {
         background: conic-gradient(
-            $ms-red 60deg,
-            $ms-white 60deg 180deg,
-            $ms-blue 180deg 300deg,
-            $ms-red 300deg
+            variables.$ms-red 60deg,
+            variables.$ms-white 60deg 180deg,
+            variables.$ms-blue 180deg 300deg,
+            variables.$ms-red 300deg
         );
     }
     &-bgu,
@@ -231,10 +233,10 @@
     &-bug,
     &-ana {
         background: conic-gradient(
-            $ms-green 60deg,
-            $ms-blue 60deg 180deg,
-            $ms-black 180deg 300deg,
-            $ms-green 300deg
+            variables.$ms-green 60deg,
+            variables.$ms-blue 60deg 180deg,
+            variables.$ms-black 180deg 300deg,
+            variables.$ms-green 300deg
         );
     }
     &-rwb,
@@ -246,10 +248,10 @@
     &-mardu,
     &-dega {
         background: conic-gradient(
-            $ms-white 60deg,
-            $ms-black 60deg 180deg,
-            $ms-red 180deg 300deg,
-            $ms-white 300deg
+            variables.$ms-white 60deg,
+            variables.$ms-black 60deg 180deg,
+            variables.$ms-red 180deg 300deg,
+            variables.$ms-white 300deg
         );
     }
     &-gur,
@@ -261,10 +263,10 @@
     &-temur,
     &-ceta {
         background: conic-gradient(
-            $ms-blue 60deg,
-            $ms-red 60deg 180deg,
-            $ms-green 180deg 300deg,
-            $ms-blue 300deg
+            variables.$ms-blue 60deg,
+            variables.$ms-red 60deg 180deg,
+            variables.$ms-green 180deg 300deg,
+            variables.$ms-blue 300deg
         );
     }
 
@@ -272,51 +274,51 @@
     &-ubrg,
     &-glint {
         background: conic-gradient(
-            $ms-blue 45deg,
-            $ms-black 45deg 135deg,
-            $ms-red 135deg 225deg,
-            $ms-green 225deg 315deg,
-            $ms-blue 315deg
+            variables.$ms-blue 45deg,
+            variables.$ms-black 45deg 135deg,
+            variables.$ms-red 135deg 225deg,
+            variables.$ms-green 225deg 315deg,
+            variables.$ms-blue 315deg
         );
     }
     &-brgw,
     &-dune {
         background: conic-gradient(
-            $ms-black 45deg,
-            $ms-red 45deg 135deg,
-            $ms-green 135deg 225deg,
-            $ms-white 225deg 315deg,
-            $ms-black 315deg
+            variables.$ms-black 45deg,
+            variables.$ms-red 45deg 135deg,
+            variables.$ms-green 135deg 225deg,
+            variables.$ms-white 225deg 315deg,
+            variables.$ms-black 315deg
         );
     }
     &-rgwu,
     &-ink {
         background: conic-gradient(
-            $ms-red 45deg,
-            $ms-green 45deg 135deg,
-            $ms-white 135deg 225deg,
-            $ms-blue 225deg 315deg,
-            $ms-red 315deg
+            variables.$ms-red 45deg,
+            variables.$ms-green 45deg 135deg,
+            variables.$ms-white 135deg 225deg,
+            variables.$ms-blue 225deg 315deg,
+            variables.$ms-red 315deg
         );
     }
     &-gwub,
     &-witch {
         background: conic-gradient(
-            $ms-green 45deg,
-            $ms-white 45deg 135deg,
-            $ms-blue 135deg 225deg,
-            $ms-black 225deg 315deg,
-            $ms-green 315deg
+            variables.$ms-green 45deg,
+            variables.$ms-white 45deg 135deg,
+            variables.$ms-blue 135deg 225deg,
+            variables.$ms-black 225deg 315deg,
+            variables.$ms-green 315deg
         );
     }
     &-wubr,
     &-yore {
         background: conic-gradient(
-            $ms-white 45deg,
-            $ms-blue 45deg 135deg,
-            $ms-black 135deg 225deg,
-            $ms-red 225deg 315deg,
-            $ms-white 315deg
+            variables.$ms-white 45deg,
+            variables.$ms-blue 45deg 135deg,
+            variables.$ms-black 135deg 225deg,
+            variables.$ms-red 225deg 315deg,
+            variables.$ms-white 315deg
         );
     }
 
@@ -324,12 +326,12 @@
     &-wubrg,
     &-5 {
         background: conic-gradient(
-            $ms-white 36deg,
-            $ms-blue 36deg 108deg,
-            $ms-black 108deg 180deg,
-            $ms-red 180deg 252deg,
-            $ms-green 252deg 324deg,
-            $ms-white 324deg
+            variables.$ms-white 36deg,
+            variables.$ms-blue 36deg 108deg,
+            variables.$ms-black 108deg 180deg,
+            variables.$ms-red 180deg 252deg,
+            variables.$ms-green 252deg 324deg,
+            variables.$ms-white 324deg
         );
     }
 }

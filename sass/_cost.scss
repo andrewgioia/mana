@@ -1,8 +1,10 @@
+@use "variables";
+
 // costs
 
-.#{$ms-prefix}-cost {
+.#{variables.$ms-prefix}-cost {
 
-    background-color: $ms-base-colorless;
+    background-color: variables.$ms-base-colorless;
     border-radius: 1em;
     color: #111;
     font-size: 0.95em;
@@ -12,53 +14,53 @@
     text-align: center;
 
     // single costs
-    &.#{$ms-prefix}-w,
-    &.#{$ms-prefix}-wp {
-        background-color: $ms-base-white;
+    &.#{variables.$ms-prefix}-w,
+    &.#{variables.$ms-prefix}-wp {
+        background-color: variables.$ms-base-white;
     }
-    &.#{$ms-prefix}-u,
-    &.#{$ms-prefix}-up {
-        background-color: $ms-base-blue;
+    &.#{variables.$ms-prefix}-u,
+    &.#{variables.$ms-prefix}-up {
+        background-color: variables.$ms-base-blue;
     }
-    &.#{$ms-prefix}-b,
-    &.#{$ms-prefix}-bp {
-        background-color: $ms-base-black;
+    &.#{variables.$ms-prefix}-b,
+    &.#{variables.$ms-prefix}-bp {
+        background-color: variables.$ms-base-black;
     }
-    &.#{$ms-prefix}-r,
-    &.#{$ms-prefix}-rp {
-        background-color: $ms-base-red;
+    &.#{variables.$ms-prefix}-r,
+    &.#{variables.$ms-prefix}-rp {
+        background-color: variables.$ms-base-red;
     }
-    &.#{$ms-prefix}-g,
-    &.#{$ms-prefix}-gp {
-        background-color: $ms-base-green;
+    &.#{variables.$ms-prefix}-g,
+    &.#{variables.$ms-prefix}-gp {
+        background-color: variables.$ms-base-green;
     }
 
     // split costs
-    &.#{$ms-prefix}-wu,
-    &.#{$ms-prefix}-wb,
-    &.#{$ms-prefix}-ub,
-    &.#{$ms-prefix}-ur,
-    &.#{$ms-prefix}-br,
-    &.#{$ms-prefix}-bg,
-    &.#{$ms-prefix}-rw,
-    &.#{$ms-prefix}-rg,
-    &.#{$ms-prefix}-gw,
-    &.#{$ms-prefix}-gu,
-    &.#{$ms-prefix}-2w,
-    &.#{$ms-prefix}-2u,
-    &.#{$ms-prefix}-2b,
-    &.#{$ms-prefix}-2r,
-    &.#{$ms-prefix}-2g,
-    &.#{$ms-prefix}-wup,
-    &.#{$ms-prefix}-wbp,
-    &.#{$ms-prefix}-ubp,
-    &.#{$ms-prefix}-urp,
-    &.#{$ms-prefix}-brp,
-    &.#{$ms-prefix}-bgp,
-    &.#{$ms-prefix}-rwp,
-    &.#{$ms-prefix}-rgp,
-    &.#{$ms-prefix}-gwp,
-    &.#{$ms-prefix}-gup {
+    &.#{variables.$ms-prefix}-wu,
+    &.#{variables.$ms-prefix}-wb,
+    &.#{variables.$ms-prefix}-ub,
+    &.#{variables.$ms-prefix}-ur,
+    &.#{variables.$ms-prefix}-br,
+    &.#{variables.$ms-prefix}-bg,
+    &.#{variables.$ms-prefix}-rw,
+    &.#{variables.$ms-prefix}-rg,
+    &.#{variables.$ms-prefix}-gw,
+    &.#{variables.$ms-prefix}-gu,
+    &.#{variables.$ms-prefix}-2w,
+    &.#{variables.$ms-prefix}-2u,
+    &.#{variables.$ms-prefix}-2b,
+    &.#{variables.$ms-prefix}-2r,
+    &.#{variables.$ms-prefix}-2g,
+    &.#{variables.$ms-prefix}-wup,
+    &.#{variables.$ms-prefix}-wbp,
+    &.#{variables.$ms-prefix}-ubp,
+    &.#{variables.$ms-prefix}-urp,
+    &.#{variables.$ms-prefix}-brp,
+    &.#{variables.$ms-prefix}-bgp,
+    &.#{variables.$ms-prefix}-rwp,
+    &.#{variables.$ms-prefix}-rgp,
+    &.#{variables.$ms-prefix}-gwp,
+    &.#{variables.$ms-prefix}-gup {
         position: relative;
         width: 1.3em;
         height: 1.3em;
@@ -76,8 +78,8 @@
             left: 1.0em;
         }
     }
-    &.#{$ms-prefix}-wu,
-    &.#{$ms-prefix}-wup {
+    &.#{variables.$ms-prefix}-wu,
+    &.#{variables.$ms-prefix}-wup {
         background: #edf2b0; // Old browsers
         background: -moz-linear-gradient(-45deg, #edf2b0 0%, #edf2b0 50%, #a6c1dd 50%, #a6c1dd 100%); // FF3.6+
         background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#edf2b0), color-stop(50%,#edf2b0), color-stop(50%,#a6c1dd), color-stop(100%,#a6c1dd)); // Chrome,Safari4+
@@ -87,8 +89,8 @@
         background: linear-gradient(135deg, #edf2b0 0%,#edf2b0 50%,#a6c1dd 50%,#a6c1dd 100%); // W3C
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#edf2b0', endColorstr='#a6c1dd',GradientType=1 ); // IE6-9 fallback on horizontal gradient
     }
-    &.#{$ms-prefix}-wb,
-    &.#{$ms-prefix}-wbp {
+    &.#{variables.$ms-prefix}-wb,
+    &.#{variables.$ms-prefix}-wbp {
         background: #edf2b0; // Old browsers
         background: -moz-linear-gradient(-45deg,  #edf2b0 0%, #edf2b0 50%, #9c9188 50%, #9c9188 100%); // FF3.6+
         background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#edf2b0), color-stop(50%,#edf2b0), color-stop(50%,#9c9188), color-stop(100%,#9c9188)); // Chrome,Safari4+
@@ -98,8 +100,8 @@
         background: linear-gradient(135deg,  #edf2b0 0%,#edf2b0 50%,#9c9188 50%,#9c9188 100%); // W3C
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#edf2b0', endColorstr='#9c9188',GradientType=1 ); // IE6-9 fallback on horizontal gradient
     }
-    &.#{$ms-prefix}-ub,
-    &.#{$ms-prefix}-ubp {
+    &.#{variables.$ms-prefix}-ub,
+    &.#{variables.$ms-prefix}-ubp {
         background: #a6c1dd; // Old browsers
         background: -moz-linear-gradient(-45deg,  #a6c1dd 0%, #a6c1dd 50%, #9c9188 50%, #9c9188 100%); // FF3.6+
         background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#a6c1dd), color-stop(50%,#a6c1dd), color-stop(50%,#9c9188), color-stop(100%,#9c9188)); // Chrome,Safari4+
@@ -109,8 +111,8 @@
         background: linear-gradient(135deg,  #a6c1dd 0%,#a6c1dd 50%,#9c9188 50%,#9c9188 100%); // W3C
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6c1dd', endColorstr='#9c9188',GradientType=1 ); // IE6-9 fallback on horizontal gradient
     }
-    &.#{$ms-prefix}-ur,
-    &.#{$ms-prefix}-urp {
+    &.#{variables.$ms-prefix}-ur,
+    &.#{variables.$ms-prefix}-urp {
         background: #a6c1dd; // Old browsers
         background: -moz-linear-gradient(-45deg,  #a6c1dd 0%, #a6c1dd 50%, #db8664 50%, #db8664 100%); // FF3.6+
         background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#a6c1dd), color-stop(50%,#a6c1dd), color-stop(50%,#db8664), color-stop(100%,#db8664)); // Chrome,Safari4+
@@ -120,8 +122,8 @@
         background: linear-gradient(135deg,  #a6c1dd 0%,#a6c1dd 50%,#db8664 50%,#db8664 100%); // W3C
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6c1dd', endColorstr='#db8664',GradientType=1 ); // IE6-9 fallback on horizontal gradient
     }
-    &.#{$ms-prefix}-br,
-    &.#{$ms-prefix}-brp {
+    &.#{variables.$ms-prefix}-br,
+    &.#{variables.$ms-prefix}-brp {
         background: #aca29a; // Old browsers
         background: -moz-linear-gradient(-45deg,  #aca29a 0%, #aca29a 50%, #db8664 50%, #db8664 100%); // FF3.6+
         background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#aca29a), color-stop(50%,#aca29a), color-stop(50%,#db8664), color-stop(100%,#db8664)); // Chrome,Safari4+
@@ -131,8 +133,8 @@
         background: linear-gradient(135deg,  #aca29a 0%,#aca29a 50%,#db8664 50%,#db8664 100%); // W3C
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aca29a', endColorstr='#db8664',GradientType=1 ); // IE6-9 fallback on horizontal gradient
     }
-    &.#{$ms-prefix}-bg,
-    &.#{$ms-prefix}-bgp {
+    &.#{variables.$ms-prefix}-bg,
+    &.#{variables.$ms-prefix}-bgp {
         background: #aca29a; // Old browsers
         background: -moz-linear-gradient(-45deg,  #aca29a 0%, #aca29a 50%, #93b483 50%, #93b483 100%); // FF3.6+
         background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#aca29a), color-stop(50%,#aca29a), color-stop(50%,#93b483), color-stop(100%,#93b483)); // Chrome,Safari4+
@@ -142,8 +144,8 @@
         background: linear-gradient(135deg,  #aca29a 0%,#aca29a 50%,#93b483 50%,#93b483 100%); // W3C
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aca29a', endColorstr='#93b483',GradientType=1 ); // IE6-9 fallback on horizontal gradient
     }
-    &.#{$ms-prefix}-rw,
-    &.#{$ms-prefix}-rwp {
+    &.#{variables.$ms-prefix}-rw,
+    &.#{variables.$ms-prefix}-rwp {
         background: #db8664; // Old browsers
         background: -moz-linear-gradient(-45deg,  #db8664 0%, #db8664 50%, #edf2b0 50%, #edf2b0 100%); // FF3.6+
         background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#db8664), color-stop(50%,#db8664), color-stop(50%,#edf2b0), color-stop(100%,#edf2b0)); // Chrome,Safari4+
@@ -153,8 +155,8 @@
         background: linear-gradient(135deg,  #db8664 0%,#db8664 50%,#edf2b0 50%,#edf2b0 100%); // W3C
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#db8664', endColorstr='#edf2b0',GradientType=1 ); // IE6-9 fallback on horizontal gradient
     }
-    &.#{$ms-prefix}-rg,
-    &.#{$ms-prefix}-rgp {
+    &.#{variables.$ms-prefix}-rg,
+    &.#{variables.$ms-prefix}-rgp {
         background: #db8664; // Old browsers
         background: -moz-linear-gradient(-45deg,  #db8664 0%, #db8664 50%, #93b483 50%, #93b483 100%); // FF3.6+
         background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#db8664), color-stop(50%,#db8664), color-stop(50%,#93b483), color-stop(100%,#93b483)); // Chrome,Safari4+
@@ -164,8 +166,8 @@
         background: linear-gradient(135deg,  #db8664 0%,#db8664 50%,#93b483 50%,#93b483 100%); // W3C
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#db8664', endColorstr='#93b483',GradientType=1 ); // IE6-9 fallback on horizontal gradient
     }
-    &.#{$ms-prefix}-gw,
-    &.#{$ms-prefix}-gwp {
+    &.#{variables.$ms-prefix}-gw,
+    &.#{variables.$ms-prefix}-gwp {
         background: #93b483; // Old browsers
         background: -moz-linear-gradient(-45deg,  #93b483 0%, #93b483 50%, #edf2b0 50%, #edf2b0 100%); // FF3.6+
         background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#93b483), color-stop(50%,#93b483), color-stop(50%,#edf2b0), color-stop(100%,#edf2b0)); // Chrome,Safari4+
@@ -175,8 +177,8 @@
         background: linear-gradient(135deg,  #93b483 0%,#93b483 50%,#edf2b0 50%,#edf2b0 100%); // W3C
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#93b483', endColorstr='#edf2b0',GradientType=1 ); // IE6-9 fallback on horizontal gradient
     }
-    &.#{$ms-prefix}-gu,
-    &.#{$ms-prefix}-gup {
+    &.#{variables.$ms-prefix}-gu,
+    &.#{variables.$ms-prefix}-gup {
         background: #93b483; // Old browsers
         background: -moz-linear-gradient(-45deg,  #93b483 0%, #93b483 50%, #b5cde3 50%, #b5cde3 100%); // FF3.6+
         background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#93b483), color-stop(50%,#93b483), color-stop(50%,#b5cde3), color-stop(100%,#b5cde3)); // Chrome,Safari4+
@@ -186,7 +188,7 @@
         background: linear-gradient(135deg,  #93b483 0%,#93b483 50%,#b5cde3 50%,#b5cde3 100%); // W3C
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#93b483', endColorstr='#b5cde3',GradientType=1 ); // IE6-9 fallback on horizontal gradient
     }
-    &.#{$ms-prefix}-2w {
+    &.#{variables.$ms-prefix}-2w {
         background: #beb9b2; // Old browsers
         background: -moz-linear-gradient(-45deg,  #beb9b2 0%, #beb9b2 50%, #edf2b0 50%, #edf2b0 100%); // FF3.6+
         background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#beb9b2), color-stop(50%,#beb9b2), color-stop(50%,#edf2b0), color-stop(100%,#edf2b0)); // Chrome,Safari4+
@@ -196,7 +198,7 @@
         background: linear-gradient(135deg,  #beb9b2 0%,#beb9b2 50%,#edf2b0 50%,#edf2b0 100%); // W3C
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#beb9b2', endColorstr='#edf2b0',GradientType=1 ); // IE6-9 fallback on horizontal gradient
     }
-    &.#{$ms-prefix}-2u {
+    &.#{variables.$ms-prefix}-2u {
         background: #beb9b2; // Old browsers
         background: -moz-linear-gradient(-45deg,  #beb9b2 0%, #beb9b2 50%, #b5cde3 50%, #b5cde3 100%); // FF3.6+
         background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#beb9b2), color-stop(50%,#beb9b2), color-stop(50%,#b5cde3), color-stop(100%,#b5cde3)); // Chrome,Safari4+
@@ -206,7 +208,7 @@
         background: linear-gradient(135deg,  #beb9b2 0%,#beb9b2 50%,#b5cde3 50%,#b5cde3 100%); // W3C
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#beb9b2', endColorstr='#b5cde3',GradientType=1 ); // IE6-9 fallback on horizontal gradient
     }
-    &.#{$ms-prefix}-2b {
+    &.#{variables.$ms-prefix}-2b {
         background: #beb9b2; // Old browsers
         background: -moz-linear-gradient(-45deg,  #beb9b2 0%, #beb9b2 50%, #9c9188 50%, #9c9188 100%); // FF3.6+
         background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#beb9b2), color-stop(50%,#beb9b2), color-stop(50%,#9c9188), color-stop(100%,#9c9188)); // Chrome,Safari4+
@@ -216,7 +218,7 @@
         background: linear-gradient(135deg,  #beb9b2 0%,#beb9b2 50%,#9c9188 50%,#9c9188 100%); // W3C
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#beb9b2', endColorstr='#9c9188',GradientType=1 ); // IE6-9 fallback on horizontal gradient
     }
-    &.#{$ms-prefix}-2r {
+    &.#{variables.$ms-prefix}-2r {
         background: #beb9b2; // Old browsers
         background: -moz-linear-gradient(-45deg,  #beb9b2 0%, #beb9b2 50%, #db8664 50%, #db8664 100%); // FF3.6+
         background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#beb9b2), color-stop(50%,#beb9b2), color-stop(50%,#db8664), color-stop(100%,#db8664)); // Chrome,Safari4+
@@ -226,7 +228,7 @@
         background: linear-gradient(135deg,  #beb9b2 0%,#beb9b2 50%,#db8664 50%,#db8664 100%); // W3C
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#beb9b2', endColorstr='#db8664',GradientType=1 ); // IE6-9 fallback on horizontal gradient
     }
-    &.#{$ms-prefix}-2g {
+    &.#{variables.$ms-prefix}-2g {
         background: #beb9b2; // Old browsers
         background: -moz-linear-gradient(-45deg,  #beb9b2 0%, #beb9b2 50%, #93b483 50%, #93b483 100%); // FF3.6+
         background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#beb9b2), color-stop(50%,#beb9b2), color-stop(50%,#93b483), color-stop(100%,#93b483)); // Chrome,Safari4+
@@ -238,22 +240,22 @@
     }
 
     // phyrexian mana size increases
-    &.#{$ms-prefix}-p::before,
-    &.#{$ms-prefix}-wp::before,
-    &.#{$ms-prefix}-up::before,
-    &.#{$ms-prefix}-bp::before,
-    &.#{$ms-prefix}-rp::before,
-    &.#{$ms-prefix}-gp::before,
-    &.#{$ms-prefix}-wup::before,
-    &.#{$ms-prefix}-wbp::before,
-    &.#{$ms-prefix}-ubp::before,
-    &.#{$ms-prefix}-urp::before,
-    &.#{$ms-prefix}-brp::before,
-    &.#{$ms-prefix}-bgp::before,
-    &.#{$ms-prefix}-rwp::before,
-    &.#{$ms-prefix}-rgp::before,
-    &.#{$ms-prefix}-gwp::before,
-    &.#{$ms-prefix}-gup::before {
+    &.#{variables.$ms-prefix}-p::before,
+    &.#{variables.$ms-prefix}-wp::before,
+    &.#{variables.$ms-prefix}-up::before,
+    &.#{variables.$ms-prefix}-bp::before,
+    &.#{variables.$ms-prefix}-rp::before,
+    &.#{variables.$ms-prefix}-gp::before,
+    &.#{variables.$ms-prefix}-wup::before,
+    &.#{variables.$ms-prefix}-wbp::before,
+    &.#{variables.$ms-prefix}-ubp::before,
+    &.#{variables.$ms-prefix}-urp::before,
+    &.#{variables.$ms-prefix}-brp::before,
+    &.#{variables.$ms-prefix}-bgp::before,
+    &.#{variables.$ms-prefix}-rwp::before,
+    &.#{variables.$ms-prefix}-rgp::before,
+    &.#{variables.$ms-prefix}-gwp::before,
+    &.#{variables.$ms-prefix}-gup::before {
         display: inline-block;
         -moz-transform: scale( 1.2, 1.2 );
         -webkit-transform: scale( 1.2, 1.2 );
@@ -261,7 +263,7 @@
     }
 
     // alternate tap
-    &.#{$ms-prefix}-tap-alt::before {
+    &.#{variables.$ms-prefix}-tap-alt::before {
         display: inline-block;
         -moz-transform: scale( 1.2, 1.2 );
         -webkit-transform: scale( 1.2, 1.2 );
@@ -271,7 +273,7 @@
     }
 
     // snow mana
-    &.#{$ms-prefix}-s {
+    &.#{variables.$ms-prefix}-s {
         &::before {
             color: #fff;
             -webkit-text-stroke: 2px #fff;
@@ -294,15 +296,15 @@
     }
 
     // tap symbols
-    &.#{$ms-prefix}-untap {
+    &.#{variables.$ms-prefix}-untap {
         background-color: #111;
         color: #fff;
     }
 
     // shadow alternative
-    &.#{$ms-prefix}-shadow {
+    &.#{variables.$ms-prefix}-shadow {
         box-shadow: -0.06em 0.07em 0 #111, 0 0.06em 0 #111;
-        &.#{$ms-prefix}-untap {
+        &.#{variables.$ms-prefix}-untap {
             box-shadow: -0.06em 0.07em 0 #fff, 0 0.06em 0 #fff;
         }
     }
@@ -311,21 +313,21 @@
 
 // split cost specifics
 
-.#{$ms-prefix}-split {
+.#{variables.$ms-prefix}-split {
     position: relative;
     width: 1.3em;
     height: 1.3em;
 }
-.#{$ms-prefix}-split::before,
-.#{$ms-prefix}-split::after {
+.#{variables.$ms-prefix}-split::before,
+.#{variables.$ms-prefix}-split::after {
     font-size: 0.55em !important;
     position: absolute;
 }
-.#{$ms-prefix}-split::before {
+.#{variables.$ms-prefix}-split::before {
     top: -0.38em;
     left: 0.28em;
 }
-.#{$ms-prefix}-split::after {
+.#{variables.$ms-prefix}-split::after {
     top: 0.5em;
     left: 1.0em;
 }
@@ -333,18 +335,18 @@
 
 // half costs specifics
 
-span.#{$ms-prefix}-half { // legacy handling with <span> tag
+span.#{variables.$ms-prefix}-half { // legacy handling with <span> tag
     width: .675em;
     overflow: hidden;
     display: inline-block;
     margin-left: .675em;
 
-    > .#{$ms-prefix}-cost {
+    > .#{variables.$ms-prefix}-cost {
         margin-left: -.675em;
     }
 }
 
-.#{$ms-prefix}-half { // new single-element handling!
+.#{variables.$ms-prefix}-half { // new single-element handling!
     width: .675em;
     margin-left: .675em;
     overflow: hidden;
@@ -357,9 +359,9 @@ span.#{$ms-prefix}-half { // legacy handling with <span> tag
 
 // un-set costs
 
-.#{$ms-prefix}-100 {
+.#{variables.$ms-prefix}-100 {
     width: 2.4em;
 }
-.#{$ms-prefix}-1000000 {
+.#{variables.$ms-prefix}-1000000 {
     width: 5.4em;
 }

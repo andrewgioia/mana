@@ -1,4 +1,6 @@
-.#{$ms-prefix}-duo {
+@use "variables";
+
+.#{variables.$ms-prefix}-duo {
 
     // base border styles
     &::after {
@@ -17,12 +19,12 @@
     color: #fff;
 
     // multicolor symbol
-    &.#{$ms-prefix}-multicolor::after {
+    &.#{variables.$ms-prefix}-multicolor::after {
         content: "\e986";
     }
 
     // strixhaven schools
-    &.#{$ms-prefix}-school {
+    &.#{variables.$ms-prefix}-school {
         &-lorehold::after {
             content: "\e99b";
         }
@@ -49,21 +51,21 @@
     &-color {
         // default outer color
         &::before {
-            color: $ms-border-black;
+            color: variables.$ms-border-black;
         }
         // multicolor
-        &.#{$ms-prefix}-multicolor {
+        &.#{variables.$ms-prefix}-multicolor {
             &::after {
-                color: $ms-multicolor-flat;
+                color: variables.$ms-multicolor-flat;
             }
-            &.#{$ms-prefix}-grad::after {
-                background: $ms-multicolor-grad;
+            &.#{variables.$ms-prefix}-grad::after {
+                background: variables.$ms-multicolor-grad;
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
             }
         }
         // strixhaven schools
-        &.#{$ms-prefix}-school {
+        &.#{variables.$ms-prefix}-school {
             &-lorehold {
                 &::before { color: #a03731; }
                 &::after { color: #e4e8c7; }

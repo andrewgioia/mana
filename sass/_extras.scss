@@ -1,5 +1,7 @@
-.#{$ms-prefix}-mechanic {
-    background: $ms-ability-grad;
+@use "variables";
+
+.#{variables.$ms-prefix}-mechanic {
+    background: variables.$ms-ability-grad;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }

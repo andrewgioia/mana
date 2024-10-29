@@ -1,6 +1,8 @@
+@use "variables";
+
 // symbols
 
-.#{$ms-prefix} {
+.#{variables.$ms-prefix} {
 
     // resources
     &-w::before { content: "\e600"; }

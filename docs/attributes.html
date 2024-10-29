@@ -1,0 +1,295 @@
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <title>Attributes and Examples | Mana</title>
+    <link rel="stylesheet" href="css/mana.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+</head>
+<body>
+
+    <section id="banner">
+        <div class="wrapper">
+            <a href="index.html" class="logo"><i class="ms ms-g" style="top:-2px;position:relative;"></i> Mana</a>
+            <a href="index.html" class="item">Home</a>
+            <a href="icons.html" class="item">Mana Icons</a>
+            <a href="attributes.html" class="item">Attributes</a>
+            <a href="https://github.com/andrewgioia/mana" class="item">GitHub Project</a>
+            <span class="item">
+                <iframe src="https://ghbtns.com/github-btn.html?user=andrewgioia&repo=mana&type=star&count=true" frameborder="0" scrolling="0" width="100px" height="20px" style="margin-bottom: -4px;"></iframe>
+            </span>
+            <span class="item">
+                Created by
+                <a href="https://andrewgioia.com">Andrew Gioia</a>
+            </span>
+        </div>
+    </section>
+
+    <header>
+        <div class="wrapper">
+            <h1 class="sub">Mana &amp; Card Icons</h1>
+            <a class="dl button float-right" href="https://github.com/andrewgioia/mana/archive/master.zip">
+                <i class="ms ms-instant"></i>
+                Download
+            </a>
+            <h2 class="sub">Complete set of Magic mana and card symbol font icons</h2>
+        </div>
+    </header>
+
+    <main>
+        <div class="wrapper">
+            <section>
+                <h3><strong>Mana</strong> has some built in icon options to easily change the <strong>size and position</strong>, convert the mana symbols to the <strong>casting costs</strong>, and create planeswalker <strong>loyalty symbols</strong> with numbers. Take a look below at examples of each option with the class names to implement them.</h3>
+            </section>
+            <section class="content">
+                <h4>The Basic Icon</h4>
+                <div class="example float-left">
+                    <span class="each">
+                        <i class="ms ms-u"></i> .ms-u
+                    </span>
+                </div>
+                <div class="explanation">
+                    <p>You can place Mana icons anywhere using the CSS classname prefix <code>ms</code> (for "mana symbol") and then the mana/card symbol's <a href="icons.html">suffix</a>.</p>
+                    <blockquote>
+                        &lt;<span class="e">i</span> <span class="a">class</span>=<span class="v">"ms ms-u"</span>&gt;&lt;/<span class="e">i</span>&gt; <br />
+                    </blockquote>
+                </div>
+                <div class="clear"></div>
+            </section>
+            <section class="content">
+                <h4>Creating a Casting Cost</h4>
+                <div class="example float-left">
+                    <span class="each">
+                        <i class="ms ms-g ms-cost"></i> .ms-cost
+                    </span>
+                    <span class="each">
+                        <i class="ms ms-r ms-cost ms-shadow"></i> + .ms-shadow
+                    </span>
+                </div>
+                <div class="explanation">
+                    <p>Add the <code>.ms-cost</code> class to create a casting cost circle around the symbol. Append the <code>.ms-shadow</code> class to add a drop shadow.</p>
+                    <blockquote>
+                        &lt;<span class="e">i</span> <span class="a">class</span>=<span class="v">"ms ms-g ms-cost"</span>&gt;&lt;/<span class="e">i</span>&gt; <br />
+                        &lt;<span class="e">i</span> <span class="a">class</span>=<span class="v">"ms ms-r ms-cost ms-shadow"</span>&gt;&lt;/<span class="e">i</span>&gt;
+                    </blockquote>
+                </div>
+                <div class="clear"></div>
+            </section>
+            <section class="content">
+                <h4>Split Casting Costs</h4>
+                <div class="example float-left">
+                    <span class="each">
+                        <i class="ms ms-wu ms-split ms-cost"></i> .ms-wu
+                    </span>
+                    <span class="each">
+                        <i class="ms ms-2b ms-split ms-cost ms-shadow"></i> + .ms-shadow
+                    </span>
+                </div>
+                <div class="explanation">
+                    <p><strong>New:</strong> You no longer need the <code>.ms-split</code> class name, simply identifying a split or hybrid cost will now automatically handle the split styles.</p>
+                    <blockquote>
+                        &lt;<span class="e">i</span> <span class="a">class</span>=<span class="v">"ms ms-wu ms-cost"</span>&gt;&lt;/<span class="e">i</span>&gt;<br />
+                        &lt;<span class="e">i</span> <span class="a">class</span>=<span class="v">"ms ms-2b ms-cost ms-shadow"</span>&gt;&lt;/<span class="e">i</span>&gt;
+                    </blockquote>
+                    <p>For backwards compatibility and full control you can still use create split and hybrid casting costs separately with the <code>.ms-split</code> class along with the 2-symbols' codes. This works for color pairs and the "2" with a color.</p>
+                </div>
+                <div class="clear"></div>
+            </section>
+            <section class="content">
+                <h4>Half Mana Casting Costs</h4>
+                <div class="example float-left">
+                    <span class="each">
+                        <i class="ms ms-w ms-half ms-cost"></i></span> .ms-half
+                    </span>
+                </div>
+                <div class="explanation">
+                    <p>Even though there's only been <a href="http://magiccards.info/uh/en/16.html"><strike>one</strike></a> <a href="https://scryfall.com/card/unh/82/monss-goblin-waiters">two</a> of these ever printed you can still create them :P Half costs <a href="https://github.com/andrewgioia/Mana/issues/6">used to require a wrapping element</a> but as of v1.4.1 they are a regular single element:</p>
+                    <blockquote>
+                        &lt;<span class="e">i</span> <span class="a">class</span>=<span class="v">"ms ms-w ms-half ms-cost"</span>&gt;&lt;/<span class="e">i</span>&gt;<br />
+                    </blockquote>
+                </div>
+                <div class="clear"></div>
+            </section>
+            <section class="content">
+                <h4>Planeswalker Symbols</h4>
+                <div class="example float-left">
+                    <span class="each">
+                        <i class="ms ms-loyalty-up ms-loyalty-3"></i> .ms-loyalty-up
+                    </span>
+                    <span class="each">
+                        <i class="ms ms-loyalty-down ms-loyalty-2"></i> .ms-loyalty-down
+                    </span>
+                </div>
+                <div class="explanation">
+                    <p>You can create planewalker loyalty symbols for the starting value, zero, and ticking up or down. The number that appears is based on a class you add, like <code>.ms-loyalty-4</code>. Currently numbers 0-20 are supported for start, up, and down.</p>
+                    <blockquote>
+                        &lt;<span class="e">i</span> <span class="a">class</span>=<span class="v">"ms ms-loyalty-up ms-loyalty-3"</span>&gt;&lt;/<span class="e">i</span>&gt;<br />
+                        &lt;<span class="e">i</span> <span class="a">class</span>=<span class="v">"ms ms-loyalty-down ms-loyalty-2"</span>&gt;&lt;/<span class="e">i</span>&gt;
+                    </blockquote>
+                </div>
+                <div class="clear"></div>
+            </section>
+            <section class="content">
+                <h4>Saga Symbols</h4>
+                <div class="example float-left">
+                    <span class="each">
+                        <i class="ms ms-saga ms-saga-1 ms-2x"></i> .ms-saga-1
+                    </span>
+                    <span class="each">
+                        <i class="ms ms-saga ms-saga-4 ms-2x"></i> .ms-saga-4
+                    </span>
+                </div>
+                <div class="explanation">
+                    <p>Saga symbols are supported natively up to V, even though only IV has ever been printed. The number that appears inside the hexagon is based on a class you add, like <code>.ms-saga-2</code>.</p>
+                    <blockquote>
+                        &lt;<span class="e">i</span> <span class="a">class</span>=<span class="v">"ms ms-saga ms-saga-1"</span>&gt;&lt;/<span class="e">i</span>&gt;<br />
+                        &lt;<span class="e">i</span> <span class="a">class</span>=<span class="v">"ms ms-saga ms-saga-4"</span>&gt;&lt;/<span class="e">i</span>&gt;
+                    </blockquote>
+                </div>
+                <div class="clear"></div>
+            </section>
+            <section class="content">
+                <h4>Battle Symbols</h4>
+                <div class="example float-left">
+                    <span class="each">
+                        <i class="ms ms-defense ms-defense-1 ms-2x"></i> .ms-defense
+                    </span>
+                    <span class="each">
+                        <i class="ms ms-defense ms-defense-outline ms-defense-3 ms-2x"></i> .ms-defense-outline
+                    </span>
+                    <span class="each">
+                        <i class="ms ms-defense ms-defense-print ms-defense-5 ms-2x"></i> .ms-defense-print
+                    </span>
+                </div>
+                <div class="explanation">
+                    <p>Battle cards have a unique defense box and values are supported from 0-20 using utility classes similar to Loyalty and Sagas, in the format <code>.ms-defense-2</code>.</p>
+                    <p>There are 3 variations of the symbol that you can display. The simplest is just the black background with a white number (<code>.ms-defense</code>). An outline version has a black border with black number and white inside (<code>.ms-defense-outline</code>). Finally the full "print" version uses 3 layers and mimics the way the defense box is printed on cards; use this with <code>.ms-defense-print</code>.</p>
+                    <blockquote>
+                        &lt;<span class="e">i</span> <span class="a">class</span>=<span class="v">"ms ms-defense ms-defense-1"</span>&gt;&lt;/<span class="e">i</span>&gt;<br />
+                        &lt;<span class="e">i</span> <span class="a">class</span>=<span class="v">"ms ms-defense ms-defense-outline ms-defense-3"</span>&gt;&lt;/<span class="e">i</span>&gt;<br />
+                        &lt;<span class="e">i</span> <span class="a">class</span>=<span class="v">"ms ms-defense ms-defense-print ms-defense-5"</span>&gt;&lt;/<span class="e">i</span>&gt;
+                    </blockquote>
+                </div>
+                <div class="clear"></div>
+            </section>
+            <section class="content">
+                <h4>Increase the Symbol's Size</h4>
+                <div class="example float-left">
+                    <span class="each">
+                        <i class="ms ms-r ms-2x"></i> .ms-2x
+                    </span>
+                    <span class="each">
+                        <i class="ms ms-r ms-3x"></i> .ms-3x
+                    </span>
+                    <span class="each">
+                        <i class="ms ms-r ms-4x"></i> .ms-4x
+                    </span>
+                    <span class="each">
+                        <i class="ms ms-r ms-5x"></i> .ms-5x
+                    </span>
+                    <span class="each">
+                        <i class="ms ms-r ms-6x"></i> .ms-6x
+                    </span>
+                </div>
+                <div class="explanation">
+                    <p>To conveniently increase the size of a mana or card symbol you can append the classes <code>ms-2x</code>, <code>ms-3x</code>, <code>ms-4x</code>, <code>ms-4x</code>, and <code>ms-6x</code>. These classes increase the size by a factor equal to class name number.</p>
+                    <blockquote>
+                        &lt;<span class="e">i</span> <span class="a">class</span>=<span class="v">"ms ms-r ms-2x"</span>&gt;&lt;/<span class="e">i</span>&gt; ms-2x<br />
+                        &lt;<span class="e">i</span> <span class="a">class</span>=<span class="v">"ms ms-r ms-3x"</span>&gt;&lt;/<span class="e">i</span>&gt; ms-3x<br />
+                        &lt;<span class="e">i</span> <span class="a">class</span>=<span class="v">"ms ms-r ms-4x"</span>&gt;&lt;/<span class="e">i</span>&gt; ms-4x<br />
+                        &lt;<span class="e">i</span> <span class="a">class</span>=<span class="v">"ms ms-r ms-5x"</span>&gt;&lt;/<span class="e">i</span>&gt; ms-5x<br />
+                        &lt;<span class="e">i</span> <span class="a">class</span>=<span class="v">"ms ms-r ms-6x"</span>&gt;&lt;/<span class="e">i</span>&gt; ms-6x
+                    </blockquote>
+                </div>
+                <div class="clear"></div>
+            </section>
+            <section class="content">
+                <h4>Fixed Width</h4>
+                <div class="example float-left">
+                    <span class="each"><i class="ms ms-planeswalker ms-fw"></i> Planeswalker</span>
+                    <span class="each"><i class="ms ms-land ms-fw"></i> Land</span>
+                </div>
+                <div class="explanation">
+                    <p>Some of the card symbols are variable width by default, if you put them in a list they may stack irregularly. To fix their width to a standard size, just append the class <code>.ms-fw</code> and the symbols will have a constant width and centered icon.</p>
+                    <blockquote>
+                        &lt;<span class="e">i</span> <span class="a">class</span>=<span class="v">"ms ms-planeswalker ms-fw"</span>&gt;&lt;/<span class="e">i</span>&gt; Planeswalker symbol<br />
+                        &lt;<span class="e">i</span> <span class="a">class</span>=<span class="v">"ms ms-land ms-fw"</span>&gt;&lt;/<span class="e">i</span>&gt; Land symbol
+                    </blockquote>
+                </div>
+                <div class="clear"></div>
+            </section>
+            <section class="content">
+                <h4>Dual-Layered Symbols</h4>
+                <div class="example float-left">
+                    <span class="each"><i class="ms ms-2x ms-multicolor"></i> One layer</span>
+                    <span class="each"><i class="ms ms-2x ms-multicolor ms-duo"></i> Two layers</span>
+                    <span class="each"><i class="ms ms-2x ms-multicolor ms-duo ms-duo-color ms-grad"></i> Two with color</span>
+                    <span class="each"><i class="ms ms-2x ms-school-prismari ms-duo ms-duo-color"></i> Prismari</span>
+                </div>
+                <div class="explanation">
+                    <p>The <a href="https://mtg.gamepedia.com/Multicolored">multicolor symbol</a> has 2 layers and the only way to reliably achieve this is with 2 glyphs. Add <code>.ms-duo</code> and <code>.ms-multicolor</code> will add the background layer and knock out the foreground. If you add <code>.ms-duo-color</code> and optionally <code>.ms-grad</code> it will colorize it like the official symbol.</p>
+                    <blockquote>
+                        &lt;<span class="e">i</span> <span class="a">class</span>=<span class="v">"ms ms-multicolor"</span>&gt;&lt;/<span class="e">i</span>&gt; One layer<br />
+                        &lt;<span class="e">i</span> <span class="a">class</span>=<span class="v">"ms ms-multicolor ms-duo"</span>&gt;&lt;/<span class="e">i</span>&gt; Two layers<br />
+                        &lt;<span class="e">i</span> <span class="a">class</span>=<span class="v">"ms ms-multicolor ms-duo ms-duo-color ms-grad"</span>&gt;&lt;/<span class="e">i</span>&gt; Complete multicolor symbol
+                        &lt;<span class="e">i</span> <span class="a">class</span>=<span class="v">"ms ms-school-prismari ms-duo ms-duo-color"</span>&gt;&lt;/<span class="e">i</span>&gt; Prismari colored symbol
+                    </blockquote>
+                </div>
+                <div class="clear"></div>
+            </section>
+            <section class="content">
+                <h4>Arena Abilites and MODO Counters</h4>
+                <div class="example float-left">
+                    <span class="each"><i class="ms ms-2x ms-ability-flying"></i> Evergreen ability</span>
+                    <span class="each"><i class="ms ms-2x ms-ability-adventure ms-mechanic"></i> Set-specific ability</span>
+                    <span class="each"><i class="ms ms-2x ms-counter-plus"></i> MODO counter</span>
+                </div>
+                <div class="explanation">
+                    <p>Mana has full Arena and Modo ability and counter coverage. You can apply the set-specific gold gradient that Arena uses on abilities with <code>.ms-mechanic</code>.</p>
+                    <blockquote>
+                        &lt;<span class="e">i</span> <span class="a">class</span>=<span class="v">"ms ms-ability-flying"</span>&gt;&lt;/<span class="e">i</span>&gt; Evergreen ability<br />
+                        &lt;<span class="e">i</span> <span class="a">class</span>=<span class="v">"ms ms-ability-adventure ms-mechanic"</span>&gt;&lt;/<span class="e">i</span>&gt; Set-specific ability<br />
+                        &lt;<span class="e">i</span> <span class="a">class</span>=<span class="v">"ms ms-counter-plus"</span>&gt;&lt;/<span class="e">i</span>&gt; MODO counter
+                    </blockquote>
+                </div>
+                <div class="clear"></div>
+            </section>
+            <section class="content">
+                <h4>Card Color Indicators</h4>
+                <div class="example float-left">
+                    <span class="each"><i class="ms ms-2x ms-ci ms-ci-1 ms-ci-g"></i> Green</span>
+                    <span class="each"><i class="ms ms-2x ms-ci ms-ci-2 ms-ci-rg"></i> Red/Green</span>
+                    <span class="each"><i class="ms ms-2x ms-ci ms-ci-3 ms-ci-gur"></i> Red/Green/Blue</span>
+                </div>
+                <div class="explanation">
+                    <p>Some cards use color indicator circles on their alternate faces to indicate that the card is still a certain color identity. Mana supports all 31 variations, though only about 10 different color combinations exist on cards currently.</p>
+                    <blockquote>
+                        &lt;<span class="e">i</span> <span class="a">class</span>=<span class="v">"ms ms-ci ms-ci-1 ms-ci-g"</span>&gt;&lt;/<span class="e">i</span>&gt; Green<br />
+                        &lt;<span class="e">i</span> <span class="a">class</span>=<span class="v">"ms ms-ci ms-ci-2 ms-ci-rg"</span>&gt;&lt;/<span class="e">i</span>&gt; Red/Green<br />
+                        &lt;<span class="e">i</span> <span class="a">class</span>=<span class="v">"ms ms-ci ms-ci-3 ms-ci-gur"</span>&gt;&lt;/<span class="e">i</span>&gt; Red/Green/Blue<br />
+                    </blockquote>
+                    <p>To display these, use class <code>.ms-ci</code> and then <code>.ms-ci-X</code> where "X" is the number of colors in the identity. Then add the corresponding color class, like <code>.ms-ci-wug</code>.</p>
+                    <p>Importantly, the only SVGs used to display these are the borders, and there are 5 different border glyphs. The colors themselves are displayed using the <code>background: conic-gradient();</code> CSS attribute, which you can view the support for on <a href="https://caniuse.com/css-conic-gradients" target="blank">Can I Use</a>. TL;DR: it has almost universal practical browser support.</p>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="wrapper">
+            <div class="float-left">
+                <p>Made with &hearts; by <a href="https://andrewgioia.com">Andrew Gioia</a></p>
+            </div>
+            <div class="float-right" style="text-align: right;">
+                <p>
+                    All mana images and card symbols &copy; <a href="http://magicthegathering.com">Wizards of the Coast</a><br />
+                    The Mana font is licensed under the the <a href="http://scripts.sil.org/OFL">SIL OFL 1.1</a><br />
+                    Mana CSS, LESS, and Sass files are licensed under the <a href="http://opensource.org/licenses/mit-license.html">MIT License</a><br />
+                </p>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </footer>
+
+</body>
+</html>

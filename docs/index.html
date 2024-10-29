@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <title>Mana | Andrew Gioia</title>
+    <link rel="stylesheet" href="assets/mana.min.css" />
+    <link rel="stylesheet" href="assets/docs.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+</head>
+<body>
+
+    <section id="banner">
+        <div class="wrapper">
+            <a href="index.html" class="item">Home</a>
+            <a href="icons.html" class="item">Mana Icons</a>
+            <a href="attributes.html" class="item">Attributes</a>
+            <a href="https://github.com/andrewgioia/Mana" class="item">GitHub Project</a>
+            <span class="item">
+                <iframe src="https://ghbtns.com/github-btn.html?user=andrewgioia&repo=mana&type=star&count=true" frameborder="0" scrolling="0" width="100px" height="20px" style="margin-bottom: -4px;"></iframe>
+            </span>
+            <span class="item">
+                Created by
+                <a href="http://andrewgioia.com">Andrew Gioia</a>
+            </span>
+        </div>
+    </section>
+
+    <header class="main">
+        <div class="wrapper">
+            <div class="bigicon">
+                <i class="ms ms-g"></i>
+            </div>
+            <h1>Mana</h1>
+            <h2>Magic: the Gathering card symbol font</h2>
+            <div class="actions">
+                <a class="dl button" href="https://github.com/andrewgioia/mana/archive/master.zip">
+                    <i class="ms ms-instant"></i>
+                    Download
+                </a>
+                <a class="vs button" href="icons.html">
+                    <i class="ms ms-tap"></i>
+                    View Mana Icons
+                </a>
+            </div>
+            <p>
+                Current version 1.15.9 includes all known mana and card symbols up to Wilds of Eldraine.
+            </p>
+        </div>
+    </header>
+
+    <main>
+        <div class="wrapper">
+            <section>
+                <h3><strong>Mana is a complete set of scalable vector icons for Magic mana (and other card) symbols.</strong> Drop them into your application, website, or custom cards (like this <i class="ms ms-cost ms-g"></i>) and control their size, color, drop shadow, or any dimension just as you would with text!</h3>
+            </section>
+            <section class="content">
+                <h4>Using Mana</h4>
+                <p>Each mana/card symbol has its own font character. Display them in a manner similar to <a href="https://fontawesome.io">Font Awesome</a> using the <code>&lt;i class="ms ..."&gt;&lt;/i&gt;</code> element. There are class names for each mana color (w, u, b, r, g, c) and for the various symbols that appear on cards (like tap). See the <a href="icons.html">full list</a> of available symbols.</p>
+                <p>To use Mana, move the font files to your /fonts directory and include the <code>mana.css</code> stylesheet in your <code>&lt;head&gt;</code>:</p>
+                <blockquote>
+                    &lt;<span class="e">link</span> <span class="a">href</span>=<span class="v">"css/mana.css"</span> <span class="a">rel</span>=<span class="v">"stylesheet"</span> <span class="a">type</span>=<span class="v">"text/css"</span> /&gt;
+                </blockquote>
+                <p><strong>New!</strong> You can also now use Mana via CDN thanks to the amazing <a href="https://jsdelivr.com">jsDelivr</a> project! You can include the latest version in your project (and note the name is "mana-font"):</p>
+                <blockquote>
+                    &lt;<span class="e">link</span> <span class="a">href</span>=<span class="v">"//cdn.jsdelivr.net/npm/mana-font@latest/css/mana.css"</span> <span class="a">rel</span>=<span class="v">"stylesheet"</span> <span class="a">type</span>=<span class="v">"text/css"</span> /&gt;
+                </blockquote>
+                <p>Insert set symbol icons by using the <code>.ms</code> class and then the mana/symbol code class(es), such as <code>.ms-u</code> for blue mana: <i class="ms ms-u"></i></p>
+                <blockquote>
+                    &lt;<span class="e">i</span> <span class="a">class</span>=<span class="v">"ms ms-u"</span>&gt;&lt;/<span class="e">i</span>&gt;
+                </blockquote>
+            </section>
+            <section class="content">
+                <h4>Editing the Source</h4>
+                <p>Feel free to edit the source files and compile Mana to fit your needs. All SVG glyphs are compiled into font files using the wonderful <a href="https://icomoon.io">IcoMoon</a> app. For styling, both LESS and Sass are included.</p>
+            </section>
+            <section class="content">
+                <h4>License</h4>
+                <p>Please review the following licenses for each component of Mana:</p>
+                <ul>
+                    <li>All mana and card symbol images are copyright Wizards of the Coast (<a href="https://magicthegathering.com">http://magicthegathering.com</a>)</li>
+                    <li>The Mana font is licensed under the the SIL OFL 1.1 (<a href="https://scripts.sil.org/OFL">http://scripts.sil.org/OFL</a>)</li>
+                    <li>Mana CSS, LESS, and Sass files are licensed under the MIT License (<a href="https://opensource.org/licenses/mit-license.html">http://opensource.org/licenses/mit-license.html</a>)</li>
+                </ul>
+                <p>Attribution is <strong>greatly appreciated</strong> but not required!</p>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="wrapper">
+            <div class="float-left">
+                <p>Made with &hearts; by <a href="https://andrewgioia.com">Andrew Gioia</a></p>
+            </div>
+            <div class="float-right" style="text-align: right;">
+                <p>
+                    All mana images and card symbols &copy; <a href="https://magicthegathering.com">Wizards of the Coast</a><br />
+                    The Mana font is licensed under the the <a href="https://scripts.sil.org/OFL">SIL OFL 1.1</a><br />
+                    Mana CSS, LESS, and Sass files are licensed under the <a href="https://opensource.org/licenses/mit-license.html">MIT License</a><br />
+                </p>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </footer>
+
+</body>
+</html>

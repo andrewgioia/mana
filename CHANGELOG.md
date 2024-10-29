@@ -10,9 +10,21 @@ All notable changes to this project will be documented in this file.
 
 ## Versions 
 
+### [1.16.1] 2024-10-28 Watermark documentation
+
+#### Added
+
+* Watermark for Trump Katsumai added ([#114](https://github.com/andrewgioia/mana/issues/114))
+* Documentation now updated for that massive watermark project I abandoned :( All 90+ watermarks are in and on the icons page, finally back here and getting the repo up to speed again. ([#34](https://github.com/andrewgioia/mana/issues/34))
+* Documented Improvise, Ring Bearer, Amass Orcs, and The Ring Tempts You abilities. [#107](https://github.com/andrewgioia/mana/issues/107))
+
+#### Changed
+
+* Moved the documentation to the `./docs` folder like Keyrune, no more `gh-pages` branch.
+
 ### [1.16.0] 2023-09-20 Complete set of card watermarks
 
-* **Added:** 90 watermarks added/aliased, nearing the complete set of all watermarks save for 2. ([#34](https://github.com/andrewgioia/mana/issues/34)
+* **Added:** 90 watermarks added/aliased, nearing the complete set of all watermarks save for 2. ([#34](https://github.com/andrewgioia/mana/issues/34))
 
 ### [1.15.9] 2023-09-10 WOE ability symbols, Haktos and Robber symbols, loyalty VI
 
