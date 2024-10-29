@@ -893,6 +893,30 @@
 .ms-watermark-crossbreedlabs::before {
   content: "\ea09";
 }
+.ms-watermark-cutiemark-apples::before {
+  content: "\ea27";
+}
+.ms-watermark-cutiemark-balloons::before {
+  content: "\ea28";
+}
+.ms-watermark-cutiemark-butterflies::before {
+  content: "\ea29";
+}
+.ms-watermark-cutiemark-gems::before {
+  content: "\ea04";
+}
+.ms-watermark-cutiemark-rainbow::before {
+  content: "\ea2a";
+}
+.ms-watermark-cutiemark-sparkle::before {
+  content: "\ea05";
+}
+.ms-watermark-cutiemark-waningmoon::before {
+  content: "\ea06";
+}
+.ms-watermark-cutiemark-waxingmoon::before {
+  content: "\ea07";
+}
 .ms-watermark-dci::before {
   content: "\ea1d";
 }
@@ -992,30 +1016,6 @@
 .ms-watermark-mirran::before {
   content: "\ea03";
 }
-.ms-watermark-cutiemark-apples::before {
-  content: "\ea27";
-}
-.ms-watermark-cutiemark-balloons::before {
-  content: "\ea28";
-}
-.ms-watermark-cutiemark-butterflies::before {
-  content: "\ea29";
-}
-.ms-watermark-cutiemark-gems::before {
-  content: "\ea04";
-}
-.ms-watermark-cutiemark-rainbow::before {
-  content: "\ea2a";
-}
-.ms-watermark-cutiemark-sparkle::before {
-  content: "\ea05";
-}
-.ms-watermark-cutiemark-waningmoon::before {
-  content: "\ea06";
-}
-.ms-watermark-cutiemark-waxingmoon::before {
-  content: "\ea07";
-}
 .ms-watermark-mps::before {
   content: "\ea1a";
 }
@@ -1048,6 +1048,9 @@
 }
 .ms-watermark-transformers::before {
   content: "\ea18";
+}
+.ms-watermark-trumpkatsumai::before {
+  content: "\ea2b";
 }
 .ms-watermark-wotc::before {
   content: "\ea1b";

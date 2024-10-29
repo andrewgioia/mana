@@ -413,6 +413,16 @@
         &-conspiracy::before { content: "\ea12"; }
         &-corocoro::before { content: "\ea15"; }
         &-crossbreedlabs::before { content: "\ea09"; }
+        &-cutiemark {
+            &-apples::before { content: "\ea27"; }
+            &-balloons::before { content: "\ea28"; }
+            &-butterflies::before { content: "\ea29"; }
+            &-gems::before { content: "\ea04"; }
+            &-rainbow::before { content: "\ea2a"; }
+            &-sparkle::before { content: "\ea05"; }
+            &-waningmoon::before { content: "\ea06"; }
+            &-waxingmoon::before { content: "\ea07"; }
+        }
         &-dci::before { content: "\ea1d"; }
         &-dengekimaoh::before { content: "\ea14"; }
         &-desparked::before { content: "\e9f1"; }
@@ -450,16 +460,6 @@
         &-leagueofdastardlydoom::before { content: "\ea0b"; }
         &-maestros::before { content: "\ea0f"; }
         &-mirran::before { content: "\ea03"; }
-        &-cutiemark {
-            &-apples::before { content: "\ea27"; }
-            &-balloons::before { content: "\ea28"; }
-            &-butterflies::before { content: "\ea29"; }
-            &-gems::before { content: "\ea04"; }
-            &-rainbow::before { content: "\ea2a"; }
-            &-sparkle::before { content: "\ea05"; }
-            &-waningmoon::before { content: "\ea06"; }
-            &-waxingmoon::before { content: "\ea07"; }
-        }
         &-mps::before { content: "\ea1a"; }
         &-mtg::before { content: "\e9ed"; }
         &-mtg10::before { content: "\e9ee"; }
@@ -471,6 +471,7 @@
         &-riveteers::before { content: "\ea11"; }
         &-scholarship::before { content: "\ea25"; }
         &-transformers::before { content: "\ea18"; }
+        &-trumpkatsumai::before { content: "\ea2b"; }
         &-wotc::before { content: "\ea1b"; }
         &-wpn::before { content: "\ea1c"; }
     }
