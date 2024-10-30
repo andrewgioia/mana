@@ -14,7 +14,10 @@
     &-g::before { content: "\e604"; }
     &-0::before { content: "\e605"; }
     &-1::before { content: "\e606"; }
-    &-2::before { content: "\e607"; }
+    &-2 { // need to correct for bootstrap's .ms-2 utility class
+        margin-left: inherit !important;
+        &::before { content: "\e607"; 
+    }
     &-3::before { content: "\e608"; }
     &-4::before { content: "\e609"; }
     &-5::before { content: "\e60a"; }
