@@ -10,6 +10,18 @@ All notable changes to this project will be documented in this file.
 
 ## Versions 
 
+### [1.17.0] 2024-XX-XX 2024 abilities
+
+#### Added
+
+#### Changed
+
+* **Breaking change:** with Pawprint now being {P}, Phyrexian has been moved to {H} instead. This changes the class names for these mana costs as of this version, so all `.ms-p` will now show the Pawprint instead of the Phyrexian symbol. Please replace Phyrexian with `.ms-h`. Sorry about this!
+
+#### Fixed
+
+* Documented Goad, Commander, and Ticket symbols that were previously added ([#135](https://github.com/andrewgioia/mana/issues/135))
+
 ### [1.16.1] 2024-10-28 Watermark documentation
 
 #### Added
