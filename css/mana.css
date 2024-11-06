@@ -152,6 +152,9 @@
 .ms-d::before {
   content: "\ea2e";
 }
+.ms-spree::before {
+  content: "\ea55";
+}
 .ms-h::before, .ms-watermark-phyrexian::before {
   content: "\e618";
 }
@@ -500,7 +503,7 @@
 .ms-counter-echo::before {
   content: "\e930";
 }
-.ms-counter-finality::before {
+.ms-counter-finality::before, .ms-ability-finality::before {
   content: "\ea54";
 }
 .ms-counter-flame::before {

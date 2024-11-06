@@ -10,7 +10,10 @@ All notable changes to this project will be documented in this file.
 
 ## Versions 
 
-### [1.17.0] 2024-XX-XX 2024 abilities
+### [1.17.0] 2024-11-06 2024 abilities
+
+* Note this release has not updated the LESS source files. It's become too much to maintain both sadly and LESS will be deprecated/removed going forward.
+* Note also that bower.json has been removed. Mana has not been published there for a while and will only be officially published to NPM.
 
 #### Added
 
@@ -23,6 +26,15 @@ All notable changes to this project will be documented in this file.
 * Rad counter on MTGO ([#132](https://github.com/andrewgioia/mana/issues/132))
 * Brick, Deathtouch, and Charge punchout counters ([#116](https://github.com/andrewgioia/mana/issues/116)). Goad and Finality added as aliases for the identical ability icons.
 * Party class watermarks for Cleric, Rogue, Warrior, and Wizard ([#136](https://github.com/andrewgioia/mana/issues/136))
+* Exalted ability symbol from MH3 ([#128](https://github.com/andrewgioia/mana/issues/128))
+* MKM ability symbols for Cloak, Case Solved, Collect Evidence, Disguise, Suspect, and Surveil ([#121](https://github.com/andrewgioia/mana/issues/121))
+* Print Case Solved symbol ([#118](https://github.com/andrewgioia/mana/issues/118))
+* LCI ability symbols for Craft, Descend, and Discover ([#117](https://github.com/andrewgioia/mana/issues/117))
+* KTK ability symbols for Delve, Ferocious, Outlast, and Morph ([#120](https://github.com/andrewgioia/mana/issues/120))
+* OTJ ability symbols for Plot, Saddle, Spree, and Crime ([#125](https://github.com/andrewgioia/mana/issues/125))
+* Spree card frame indicator ([#125](https://github.com/andrewgioia/mana/issues/125))
+* BLB ability symbols for Gift, Offspring, Valiant, Forage, and Expend ([#130](https://github.com/andrewgioia/mana/issues/130))
+* DSK ability symbols for Survival, Impending, Manifest Dread, and Eerie ([#133](https://github.com/andrewgioia/mana/issues/133))
 
 #### Changed
 

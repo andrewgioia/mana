@@ -266,7 +266,9 @@
 // counter/ability aliases
 .#{variables.$ms-prefix}-counter {
     &-goad { @extend .#{variables.$ms-prefix}-ability-goad; }
-    &-finality { @extend .#{variables.$ms-prefix}-ability-finality; }
+}
+.#{variables.$ms-prefix}-ability {
+    &-finality { @extend .#{variables.$ms-prefix}-counter-finality; }
 }
 
 // watermark aliases
