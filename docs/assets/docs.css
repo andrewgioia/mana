@@ -289,7 +289,7 @@ blockquote {
 
 .utf {
     display: inline-block;
-    width: 25%;
+    width: 33.333%;
     float: left;
     padding: 6px 0;
 }
@@ -330,6 +330,15 @@ blockquote {
         color: #555;
         margin-left: 3px;
     }
+
+@media (min-width: 1600px) {
+    .utf {
+        display: inline-block;
+        width: 25%;
+        float: left;
+        padding: 6px 0;
+    }
+}
 
 .example {
     font-size: 16px;
