@@ -226,7 +226,7 @@ blockquote {
 }
 
 .icon {
-    border-radius: 3px;
+    border-radius: 5px;
     display: inline-block;
     overflow: hidden;
     width: 24.5%;
@@ -243,6 +243,10 @@ blockquote {
         position: relative;
         margin-top: -4px;
         margin-bottom: -5px;
+    }
+
+    .icon:nth-of-type(4n+1):not(:has(+ .icon)):hover {
+        margin-bottom: -3.5px; /* no idea why */
     }
 
     .icon .ms {

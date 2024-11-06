@@ -16,7 +16,7 @@
     &-1::before { content: "\e606"; }
     &-2 { // need to correct for bootstrap's .ms-2 utility class
         margin-left: inherit !important;
-        &::before { content: "\e607"; 
+        &::before { content: "\e607"; }
     }
     &-3::before { content: "\e608"; }
     &-4::before { content: "\e609"; }
@@ -39,22 +39,38 @@
     &-x::before { content: "\e615"; }
     &-y::before { content: "\e616"; }
     &-z::before { content: "\e617"; }
-    &-p::before { content: "\e618"; }
     &-s::before { content: "\e619"; }
     &-s-mtga::before { content: "\e996"; }
     &-c::before { content: "\e904"; }
     &-e::before,
-    &-energy::before{ content: "\e907"; }
+        &-energy::before{ content: "\e907"; }
     &-acorn::before { content: "\e929"; }
     &-ticket::before,
         &-tk::before { content: "\e9c4"; }
     &-1-2::before { content: "\e902"; }
     &-infinity::before { content: "\e903"; }
+    &-l::before { content: "\ea2d"; }
+    &-d::before { content: "\ea2e"; }
+
+    // phyrexian/paw handling
+    &-h::before { content: "\e618"; }
+    &-paw::before { content: "\ea32"; }
+    &-p {
+        @if variables.$ms-phyrexian-h { 
+            // paw as p
+            &::before { content: "\ea32"; }
+        } @else {
+            // old .ms-p for phyrexian
+            &::before { content: "\e618"; }
+        }
+    }
 
     // tap/roll
     &-tap::before { content: "\e61a"; }
     &-untap::before { content: "\e61b"; }
-    &-tap-alt::before { content: "\e61c"; }
+    &-tap-alt::before,
+        &-tap-3ed::before { content: "\e61c"; }
+    &-tap-4ed::before { content: "\ea31"; }
     &-chaos::before { content: "\e61d"; }
 
     // card types
@@ -191,8 +207,14 @@
 
     // other card elements
     &-flashback::before { content: "\e629"; }
-    &-power::before { content: "\e921"; }
-    &-toughness::before { content: "\e922"; }
+    &-power {
+        &::before { content: "\e921"; }
+        &-mtga::before { content: "\ea2f"; }
+    }
+    &-toughness {
+        &::before { content: "\e922"; }
+        &-mtga::before { content: "\ea30"; }
+    }
     &-artist {
         &-brush::before { content: "\e923"; }
         &-nib::before { content: "\e924"; }
@@ -223,6 +245,12 @@
         &-ojutai::before { content: "\e91e"; }
         &-silumgar::before { content: "\e91f"; }
     }
+    &-party {
+        &-cleric::before { content: "\ea59"; }
+        &-rogue::before { content: "\ea58"; }
+        &-warrior::before { content: "\ea57"; }
+        &-wizard::before { content: "\ea56"; }
+    }
     &-polis {
         &-setessa::before { content: "\e926"; }
         &-akros::before { content: "\e927"; }
@@ -240,11 +268,15 @@
     &-counter {
         &-arrow::before { content: "\e92b"; }
         &-brick::before { content: "\e92c"; }
+        &-brick-print::before { content: "\ea52"; }
         &-charge::before { content: "\e92d"; }
+        &-charge-print::before { content: "\ea53"; }
         &-damage::before { content: "\e9dd"; } // same as original enrage
+        &-deathtouch::before { content: "\ea51"; }
         &-devotion::before { content: "\e92e"; }
         &-doom::before { content: "\e92f"; }
         &-echo::before { content: "\e930"; }
+        &-finality::before { content: "\ea54"; }
         &-flame::before { content: "\e931"; }
         &-flood::before { content: "\e932"; }
         &-fungus::before { content: "\e933"; }
@@ -260,6 +292,7 @@
         &-pin::before { content: "\e93c"; }
         &-plus::before { content: "\e93d"; }
         &-plus-uneven::before { content: "\e944"; }
+        &-rad::before { content: "\ea50"; }
         &-scream::before { content: "\e93e"; }
         &-skeleton::before { content: "\e93f"; }
         &-skull::before { content: "\e940"; }
@@ -296,11 +329,15 @@
         &-bargain::before { content: "\e9e2"; }
         &-blitz::before { content: "\e9b4"; }
         &-boast::before { content: "\e991"; }
+        &-case-solved::before { content: "\ea39"; }
+        &-case-solved-print::before { content: "\ea3a"; }
         &-casualty::before { content: "\e9b7"; }
         &-celebration::before { content: "\e9e3"; }
         &-changeling::before { content: "\e9a6"; }
         &-channel::before { content: "\e9b1"; }
         &-cleave::before { content: "\e9ad"; }
+        &-cloak::before { content: "\ea35"; }
+        &-collect-evidence::before { content: "\ea36"; }
         &-combat-condition::before { content: "\e9ce"; }
         &-companion::before { content: "\e97b"; }
         &-constellation::before { content: "\e97c"; }
@@ -309,6 +346,8 @@
             &::before { content: "\e9da"; }
         }
         &-corrupted::before { content: "\e9c0"; }
+        &-craft::before { content: "\ea3f"; }
+        &-crime::before { content: "\ea45"; }
         &-coven::before { content: "\e9aa"; }
         &-d20::before { content: "\e999"; }
         &-day-night::before { content: "\e9a8"; }
@@ -316,11 +355,16 @@
         &-deathtouch::before { content: "\e94b"; }
         &-decayed::before { content: "\e9ac"; }
         &-defender::before { content: "\e94c"; }
+        &-delve::before { content: "\ea3b"; }
+        &-descend::before { content: "\ea41"; }
         &-devotion::before { content: "\e97d"; }
+        &-discover::before { content: "\ea40"; }
+        &-disguise::before { content: "\ea34"; }
         &-disturb::before { content: "\e9ae"; }
         &-domain::before { content: "\e9a7"; }
         &-double-strike::before { content: "\e94d"; }
         &-dungeon::before { content: "\e995"; }
+        &-eerie::before { content: "\ea4d"; }
         &-embalm::before { content: "\e97e"; }
         &-enlist::before { content: "\e9ba"; }
         &-enrage {
@@ -329,14 +373,19 @@
         }
         &-escape::before { content: "\e969"; }
         &-eternalize::before { content: "\e97f"; }
+        &-exalted::before { content: "\ea33"; }
+        &-expend::before { content: "\ea4a"; }
         &-exploit::before { content: "\e9af"; }
         &-explore::before { content: "\e94f"; }
         &-fabricate::before { content: "\e9a5"; }
+        &-ferocious::before { content: "\ea3c"; }
         &-first-strike::before { content: "\e950"; }
         &-flash::before { content: "\e951"; }
         &-flying::before { content: "\e952"; }
         &-for-mirrodin::before { content: "\e9c1"; }
+        &-forage::before { content: "\ea49"; }
         &-foretell::before { content: "\e990"; }
+        &-gift::before { content: "\ea46"; }
         &-goad::before { content: "\e9c9"; }
         &-haste::before { content: "\e953"; }
         &-hexproof {
@@ -348,6 +397,7 @@
             &-white::before { content: "\e959"; }
         }
         &-hideaway::before { content: "\e9b8"; }
+        &-impending::before { content: "\ea4c"; }
         &-improvise::before { content: "\e9de"; }
         &-incubate::before { content: "\e9db"; }
         &-indestructible::before { content: "\e95a"; }
@@ -356,16 +406,22 @@
         &-kicker::before { content: "\e989"; }
         &-landfall::before { content: "\e988"; }
         &-learn::before { content: "\e994"; }
-        &-lifelink::before { content: "\e95c"; }
+        &-lifelink::before { content: "\ea4b"; }
+        &-lifelink-original::before { content: "\e95c"; }
         &-magecraft::before { content: "\e993"; }
+        &-manifest-dread::before { content: "\ea4f"; }
         &-meld::before { content: "\e9bd"; }
         &-menace::before { content: "\e95d"; }
         &-mentor::before { content: "\e95e"; }
+        &-morph::before { content: "\ea3e"; }
         &-mutate::before { content: "\e980"; }
         &-ninjutsu::before { content: "\e9b2"; }
         &-obscura::before { content: "\e9b6"; }
+        &-offspring::before { content: "\ea47"; }
+        &-outlast::before { content: "\ea3d"; }
         &-party::before { content: "\e987"; }
         &-phyrexian::before { content: "\e618"; }
+        &-plot::before { content: "\ea42"; }
         &-proliferate::before { content: "\e981"; }
         &-prototype::before { content: "\e9be"; }
         &-prowess::before { content: "\e982"; }
@@ -384,12 +440,17 @@
             &-wicked::before { content: "\e9ea"; }
             &-young-hero::before { content: "\e9eb"; }
         }
+        &-saddle::before { content: "\ea43"; }
         &-specialize::before { content: "\e9bb"; }
         &-spectacle::before { content: "\e96b"; }
+        &-spree::before { content: "\ea44"; }
         &-static::before,
             &-enchant::before { content: "\e962"; }
         &-summoning-sickness::before { content: "\e96a"; }
-        &-surveil::before { content: "\e963"; }
+        &-surveil::before { content: "\ea38"; }
+        &-surveil-original::before { content: "\e963"; }
+        &-survival::before { content: "\ea4e"; }
+        &-suspect::before { content: "\ea37"; }
         &-the-ring-tempts-you::before { content: "\e9e1"; }
         &-toxic::before { content: "\e9bf"; }
         &-training::before { content: "\e9b0"; }
@@ -398,6 +459,7 @@
         &-triggered::before { content: "\e966"; }
         &-undergrowth::before { content: "\e967"; }
         &-unearth::before { content: "\e9bc"; }
+        &-valiant::before { content: "\ea48"; }
         &-vigilance::before { content: "\e968"; }
         &-ward::before { content: "\e992"; }
 
@@ -438,6 +500,7 @@
             &-myfirsttome::before { content: "\e9f6"; }
             &-shoetree::before { content: "\e9f7"; }
             &-whenfluffybunniesattack::before { content: "\e9f8"; }
+            &-manascrew::before { content: "\ea2c"; }
         }
         &-fnm::before { content: "\ea16"; }
         &-goblinexplosioneers::before { content: "\ea0a"; }

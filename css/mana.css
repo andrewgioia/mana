@@ -1,14 +1,14 @@
 @font-face {
   font-family: "Mana";
-  src: url("../fonts/mana.eot?v=1.16.0");
-  src: url("../fonts/mana.eot?#iefix&v=1.16.0") format("embedded-opentype"), url("../fonts/mana.woff?v=1.16.0") format("woff"), url("../fonts/mana.ttf?v=1.16.0") format("truetype"), url("../fonts/mana.svg?v=1.16.0#mana") format("svg");
+  src: url("../fonts/mana.eot?v=1.17.0");
+  src: url("../fonts/mana.eot?#iefix&v=1.17.0") format("embedded-opentype"), url("../fonts/mana.woff?v=1.17.0") format("woff"), url("../fonts/mana.ttf?v=1.17.0") format("truetype"), url("../fonts/mana.svg?v=1.17.0#mana") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "MPlantin";
-  src: url("../fonts/mplantin.eot?v=1.16.0");
-  src: url("../fonts/mplantin.eot?#iefix&v=1.16.0") format("embedded-opentype"), url("../fonts/mplantin.woff?v=1.16.0") format("woff"), url("../fonts/mplantin.ttf?v=1.16.0") format("truetype"), url("../fonts/mplantin.svg?v=1.16.0#mplantin") format("svg");
+  src: url("../fonts/mplantin.eot?v=1.17.0");
+  src: url("../fonts/mplantin.eot?#iefix&v=1.17.0") format("embedded-opentype"), url("../fonts/mplantin.woff?v=1.17.0") format("woff"), url("../fonts/mplantin.ttf?v=1.17.0") format("truetype"), url("../fonts/mplantin.svg?v=1.17.0#mplantin") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -52,6 +52,9 @@
 }
 .ms-1::before {
   content: "\e606";
+}
+.ms-2 {
+  margin-left: inherit !important;
 }
 .ms-2::before {
   content: "\e607";
@@ -119,9 +122,6 @@
 .ms-z::before {
   content: "\e617";
 }
-.ms-p::before, .ms-watermark-phyrexian::before {
-  content: "\e618";
-}
 .ms-s::before {
   content: "\e619";
 }
@@ -146,14 +146,32 @@
 .ms-infinity::before {
   content: "\e903";
 }
+.ms-l::before {
+  content: "\ea2d";
+}
+.ms-d::before {
+  content: "\ea2e";
+}
+.ms-h::before, .ms-watermark-phyrexian::before {
+  content: "\e618";
+}
+.ms-paw::before {
+  content: "\ea32";
+}
+.ms-p::before {
+  content: "\e618";
+}
 .ms-tap::before {
   content: "\e61a";
 }
 .ms-untap::before {
   content: "\e61b";
 }
-.ms-tap-alt::before {
+.ms-tap-alt::before, .ms-tap-3ed::before {
   content: "\e61c";
+}
+.ms-tap-4ed::before {
+  content: "\ea31";
 }
 .ms-chaos::before {
   content: "\e61d";
@@ -341,8 +359,14 @@
 .ms-power::before {
   content: "\e921";
 }
+.ms-power-mtga::before {
+  content: "\ea2f";
+}
 .ms-toughness::before {
   content: "\e922";
+}
+.ms-toughness-mtga::before {
+  content: "\ea30";
 }
 .ms-artist-brush::before {
   content: "\e923";
@@ -410,6 +434,18 @@
 .ms-clan-silumgar::before, .ms-watermark-silumgar::before {
   content: "\e91f";
 }
+.ms-party-cleric::before {
+  content: "\ea59";
+}
+.ms-party-rogue::before {
+  content: "\ea58";
+}
+.ms-party-warrior::before {
+  content: "\ea57";
+}
+.ms-party-wizard::before {
+  content: "\ea56";
+}
 .ms-polis-setessa::before {
   content: "\e926";
 }
@@ -440,11 +476,20 @@
 .ms-counter-brick::before {
   content: "\e92c";
 }
+.ms-counter-brick-print::before {
+  content: "\ea52";
+}
 .ms-counter-charge::before {
   content: "\e92d";
 }
+.ms-counter-charge-print::before {
+  content: "\ea53";
+}
 .ms-counter-damage::before {
   content: "\e9dd";
+}
+.ms-counter-deathtouch::before {
+  content: "\ea51";
 }
 .ms-counter-devotion::before {
   content: "\e92e";
@@ -454,6 +499,9 @@
 }
 .ms-counter-echo::before {
   content: "\e930";
+}
+.ms-counter-finality::before {
+  content: "\ea54";
 }
 .ms-counter-flame::before {
   content: "\e931";
@@ -499,6 +547,9 @@
 }
 .ms-counter-plus-uneven::before {
   content: "\e944";
+}
+.ms-counter-rad::before {
+  content: "\ea50";
 }
 .ms-counter-scream::before {
   content: "\e93e";
@@ -578,6 +629,12 @@
 .ms-ability-boast::before {
   content: "\e991";
 }
+.ms-ability-case-solved::before {
+  content: "\ea39";
+}
+.ms-ability-case-solved-print::before {
+  content: "\ea3a";
+}
 .ms-ability-casualty::before {
   content: "\e9b7";
 }
@@ -592,6 +649,12 @@
 }
 .ms-ability-cleave::before {
   content: "\e9ad";
+}
+.ms-ability-cloak::before {
+  content: "\ea35";
+}
+.ms-ability-collect-evidence::before {
+  content: "\ea36";
 }
 .ms-ability-combat-condition::before {
   content: "\e9ce";
@@ -610,6 +673,12 @@
 }
 .ms-ability-corrupted::before {
   content: "\e9c0";
+}
+.ms-ability-craft::before {
+  content: "\ea3f";
+}
+.ms-ability-crime::before {
+  content: "\ea45";
 }
 .ms-ability-coven::before {
   content: "\e9aa";
@@ -632,8 +701,20 @@
 .ms-ability-defender::before {
   content: "\e94c";
 }
+.ms-ability-delve::before {
+  content: "\ea3b";
+}
+.ms-ability-descend::before {
+  content: "\ea41";
+}
 .ms-ability-devotion::before {
   content: "\e97d";
+}
+.ms-ability-discover::before {
+  content: "\ea40";
+}
+.ms-ability-disguise::before {
+  content: "\ea34";
 }
 .ms-ability-disturb::before {
   content: "\e9ae";
@@ -646,6 +727,9 @@
 }
 .ms-ability-dungeon::before {
   content: "\e995";
+}
+.ms-ability-eerie::before {
+  content: "\ea4d";
 }
 .ms-ability-embalm::before {
   content: "\e97e";
@@ -665,6 +749,12 @@
 .ms-ability-eternalize::before {
   content: "\e97f";
 }
+.ms-ability-exalted::before {
+  content: "\ea33";
+}
+.ms-ability-expend::before {
+  content: "\ea4a";
+}
 .ms-ability-exploit::before {
   content: "\e9af";
 }
@@ -673,6 +763,9 @@
 }
 .ms-ability-fabricate::before {
   content: "\e9a5";
+}
+.ms-ability-ferocious::before {
+  content: "\ea3c";
 }
 .ms-ability-first-strike::before {
   content: "\e950";
@@ -686,10 +779,16 @@
 .ms-ability-for-mirrodin::before {
   content: "\e9c1";
 }
+.ms-ability-forage::before {
+  content: "\ea49";
+}
 .ms-ability-foretell::before, .ms-watermark-foretell::before {
   content: "\e990";
 }
-.ms-ability-goad::before {
+.ms-ability-gift::before {
+  content: "\ea46";
+}
+.ms-ability-goad::before, .ms-counter-goad::before {
   content: "\e9c9";
 }
 .ms-ability-haste::before {
@@ -716,6 +815,9 @@
 .ms-ability-hideaway::before {
   content: "\e9b8";
 }
+.ms-ability-impending::before {
+  content: "\ea4c";
+}
 .ms-ability-improvise::before {
   content: "\e9de";
 }
@@ -741,10 +843,16 @@
   content: "\e994";
 }
 .ms-ability-lifelink::before {
+  content: "\ea4b";
+}
+.ms-ability-lifelink-original::before {
   content: "\e95c";
 }
 .ms-ability-magecraft::before {
   content: "\e993";
+}
+.ms-ability-manifest-dread::before {
+  content: "\ea4f";
 }
 .ms-ability-meld::before {
   content: "\e9bd";
@@ -755,6 +863,9 @@
 .ms-ability-mentor::before {
   content: "\e95e";
 }
+.ms-ability-morph::before {
+  content: "\ea3e";
+}
 .ms-ability-mutate::before {
   content: "\e980";
 }
@@ -764,11 +875,20 @@
 .ms-ability-obscura::before {
   content: "\e9b6";
 }
+.ms-ability-offspring::before {
+  content: "\ea47";
+}
+.ms-ability-outlast::before {
+  content: "\ea3d";
+}
 .ms-ability-party::before {
   content: "\e987";
 }
 .ms-ability-phyrexian::before {
   content: "\e618";
+}
+.ms-ability-plot::before {
+  content: "\ea42";
 }
 .ms-ability-proliferate::before {
   content: "\e981";
@@ -818,11 +938,17 @@
 .ms-ability-role-young-hero::before {
   content: "\e9eb";
 }
+.ms-ability-saddle::before {
+  content: "\ea43";
+}
 .ms-ability-specialize::before {
   content: "\e9bb";
 }
 .ms-ability-spectacle::before {
   content: "\e96b";
+}
+.ms-ability-spree::before {
+  content: "\ea44";
 }
 .ms-ability-static::before, .ms-ability-enchant::before {
   content: "\e962";
@@ -831,7 +957,16 @@
   content: "\e96a";
 }
 .ms-ability-surveil::before {
+  content: "\ea38";
+}
+.ms-ability-surveil-original::before {
   content: "\e963";
+}
+.ms-ability-survival::before {
+  content: "\ea4e";
+}
+.ms-ability-suspect::before {
+  content: "\ea37";
 }
 .ms-ability-the-ring-tempts-you::before {
   content: "\e9e1";
@@ -856,6 +991,9 @@
 }
 .ms-ability-unearth::before {
   content: "\e9bc";
+}
+.ms-ability-valiant::before {
+  content: "\ea48";
 }
 .ms-ability-vigilance::before {
   content: "\e968";
@@ -949,6 +1087,9 @@
 }
 .ms-watermark-flavor-whenfluffybunniesattack::before {
   content: "\e9f8";
+}
+.ms-watermark-flavor-manascrew::before {
+  content: "\ea2c";
 }
 .ms-watermark-fnm::before {
   content: "\ea16";
@@ -1251,7 +1392,13 @@
   background: linear-gradient(135deg, #beb9b2 0%, #beb9b2 50%, #93b483 50%, #93b483 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#beb9b2", endColorstr="#93b483",GradientType=1 );
 }
-.ms-cost.ms-p::before, .ms-cost.ms-wp::before, .ms-cost.ms-up::before, .ms-cost.ms-bp::before, .ms-cost.ms-rp::before, .ms-cost.ms-gp::before, .ms-cost.ms-wup::before, .ms-cost.ms-wbp::before, .ms-cost.ms-ubp::before, .ms-cost.ms-urp::before, .ms-cost.ms-brp::before, .ms-cost.ms-bgp::before, .ms-cost.ms-rwp::before, .ms-cost.ms-rgp::before, .ms-cost.ms-gwp::before, .ms-cost.ms-gup::before {
+.ms-cost.ms-p::before {
+  display: inline-block;
+  -moz-transform: scale(1.2, 1.2);
+  -webkit-transform: scale(1.2, 1.2);
+  transform: scale(1.2, 1.2);
+}
+.ms-cost.ms-wp::before, .ms-cost.ms-up::before, .ms-cost.ms-bp::before, .ms-cost.ms-rp::before, .ms-cost.ms-gp::before, .ms-cost.ms-wup::before, .ms-cost.ms-wbp::before, .ms-cost.ms-ubp::before, .ms-cost.ms-urp::before, .ms-cost.ms-brp::before, .ms-cost.ms-bgp::before, .ms-cost.ms-rwp::before, .ms-cost.ms-rgp::before, .ms-cost.ms-gwp::before, .ms-cost.ms-gup::before {
   display: inline-block;
   -moz-transform: scale(1.2, 1.2);
   -webkit-transform: scale(1.2, 1.2);

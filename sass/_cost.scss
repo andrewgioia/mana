@@ -240,7 +240,21 @@
     }
 
     // phyrexian mana size increases
-    &.#{variables.$ms-prefix}-p::before,
+    @if variables.$ms-phyrexian-h {
+      &.#{variables.$ms-prefix}-h::before {
+        display: inline-block;
+        -moz-transform: scale( 1.2, 1.2 );
+        -webkit-transform: scale( 1.2, 1.2 );
+        transform: scale( 1.2, 1.2 );
+      }
+    } @else {
+      &.#{variables.$ms-prefix}-p::before {
+        display: inline-block;
+        -moz-transform: scale( 1.2, 1.2 );
+        -webkit-transform: scale( 1.2, 1.2 );
+        transform: scale( 1.2, 1.2 );
+      }
+    }
     &.#{variables.$ms-prefix}-wp::before,
     &.#{variables.$ms-prefix}-up::before,
     &.#{variables.$ms-prefix}-bp::before,

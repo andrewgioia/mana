@@ -14,9 +14,21 @@ All notable changes to this project will be documented in this file.
 
 #### Added
 
+* Pawprint cost symbol ([#129](https://github.com/andrewgioia/mana/issues/129))
+* Land Drop (D) and Legendary Mana (L) cost symbols from Mystery Booster 2 ([#134](https://github.com/andrewgioia/mana/issues/134))
+* 4th Edition tap symbol ([#124](https://github.com/andrewgioia/mana/issues/124))
+* Updated lifelink ability symbol ([#126](https://github.com/andrewgioia/mana/issues/126))
+* Arena Power and Toughness symbols from the new player experience ([#119](https://github.com/andrewgioia/mana/issues/119))
+* Mana Screw flavor watermark ([#115](https://github.com/andrewgioia/mana/issues/115))
+* Rad counter on MTGO ([#132](https://github.com/andrewgioia/mana/issues/132))
+* Brick, Deathtouch, and Charge punchout counters ([#116](https://github.com/andrewgioia/mana/issues/116)). Goad and Finality added as aliases for the identical ability icons.
+* Party class watermarks for Cleric, Rogue, Warrior, and Wizard ([#136](https://github.com/andrewgioia/mana/issues/136))
+
 #### Changed
 
 * **Breaking change:** with Pawprint now being {P}, Phyrexian has been moved to {H} instead. This changes the class names for these mana costs as of this version, so all `.ms-p` will now show the Pawprint instead of the Phyrexian symbol. Please replace Phyrexian with `.ms-h`. Sorry about this!
+* Revised tap symbol aliased to `tap-3ed` in addition to `tap-alt`, to account for the other alternate tap symbol.
+* Lifelink symbol has been updated following Arena's update. The previous one has been changed to `lifelink-original`.
 
 #### Fixed
 

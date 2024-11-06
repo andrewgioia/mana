@@ -263,6 +263,12 @@
     }
 }
 
+// counter/ability aliases
+.#{variables.$ms-prefix}-counter {
+    &-goad { @extend .#{variables.$ms-prefix}-ability-goad; }
+    &-finality { @extend .#{variables.$ms-prefix}-ability-finality; }
+}
+
 // watermark aliases
 .#{variables.$ms-prefix}-watermark {
     &-abzan { @extend .#{variables.$ms-prefix}-clan-abzan; }
@@ -281,7 +287,7 @@
     &-mardu { @extend .#{variables.$ms-prefix}-clan-mardu; }
     &-ojutai { @extend .#{variables.$ms-prefix}-clan-ojutai; }
     &-orzhov { @extend .#{variables.$ms-prefix}-guild-orzhov; }
-    &-phyrexian { @extend .#{variables.$ms-prefix}-p; }
+    &-phyrexian { @extend .#{variables.$ms-prefix}-h; }
     &-planeswalker { @extend .#{variables.$ms-prefix}-planeswalker; }
     &-prismari { @extend .#{variables.$ms-prefix}-school-prismari; }
     &-quandrix { @extend .#{variables.$ms-prefix}-school-quandrix; }
