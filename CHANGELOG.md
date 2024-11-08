@@ -10,6 +10,12 @@ All notable changes to this project will be documented in this file.
 
 ## Versions 
 
+### [1.17.1] 2024-11-08 Colorless split costs
+
+#### Added
+
+* Split costs now support the colorless split mana symbols on [Ulalek, Fused Atrocity](https://scryfall.com/card/m3c/4/ulalek-fused-atrocity) ([#139](https://github.com/andrewgioia/mana/issues/139))
+
 ### [1.17.0] 2024-11-06 2024 abilities
 
 * Note this release has not updated the LESS source files. It's become too much to maintain both sadly and LESS will be deprecated/removed going forward.
