@@ -109,32 +109,42 @@
     &-wb::before,
     &-rw::after,
     &-gw::after,
-    &-2w::after { content: "\e600"; } // white
+    &-2w::after,
+    &-cw::after { content: "\e600"; } // white
     &-ub::before,
     &-ur::before,
     &-wu::after,
     &-gu::after,
-    &-2u::after { content: "\e601"; } // blue
+    &-2u::after,
+    &-cu::after { content: "\e601"; } // blue
     &-br::before,
     &-bg::before,
     &-wb::after,
     &-ub::after,
-    &-2b::after { content: "\e602"; } // black
+    &-2b::after,
+    &-cb::after { content: "\e602"; } // black
     &-rw::before,
     &-rg::before,
     &-ur::after,
     &-br::after,
-    &-2r::after { content: "\e603"; } // red
+    &-2r::after,
+    &-cr::after { content: "\e603"; } // red
     &-gw::before,
     &-gu::before,
     &-bg::after,
     &-rg::after,
-    &-2g::after { content: "\e604"; } // green
+    &-2g::after,
+    &-cg::after { content: "\e604"; } // green
     &-2w::before,
     &-2u::before,
     &-2b::before,
     &-2r::before,
     &-2g::before { content: "\e607"; } // 2
+    &-cw::before,
+    &-cu::before,
+    &-cb::before,
+    &-cr::before,
+    &-cg::before { content: "\e904"; } // c
 
     // phyrexian splits
     &-wp::before,

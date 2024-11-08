@@ -1,7 +1,6 @@
 @use "variables";
 
 // base
-
 .#{variables.$ms-prefix} {
     display: inline-block;
     font: normal normal normal variables.$ms-font-size-base Mana;
@@ -15,4 +14,11 @@
     // Better font rendering
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+
+    --ms-mana-b: #a7999e;
+    --ms-mana-c: #d0c6bb;
+    --ms-mana-g: #9fcba6; //#9ba;
+    --ms-mana-r: #f19b79;
+    --ms-mana-u: #bcdaf7;
+    --ms-mana-w: #fdfbce;
 }

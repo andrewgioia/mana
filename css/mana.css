@@ -24,6 +24,12 @@
   vertical-align: middle;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  --ms-mana-b: #a7999e;
+  --ms-mana-c: #d0c6bb;
+  --ms-mana-g: #9fcba6;
+  --ms-mana-r: #f19b79;
+  --ms-mana-u: #bcdaf7;
+  --ms-mana-w: #fdfbce;
 }
 
 .ms-w::before {
@@ -254,23 +260,26 @@
 .ms-exile::before {
   content: "\e9cd";
 }
-.ms-wu::before, .ms-wb::before, .ms-rw::after, .ms-gw::after, .ms-2w::after {
+.ms-wu::before, .ms-wb::before, .ms-rw::after, .ms-gw::after, .ms-2w::after, .ms-cw::after {
   content: "\e600";
 }
-.ms-ub::before, .ms-ur::before, .ms-wu::after, .ms-gu::after, .ms-2u::after {
+.ms-ub::before, .ms-ur::before, .ms-wu::after, .ms-gu::after, .ms-2u::after, .ms-cu::after {
   content: "\e601";
 }
-.ms-br::before, .ms-bg::before, .ms-wb::after, .ms-ub::after, .ms-2b::after {
+.ms-br::before, .ms-bg::before, .ms-wb::after, .ms-ub::after, .ms-2b::after, .ms-cb::after {
   content: "\e602";
 }
-.ms-rw::before, .ms-rg::before, .ms-ur::after, .ms-br::after, .ms-2r::after {
+.ms-rw::before, .ms-rg::before, .ms-ur::after, .ms-br::after, .ms-2r::after, .ms-cr::after {
   content: "\e603";
 }
-.ms-gw::before, .ms-gu::before, .ms-bg::after, .ms-rg::after, .ms-2g::after {
+.ms-gw::before, .ms-gu::before, .ms-bg::after, .ms-rg::after, .ms-2g::after, .ms-cg::after {
   content: "\e604";
 }
 .ms-2w::before, .ms-2u::before, .ms-2b::before, .ms-2r::before, .ms-2g::before {
   content: "\e607";
+}
+.ms-cw::before, .ms-cu::before, .ms-cb::before, .ms-cr::before, .ms-cg::before {
+  content: "\e904";
 }
 .ms-wp::before, .ms-up::before, .ms-bp::before, .ms-rp::before, .ms-gp::before, .ms-wup::before, .ms-wup::after, .ms-wbp::before, .ms-wbp::after, .ms-ubp::before, .ms-ubp::after, .ms-urp::before, .ms-urp::after, .ms-brp::before, .ms-brp::after, .ms-bgp::before, .ms-bgp::after, .ms-rwp::before, .ms-rwp::after, .ms-rgp::before, .ms-rgp::after, .ms-gwp::before, .ms-gwp::after, .ms-gup::before, .ms-gup::after {
   content: "\e618";
@@ -1228,172 +1237,78 @@
 .ms-cost.ms-g, .ms-cost.ms-gp {
   background-color: #93b483;
 }
-.ms-cost.ms-wu, .ms-cost.ms-wb, .ms-cost.ms-ub, .ms-cost.ms-ur, .ms-cost.ms-br, .ms-cost.ms-bg, .ms-cost.ms-rw, .ms-cost.ms-rg, .ms-cost.ms-gw, .ms-cost.ms-gu, .ms-cost.ms-2w, .ms-cost.ms-2u, .ms-cost.ms-2b, .ms-cost.ms-2r, .ms-cost.ms-2g, .ms-cost.ms-wup, .ms-cost.ms-wbp, .ms-cost.ms-ubp, .ms-cost.ms-urp, .ms-cost.ms-brp, .ms-cost.ms-bgp, .ms-cost.ms-rwp, .ms-cost.ms-rgp, .ms-cost.ms-gwp, .ms-cost.ms-gup {
+.ms-cost.ms-wu, .ms-cost.ms-wb, .ms-cost.ms-ub, .ms-cost.ms-ur, .ms-cost.ms-br, .ms-cost.ms-bg, .ms-cost.ms-rw, .ms-cost.ms-rg, .ms-cost.ms-gw, .ms-cost.ms-gu, .ms-cost.ms-2w, .ms-cost.ms-2u, .ms-cost.ms-2b, .ms-cost.ms-2r, .ms-cost.ms-2g, .ms-cost.ms-cw, .ms-cost.ms-cu, .ms-cost.ms-cb, .ms-cost.ms-cr, .ms-cost.ms-cg, .ms-cost.ms-wup, .ms-cost.ms-wbp, .ms-cost.ms-ubp, .ms-cost.ms-urp, .ms-cost.ms-brp, .ms-cost.ms-bgp, .ms-cost.ms-rwp, .ms-cost.ms-rgp, .ms-cost.ms-gwp, .ms-cost.ms-gup {
+  --ms-split-top: var(--ms-mana-c);
+  --ms-split-bottom: var(--ms-mana-u);
+  background: var(--ms-split-top);
+  background: -moz-linear-gradient(135deg, var(--ms-split-top) 0%, var(--ms-split-top) 50%, var(--ms-split-bottom) 50%, var(--ms-split-bottom) 100%);
+  background: -webkit-linear-gradient(135deg, var(--ms-split-top) 0%, var(--ms-split-top) 50%, var(--ms-split-bottom) 50%, var(--ms-split-bottom) 100%);
+  background: linear-gradient(135deg, var(--ms-split-top) 0%, var(--ms-split-top) 50%, var(--ms-split-bottom) 50%, var(--ms-split-bottom) 100%);
   position: relative;
   width: 1.3em;
   height: 1.3em;
 }
-.ms-cost.ms-wu::before, .ms-cost.ms-wu::after, .ms-cost.ms-wb::before, .ms-cost.ms-wb::after, .ms-cost.ms-ub::before, .ms-cost.ms-ub::after, .ms-cost.ms-ur::before, .ms-cost.ms-ur::after, .ms-cost.ms-br::before, .ms-cost.ms-br::after, .ms-cost.ms-bg::before, .ms-cost.ms-bg::after, .ms-cost.ms-rw::before, .ms-cost.ms-rw::after, .ms-cost.ms-rg::before, .ms-cost.ms-rg::after, .ms-cost.ms-gw::before, .ms-cost.ms-gw::after, .ms-cost.ms-gu::before, .ms-cost.ms-gu::after, .ms-cost.ms-2w::before, .ms-cost.ms-2w::after, .ms-cost.ms-2u::before, .ms-cost.ms-2u::after, .ms-cost.ms-2b::before, .ms-cost.ms-2b::after, .ms-cost.ms-2r::before, .ms-cost.ms-2r::after, .ms-cost.ms-2g::before, .ms-cost.ms-2g::after, .ms-cost.ms-wup::before, .ms-cost.ms-wup::after, .ms-cost.ms-wbp::before, .ms-cost.ms-wbp::after, .ms-cost.ms-ubp::before, .ms-cost.ms-ubp::after, .ms-cost.ms-urp::before, .ms-cost.ms-urp::after, .ms-cost.ms-brp::before, .ms-cost.ms-brp::after, .ms-cost.ms-bgp::before, .ms-cost.ms-bgp::after, .ms-cost.ms-rwp::before, .ms-cost.ms-rwp::after, .ms-cost.ms-rgp::before, .ms-cost.ms-rgp::after, .ms-cost.ms-gwp::before, .ms-cost.ms-gwp::after, .ms-cost.ms-gup::before, .ms-cost.ms-gup::after {
+.ms-cost.ms-wu::before, .ms-cost.ms-wu::after, .ms-cost.ms-wb::before, .ms-cost.ms-wb::after, .ms-cost.ms-ub::before, .ms-cost.ms-ub::after, .ms-cost.ms-ur::before, .ms-cost.ms-ur::after, .ms-cost.ms-br::before, .ms-cost.ms-br::after, .ms-cost.ms-bg::before, .ms-cost.ms-bg::after, .ms-cost.ms-rw::before, .ms-cost.ms-rw::after, .ms-cost.ms-rg::before, .ms-cost.ms-rg::after, .ms-cost.ms-gw::before, .ms-cost.ms-gw::after, .ms-cost.ms-gu::before, .ms-cost.ms-gu::after, .ms-cost.ms-2w::before, .ms-cost.ms-2w::after, .ms-cost.ms-2u::before, .ms-cost.ms-2u::after, .ms-cost.ms-2b::before, .ms-cost.ms-2b::after, .ms-cost.ms-2r::before, .ms-cost.ms-2r::after, .ms-cost.ms-2g::before, .ms-cost.ms-2g::after, .ms-cost.ms-cw::before, .ms-cost.ms-cw::after, .ms-cost.ms-cu::before, .ms-cost.ms-cu::after, .ms-cost.ms-cb::before, .ms-cost.ms-cb::after, .ms-cost.ms-cr::before, .ms-cost.ms-cr::after, .ms-cost.ms-cg::before, .ms-cost.ms-cg::after, .ms-cost.ms-wup::before, .ms-cost.ms-wup::after, .ms-cost.ms-wbp::before, .ms-cost.ms-wbp::after, .ms-cost.ms-ubp::before, .ms-cost.ms-ubp::after, .ms-cost.ms-urp::before, .ms-cost.ms-urp::after, .ms-cost.ms-brp::before, .ms-cost.ms-brp::after, .ms-cost.ms-bgp::before, .ms-cost.ms-bgp::after, .ms-cost.ms-rwp::before, .ms-cost.ms-rwp::after, .ms-cost.ms-rgp::before, .ms-cost.ms-rgp::after, .ms-cost.ms-gwp::before, .ms-cost.ms-gwp::after, .ms-cost.ms-gup::before, .ms-cost.ms-gup::after {
   font-size: 0.55em !important;
   position: absolute;
 }
-.ms-cost.ms-wu::before, .ms-cost.ms-wb::before, .ms-cost.ms-ub::before, .ms-cost.ms-ur::before, .ms-cost.ms-br::before, .ms-cost.ms-bg::before, .ms-cost.ms-rw::before, .ms-cost.ms-rg::before, .ms-cost.ms-gw::before, .ms-cost.ms-gu::before, .ms-cost.ms-2w::before, .ms-cost.ms-2u::before, .ms-cost.ms-2b::before, .ms-cost.ms-2r::before, .ms-cost.ms-2g::before, .ms-cost.ms-wup::before, .ms-cost.ms-wbp::before, .ms-cost.ms-ubp::before, .ms-cost.ms-urp::before, .ms-cost.ms-brp::before, .ms-cost.ms-bgp::before, .ms-cost.ms-rwp::before, .ms-cost.ms-rgp::before, .ms-cost.ms-gwp::before, .ms-cost.ms-gup::before {
+.ms-cost.ms-wu::before, .ms-cost.ms-wb::before, .ms-cost.ms-ub::before, .ms-cost.ms-ur::before, .ms-cost.ms-br::before, .ms-cost.ms-bg::before, .ms-cost.ms-rw::before, .ms-cost.ms-rg::before, .ms-cost.ms-gw::before, .ms-cost.ms-gu::before, .ms-cost.ms-2w::before, .ms-cost.ms-2u::before, .ms-cost.ms-2b::before, .ms-cost.ms-2r::before, .ms-cost.ms-2g::before, .ms-cost.ms-cw::before, .ms-cost.ms-cu::before, .ms-cost.ms-cb::before, .ms-cost.ms-cr::before, .ms-cost.ms-cg::before, .ms-cost.ms-wup::before, .ms-cost.ms-wbp::before, .ms-cost.ms-ubp::before, .ms-cost.ms-urp::before, .ms-cost.ms-brp::before, .ms-cost.ms-bgp::before, .ms-cost.ms-rwp::before, .ms-cost.ms-rgp::before, .ms-cost.ms-gwp::before, .ms-cost.ms-gup::before {
   top: -0.38em;
   left: 0.28em;
 }
-.ms-cost.ms-wu::after, .ms-cost.ms-wb::after, .ms-cost.ms-ub::after, .ms-cost.ms-ur::after, .ms-cost.ms-br::after, .ms-cost.ms-bg::after, .ms-cost.ms-rw::after, .ms-cost.ms-rg::after, .ms-cost.ms-gw::after, .ms-cost.ms-gu::after, .ms-cost.ms-2w::after, .ms-cost.ms-2u::after, .ms-cost.ms-2b::after, .ms-cost.ms-2r::after, .ms-cost.ms-2g::after, .ms-cost.ms-wup::after, .ms-cost.ms-wbp::after, .ms-cost.ms-ubp::after, .ms-cost.ms-urp::after, .ms-cost.ms-brp::after, .ms-cost.ms-bgp::after, .ms-cost.ms-rwp::after, .ms-cost.ms-rgp::after, .ms-cost.ms-gwp::after, .ms-cost.ms-gup::after {
+.ms-cost.ms-wu::after, .ms-cost.ms-wb::after, .ms-cost.ms-ub::after, .ms-cost.ms-ur::after, .ms-cost.ms-br::after, .ms-cost.ms-bg::after, .ms-cost.ms-rw::after, .ms-cost.ms-rg::after, .ms-cost.ms-gw::after, .ms-cost.ms-gu::after, .ms-cost.ms-2w::after, .ms-cost.ms-2u::after, .ms-cost.ms-2b::after, .ms-cost.ms-2r::after, .ms-cost.ms-2g::after, .ms-cost.ms-cw::after, .ms-cost.ms-cu::after, .ms-cost.ms-cb::after, .ms-cost.ms-cr::after, .ms-cost.ms-cg::after, .ms-cost.ms-wup::after, .ms-cost.ms-wbp::after, .ms-cost.ms-ubp::after, .ms-cost.ms-urp::after, .ms-cost.ms-brp::after, .ms-cost.ms-bgp::after, .ms-cost.ms-rwp::after, .ms-cost.ms-rgp::after, .ms-cost.ms-gwp::after, .ms-cost.ms-gup::after {
   top: 0.5em;
   left: 1em;
 }
 .ms-cost.ms-wu, .ms-cost.ms-wup {
-  background: #edf2b0;
-  background: -moz-linear-gradient(-45deg, #edf2b0 0%, #edf2b0 50%, #a6c1dd 50%, #a6c1dd 100%);
-  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #edf2b0), color-stop(50%, #edf2b0), color-stop(50%, #a6c1dd), color-stop(100%, #a6c1dd));
-  background: -webkit-linear-gradient(-45deg, #edf2b0 0%, #edf2b0 50%, #a6c1dd 50%, #a6c1dd 100%);
-  background: -o-linear-gradient(-45deg, #edf2b0 0%, #edf2b0 50%, #a6c1dd 50%, #a6c1dd 100%);
-  background: -ms-linear-gradient(-45deg, #edf2b0 0%, #edf2b0 50%, #a6c1dd 50%, #a6c1dd 100%);
-  background: linear-gradient(135deg, #edf2b0 0%, #edf2b0 50%, #a6c1dd 50%, #a6c1dd 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#edf2b0", endColorstr="#a6c1dd",GradientType=1 );
+  --ms-split-top: var(--ms-mana-w);
 }
 .ms-cost.ms-wb, .ms-cost.ms-wbp {
-  background: #edf2b0;
-  background: -moz-linear-gradient(-45deg, #edf2b0 0%, #edf2b0 50%, #9c9188 50%, #9c9188 100%);
-  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #edf2b0), color-stop(50%, #edf2b0), color-stop(50%, #9c9188), color-stop(100%, #9c9188));
-  background: -webkit-linear-gradient(-45deg, #edf2b0 0%, #edf2b0 50%, #9c9188 50%, #9c9188 100%);
-  background: -o-linear-gradient(-45deg, #edf2b0 0%, #edf2b0 50%, #9c9188 50%, #9c9188 100%);
-  background: -ms-linear-gradient(-45deg, #edf2b0 0%, #edf2b0 50%, #9c9188 50%, #9c9188 100%);
-  background: linear-gradient(135deg, #edf2b0 0%, #edf2b0 50%, #9c9188 50%, #9c9188 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#edf2b0", endColorstr="#9c9188",GradientType=1 );
+  --ms-split-top: var(--ms-mana-w);
+  --ms-split-bottom: var(--ms-mana-b);
 }
 .ms-cost.ms-ub, .ms-cost.ms-ubp {
-  background: #a6c1dd;
-  background: -moz-linear-gradient(-45deg, #a6c1dd 0%, #a6c1dd 50%, #9c9188 50%, #9c9188 100%);
-  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #a6c1dd), color-stop(50%, #a6c1dd), color-stop(50%, #9c9188), color-stop(100%, #9c9188));
-  background: -webkit-linear-gradient(-45deg, #a6c1dd 0%, #a6c1dd 50%, #9c9188 50%, #9c9188 100%);
-  background: -o-linear-gradient(-45deg, #a6c1dd 0%, #a6c1dd 50%, #9c9188 50%, #9c9188 100%);
-  background: -ms-linear-gradient(-45deg, #a6c1dd 0%, #a6c1dd 50%, #9c9188 50%, #9c9188 100%);
-  background: linear-gradient(135deg, #a6c1dd 0%, #a6c1dd 50%, #9c9188 50%, #9c9188 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#a6c1dd", endColorstr="#9c9188",GradientType=1 );
+  --ms-split-top: var(--ms-mana-u);
+  --ms-split-bottom: var(--ms-mana-b);
 }
 .ms-cost.ms-ur, .ms-cost.ms-urp {
-  background: #a6c1dd;
-  background: -moz-linear-gradient(-45deg, #a6c1dd 0%, #a6c1dd 50%, #db8664 50%, #db8664 100%);
-  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #a6c1dd), color-stop(50%, #a6c1dd), color-stop(50%, #db8664), color-stop(100%, #db8664));
-  background: -webkit-linear-gradient(-45deg, #a6c1dd 0%, #a6c1dd 50%, #db8664 50%, #db8664 100%);
-  background: -o-linear-gradient(-45deg, #a6c1dd 0%, #a6c1dd 50%, #db8664 50%, #db8664 100%);
-  background: -ms-linear-gradient(-45deg, #a6c1dd 0%, #a6c1dd 50%, #db8664 50%, #db8664 100%);
-  background: linear-gradient(135deg, #a6c1dd 0%, #a6c1dd 50%, #db8664 50%, #db8664 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#a6c1dd", endColorstr="#db8664",GradientType=1 );
+  --ms-split-top: var(--ms-mana-u);
+  --ms-split-bottom: var(--ms-mana-r);
 }
 .ms-cost.ms-br, .ms-cost.ms-brp {
-  background: #aca29a;
-  background: -moz-linear-gradient(-45deg, #aca29a 0%, #aca29a 50%, #db8664 50%, #db8664 100%);
-  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #aca29a), color-stop(50%, #aca29a), color-stop(50%, #db8664), color-stop(100%, #db8664));
-  background: -webkit-linear-gradient(-45deg, #aca29a 0%, #aca29a 50%, #db8664 50%, #db8664 100%);
-  background: -o-linear-gradient(-45deg, #aca29a 0%, #aca29a 50%, #db8664 50%, #db8664 100%);
-  background: -ms-linear-gradient(-45deg, #aca29a 0%, #aca29a 50%, #db8664 50%, #db8664 100%);
-  background: linear-gradient(135deg, #aca29a 0%, #aca29a 50%, #db8664 50%, #db8664 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#aca29a", endColorstr="#db8664",GradientType=1 );
+  --ms-split-top: var(--ms-mana-b);
+  --ms-split-bottom: var(--ms-mana-r);
 }
 .ms-cost.ms-bg, .ms-cost.ms-bgp {
-  background: #aca29a;
-  background: -moz-linear-gradient(-45deg, #aca29a 0%, #aca29a 50%, #93b483 50%, #93b483 100%);
-  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #aca29a), color-stop(50%, #aca29a), color-stop(50%, #93b483), color-stop(100%, #93b483));
-  background: -webkit-linear-gradient(-45deg, #aca29a 0%, #aca29a 50%, #93b483 50%, #93b483 100%);
-  background: -o-linear-gradient(-45deg, #aca29a 0%, #aca29a 50%, #93b483 50%, #93b483 100%);
-  background: -ms-linear-gradient(-45deg, #aca29a 0%, #aca29a 50%, #93b483 50%, #93b483 100%);
-  background: linear-gradient(135deg, #aca29a 0%, #aca29a 50%, #93b483 50%, #93b483 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#aca29a", endColorstr="#93b483",GradientType=1 );
+  --ms-split-top: var(--ms-mana-b);
+  --ms-split-bottom: var(--ms-mana-g);
 }
 .ms-cost.ms-rw, .ms-cost.ms-rwp {
-  background: #db8664;
-  background: -moz-linear-gradient(-45deg, #db8664 0%, #db8664 50%, #edf2b0 50%, #edf2b0 100%);
-  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #db8664), color-stop(50%, #db8664), color-stop(50%, #edf2b0), color-stop(100%, #edf2b0));
-  background: -webkit-linear-gradient(-45deg, #db8664 0%, #db8664 50%, #edf2b0 50%, #edf2b0 100%);
-  background: -o-linear-gradient(-45deg, #db8664 0%, #db8664 50%, #edf2b0 50%, #edf2b0 100%);
-  background: -ms-linear-gradient(-45deg, #db8664 0%, #db8664 50%, #edf2b0 50%, #edf2b0 100%);
-  background: linear-gradient(135deg, #db8664 0%, #db8664 50%, #edf2b0 50%, #edf2b0 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#db8664", endColorstr="#edf2b0",GradientType=1 );
+  --ms-split-top: var(--ms-mana-r);
+  --ms-split-bottom: var(--ms-mana-w);
 }
 .ms-cost.ms-rg, .ms-cost.ms-rgp {
-  background: #db8664;
-  background: -moz-linear-gradient(-45deg, #db8664 0%, #db8664 50%, #93b483 50%, #93b483 100%);
-  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #db8664), color-stop(50%, #db8664), color-stop(50%, #93b483), color-stop(100%, #93b483));
-  background: -webkit-linear-gradient(-45deg, #db8664 0%, #db8664 50%, #93b483 50%, #93b483 100%);
-  background: -o-linear-gradient(-45deg, #db8664 0%, #db8664 50%, #93b483 50%, #93b483 100%);
-  background: -ms-linear-gradient(-45deg, #db8664 0%, #db8664 50%, #93b483 50%, #93b483 100%);
-  background: linear-gradient(135deg, #db8664 0%, #db8664 50%, #93b483 50%, #93b483 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#db8664", endColorstr="#93b483",GradientType=1 );
+  --ms-split-top: var(--ms-mana-r);
+  --ms-split-bottom: var(--ms-mana-g);
 }
 .ms-cost.ms-gw, .ms-cost.ms-gwp {
-  background: #93b483;
-  background: -moz-linear-gradient(-45deg, #93b483 0%, #93b483 50%, #edf2b0 50%, #edf2b0 100%);
-  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #93b483), color-stop(50%, #93b483), color-stop(50%, #edf2b0), color-stop(100%, #edf2b0));
-  background: -webkit-linear-gradient(-45deg, #93b483 0%, #93b483 50%, #edf2b0 50%, #edf2b0 100%);
-  background: -o-linear-gradient(-45deg, #93b483 0%, #93b483 50%, #edf2b0 50%, #edf2b0 100%);
-  background: -ms-linear-gradient(-45deg, #93b483 0%, #93b483 50%, #edf2b0 50%, #edf2b0 100%);
-  background: linear-gradient(135deg, #93b483 0%, #93b483 50%, #edf2b0 50%, #edf2b0 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#93b483", endColorstr="#edf2b0",GradientType=1 );
+  --ms-split-top: var(--ms-mana-g);
+  --ms-split-bottom: var(--ms-mana-w);
 }
 .ms-cost.ms-gu, .ms-cost.ms-gup {
-  background: #93b483;
-  background: -moz-linear-gradient(-45deg, #93b483 0%, #93b483 50%, #b5cde3 50%, #b5cde3 100%);
-  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #93b483), color-stop(50%, #93b483), color-stop(50%, #b5cde3), color-stop(100%, #b5cde3));
-  background: -webkit-linear-gradient(-45deg, #93b483 0%, #93b483 50%, #b5cde3 50%, #b5cde3 100%);
-  background: -o-linear-gradient(-45deg, #93b483 0%, #93b483 50%, #b5cde3 50%, #b5cde3 100%);
-  background: -ms-linear-gradient(-45deg, #93b483 0%, #93b483 50%, #b5cde3 50%, #b5cde3 100%);
-  background: linear-gradient(135deg, #93b483 0%, #93b483 50%, #b5cde3 50%, #b5cde3 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#93b483", endColorstr="#b5cde3",GradientType=1 );
+  --ms-split-top: var(--ms-mana-g);
 }
-.ms-cost.ms-2w {
-  background: #beb9b2;
-  background: -moz-linear-gradient(-45deg, #beb9b2 0%, #beb9b2 50%, #edf2b0 50%, #edf2b0 100%);
-  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #beb9b2), color-stop(50%, #beb9b2), color-stop(50%, #edf2b0), color-stop(100%, #edf2b0));
-  background: -webkit-linear-gradient(-45deg, #beb9b2 0%, #beb9b2 50%, #edf2b0 50%, #edf2b0 100%);
-  background: -o-linear-gradient(-45deg, #beb9b2 0%, #beb9b2 50%, #edf2b0 50%, #edf2b0 100%);
-  background: -ms-linear-gradient(-45deg, #beb9b2 0%, #beb9b2 50%, #edf2b0 50%, #edf2b0 100%);
-  background: linear-gradient(135deg, #beb9b2 0%, #beb9b2 50%, #edf2b0 50%, #edf2b0 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#beb9b2", endColorstr="#edf2b0",GradientType=1 );
+.ms-cost.ms-2w, .ms-cost.ms-cw {
+  --ms-split-bottom: var(--ms-mana-w);
 }
-.ms-cost.ms-2u {
-  background: #beb9b2;
-  background: -moz-linear-gradient(-45deg, #beb9b2 0%, #beb9b2 50%, #b5cde3 50%, #b5cde3 100%);
-  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #beb9b2), color-stop(50%, #beb9b2), color-stop(50%, #b5cde3), color-stop(100%, #b5cde3));
-  background: -webkit-linear-gradient(-45deg, #beb9b2 0%, #beb9b2 50%, #b5cde3 50%, #b5cde3 100%);
-  background: -o-linear-gradient(-45deg, #beb9b2 0%, #beb9b2 50%, #b5cde3 50%, #b5cde3 100%);
-  background: -ms-linear-gradient(-45deg, #beb9b2 0%, #beb9b2 50%, #b5cde3 50%, #b5cde3 100%);
-  background: linear-gradient(135deg, #beb9b2 0%, #beb9b2 50%, #b5cde3 50%, #b5cde3 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#beb9b2", endColorstr="#b5cde3",GradientType=1 );
+.ms-cost.ms-2b, .ms-cost.ms-cb {
+  --ms-split-bottom: var(--ms-mana-b);
 }
-.ms-cost.ms-2b {
-  background: #beb9b2;
-  background: -moz-linear-gradient(-45deg, #beb9b2 0%, #beb9b2 50%, #9c9188 50%, #9c9188 100%);
-  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #beb9b2), color-stop(50%, #beb9b2), color-stop(50%, #9c9188), color-stop(100%, #9c9188));
-  background: -webkit-linear-gradient(-45deg, #beb9b2 0%, #beb9b2 50%, #9c9188 50%, #9c9188 100%);
-  background: -o-linear-gradient(-45deg, #beb9b2 0%, #beb9b2 50%, #9c9188 50%, #9c9188 100%);
-  background: -ms-linear-gradient(-45deg, #beb9b2 0%, #beb9b2 50%, #9c9188 50%, #9c9188 100%);
-  background: linear-gradient(135deg, #beb9b2 0%, #beb9b2 50%, #9c9188 50%, #9c9188 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#beb9b2", endColorstr="#9c9188",GradientType=1 );
+.ms-cost.ms-2r, .ms-cost.ms-cr {
+  --ms-split-bottom: var(--ms-mana-r);
 }
-.ms-cost.ms-2r {
-  background: #beb9b2;
-  background: -moz-linear-gradient(-45deg, #beb9b2 0%, #beb9b2 50%, #db8664 50%, #db8664 100%);
-  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #beb9b2), color-stop(50%, #beb9b2), color-stop(50%, #db8664), color-stop(100%, #db8664));
-  background: -webkit-linear-gradient(-45deg, #beb9b2 0%, #beb9b2 50%, #db8664 50%, #db8664 100%);
-  background: -o-linear-gradient(-45deg, #beb9b2 0%, #beb9b2 50%, #db8664 50%, #db8664 100%);
-  background: -ms-linear-gradient(-45deg, #beb9b2 0%, #beb9b2 50%, #db8664 50%, #db8664 100%);
-  background: linear-gradient(135deg, #beb9b2 0%, #beb9b2 50%, #db8664 50%, #db8664 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#beb9b2", endColorstr="#db8664",GradientType=1 );
-}
-.ms-cost.ms-2g {
-  background: #beb9b2;
-  background: -moz-linear-gradient(-45deg, #beb9b2 0%, #beb9b2 50%, #93b483 50%, #93b483 100%);
-  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #beb9b2), color-stop(50%, #beb9b2), color-stop(50%, #93b483), color-stop(100%, #93b483));
-  background: -webkit-linear-gradient(-45deg, #beb9b2 0%, #beb9b2 50%, #93b483 50%, #93b483 100%);
-  background: -o-linear-gradient(-45deg, #beb9b2 0%, #beb9b2 50%, #93b483 50%, #93b483 100%);
-  background: -ms-linear-gradient(-45deg, #beb9b2 0%, #beb9b2 50%, #93b483 50%, #93b483 100%);
-  background: linear-gradient(135deg, #beb9b2 0%, #beb9b2 50%, #93b483 50%, #93b483 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#beb9b2", endColorstr="#93b483",GradientType=1 );
+.ms-cost.ms-2g, .ms-cost.ms-cg {
+  --ms-split-bottom: var(--ms-mana-g);
 }
 .ms-cost.ms-p::before {
   display: inline-block;
@@ -1401,17 +1316,13 @@
   -webkit-transform: scale(1.2, 1.2);
   transform: scale(1.2, 1.2);
 }
-.ms-cost.ms-wp::before, .ms-cost.ms-up::before, .ms-cost.ms-bp::before, .ms-cost.ms-rp::before, .ms-cost.ms-gp::before, .ms-cost.ms-wup::before, .ms-cost.ms-wbp::before, .ms-cost.ms-ubp::before, .ms-cost.ms-urp::before, .ms-cost.ms-brp::before, .ms-cost.ms-bgp::before, .ms-cost.ms-rwp::before, .ms-cost.ms-rgp::before, .ms-cost.ms-gwp::before, .ms-cost.ms-gup::before {
+.ms-cost.ms-wp::before, .ms-cost.ms-up::before, .ms-cost.ms-bp::before, .ms-cost.ms-rp::before, .ms-cost.ms-gp::before, .ms-cost.ms-cw::before, .ms-cost.ms-cu::before, .ms-cost.ms-cb::before, .ms-cost.ms-cr::before, .ms-cost.ms-cg::before, .ms-cost.ms-wup::before, .ms-cost.ms-wbp::before, .ms-cost.ms-ubp::before, .ms-cost.ms-urp::before, .ms-cost.ms-brp::before, .ms-cost.ms-bgp::before, .ms-cost.ms-rwp::before, .ms-cost.ms-rgp::before, .ms-cost.ms-gwp::before, .ms-cost.ms-gup::before, .ms-cost.ms-wup::after, .ms-cost.ms-wbp::after, .ms-cost.ms-ubp::after, .ms-cost.ms-urp::after, .ms-cost.ms-brp::after, .ms-cost.ms-bgp::after, .ms-cost.ms-rwp::after, .ms-cost.ms-rgp::after, .ms-cost.ms-gwp::after, .ms-cost.ms-gup::after {
   display: inline-block;
-  -moz-transform: scale(1.2, 1.2);
-  -webkit-transform: scale(1.2, 1.2);
-  transform: scale(1.2, 1.2);
+  transform: scale(1.2) translateX(0.01rem) translateY(-0.03rem);
 }
 .ms-cost.ms-tap-alt::before {
   display: inline-block;
-  -moz-transform: scale(1.2, 1.2);
-  -webkit-transform: scale(1.2, 1.2);
-  transform: scale(1.2, 1.2);
+  transform: scale(1.2);
   padding-left: 0.06em;
   padding-bottom: 0.1em;
 }
