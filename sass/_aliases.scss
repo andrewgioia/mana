@@ -271,6 +271,52 @@
     &-finality { @extend .#{variables.$ms-prefix}-counter-finality; }
 }
 
+// duels ability symbols that don't have a new one yet
+.#{variables.$ms-prefix}-ability {
+    &-annihilator { @extend .#{variables.$ms-prefix}-ability-duels-annihilator; }
+    &-battle-cry { @extend .#{variables.$ms-prefix}-ability-duels-battle-cry; }
+    &-unblockable { @extend .#{variables.$ms-prefix}-ability-duels-unblockable; }
+    &-cannot-block { @extend .#{variables.$ms-prefix}-ability-duels-cannot-block; }
+    &-cannot-untap { @extend .#{variables.$ms-prefix}-ability-duels-cannot-untap; }
+    &-cohort { @extend .#{variables.$ms-prefix}-ability-duels-cohort; }
+    &-copy { @extend .#{variables.$ms-prefix}-ability-duels-copy; }
+    &-delirium { @extend .#{variables.$ms-prefix}-ability-duels-delirium; }
+    &-detain { @extend .#{variables.$ms-prefix}-ability-duels-detain; }
+    &-dfc { @extend .#{variables.$ms-prefix}-ability-duels-dfc; }
+    &-evolve { @extend .#{variables.$ms-prefix}-ability-duels-evolve; }
+    &-exile { @extend .#{variables.$ms-prefix}-ability-duels-exile; }
+    &-fading { @extend .#{variables.$ms-prefix}-ability-duels-fading; }
+    &-fear { @extend .#{variables.$ms-prefix}-ability-duels-fear; }
+    &-forestwalk { @extend .#{variables.$ms-prefix}-ability-duels-forestwalk; }
+    &-haunt { @extend .#{variables.$ms-prefix}-ability-duels-haunt; }
+    &-infect { @extend .#{variables.$ms-prefix}-ability-duels-infect; }
+    &-ingest { @extend .#{variables.$ms-prefix}-ability-duels-ingest; }
+    &-intimidate { @extend .#{variables.$ms-prefix}-ability-duels-intimidate; }
+    &-islandwalk { @extend .#{variables.$ms-prefix}-ability-duels-islandwalk; }
+    &-legendary { @extend .#{variables.$ms-prefix}-ability-duels-legendary; }
+    &-monstrous { @extend .#{variables.$ms-prefix}-ability-duels-monstrous; }
+    &-mountainwalk { @extend .#{variables.$ms-prefix}-ability-duels-mountainwalk; }
+    &-must-attack { @extend .#{variables.$ms-prefix}-ability-duels-must-attack; }
+    &-plainswalk { @extend .#{variables.$ms-prefix}-ability-duels-plainswalk; }
+    &-prevent-damage { @extend .#{variables.$ms-prefix}-ability-duels-prevent-damage; }
+    &-protection-black { @extend .#{variables.$ms-prefix}-ability-duels-protection-black; }
+    &-protection-blue { @extend .#{variables.$ms-prefix}-ability-duels-protection-blue; }
+    &-protection-green { @extend .#{variables.$ms-prefix}-ability-duels-protection-green; }
+    &-protection-red { @extend .#{variables.$ms-prefix}-ability-duels-protection-red; }
+    &-protection-white { @extend .#{variables.$ms-prefix}-ability-duels-protection-white; }
+    &-protection { @extend .#{variables.$ms-prefix}-ability-duels-protection; }
+    &-rally { @extend .#{variables.$ms-prefix}-ability-duels-rally; }
+    &-regenerate { @extend .#{variables.$ms-prefix}-ability-duels-regenerate; }
+    &-renowned { @extend .#{variables.$ms-prefix}-ability-duels-renowned; }
+    &-shroud { @extend .#{variables.$ms-prefix}-ability-duels-shroud; }
+    &-skulk { @extend .#{variables.$ms-prefix}-ability-duels-skulk; }
+    &-soulshift { @extend .#{variables.$ms-prefix}-ability-duels-soulshift; }
+    &-swampwalk { @extend .#{variables.$ms-prefix}-ability-duels-swampwalk; }
+    &-temporary-control { @extend .#{variables.$ms-prefix}-ability-duels-temporary-control; }
+    &-totem-armor { @extend .#{variables.$ms-prefix}-ability-duels-totem-armor; }
+    &-undying { @extend .#{variables.$ms-prefix}-ability-duels-undying; }
+}
+
 // watermark aliases
 .#{variables.$ms-prefix}-watermark {
     &-abzan { @extend .#{variables.$ms-prefix}-clan-abzan; }

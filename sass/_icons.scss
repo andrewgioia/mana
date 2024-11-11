@@ -477,6 +477,65 @@
         // arena card-specific ability symbols
         &-haktos-the-unscarred::before { content: "\e9e4"; }
         &-robber-of-the-rich::before { content: "\e9e5"; }
+
+        // duels symbols
+        &-duels {
+            &-annihilator::before { content: "\ea5a"; }
+            &-battle-cry::before { content: "\ea5b"; }
+            &-unblockable::before { content: "\ea5c"; }
+            &-cannot-block::before { content: "\ea5d"; }
+            &-cannot-untap::before { content: "\ea5e"; }
+            &-cohort::before { content: "\ea5f"; }
+            &-copy::before { content: "\ea60"; }
+            &-deathtouch::before { content: "\ea61"; }
+            &-defender::before { content: "\ea62"; }
+            &-delirium::before { content: "\ea63"; }
+            &-detain::before { content: "\ea64"; }
+            &-double-strike::before { content: "\ea65"; }
+            &-dfc::before { content: "\ea66"; }
+            &-evolve::before { content: "\ea67"; }
+            &-exalted::before { content: "\ea68"; }
+            &-exile::before { content: "\ea69"; }
+            &-fading::before { content: "\ea6a"; }
+            &-fear::before { content: "\ea6b"; }
+            &-first-strike::before { content: "\ea6c"; }
+            &-flying::before { content: "\ea6d"; }
+            &-forestwalk::before { content: "\ea6e"; }
+            &-haste::before { content: "\ea6f"; }
+            &-haunt::before { content: "\ea70"; }
+            &-hexproof::before { content: "\ea71"; }
+            &-indestructible::before { content: "\ea72"; }
+            &-infect::before { content: "\ea73"; }
+            &-ingest::before { content: "\ea74"; }
+            &-intimidate::before { content: "\ea75"; }
+            &-islandwalk::before { content: "\ea76"; }
+            &-legendary::before { content: "\ea77"; }
+            &-lifelink::before { content: "\ea78"; }
+            &-menace::before { content: "\ea79"; }
+            &-monstrous::before { content: "\ea7a"; }
+            &-mountainwalk::before { content: "\ea7b"; }
+            &-must-attack::before { content: "\ea7c"; }
+            &-plainswalk::before { content: "\ea7d"; }
+            &-prevent-damage::before { content: "\ea7e"; }
+            &-protection-black::before { content: "\ea7f"; }
+            &-protection-blue::before { content: "\ea80"; }
+            &-protection-green::before { content: "\ea81"; }
+            &-protection-red::before { content: "\ea82"; }
+            &-protection-white::before { content: "\ea83"; }
+            &-protection::before { content: "\ea84"; }
+            &-rally::before { content: "\ea85"; }
+            &-regenerate::before { content: "\ea86"; }
+            &-renowned::before { content: "\ea87"; }
+            &-shroud::before { content: "\ea88"; }
+            &-skulk::before { content: "\ea89"; }
+            &-soulshift::before { content: "\ea8a"; }
+            &-swampwalk::before { content: "\ea8b"; }
+            &-temporary-control::before { content: "\ea8c"; }
+            &-totem-armor::before { content: "\ea8d"; }
+            &-trample::before { content: "\ea8e"; }
+            &-undying::before { content: "\ea8f"; }
+            &-vigilance::before { content: "\ea90"; }
+        }
     }
 
     // watermarks

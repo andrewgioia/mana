@@ -1,14 +1,14 @@
 @font-face {
   font-family: "Mana";
-  src: url("../fonts/mana.eot?v=1.17.1");
-  src: url("../fonts/mana.eot?#iefix&v=1.17.1") format("embedded-opentype"), url("../fonts/mana.woff?v=1.17.1") format("woff"), url("../fonts/mana.ttf?v=1.17.1") format("truetype"), url("../fonts/mana.svg?v=1.17.1#mana") format("svg");
+  src: url("../fonts/mana.eot?v=1.18.0");
+  src: url("../fonts/mana.eot?#iefix&v=1.18.0") format("embedded-opentype"), url("../fonts/mana.woff?v=1.18.0") format("woff"), url("../fonts/mana.ttf?v=1.18.0") format("truetype"), url("../fonts/mana.svg?v=1.18.0#mana") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "MPlantin";
-  src: url("../fonts/mplantin.eot?v=1.17.1");
-  src: url("../fonts/mplantin.eot?#iefix&v=1.17.1") format("embedded-opentype"), url("../fonts/mplantin.woff?v=1.17.1") format("woff"), url("../fonts/mplantin.ttf?v=1.17.1") format("truetype"), url("../fonts/mplantin.svg?v=1.17.1#mplantin") format("svg");
+  src: url("../fonts/mplantin.eot?v=1.18.0");
+  src: url("../fonts/mplantin.eot?#iefix&v=1.18.0") format("embedded-opentype"), url("../fonts/mplantin.woff?v=1.18.0") format("woff"), url("../fonts/mplantin.ttf?v=1.18.0") format("truetype"), url("../fonts/mplantin.svg?v=1.18.0#mplantin") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -1018,6 +1018,171 @@
 }
 .ms-ability-robber-of-the-rich::before {
   content: "\e9e5";
+}
+.ms-ability-duels-annihilator::before, .ms-ability-annihilator::before {
+  content: "\ea5a";
+}
+.ms-ability-duels-battle-cry::before, .ms-ability-battle-cry::before {
+  content: "\ea5b";
+}
+.ms-ability-duels-unblockable::before, .ms-ability-unblockable::before {
+  content: "\ea5c";
+}
+.ms-ability-duels-cannot-block::before, .ms-ability-cannot-block::before {
+  content: "\ea5d";
+}
+.ms-ability-duels-cannot-untap::before, .ms-ability-cannot-untap::before {
+  content: "\ea5e";
+}
+.ms-ability-duels-cohort::before, .ms-ability-cohort::before {
+  content: "\ea5f";
+}
+.ms-ability-duels-copy::before, .ms-ability-copy::before {
+  content: "\ea60";
+}
+.ms-ability-duels-deathtouch::before {
+  content: "\ea61";
+}
+.ms-ability-duels-defender::before {
+  content: "\ea62";
+}
+.ms-ability-duels-delirium::before, .ms-ability-delirium::before {
+  content: "\ea63";
+}
+.ms-ability-duels-detain::before, .ms-ability-detain::before {
+  content: "\ea64";
+}
+.ms-ability-duels-double-strike::before {
+  content: "\ea65";
+}
+.ms-ability-duels-dfc::before, .ms-ability-dfc::before {
+  content: "\ea66";
+}
+.ms-ability-duels-evolve::before, .ms-ability-evolve::before {
+  content: "\ea67";
+}
+.ms-ability-duels-exalted::before {
+  content: "\ea68";
+}
+.ms-ability-duels-exile::before, .ms-ability-exile::before {
+  content: "\ea69";
+}
+.ms-ability-duels-fading::before, .ms-ability-fading::before {
+  content: "\ea6a";
+}
+.ms-ability-duels-fear::before, .ms-ability-fear::before {
+  content: "\ea6b";
+}
+.ms-ability-duels-first-strike::before {
+  content: "\ea6c";
+}
+.ms-ability-duels-flying::before {
+  content: "\ea6d";
+}
+.ms-ability-duels-forestwalk::before, .ms-ability-forestwalk::before {
+  content: "\ea6e";
+}
+.ms-ability-duels-haste::before {
+  content: "\ea6f";
+}
+.ms-ability-duels-haunt::before, .ms-ability-haunt::before {
+  content: "\ea70";
+}
+.ms-ability-duels-hexproof::before {
+  content: "\ea71";
+}
+.ms-ability-duels-indestructible::before {
+  content: "\ea72";
+}
+.ms-ability-duels-infect::before, .ms-ability-infect::before {
+  content: "\ea73";
+}
+.ms-ability-duels-ingest::before, .ms-ability-ingest::before {
+  content: "\ea74";
+}
+.ms-ability-duels-intimidate::before, .ms-ability-intimidate::before {
+  content: "\ea75";
+}
+.ms-ability-duels-islandwalk::before, .ms-ability-islandwalk::before {
+  content: "\ea76";
+}
+.ms-ability-duels-legendary::before, .ms-ability-legendary::before {
+  content: "\ea77";
+}
+.ms-ability-duels-lifelink::before {
+  content: "\ea78";
+}
+.ms-ability-duels-menace::before {
+  content: "\ea79";
+}
+.ms-ability-duels-monstrous::before, .ms-ability-monstrous::before {
+  content: "\ea7a";
+}
+.ms-ability-duels-mountainwalk::before, .ms-ability-mountainwalk::before {
+  content: "\ea7b";
+}
+.ms-ability-duels-must-attack::before, .ms-ability-must-attack::before {
+  content: "\ea7c";
+}
+.ms-ability-duels-plainswalk::before, .ms-ability-plainswalk::before {
+  content: "\ea7d";
+}
+.ms-ability-duels-prevent-damage::before, .ms-ability-prevent-damage::before {
+  content: "\ea7e";
+}
+.ms-ability-duels-protection-black::before, .ms-ability-protection-black::before {
+  content: "\ea7f";
+}
+.ms-ability-duels-protection-blue::before, .ms-ability-protection-blue::before {
+  content: "\ea80";
+}
+.ms-ability-duels-protection-green::before, .ms-ability-protection-green::before {
+  content: "\ea81";
+}
+.ms-ability-duels-protection-red::before, .ms-ability-protection-red::before {
+  content: "\ea82";
+}
+.ms-ability-duels-protection-white::before, .ms-ability-protection-white::before {
+  content: "\ea83";
+}
+.ms-ability-duels-protection::before, .ms-ability-protection::before {
+  content: "\ea84";
+}
+.ms-ability-duels-rally::before, .ms-ability-rally::before {
+  content: "\ea85";
+}
+.ms-ability-duels-regenerate::before, .ms-ability-regenerate::before {
+  content: "\ea86";
+}
+.ms-ability-duels-renowned::before, .ms-ability-renowned::before {
+  content: "\ea87";
+}
+.ms-ability-duels-shroud::before, .ms-ability-shroud::before {
+  content: "\ea88";
+}
+.ms-ability-duels-skulk::before, .ms-ability-skulk::before {
+  content: "\ea89";
+}
+.ms-ability-duels-soulshift::before, .ms-ability-soulshift::before {
+  content: "\ea8a";
+}
+.ms-ability-duels-swampwalk::before, .ms-ability-swampwalk::before {
+  content: "\ea8b";
+}
+.ms-ability-duels-temporary-control::before, .ms-ability-temporary-control::before {
+  content: "\ea8c";
+}
+.ms-ability-duels-totem-armor::before, .ms-ability-totem-armor::before {
+  content: "\ea8d";
+}
+.ms-ability-duels-trample::before {
+  content: "\ea8e";
+}
+.ms-ability-duels-undying::before, .ms-ability-undying::before {
+  content: "\ea8f";
+}
+.ms-ability-duels-vigilance::before {
+  content: "\ea90";
 }
 .ms-watermark-agentsofsneak::before {
   content: "\ea08";

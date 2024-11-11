@@ -10,6 +10,16 @@ All notable changes to this project will be documented in this file.
 
 ## Versions 
 
+### [1.18.0] 2024-11-10 Magic Duels ability symbols!
+
+#### Added
+
+* Finally traced, handdrew, and placed all 56 available Magic Duels ability symbols. This was a labor of love more than anything else as I cannot imagine who is using these, but it gets us to completion of all of the official ability symbols. All of these are available in the format `.ms-ability-duels-{name}`, but for the ones where there are no current Arena/MODO symbol I've aliased those without `duels` for convenience ([#85](https://github.com/andrewgioia/mana/issues/85))
+
+#### Changed
+
+* Duels had a higher resolution source for Reach, which is the only one of these that has the same current ability symbol. That one has been replaced with this better version.
+
 ### [1.17.1] 2024-11-08 Colorless split costs
 
 #### Added
